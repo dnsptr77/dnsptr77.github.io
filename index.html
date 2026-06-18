@@ -1,115 +1,130 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>dnsptr77 — VPN Config Finder</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>GameHub - Snake FIX</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#0f172a;
+      color:white;
+      text-align:center;
+    }
+
+    header{
+      padding:15px;
+      background:#111827;
+    }
+
+    button{
+      padding:10px 15px;
+      background:#22c55e;
+      border:none;
+      border-radius:8px;
+      color:white;
+      cursor:pointer;
+    }
+
+    canvas{
+      background:black;
+      display:none;
+      margin:20px auto;
+    }
+  </style>
 </head>
+
 <body>
 
-  <!-- Animated BG -->
-  <div class="bg-glow"></div>
+<header>
+  <h2>🐍 Snake Game FIX (GitHub Ready)</h2>
+</header>
 
-  <!-- NAVBAR -->
-  <nav class="nav" id="nav">
-    <div class="container nav-inner">
-      <a href="#" class="logo">⚡ <span>VPN Finder</span></a>
-      <div class="nav-right">
-        <span class="nav-status" id="navStatus">
-          <span class="dot pulse"></span> Loading...
-        </span>
-        <span class="nav-timer" id="navTimer">Next refresh: --:--</span>
-      </div>
-    </div>
-  </nav>
+<button onclick="startGame()">Start Game</button>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="container hero-inner">
-      <div class="hero-badge">
-        <span class="dot green"></span>
-        Auto-test setiap 5 menit
-      </div>
-      <h1>
-        Cari Config <span class="grad">VMess / VLESS / Trojan</span>
-        yang <span class="grad">Aktif</span>
-      </h1>
-      <p>Mode WebSocket. Hasil langsung di browser kamu. Tanpa server, tanpa ribet.</p>
+<canvas id="game" width="400" height="400"></canvas>
 
-      <!-- Stats -->
-      <div class="stats" id="stats">
-        <div class="stat-card">
-          <div class="stat-num" id="statTotal">--</div>
-          <div class="stat-label">Total Config</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num green" id="statActive">--</div>
-          <div class="stat-label">Aktif (WS)</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num blue" id="statTested">--</div>
-          <div class="stat-label">Sudah Dites</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num yellow" id="statTime">--</div>
-          <div class="stat-label">Waktu Scan</div>
-        </div>
-      </div>
+<script>
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
 
-      <!-- Filter -->
-      <div class="filter-bar">
-        <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">Semua</button>
-        <button class="filter-btn" data-filter="vmess" onclick="setFilter('vmess')">VMess</button>
-        <button class="filter-btn" data-filter="vless" onclick="setFilter('vless')">VLESS</button>
-        <button class="filter-btn" data-filter="trojan" onclick="setFilter('trojan')">Trojan</button>
-        <button class="filter-btn" data-filter="ws" onclick="setFilter('ws')">🔌 WebSocket Only</button>
-      </div>
+const box = 20;
+let snake, dir, food, loop;
 
-      <!-- Action buttons -->
-      <div class="action-bar">
-        <button class="btn-main" onclick="manualRefresh()">
-          <span class="refresh-icon" id="refreshIcon">🔄</span>
-          Refresh Sekarang
-        </button>
-        <span class="action-hint" id="scanStatus">Memuat config dari sumber...</span>
-      </div>
-    </div>
-  </header>
+function startGame(){
+  canvas.style.display = "block";
 
-  <!-- CONFIG LIST -->
-  <main class="container">
-    <!-- Loading -->
-    <div class="loading-box" id="loadingBox">
-      <div class="spinner"></div>
-      <p id="loadingText">Mengambil config dari sumber...</p>
-    </div>
+  snake = [{x:200,y:200}];
+  dir = "right";
 
-    <!-- Config Cards -->
-    <div class="config-grid" id="configGrid">
-      <!-- Populated by JS -->
-    </div>
+  food = spawnFood();
 
-    <!-- Empty state -->
-    <div class="empty-state" id="emptyState" style="display:none">
-      <div class="empty-icon">🔍</div>
-      <h3>Belum ada config aktif</h3>
-      <p>Tunggu proses scan selesai atau klik Refresh</p>
-    </div>
-  </main>
+  document.onkeydown = (e)=>{
+    if(e.key==="ArrowLeft" && dir!=="right") dir="left";
+    if(e.key==="ArrowRight" && dir!=="left") dir="right";
+    if(e.key==="ArrowUp" && dir!=="down") dir="up";
+    if(e.key==="ArrowDown" && dir!=="up") dir="down";
+  };
 
-  <!-- TOAST -->
-  <div class="toast-container" id="toastContainer"></div>
+  clearInterval(loop);
+  loop = setInterval(update, 120);
+}
 
-  <footer class="footer">
-    <div class="container">
-      <p>dnsptr77 VPN Config Finder — Murni client-side, tanpa backend</p>
-    </div>
-  </footer>
+function spawnFood(){
+  return {
+    x: Math.floor(Math.random()*20)*box,
+    y: Math.floor(Math.random()*20)*box
+  };
+}
 
-  <script src="app.js"></script>
+function update(){
+  ctx.fillStyle="black";
+  ctx.fillRect(0,0,400,400);
+
+  // draw food
+  ctx.fillStyle="red";
+  ctx.fillRect(food.x,food.y,box,box);
+
+  // draw snake
+  ctx.fillStyle="lime";
+  for(let i=0;i<snake.length;i++){
+    ctx.fillRect(snake[i].x,snake[i].y,box,box);
+  }
+
+  let head = {...snake[0]};
+
+  if(dir==="left") head.x -= box;
+  if(dir==="right") head.x += box;
+  if(dir==="up") head.y -= box;
+  if(dir==="down") head.y += box;
+
+  // ❌ hit wall = reset game
+  if(head.x < 0 || head.x >= 400 || head.y < 0 || head.y >= 400){
+    return reset();
+  }
+
+  // ❌ hit self = reset
+  for(let i=0;i<snake.length;i++){
+    if(head.x === snake[i].x && head.y === snake[i].y){
+      return reset();
+    }
+  }
+
+  snake.unshift(head);
+
+  // eat food
+  if(head.x === food.x && head.y === food.y){
+    food = spawnFood();
+  } else {
+    snake.pop();
+  }
+}
+
+function reset(){
+  alert("Game Over!");
+  startGame();
+}
+</script>
+
 </body>
 </html>
