@@ -1,10 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Website Pertamaku</title>
+  <meta charset="UTF-8">
+  <title>GameHub Simple</title>
+  <style>
+    body{font-family:Arial;background:#0f172a;color:white;text-align:center;margin:0}
+    header{padding:20px;background:#111827}
+    .card{background:#1f2937;margin:10px;padding:15px;border-radius:10px}
+    button{padding:10px;border:none;border-radius:8px;background:#22c55e;color:white;cursor:pointer}
+    canvas{background:black;display:none;margin:auto}
+  </style>
 </head>
+
 <body>
-  <h1>Halo, Dunia!</h1>
-  <p>Ini adalah website pertama saya yang berhasil di-hosting menggunakan GitHub Pages.</p>
+
+<header>
+  <h1>🎮 GameHub Simple</h1>
+</header>
+
+<div class="card">
+  <h2>Snake Game</h2>
+  <button onclick="startSnake()">Mainkan</button>
+</div>
+
+<canvas id="game" width="400" height="400"></canvas>
+
+<script>
+let canvas = document.getElementById("game");
+let ctx = canvas.getContext("2d");
+
+let snake, dir, food, loop;
+
+function startSnake(){
+  canvas.style.display="block";
+
+  snake=[{x:200,y:200}];
+  dir="right";
+  food={x:100,y:100};
+
+  document.onkeydown=e=>{
+    if(e.key=="ArrowLeft") dir="left";
+    if(e.key=="ArrowRight") dir="right";
+    if(e.key=="ArrowUp") dir="up";
+    if(e.key=="ArrowDown") dir="down";
+  };
+
+  clearInterval(loop);
+  loop=setInterval(draw,120);
+}
+
+function draw(){
+  ctx.fillStyle="black";
+  ctx.fillRect(0,0,400,400);
+
+  ctx.fillStyle="lime";
+  snake.forEach(s=>ctx.fillRect(s.x,s.y,20,20));
+
+  ctx.fillStyle="red";
+  ctx.fillRect(food.x,food.y,20,20);
+
+  let head={...snake[0]};
+
+  if(dir=="left") head.x-=20;
+  if(dir=="right") head.x+=20;
+  if(dir=="up") head.y-=20;
+  if(dir=="down") head.y+=20;
+
+  if(head.x==food.x && head.y==food.y){
+    food={
+      x:Math.floor(Math.random()*20)*20,
+      y:Math.floor(Math.random()*20)*20
+    };
+  } else snake.pop();
+
+  snake.unshift(head);
+}
+</script>
+
 </body>
 </html>
