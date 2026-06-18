@@ -2,78 +2,127 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>GameHub Simple</title>
+  <title>GameHub - Snake FIX</title>
   <style>
-    body{font-family:Arial;background:#0f172a;color:white;text-align:center;margin:0}
-    header{padding:20px;background:#111827}
-    .card{background:#1f2937;margin:10px;padding:15px;border-radius:10px}
-    button{padding:10px;border:none;border-radius:8px;background:#22c55e;color:white;cursor:pointer}
-    canvas{background:black;display:none;margin:auto}
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#0f172a;
+      color:white;
+      text-align:center;
+    }
+
+    header{
+      padding:15px;
+      background:#111827;
+    }
+
+    button{
+      padding:10px 15px;
+      background:#22c55e;
+      border:none;
+      border-radius:8px;
+      color:white;
+      cursor:pointer;
+    }
+
+    canvas{
+      background:black;
+      display:none;
+      margin:20px auto;
+    }
   </style>
 </head>
 
 <body>
 
 <header>
-  <h1>🎮 GameHub Simple</h1>
+  <h2>🐍 Snake Game FIX (GitHub Ready)</h2>
 </header>
 
-<div class="card">
-  <h2>Snake Game</h2>
-  <button onclick="startSnake()">Mainkan</button>
-</div>
+<button onclick="startGame()">Start Game</button>
 
 <canvas id="game" width="400" height="400"></canvas>
 
 <script>
-let canvas = document.getElementById("game");
-let ctx = canvas.getContext("2d");
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
 
+const box = 20;
 let snake, dir, food, loop;
 
-function startSnake(){
-  canvas.style.display="block";
+function startGame(){
+  canvas.style.display = "block";
 
-  snake=[{x:200,y:200}];
-  dir="right";
-  food={x:100,y:100};
+  snake = [{x:200,y:200}];
+  dir = "right";
 
-  document.onkeydown=e=>{
-    if(e.key=="ArrowLeft") dir="left";
-    if(e.key=="ArrowRight") dir="right";
-    if(e.key=="ArrowUp") dir="up";
-    if(e.key=="ArrowDown") dir="down";
+  food = spawnFood();
+
+  document.onkeydown = (e)=>{
+    if(e.key==="ArrowLeft" && dir!=="right") dir="left";
+    if(e.key==="ArrowRight" && dir!=="left") dir="right";
+    if(e.key==="ArrowUp" && dir!=="down") dir="up";
+    if(e.key==="ArrowDown" && dir!=="up") dir="down";
   };
 
   clearInterval(loop);
-  loop=setInterval(draw,120);
+  loop = setInterval(update, 120);
 }
 
-function draw(){
+function spawnFood(){
+  return {
+    x: Math.floor(Math.random()*20)*box,
+    y: Math.floor(Math.random()*20)*box
+  };
+}
+
+function update(){
   ctx.fillStyle="black";
   ctx.fillRect(0,0,400,400);
 
-  ctx.fillStyle="lime";
-  snake.forEach(s=>ctx.fillRect(s.x,s.y,20,20));
-
+  // draw food
   ctx.fillStyle="red";
-  ctx.fillRect(food.x,food.y,20,20);
+  ctx.fillRect(food.x,food.y,box,box);
 
-  let head={...snake[0]};
+  // draw snake
+  ctx.fillStyle="lime";
+  for(let i=0;i<snake.length;i++){
+    ctx.fillRect(snake[i].x,snake[i].y,box,box);
+  }
 
-  if(dir=="left") head.x-=20;
-  if(dir=="right") head.x+=20;
-  if(dir=="up") head.y-=20;
-  if(dir=="down") head.y+=20;
+  let head = {...snake[0]};
 
-  if(head.x==food.x && head.y==food.y){
-    food={
-      x:Math.floor(Math.random()*20)*20,
-      y:Math.floor(Math.random()*20)*20
-    };
-  } else snake.pop();
+  if(dir==="left") head.x -= box;
+  if(dir==="right") head.x += box;
+  if(dir==="up") head.y -= box;
+  if(dir==="down") head.y += box;
+
+  // ❌ hit wall = reset game
+  if(head.x < 0 || head.x >= 400 || head.y < 0 || head.y >= 400){
+    return reset();
+  }
+
+  // ❌ hit self = reset
+  for(let i=0;i<snake.length;i++){
+    if(head.x === snake[i].x && head.y === snake[i].y){
+      return reset();
+    }
+  }
 
   snake.unshift(head);
+
+  // eat food
+  if(head.x === food.x && head.y === food.y){
+    food = spawnFood();
+  } else {
+    snake.pop();
+  }
+}
+
+function reset(){
+  alert("Game Over!");
+  startGame();
 }
 </script>
 
