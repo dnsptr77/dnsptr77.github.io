@@ -1,6 +1,6 @@
 // ============================================================
-//  VPN Config Tester — Runs on GitHub Actions with Xray-core
-//  Actually connects to VPN, tests internet through tunnel
+//  VPN Config Tester — Xray-core on GitHub Actions
+//  Smart parser + Cloudflare-aware testing
 // ============================================================
 
 const https = require('https');
@@ -14,6 +14,10 @@ const XRAY_BIN = path.join(__dirname, 'xray', 'xray');
 const PROXY_PORT = 10808;
 const TEST_TIMEOUT = 12000;
 const RESULTS_FILE = path.join(__dirname, 'data.json');
+
+// Cloudflare IPs — config di belakang CF wajib pakai ini
+const CF_IP = '104.17.3.81';
+const CF_PORTS = [443, 2053, 2083, 2087, 8443];
 
 // ============================================================
 //  FETCH
@@ -31,21 +35,74 @@ function fetchUrl(url) {
 }
 
 // ============================================================
-//  PARSE CONFIGS
+//  SMART PARSER — Extract Host/SNI dari berbagai format
+// ============================================================
+
+// Detect apakah server di belakang Cloudflare
+function isBehindCF(server, port) {
+  if (CF_PORTS.includes(port)) return true;
+  if (/cloudflare|cloudfront|cdn/i.test(server)) return true;
+  if (/^\d+\.\d+\.\d+\.\d+$/.test(server)) {
+    // Check if IP range belongs to CF (104.x, 172.x ranges)
+    const parts = server.split('.').map(Number);
+    if (parts[0] === 104 || parts[0] === 172) return true;
+  }
+  return false;
+}
+
+// Smart extract Host — dari berbagai sumber
+function extractHost(json, server) {
+  // Prioritas: host > sni > server (jika domain)
+  let host = json.host || '';
+  if (host && host !== server) return host;
+
+  let sni = json.sni || '';
+  if (sni && sni !== server) return sni;
+
+  // Jika server adalah domain (bukan IP), gunakan sebagai host
+  if (!/^\d+\.\d+\.\d+\.\d+$/.test(server)) return server;
+
+  return host || sni || server;
+}
+
+// Smart extract SNI — dari berbagai sumber
+function extractSNI(json, server) {
+  // Prioritas: sni > host > server (jika domain)
+  let sni = json.sni || '';
+  if (sni) return sni;
+
+  let host = json.host || '';
+  if (host) return host;
+
+  // Jika server adalah domain, gunakan sebagai SNI
+  if (!/^\d+\.\d+\.\d+\.\d+$/.test(server)) return server;
+
+  return sni || host || server;
+}
+
+// ============================================================
+//  PARSE CONFIGS (Enhanced)
 // ============================================================
 function parseVMess(line) {
   try {
     const json = JSON.parse(Buffer.from(line.replace('vmess://', ''), 'base64').toString());
-    const server = json.add || json.addr;
+    const rawServer = json.add || json.addr || '';
     const port = parseInt(json.port);
-    if (!server || !port) return null;
+    if (!rawServer || !port) return null;
+
+    const host = extractHost(json, rawServer);
+    const sni = extractSNI(json, rawServer);
+    const behindCF = isBehindCF(rawServer, port);
+    const testAddress = behindCF ? CF_IP : rawServer;
+
     return {
-      type: 'vmess', raw: line, server, port,
+      type: 'vmess', raw: line,
+      server: rawServer, testAddress, port,
       tls: json.tls === 'tls', net: json.net || 'tcp',
-      host: json.host || '', path: json.path || '/',
-      sni: json.sni || json.host || server,
+      host, sni, path: json.path || '/',
       ps: json.ps || '', uuid: json.id,
       alterId: json.aid || 0, security: json.scy || 'auto',
+      behindCF,
     };
   } catch { return null; }
 }
@@ -59,21 +116,32 @@ function parseVLess(line) {
     const atIdx = main.lastIndexOf('@');
     if (atIdx < 0) return null;
     const uuid = main.slice(0, atIdx);
-    const [server, portStr] = main.slice(atIdx + 1).split(':');
+    const [rawServer, portStr] = main.slice(atIdx + 1).split(':');
     const port = parseInt(portStr);
-    if (!server || !port) return null;
+    if (!rawServer || !port) return null;
+
     const qs = qIdx > 0 ? body.slice(qIdx + 1, hIdx > qIdx ? hIdx : undefined) : '';
     const p = {};
     qs.split('&').forEach(s => { const [k, v] = s.split('='); if (k) p[k] = decodeURIComponent(v || ''); });
+
+    const server = rawServer.replace(/[\[\]]/g, '');
+
+    // Smart host/sni extraction
+    const host = p.host || p.sni || server;
+    const sni = p.sni || p.host || server;
+    const behindCF = isBehindCF(server, port);
+    const testAddress = behindCF ? CF_IP : server;
+
     return {
       type: 'vless', raw: line,
-      server: server.replace(/[\[\]]/g, ''), port, uuid,
+      server, testAddress, port, uuid,
       tls: p.security === 'tls' || p.security === 'reality',
-      net: p.type || 'tcp', host: p.host || '',
-      path: p.path || '/', sni: p.sni || p.host || server,
+      net: p.type || 'tcp', host, sni,
+      path: p.path || '/',
       security: p.security || 'none',
       flow: p.flow || '', fp: p.fp || '',
       ps: hIdx > 0 ? body.slice(hIdx + 1) : '',
+      behindCF,
     };
   } catch { return null; }
 }
@@ -87,25 +155,32 @@ function parseTrojan(line) {
     const atIdx = main.lastIndexOf('@');
     if (atIdx < 0) return null;
     const password = main.slice(0, atIdx);
-    const [server, portStr] = main.slice(atIdx + 1).split(':');
+    const [rawServer, portStr] = main.slice(atIdx + 1).split(':');
     const port = parseInt(portStr);
-    if (!server || !port) return null;
+    if (!rawServer || !port) return null;
+
     const qs = qIdx > 0 ? body.slice(qIdx + 1, hIdx > qIdx ? hIdx : undefined) : '';
     const p = {};
     qs.split('&').forEach(s => { const [k, v] = s.split('='); if (k) p[k] = decodeURIComponent(v || ''); });
+
+    const host = p.host || p.sni || rawServer;
+    const sni = p.sni || p.host || rawServer;
+    const behindCF = isBehindCF(rawServer, port);
+    const testAddress = behindCF ? CF_IP : rawServer;
+
     return {
       type: 'trojan', raw: line,
-      server, port, password,
+      server: rawServer, testAddress, port, password,
       tls: true, net: p.type || 'tcp',
-      host: p.host || '', path: p.path || '/',
-      sni: p.sni || p.host || server,
+      host, sni, path: p.path || '/',
       ps: hIdx > 0 ? body.slice(hIdx + 1) : '',
+      behindCF,
     };
   } catch { return null; }
 }
 
 // ============================================================
-//  GENERATE XRAY CONFIG
+//  GENERATE XRAY CONFIG — with smart Host/SNI/Address
 // ============================================================
 function generateXrayConfig(cfg) {
   const localInbound = {
@@ -116,12 +191,15 @@ function generateXrayConfig(cfg) {
     settings: { udp: true },
   };
 
+  // Use testAddress (104.17.3.81 if behind CF, otherwise original)
+  const connectAddress = cfg.testAddress || cfg.server;
+
   let streamSettings = {};
   if (cfg.net === 'ws') {
     streamSettings.network = 'ws';
     streamSettings.wsSettings = {
       path: cfg.path || '/',
-      headers: { Host: cfg.host || cfg.server },
+      headers: { Host: cfg.host },
     };
   } else if (cfg.net === 'grpc') {
     streamSettings.network = 'grpc';
@@ -133,7 +211,7 @@ function generateXrayConfig(cfg) {
   if (cfg.tls) {
     streamSettings.security = 'tls';
     streamSettings.tlsSettings = {
-      serverName: cfg.sni || cfg.server,
+      serverName: cfg.sni,
       allowInsecure: true,
     };
     if (cfg.fp) streamSettings.tlsSettings.fingerprint = cfg.fp;
@@ -154,17 +232,20 @@ function generateXrayConfig(cfg) {
 
   if (cfg.type === 'vmess') {
     outbound.settings.vnext = [{
-      address: cfg.server, port: cfg.port,
+      address: connectAddress,
+      port: cfg.port,
       users: [{ id: cfg.uuid, alterId: cfg.alterId || 0, security: cfg.security || 'auto' }],
     }];
   } else if (cfg.type === 'vless') {
     outbound.settings.vnext = [{
-      address: cfg.server, port: cfg.port,
+      address: connectAddress,
+      port: cfg.port,
       users: [{ id: cfg.uuid, flow: cfg.flow || '' }],
     }];
   } else if (cfg.type === 'trojan') {
     outbound.settings.servers = [{
-      address: cfg.server, port: cfg.port,
+      address: connectAddress,
+      port: cfg.port,
       password: cfg.password,
     }];
   }
@@ -189,31 +270,25 @@ async function testConfig(cfg) {
     const xrayConfig = generateXrayConfig(cfg);
     fs.writeFileSync(configFile, JSON.stringify(xrayConfig));
 
-    // Start xray
     xrayProc = spawn(XRAY_BIN, ['run', '-c', configFile], {
       stdio: 'pipe', timeout: TEST_TIMEOUT + 3000,
     });
 
-    await sleep(2000); // Wait for xray to start
+    await sleep(2500);
 
-    // Test internet through the proxy
     try {
       const result = execSync(
         `curl -x socks5h://127.0.0.1:${PROXY_PORT} --connect-timeout 8 --max-time 10 -s -o /dev/null -w "%{http_code}" http://httpbin.org/ip`,
         { timeout: TEST_TIMEOUT, encoding: 'utf8' }
       ).trim();
-
-      const alive = result === '200';
-      return { ...cfg, alive, testedAt: new Date().toISOString() };
+      return { ...cfg, alive: result === '200', testedAt: new Date().toISOString() };
     } catch {
       return { ...cfg, alive: false, testedAt: new Date().toISOString() };
     }
   } catch {
     return { ...cfg, alive: false, testedAt: new Date().toISOString() };
   } finally {
-    if (xrayProc) {
-      try { xrayProc.kill('SIGTERM'); } catch {}
-    }
+    if (xrayProc) try { xrayProc.kill('SIGTERM'); } catch {}
     try { fs.unlinkSync(configFile); } catch {}
   }
 }
@@ -223,8 +298,8 @@ async function testConfig(cfg) {
 // ============================================================
 async function main() {
   console.log('═══════════════════════════════════════');
-  console.log('  VPN Config Tester — GitHub Actions');
-  console.log('  Xray-core powered');
+  console.log('  VPN Config Tester v2');
+  console.log('  Smart Parser + Cloudflare-aware');
   console.log('═══════════════════════════════════════');
 
   // 1. Fetch
@@ -236,8 +311,8 @@ async function main() {
   );
   console.log(`  Found ${lines.length} configs`);
 
-  // 2. Parse
-  console.log('\n[2/4] Parsing...');
+  // 2. Parse (Smart)
+  console.log('\n[2/4] Parsing (smart host/sni extraction)...');
   const parsed = [];
   lines.forEach(line => {
     let cfg = null;
@@ -246,32 +321,28 @@ async function main() {
     else if (line.startsWith('trojan://')) cfg = parseTrojan(line);
     if (cfg) parsed.push(cfg);
   });
-  console.log(`  Parsed: ${parsed.length} (${parsed.filter(c=>c.type==='vmess').length} VMess, ${parsed.filter(c=>c.type==='vless').length} VLESS, ${parsed.filter(c=>c.type==='trojan').length} Trojan)`);
+  const cfCount = parsed.filter(c => c.behindCF).length;
+  console.log(`  Parsed: ${parsed.length} (${cfCount} behind Cloudflare)`);
 
   // 3. Filter WebSocket
   const wsConfigs = parsed.filter(c => c.net === 'ws' || c.net === 'websocket');
-  console.log(`  WebSocket only: ${wsConfigs.length}`);
+  const wsCF = wsConfigs.filter(c => c.behindCF).length;
+  console.log(`  WebSocket: ${wsConfigs.length} (${wsCF} via Cloudflare ${CF_IP})`);
 
-  // 4. Test each config
-  console.log('\n[3/4] Testing configs with Xray-core...');
+  // 4. Test
+  console.log('\n[3/4] Testing with Xray-core...');
   const results = [];
   let tested = 0;
-
   for (const cfg of wsConfigs) {
     tested++;
-    process.stdout.write(`  [${tested}/${wsConfigs.length}] ${cfg.type} ${cfg.server}:${cfg.port}... `);
-
+    const addr = cfg.behindCF ? CF_IP : cfg.server;
+    process.stdout.write(`  [${tested}/${wsConfigs.length}] ${cfg.type} → ${addr}:${cfg.port} Host:${cfg.host.substring(0,30)}... `);
     const result = await testConfig(cfg);
     results.push(result);
-
-    if (result.alive) {
-      console.log('✅ ALIVE');
-    } else {
-      console.log('❌ DEAD');
-    }
+    console.log(result.alive ? '✅' : '❌');
   }
 
-  // 5. Save results
+  // 5. Save
   console.log('\n[4/4] Saving results...');
   const active = results.filter(r => r.alive);
   const output = {
@@ -280,15 +351,16 @@ async function main() {
     active: active.length,
     configs: active.map(c => ({
       type: c.type, server: c.server, port: c.port,
-      tls: c.tls, net: c.net, country: extractCountry(c.ps),
-      raw: c.raw, ps: c.ps,
+      tls: c.tls, net: c.net, host: c.host, sni: c.sni,
+      country: extractCountry(c.ps),
+      raw: c.raw, ps: c.ps, behindCF: c.behindCF,
     })),
   };
 
   fs.writeFileSync(RESULTS_FILE, JSON.stringify(output, null, 2));
-  console.log(`  Saved ${active.length} active configs to data.json`);
+  console.log(`  ✅ Saved ${active.length} active configs`);
   console.log('\n═══════════════════════════════════════');
-  console.log(`  DONE: ${active.length} / ${results.length} configs alive`);
+  console.log(`  DONE: ${active.length} / ${results.length} alive`);
   console.log('═══════════════════════════════════════');
 }
 
@@ -299,8 +371,4 @@ function extractCountry(text) {
   return m ? m[1] : '🌍';
 }
 
-main().catch(err => {
-  console.error('FATAL:', err.message);
-  process.exit(1);
-});
-
+main().catch(err => { console.error('FATAL:', err.message); process.exit(1); });
