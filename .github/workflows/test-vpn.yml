@@ -45,3 +45,4 @@ jobs:
             git commit -m "🔄 Auto-update VPN configs $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
