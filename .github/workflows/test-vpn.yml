@@ -1,6 +1,10 @@
 name: Test VPN Configs
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'test-vpn.js'
   schedule:
     - cron: '*/5 * * * *'  # Every 5 minutes
   workflow_dispatch:  # Manual trigger
