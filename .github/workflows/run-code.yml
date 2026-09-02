@@ -1,34 +1,37 @@
-name: Panel — Run Code
+name: Deploy Bot
 
 on:
   workflow_dispatch:
     inputs:
+      bot_name:
+        description: 'Bot name'
+        required: true
+        type: string
+      platform:
+        description: 'Platform'
+        required: true
+        type: choice
+        options:
+          - telegram
+          - whatsapp
       runtime:
-        description: 'Runtime (node, python, java, go)'
+        description: 'Runtime'
         required: true
         type: choice
         options:
           - node
           - python
-          - java
-          - go
-          - rust
-          - deno
       command:
-        description: 'Command to execute'
-        required: true
-        type: string
-      server_name:
-        description: 'Server name (for logging)'
+        description: 'Start command'
         required: false
         type: string
-        default: 'unknown'
+        default: 'node bot.js'
 
   repository_dispatch:
-    types: [panel-run]
+    types: [deploy-bot]
 
 jobs:
-  run-code:
+  deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -36,132 +39,61 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Log inputs
+      - name: 🤖 Bot Deploy Info
         run: |
-          echo "═══════════════════════════════════════"
-          echo "  dnsptr77 Panel — Code Execution"
-          echo "═══════════════════════════════════════"
-          echo "Server : ${{ inputs.server_name || github.event.client_payload.server_name }}"
-          echo "Runtime: ${{ inputs.runtime || github.event.client_payload.runtime }}"
-          echo "Command: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "Time   : $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          echo "═══════════════════════════════════════"
+          echo "═══════════════════════════════════════════"
+          echo "  dnsptr77 Bot Manager — Deploy"
+          echo "═══════════════════════════════════════════"
+          echo "Bot      : ${{ inputs.bot_name || github.event.client_payload.bot_name }}"
+          echo "Platform : ${{ inputs.platform || github.event.client_payload.platform }}"
+          echo "Runtime  : ${{ inputs.runtime || github.event.client_payload.runtime }}"
+          echo "Command  : ${{ inputs.command || github.event.client_payload.command || 'node bot.js' }}"
+          echo "Time     : $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "═══════════════════════════════════════════"
 
-      # --- Node.js ---
+      # Node.js
       - name: Setup Node.js
         if: inputs.runtime == 'node' || github.event.client_payload.runtime == 'node'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
-      - name: Run Node.js
+      - name: Install dependencies (Node)
         if: inputs.runtime == 'node' || github.event.client_payload.runtime == 'node'
+        run: npm ci 2>/dev/null || npm install
+
+      - name: Run bot (Node)
+        if: inputs.runtime == 'node' || github.event.client_payload.runtime == 'node'
+        timeout-minutes: 5
         run: |
-          echo "▶ Installing dependencies..."
-          npm install 2>/dev/null || true
-          echo ""
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
+          echo "▶ Starting bot..."
+          ${{ inputs.command || github.event.client_payload.command || 'node bot.js' }}
         env:
           NODE_ENV: production
 
-      # --- Python ---
+      # Python
       - name: Setup Python
         if: inputs.runtime == 'python' || github.event.client_payload.runtime == 'python'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Run Python
+      - name: Install dependencies (Python)
         if: inputs.runtime == 'python' || github.event.client_payload.runtime == 'python'
+        run: pip install -r requirements.txt 2>/dev/null || true
+
+      - name: Run bot (Python)
+        if: inputs.runtime == 'python' || github.event.client_payload.runtime == 'python'
+        timeout-minutes: 5
         run: |
-          echo "▶ Installing dependencies..."
-          pip install -r requirements.txt 2>/dev/null || true
-          echo ""
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
-
-      # --- Java ---
-      - name: Setup Java
-        if: inputs.runtime == 'java' || github.event.client_payload.runtime == 'java'
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '21'
-
-      - name: Run Java
-        if: inputs.runtime == 'java' || github.event.client_payload.runtime == 'java'
-        run: |
-          echo "▶ Building with Maven..."
-          mvn package -q 2>/dev/null || true
-          echo ""
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
-
-      # --- Go ---
-      - name: Setup Go
-        if: inputs.runtime == 'go' || github.event.client_payload.runtime == 'go'
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.22'
-
-      - name: Run Go
-        if: inputs.runtime == 'go' || github.event.client_payload.runtime == 'go'
-        run: |
-          echo "▶ Building..."
-          go build -o app . 2>/dev/null || true
-          echo ""
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
-
-      # --- Rust ---
-      - name: Setup Rust
-        if: inputs.runtime == 'rust' || github.event.client_payload.runtime == 'rust'
-        uses: dtolnay/rust-toolchain@stable
-
-      - name: Run Rust
-        if: inputs.runtime == 'rust' || github.event.client_payload.runtime == 'rust'
-        run: |
-          echo "▶ Building..."
-          cargo build --release 2>/dev/null || true
-          echo ""
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
-
-      # --- Deno ---
-      - name: Setup Deno
-        if: inputs.runtime == 'deno' || github.event.client_payload.runtime == 'deno'
-        uses: denoland/setup-deno@v1
-
-      - name: Run Deno
-        if: inputs.runtime == 'deno' || github.event.client_payload.runtime == 'deno'
-        run: |
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
-
-      # --- Bun ---
-      - name: Setup Bun
-        if: inputs.runtime == 'bun' || github.event.client_payload.runtime == 'bun'
-        uses: oven-sh/setup-bun@v1
-
-      - name: Run Bun
-        if: inputs.runtime == 'bun' || github.event.client_payload.runtime == 'bun'
-        run: |
-          echo "▶ Executing: ${{ inputs.command || github.event.client_payload.command }}"
-          echo "────────────────────────────────────────"
-          ${{ inputs.command || github.event.client_payload.command }}
+          echo "▶ Starting bot..."
+          ${{ inputs.command || github.event.client_payload.command || 'python bot.py' }}
 
       - name: Summary
         if: always()
         run: |
-          echo "═══════════════════════════════════════"
-          echo "  Execution complete"
-          echo "  Status: ${{ job.status }}"
-          echo "  Duration: ${{ github.event.created_at }}"
-          echo "═══════════════════════════════════════"
+          echo ""
+          echo "═══════════════════════════════════════════"
+          echo "  Deploy finished — Status: ${{ job.status }}"
+          echo "═══════════════════════════════════════════"

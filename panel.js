@@ -1,154 +1,151 @@
 /* ================================================
-   dnsptr77 Panel — Core Logic
+   dnsptr77 Bot Manager — Core Logic
    ================================================ */
 
-// ============================================
-// DATA STORE
-// ============================================
-const DEFAULT_SERVERS = [
+// ========== DEFAULT BOTS ==========
+const DEFAULT_BOTS = [
   {
-    id: 'srv-1',
-    name: 'web-app-prod',
-    runtime: 'node',
-    status: 'running',
-    port: 3000,
-    ram: 1024,
-    disk: 2,
-    cmd: 'node server.js',
-    created: '2024-11-10',
+    id: 'bot-1', name: 'helper-bot', platform: 'telegram', framework: 'node-telegraf',
+    token: '••••••••:AAH-xxxx', status: 'running', runtime: 'node', cmd: 'node bot.js',
+    created: '2025-01-10', messages: 8432, uptime: '99.7%',
     files: [
-      { name: 'server.js', type: 'file-js', size: '3.2 KB', modified: '2024-12-01' },
-      { name: 'package.json', type: 'file-json', size: '1.1 KB', modified: '2024-11-28' },
-      { name: 'package-lock.json', type: 'file-json', size: '145 KB', modified: '2024-11-28' },
-      { name: 'node_modules', type: 'folder', size: '—', modified: '2024-11-28' },
-      { name: 'public', type: 'folder', size: '—', modified: '2024-11-30' },
-      { name: '.env', type: 'file-default', size: '256 B', modified: '2024-11-15' },
-      { name: 'README.md', type: 'file-md', size: '4.7 KB', modified: '2024-11-10' },
+      { name: 'bot.js', type: 'file-js', size: '12.4 KB', modified: '2025-03-01' },
+      { name: 'handlers', type: 'folder', size: '—', modified: '2025-03-01' },
+      { name: 'package.json', type: 'file-json', size: '1.2 KB', modified: '2025-01-10' },
+      { name: '.env', type: 'file-default', size: '256 B', modified: '2025-01-10' },
+      { name: 'README.md', type: 'file-md', size: '3.1 KB', modified: '2025-01-10' },
     ],
+    commands: [
+      { cmd: '/start', desc: 'Welcome message', cat: 'General', enabled: true },
+      { cmd: '/help', desc: 'Show help', cat: 'General', enabled: true },
+      { cmd: '/info', desc: 'Bot info', cat: 'General', enabled: true },
+      { cmd: '/joke', desc: 'Random joke', cat: 'Fun', enabled: true },
+      { cmd: '/translate', desc: 'Translate text', cat: 'Tools', enabled: true },
+      { cmd: '/weather', desc: 'Weather forecast', cat: 'Tools', enabled: true },
+    ],
+    env: { BOT_TOKEN: '••••••••', OWNER_ID: '123456789', BOT_NAME: 'Helper Bot' },
   },
   {
-    id: 'srv-2',
-    name: 'ml-api-service',
-    runtime: 'python',
-    status: 'stopped',
-    port: 8080,
-    ram: 2048,
-    disk: 4,
-    cmd: 'python main.py',
-    created: '2024-12-05',
+    id: 'bot-2', name: 'group-mod', platform: 'telegram', framework: 'python-aiogram',
+    token: '••••••••:BBG-yyyy', status: 'running', runtime: 'python', cmd: 'python bot.py',
+    created: '2025-02-05', messages: 5621, uptime: '98.2%',
     files: [
-      { name: 'main.py', type: 'file-py', size: '2.8 KB', modified: '2024-12-15' },
-      { name: 'requirements.txt', type: 'file-default', size: '420 B', modified: '2024-12-10' },
-      { name: 'model', type: 'folder', size: '—', modified: '2024-12-08' },
-      { name: 'utils', type: 'folder', size: '—', modified: '2024-12-12' },
-      { name: '.env', type: 'file-default', size: '128 B', modified: '2024-12-05' },
-      { name: 'README.md', type: 'file-md', size: '2.1 KB', modified: '2024-12-05' },
+      { name: 'bot.py', type: 'file-py', size: '8.7 KB', modified: '2025-03-02' },
+      { name: 'filters', type: 'folder', size: '—', modified: '2025-02-28' },
+      { name: 'requirements.txt', type: 'file-default', size: '320 B', modified: '2025-02-05' },
+      { name: 'config.yaml', type: 'file-default', size: '512 B', modified: '2025-02-05' },
     ],
+    commands: [
+      { cmd: '/ban', desc: 'Ban user', cat: 'Admin', enabled: true },
+      { cmd: '/mute', desc: 'Mute user', cat: 'Admin', enabled: true },
+      { cmd: '/welcome', desc: 'Welcome config', cat: 'Admin', enabled: true },
+      { cmd: '/rules', desc: 'Group rules', cat: 'General', enabled: true },
+    ],
+    env: { BOT_TOKEN: '••••••••', DB_URL: 'sqlite:///data.db' },
   },
   {
-    id: 'srv-3',
-    name: 'mc-survival',
-    runtime: 'java',
-    status: 'running',
-    port: 25565,
-    ram: 4096,
-    disk: 8,
-    cmd: 'java -Xmx4G -jar server.jar nogui',
-    created: '2025-01-20',
+    id: 'bot-3', name: 'store-bot', platform: 'telegram', framework: 'node-telegraf',
+    token: '••••••••:CCZ-zzz', status: 'stopped', runtime: 'node', cmd: 'node store.js',
+    created: '2025-03-01', messages: 1205, uptime: '95.1%',
     files: [
-      { name: 'server.jar', type: 'file-default', size: '18.2 MB', modified: '2025-01-20' },
-      { name: 'server.properties', type: 'file-default', size: '1.3 KB', modified: '2025-01-22' },
-      { name: 'world', type: 'folder', size: '—', modified: '2025-02-01' },
-      { name: 'plugins', type: 'folder', size: '—', modified: '2025-01-25' },
-      { name: 'banned-players.json', type: 'file-json', size: '12 B', modified: '2025-01-20' },
-      { name: 'ops.json', type: 'file-json', size: '256 B', modified: '2025-01-22' },
+      { name: 'store.js', type: 'file-js', size: '15.2 KB', modified: '2025-03-01' },
+      { name: 'products.json', type: 'file-json', size: '4.8 KB', modified: '2025-03-01' },
+      { name: 'package.json', type: 'file-json', size: '980 B', modified: '2025-03-01' },
     ],
+    commands: [
+      { cmd: '/shop', desc: 'Browse products', cat: 'Store', enabled: true },
+      { cmd: '/buy', desc: 'Purchase item', cat: 'Store', enabled: true },
+      { cmd: '/orders', desc: 'View orders', cat: 'Store', enabled: true },
+    ],
+    env: { BOT_TOKEN: '••••••••', PAYMENT_TOKEN: '••••••••' },
   },
   {
-    id: 'srv-4',
-    name: 'discord-bot',
-    runtime: 'node',
-    status: 'stopped',
-    port: null,
-    ram: 256,
-    disk: 0.5,
-    cmd: 'node bot.js',
-    created: '2025-02-15',
+    id: 'bot-4', name: 'wa-notifier', platform: 'whatsapp', framework: 'node-whatsapp',
+    token: '', status: 'running', runtime: 'node', cmd: 'node index.js',
+    created: '2025-02-20', messages: 3210, uptime: '97.5%',
     files: [
-      { name: 'bot.js', type: 'file-js', size: '8.4 KB', modified: '2025-03-01' },
-      { name: 'commands', type: 'folder', size: '—', modified: '2025-03-01' },
-      { name: 'config.json', type: 'file-json', size: '340 B', modified: '2025-02-15' },
-      { name: 'package.json', type: 'file-json', size: '820 B', modified: '2025-02-15' },
-      { name: 'README.md', type: 'file-md', size: '1.8 KB', modified: '2025-02-15' },
+      { name: 'index.js', type: 'file-js', size: '9.1 KB', modified: '2025-03-01' },
+      { name: 'Baileys', type: 'folder', size: '—', modified: '2025-02-20' },
+      { name: 'creds.json', type: 'file-json', size: '2.3 KB', modified: '2025-02-20' },
+      { name: 'package.json', type: 'file-json', size: '1.4 KB', modified: '2025-02-20' },
     ],
+    commands: [
+      { cmd: '!ping', desc: 'Check bot alive', cat: 'General', enabled: true },
+      { cmd: '!notify', desc: 'Send notification', cat: 'Tools', enabled: true },
+      { cmd: '!schedule', desc: 'Schedule message', cat: 'Tools', enabled: true },
+    ],
+    env: { SESSION_ID: '••••••••', GROUP_ID: '120363xxx@g.us' },
+  },
+  {
+    id: 'bot-5', name: 'wa-cs-bot', platform: 'whatsapp', framework: 'python-pywa',
+    token: '', status: 'stopped', runtime: 'python', cmd: 'python app.py',
+    created: '2025-03-05', messages: 489, uptime: '92.3%',
+    files: [
+      { name: 'app.py', type: 'file-py', size: '6.5 KB', modified: '2025-03-05' },
+      { name: 'handlers.py', type: 'file-py', size: '4.2 KB', modified: '2025-03-05' },
+      { name: 'requirements.txt', type: 'file-default', size: '180 B', modified: '2025-03-05' },
+    ],
+    commands: [
+      { cmd: 'hi', desc: 'Greeting', cat: 'General', enabled: true },
+      { cmd: 'order', desc: 'Place order', cat: 'CS', enabled: true },
+      { cmd: 'status', desc: 'Check order', cat: 'CS', enabled: true },
+    ],
+    env: { PHONE_ID: '••••••••' },
   },
 ];
 
 const ACTIVITIES = [
-  { color: 'green', text: '<strong>web-app-prod</strong> was started', time: '2 min ago' },
-  { color: 'blue', text: 'Workflow <strong>deploy-web-app</strong> completed', time: '15 min ago' },
-  { color: 'green', text: '<strong>mc-survival</strong> server joined', time: '1 hour ago' },
-  { color: 'yellow', text: '<strong>ml-api-service</strong> stopped by user', time: '3 hours ago' },
-  { color: 'red', text: 'Workflow <strong>build-ml</strong> failed — check logs', time: '5 hours ago' },
-  { color: 'blue', text: 'File <strong>server.js</strong> updated on web-app-prod', time: '8 hours ago' },
-  { color: 'green', text: 'New server <strong>discord-bot</strong> created', time: '2 days ago' },
+  { color: 'green', text: '<strong>helper-bot</strong> received 24 messages', time: '5 min ago' },
+  { color: 'blue', text: 'Deploy <strong>wa-notifier</strong> completed', time: '12 min ago' },
+  { color: 'green', text: '<strong>group-mod</strong> banned 2 spammers', time: '30 min ago' },
+  { color: 'yellow', text: '<strong>store-bot</strong> stopped by user', time: '1 hour ago' },
+  { color: 'red', text: '<strong>wa-cs-bot</strong> crashed — restarting...', time: '2 hours ago' },
+  { color: 'blue', text: 'Env <strong>BOT_TOKEN</strong> updated on helper-bot', time: '3 hours ago' },
+  { color: 'green', text: 'New bot <strong>store-bot</strong> created', time: '2 days ago' },
 ];
 
-const WORKFLOW_TEMPLATES = [
-  { icon: '🚀', name: 'Deploy Node.js', desc: 'Install deps & run Node server via GitHub Actions', action: 'deploy-node' },
-  { icon: '🐍', name: 'Run Python Script', desc: 'Execute a Python script in CI environment', action: 'run-python' },
-  { icon: '☕', name: 'Build Java App', desc: 'Compile and run Java/Maven project', action: 'build-java' },
-  { icon: '📦', name: 'Build & Deploy', desc: 'Full pipeline: build, test, and deploy to Pages', action: 'build-deploy' },
+const DEPLOY_RUNS = [
+  { name: 'deploy-helper-bot', status: 'success', bot: 'helper-bot', time: '12 min ago', duration: '34s' },
+  { name: 'deploy-wa-notifier', status: 'success', bot: 'wa-notifier', time: '1 hour ago', duration: '42s' },
+  { name: 'deploy-group-mod', status: 'success', bot: 'group-mod', time: '3 hours ago', duration: '28s' },
+  { name: 'deploy-wa-cs-bot', status: 'failed', bot: 'wa-cs-bot', time: '5 hours ago', duration: '1m 12s' },
+  { name: 'deploy-helper-bot', status: 'success', bot: 'helper-bot', time: '1 day ago', duration: '31s' },
 ];
 
-const RECENT_RUNS = [
-  { name: 'deploy-web-app', status: 'success', branch: 'main', commit: 'a2f3f99', time: '15 min ago', duration: '42s' },
-  { name: 'build-ml', status: 'failed', branch: 'main', commit: '88a60c9', time: '5 hours ago', duration: '1m 23s' },
-  { name: 'deploy-web-app', status: 'success', branch: 'main', commit: 'b4c2e11', time: '1 day ago', duration: '38s' },
-  { name: 'build-deploy', status: 'success', branch: 'main', commit: 'f3a1d77', time: '2 days ago', duration: '2m 10s' },
-  { name: 'deploy-web-app', status: 'success', branch: 'main', commit: 'c9e8a42', time: '3 days ago', duration: '45s' },
-];
+const FRAMEWORK_MAP = {
+  'node-telegraf': 'Telegraf.js',
+  'node-whatsapp': 'Baileys',
+  'python-aiogram': 'Aiogram',
+  'python-pywa': 'PyWhatsApp',
+  'custom': 'Custom',
+};
 
-// ============================================
-// STATE
-// ============================================
-let servers = JSON.parse(localStorage.getItem('dnsptr_servers')) || DEFAULT_SERVERS;
+// ========== STATE ==========
+let bots = JSON.parse(localStorage.getItem('dnsptr_bots')) || DEFAULT_BOTS;
+let selectedPlatform = 'telegram';
+let currentBotFilter = 'all';
 let consoleHistory = [];
 let consoleHistoryIdx = -1;
-let currentPath = {};
 
-function saveServers() {
-  localStorage.setItem('dnsptr_servers', JSON.stringify(servers));
-}
+function saveBots() { localStorage.setItem('dnsptr_bots', JSON.stringify(bots)); }
 
-// ============================================
-// LOGIN
-// ============================================
+// ========== LOGIN ==========
 document.getElementById('loginForm').addEventListener('submit', (e) => {
   e.preventDefault();
-  const email = document.getElementById('loginEmail').value;
-  const pass = document.getElementById('loginPass').value;
-  if (email && pass) {
-    document.getElementById('loginScreen').style.display = 'none';
-    document.getElementById('app').style.display = 'flex';
-    document.getElementById('loginScreen').style.opacity = '0';
-    initApp();
-    showToast('Welcome back, admin!', 'success');
-  }
+  document.getElementById('loginScreen').style.display = 'none';
+  document.getElementById('app').style.display = 'flex';
+  initApp();
+  showToast('Welcome back, admin!', 'success');
 });
 
 document.getElementById('logoutBtn').addEventListener('click', (e) => {
   e.preventDefault();
   document.getElementById('app').style.display = 'none';
-  const ls = document.getElementById('loginScreen');
-  ls.style.display = 'flex';
-  setTimeout(() => ls.style.opacity = '1', 10);
-  showToast('Signed out successfully', 'info');
+  document.getElementById('loginScreen').style.display = 'flex';
+  showToast('Signed out', 'info');
 });
 
-// ============================================
-// NAVIGATION
-// ============================================
+// ========== NAVIGATION ==========
 document.querySelectorAll('.nav-item[data-page]').forEach(item => {
   item.addEventListener('click', (e) => {
     e.preventDefault();
@@ -161,627 +158,409 @@ function showPage(pageId) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   const navItem = document.querySelector(`.nav-item[data-page="${pageId}"]`);
   if (navItem) navItem.classList.add('active');
-
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   const page = document.getElementById(`page-${pageId}`);
-  if (page) {
-    page.classList.remove('active');
-    // force reflow for animation
-    void page.offsetWidth;
-    page.classList.add('active');
-  }
+  if (page) { void page.offsetWidth; page.classList.add('active'); }
 
-  if (pageId === 'dashboard') renderDashboard();
-  if (pageId === 'servers') renderServers();
-  if (pageId === 'console') renderConsoleSelect();
-  if (pageId === 'files') { renderFileSelect(); renderFiles(); }
-  if (pageId === 'actions') renderActions();
+  // Refresh page data
+  const renderers = { dashboard: renderDashboard, bots: renderBots, logs: renderLogsSelect, commands: renderCommands, files: renderFileSelect, actions: renderDeploy, env: renderEnv };
+  if (renderers[pageId]) renderers[pageId]();
 }
 
-// ============================================
-// MOBILE SIDEBAR
-// ============================================
-const hamburgerBtn = document.getElementById('hamburgerBtn');
-const sidebar = document.getElementById('sidebar');
-
-hamburgerBtn.addEventListener('click', () => {
-  hamburgerBtn.classList.toggle('open');
-  sidebar.classList.toggle('open');
+// ========== MOBILE ==========
+document.getElementById('hamburgerBtn').addEventListener('click', () => {
+  document.getElementById('hamburgerBtn').classList.toggle('open');
+  document.getElementById('sidebar').classList.toggle('open');
 });
-
 function closeSidebar() {
-  hamburgerBtn.classList.remove('open');
-  sidebar.classList.remove('open');
+  document.getElementById('hamburgerBtn').classList.remove('open');
+  document.getElementById('sidebar').classList.remove('open');
 }
 
-// ============================================
-// DASHBOARD
-// ============================================
+// ========== DASHBOARD ==========
 function renderDashboard() {
-  const running = servers.filter(s => s.status === 'running').length;
-  document.getElementById('totalServers').textContent = servers.length;
+  const tg = bots.filter(b => b.platform === 'telegram').length;
+  const wa = bots.filter(b => b.platform === 'whatsapp').length;
+  const running = bots.filter(b => b.status === 'running').length;
+  document.getElementById('tgCount').textContent = tg;
+  document.getElementById('waCount').textContent = wa;
   document.getElementById('runningCount').textContent = running;
 
-  // Server list
-  const listEl = document.getElementById('dashboardServers');
-  listEl.innerHTML = servers.map(s => renderServerItem(s, true)).join('');
-
-  // Activity
-  const actEl = document.getElementById('activityList');
-  actEl.innerHTML = ACTIVITIES.map(a => `
+  document.getElementById('dashboardBots').innerHTML = bots.map(b => renderBotItem(b, true)).join('');
+  document.getElementById('activityList').innerHTML = ACTIVITIES.map(a => `
     <div class="activity-item">
       <span class="activity-dot ${a.color}"></span>
       <span class="activity-text">${a.text}</span>
       <span class="activity-time">${a.time}</span>
-    </div>
-  `).join('');
+    </div>`).join('');
 }
 
-// ============================================
-// SERVERS
-// ============================================
-function renderServers() {
-  const query = (document.getElementById('searchServers')?.value || '').toLowerCase();
-  const filtered = servers.filter(s => s.name.toLowerCase().includes(query));
-  const listEl = document.getElementById('serverList');
-  listEl.innerHTML = filtered.map(s => renderServerItem(s, false)).join('') ||
-    '<div class="empty-state" style="padding:40px"><p>No servers found.</p></div>';
+// ========== BOT LIST ==========
+function renderBots() {
+  const query = (document.getElementById('searchBots')?.value || '').toLowerCase();
+  const filtered = bots.filter(b => {
+    const matchName = b.name.toLowerCase().includes(query);
+    const matchPlatform = currentBotFilter === 'all' || b.platform === currentBotFilter;
+    return matchName && matchPlatform;
+  });
+  document.getElementById('botList').innerHTML = filtered.map(b => renderBotItem(b, false)).join('') ||
+    '<div class="empty-state" style="padding:40px"><p>No bots found.</p></div>';
 }
 
-document.getElementById('searchServers')?.addEventListener('input', renderServers);
+document.getElementById('searchBots')?.addEventListener('input', renderBots);
 
-function renderServerItem(server, compact) {
-  const runtimeLabels = { node: 'Node.js', python: 'Python', java: 'Java', go: 'Go', rust: 'Rust', deno: 'Deno', bun: 'Bun' };
-  const statusClass = server.status === 'running' ? 'online' : server.status === 'starting' ? 'starting' : 'offline';
-  const statusBadge = server.status === 'running' ? 'badge-green' : server.status === 'starting' ? 'badge-yellow' : 'badge-red';
-  const statusLabel = server.status.charAt(0).toUpperCase() + server.status.slice(1);
-
-  return `
-    <div class="server-item" onclick="openServerConsole('${server.id}')">
-      <div class="server-info">
-        <div class="server-name">
-          <span class="status-dot ${statusClass}" style="margin-right:8px"></span>
-          ${server.name}
-        </div>
-        <div class="server-meta">
-          <span class="badge badge-runtime">${runtimeLabels[server.runtime] || server.runtime}</span>
-          ${server.port ? `<span>Port: ${server.port}</span>` : ''}
-          <span>RAM: ${server.ram} MB</span>
-          <span>Disk: ${server.disk} GB</span>
-        </div>
-      </div>
-      <span class="badge ${statusBadge}">${statusLabel}</span>
-      <div class="server-actions" onclick="event.stopPropagation()">
-        ${server.status === 'running'
-          ? `<button class="btn-stop" onclick="stopServer('${server.id}')">Stop</button>
-             <button class="btn-restart" onclick="restartServer('${server.id}')">Restart</button>`
-          : `<button class="btn-start" onclick="startServer('${server.id}')">Start</button>`}
-      </div>
-    </div>
-  `;
-}
-
-function createServer() {
-  const name = document.getElementById('newServerName').value.trim();
-  const runtime = document.getElementById('newServerRuntime').value;
-  const port = parseInt(document.getElementById('newServerPort').value) || null;
-  const ram = parseInt(document.getElementById('newServerRam').value) || 512;
-  const disk = parseInt(document.getElementById('newServerDisk').value) || 1;
-  const cmd = document.getElementById('newServerCmd').value.trim();
-
-  if (!name) {
-    showToast('Server name is required', 'error');
-    return;
-  }
-
-  const cmdMap = {
-    node: 'node index.js',
-    python: 'python main.py',
-    java: 'java -Xmx512M -jar server.jar nogui',
-    go: 'go run main.go',
-    rust: './target/release/server',
-    deno: 'deno run --allow-net main.ts',
-    bun: 'bun run index.ts',
-  };
-
-  const server = {
-    id: 'srv-' + Date.now(),
-    name,
-    runtime,
-    status: 'stopped',
-    port,
-    ram,
-    disk,
-    cmd: cmd || cmdMap[runtime] || 'echo "No command"',
-    created: new Date().toISOString().split('T')[0],
-    files: [
-      { name: 'README.md', type: 'file-md', size: '128 B', modified: new Date().toISOString().split('T')[0] },
-    ],
-  };
-
-  servers.push(server);
-  saveServers();
-  closeModal('createServerModal');
-  renderServers();
-  showToast(`Server "${name}" created successfully!`, 'success');
-
-  // Clear form
-  document.getElementById('newServerName').value = '';
-  document.getElementById('newServerCmd').value = '';
-}
-
-function startServer(id) {
-  const s = servers.find(x => x.id === id);
-  if (!s) return;
-  s.status = 'starting';
-  saveServers();
-  renderServers();
-  showToast(`Starting ${s.name}...`, 'info');
-
-  setTimeout(() => {
-    s.status = 'running';
-    saveServers();
-    renderServers();
-    showToast(`${s.name} is now running`, 'success');
-    appendConsole(`[system] Server "${s.name}" started successfully`, 'success');
-    appendConsole(`[system] Listening on port ${s.port || 'N/A'}`, 'info');
-  }, 1500);
-}
-
-function stopServer(id) {
-  const s = servers.find(x => x.id === id);
-  if (!s) return;
-  s.status = 'stopped';
-  saveServers();
-  renderServers();
-  showToast(`${s.name} stopped`, 'info');
-  appendConsole(`[system] Server "${s.name}" stopped`, 'warn');
-}
-
-function restartServer(id) {
-  const s = servers.find(x => x.id === id);
-  if (!s) return;
-  s.status = 'starting';
-  saveServers();
-  renderServers();
-  showToast(`Restarting ${s.name}...`, 'info');
-
-  setTimeout(() => {
-    s.status = 'running';
-    saveServers();
-    renderServers();
-    showToast(`${s.name} restarted`, 'success');
-    appendConsole(`[system] Server "${s.name}" restarted`, 'success');
-  }, 2000);
-}
-
-// ============================================
-// CONSOLE
-// ============================================
-function renderConsoleSelect() {
-  const sel = document.getElementById('consoleServerSelect');
-  sel.innerHTML = servers.map(s =>
-    `<option value="${s.id}">${s.name} (${s.status})</option>`
-  ).join('');
-}
-
-function openServerConsole(id) {
-  showPage('console');
-  const sel = document.getElementById('consoleServerSelect');
-  sel.value = id;
-}
-
-function sendCommand() {
-  const input = document.getElementById('consoleInput');
-  const cmd = input.value.trim();
-  if (!cmd) return;
-
-  consoleHistory.push(cmd);
-  consoleHistoryIdx = consoleHistory.length;
-
-  const serverId = document.getElementById('consoleServerSelect').value;
-  const server = servers.find(s => s.id === serverId);
-
-  appendConsole(`<span class="prompt">$</span> <span class="cmd">${escapeHtml(cmd)}</span>`, '', false);
-  input.value = '';
-
-  // Simulate command execution
-  processCommand(cmd, server);
-}
-
-document.getElementById('consoleInput')?.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') {
-    sendCommand();
-  } else if (e.key === 'ArrowUp') {
-    e.preventDefault();
-    if (consoleHistoryIdx > 0) {
-      consoleHistoryIdx--;
-      e.target.value = consoleHistory[consoleHistoryIdx] || '';
-    }
-  } else if (e.key === 'ArrowDown') {
-    e.preventDefault();
-    if (consoleHistoryIdx < consoleHistory.length - 1) {
-      consoleHistoryIdx++;
-      e.target.value = consoleHistory[consoleHistoryIdx] || '';
-    } else {
-      consoleHistoryIdx = consoleHistory.length;
-      e.target.value = '';
-    }
-  }
+// Bot filter buttons
+document.getElementById('botFilter')?.addEventListener('click', (e) => {
+  const btn = e.target.closest('.toggle-btn');
+  if (!btn) return;
+  document.querySelectorAll('#botFilter .toggle-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentBotFilter = btn.dataset.filter;
+  renderBots();
 });
 
-function processCommand(cmd, server) {
-  const s = server;
-  const parts = cmd.split(' ');
-  const main = parts[0].toLowerCase();
+function renderBotItem(bot, compact) {
+  const statusClass = bot.status === 'running' ? 'online' : bot.status === 'starting' ? 'starting' : 'offline';
+  const statusBadge = bot.status === 'running' ? 'badge-green' : bot.status === 'starting' ? 'badge-yellow' : 'badge-red';
+  const platformBadge = bot.platform === 'telegram' ? 'badge-tg' : 'badge-wa';
+  const platformLabel = bot.platform === 'telegram' ? 'Telegram' : 'WhatsApp';
+  const fwLabel = FRAMEWORK_MAP[bot.framework] || bot.framework;
 
-  const builtInCommands = {
-    help: () => [
-      'Available commands:',
-      '',
-      '  help              Show this help message',
-      '  status            Show server status',
-      '  start             Start the server',
-      '  stop              Stop the server',
-      '  restart           Restart the server',
-      '  list              List all servers',
-      '  info              Show server info',
-      '  deploy            Trigger GitHub Actions deploy',
-      '  logs              Show recent logs',
-      '  clear             Clear the console',
-      '  uname             Show system info',
-      '  uptime            Show uptime',
-      '  echo [text]       Echo text to output',
-      '  date              Show current date/time',
-    ],
+  return `
+    <div class="server-item" onclick="openBotLogs('${bot.id}')">
+      <div class="server-info">
+        <div class="server-name">
+          <span class="status-dot ${statusClass}"></span>
+          ${bot.name}
+        </div>
+        <div class="server-meta">
+          <span class="badge ${platformBadge}">${platformLabel}</span>
+          <span class="badge badge-runtime">${fwLabel}</span>
+          ${bot.platform === 'telegram' ? `<span>@${bot.name}</span>` : ''}
+          <span>${bot.messages?.toLocaleString() || 0} msgs</span>
+        </div>
+      </div>
+      <span class="badge ${statusBadge}">${bot.status}</span>
+      <div class="server-actions" onclick="event.stopPropagation()">
+        ${bot.status === 'running'
+          ? `<button class="btn-stop" onclick="stopBot('${bot.id}')">Stop</button>
+             <button class="btn-restart" onclick="restartBot('${bot.id}')">Restart</button>`
+          : `<button class="btn-start" onclick="startBot('${bot.id}')">Start</button>`}
+      </div>
+    </div>`;
+}
 
-    status: () => {
-      if (!s) return ['No server selected'];
-      const icon = s.status === 'running' ? '🟢' : s.status === 'starting' ? '🟡' : '🔴';
-      return [
-        `${icon} Server: ${s.name}`,
-        `   Status: ${s.status}`,
-        `   Runtime: ${s.runtime}`,
-        `   Port: ${s.port || 'N/A'}`,
-        `   RAM: ${s.ram} MB`,
-        `   Disk: ${s.disk} GB`,
-      ];
-    },
+// ========== CREATE BOT ==========
+function selectPlatform(p) {
+  selectedPlatform = p;
+  document.querySelectorAll('.platform-option').forEach(o => o.classList.toggle('selected', o.dataset.platform === p));
+  if (p === 'whatsapp') {
+    document.getElementById('tokenLabel').textContent = 'Session ID / QR Auth';
+    document.getElementById('tokenHint').innerHTML = 'WhatsApp uses QR pairing. Token auto-generated on first deploy.';
+    document.getElementById('newBotFramework').innerHTML = '<option value="node-whatsapp">Baileys (Node)</option><option value="python-pywa">PyWhatsApp (Python)</option><option value="custom">Custom</option>';
+  } else {
+    document.getElementById('tokenLabel').textContent = 'Bot Token';
+    document.getElementById('tokenHint').innerHTML = 'Get from <a href="https://t.me/BotFather" target="_blank">@BotFather</a> on Telegram';
+    document.getElementById('newBotFramework').innerHTML = '<option value="node-telegraf">Telegraf.js (Node)</option><option value="python-aiogram">Aiogram (Python)</option><option value="custom">Custom</option>';
+  }
+}
 
-    start: () => {
-      if (!s) return ['No server selected'];
-      if (s.status === 'running') return ['Server is already running'];
-      startServer(s.id);
-      return [`Starting server "${s.name}"...`];
-    },
+function createBot() {
+  const name = document.getElementById('newBotName').value.trim();
+  const token = document.getElementById('newBotToken').value.trim();
+  const framework = document.getElementById('newBotFramework').value;
+  const runtime = document.getElementById('newBotRuntime').value;
+  const cmd = document.getElementById('newBotCmd').value.trim();
 
-    stop: () => {
-      if (!s) return ['No server selected'];
-      if (s.status === 'stopped') return ['Server is already stopped'];
-      stopServer(s.id);
-      return [`Stopping server "${s.name}"...`];
-    },
+  if (!name) { showToast('Bot name is required', 'error'); return; }
 
-    restart: () => {
-      if (!s) return ['No server selected'];
-      restartServer(s.id);
-      return [`Restarting server "${s.name}"...`];
-    },
+  const cmdMap = { 'node-telegraf': 'node bot.js', 'node-whatsapp': 'node index.js', 'python-aiogram': 'python bot.py', 'python-pywa': 'python app.py', custom: 'echo "Add your command"' };
 
-    list: () => {
-      const header = ['  ID              Name                    Runtime      Status'];
-      const sep =    '  ─────────────── ─────────────────────── ──────────── ────────';
-      const rows = servers.map(sr =>
-        `  ${sr.id.padEnd(16)}${sr.name.padEnd(22)}${sr.runtime.padEnd(13)}${sr.status}`
-      );
-      return [header[0], sep, ...rows, '', `Total: ${servers.length} servers`];
-    },
-
-    info: () => {
-      if (!s) return ['No server selected'];
-      return [
-        `Server:  ${s.name}`,
-        `ID:      ${s.id}`,
-        `Runtime: ${s.runtime}`,
-        `Port:    ${s.port || 'N/A'}`,
-        `RAM:     ${s.ram} MB`,
-        `Disk:    ${s.disk} GB`,
-        `Command: ${s.cmd}`,
-        `Created: ${s.created}`,
-      ];
-    },
-
-    deploy: () => {
-      triggerWorkflow();
-      return ['🚀 Triggering GitHub Actions workflow...', '[info] Check "GitHub Actions" tab for status'];
-    },
-
-    logs: () => {
-      if (!s) return ['No server selected'];
-      const now = new Date();
-      return [
-        `[${fmtTime(now)}] INFO  Server process initialized`,
-        `[${fmtTime(now - 2000)}] INFO  Loading configuration...`,
-        `[${fmtTime(now - 4000)}] INFO  Listening on port ${s.port || 'default'}`,
-        `[${fmtTime(now - 6000)}] INFO  Ready to accept connections`,
-      ];
-    },
-
-    clear: () => { clearConsole(); return []; },
-
-    uname: () => ['GitHub Actions Runner — Ubuntu 22.04 LTS (x86_64)'],
-
-    uptime: () => {
-      const hrs = Math.floor(Math.random() * 200) + 1;
-      const mins = Math.floor(Math.random() * 60);
-      return [`Uptime: ${hrs}h ${mins}m`];
-    },
-
-    echo: () => [parts.slice(1).join(' ') || ''],
-
-    date: () => [new Date().toString()],
-
-    whoami: () => ['admin@dnsptr77-panel'],
-    pwd: () => [`/home/container/${s?.name || 'root'}`],
-    ls: () => {
-      if (!s) return ['No server selected'];
-      return s.files.map(f => f.type === 'folder' ? `${f.name}/` : f.name);
-    },
-    cat: () => {
-      if (!s) return ['No server selected'];
-      const file = parts[1];
-      if (!file) return ['Usage: cat <filename>'];
-      const f = s.files.find(x => x.name === file);
-      if (!f) return [`cat: ${file}: No such file or directory`];
-      if (f.type === 'folder') return [`cat: ${file}: Is a directory`];
-      if (file.endsWith('.js')) return [`// ${file}`, 'const express = require("express");', 'const app = express();', '', 'app.get("/", (req, res) => {', '  res.json({ status: "ok" });', '});', '', 'app.listen(3000);'];
-      if (file.endsWith('.py')) return [`# ${file}`, 'from flask import Flask', '', 'app = Flask(__name__)', '', '@app.route("/")', 'def index():', '    return {"status": "ok"}'];
-      if (file.endsWith('.json')) return ['{', '  "name": "' + s.name + '",', '  "version": "1.0.0",', '  "main": "index.js"', '}'];
-      return [`Contents of ${file}...`];
-    },
-    node: () => ['Node.js v20.11.0'],
-    python: () => ['Python 3.12.1'],
-    java: () => ['openjdk 21.0.2'],
-    go: () => ['go version go1.22.0'],
+  const bot = {
+    id: 'bot-' + Date.now(), name, platform: selectedPlatform, framework, token: token ? '••••••••' : '',
+    status: 'stopped', runtime, cmd: cmd || cmdMap[framework] || 'echo "No command"',
+    created: new Date().toISOString().split('T')[0], messages: 0, uptime: '0%',
+    files: [{ name: runtime === 'node' ? 'bot.js' : 'bot.py', type: runtime === 'node' ? 'file-js' : 'file-py', size: '1.0 KB', modified: new Date().toISOString().split('T')[0] },
+      { name: 'package.json', type: 'file-json', size: '256 B', modified: new Date().toISOString().split('T')[0] }],
+    commands: [{ cmd: '/start', desc: 'Start bot', cat: 'General', enabled: true }],
+    env: { ...(token ? { BOT_TOKEN: token.substring(0, 8) + '••••••' } : { SESSION_ID: '••••••••' }) },
   };
 
-  let output = [];
+  bots.push(bot);
+  saveBots();
+  showPage('bots');
+  showToast(`Bot "${name}" created & deploying...`, 'success');
 
-  if (main === 'clear') {
-    clearConsole();
-    return;
-  }
+  document.getElementById('newBotName').value = '';
+  document.getElementById('newBotToken').value = '';
+  document.getElementById('newBotCmd').value = '';
+}
 
-  if (main === 'help') {
-    output = builtInCommands.help();
-  } else if (builtInCommands[main]) {
-    output = builtInCommands[main]();
-  } else {
-    // Simulate remote execution via GitHub Actions
-    output = [
-      `[dispatch] Sending command to GitHub Actions runner...`,
-      `$ ${cmd}`,
-      `command: ${cmd} — not recognized locally.`,
-      `[hint] Use "deploy" to trigger a workflow, or "help" for available commands.`,
-    ];
-  }
+// ========== BOT CONTROL ==========
+function startBot(id) {
+  const b = bots.find(x => x.id === id);
+  if (!b) return;
+  b.status = 'starting'; saveBots(); renderBots();
+  showToast(`Starting ${b.name}...`, 'info');
+  setTimeout(() => { b.status = 'running'; saveBots(); renderBots(); showToast(`${b.name} is online`, 'success'); appendLog(`[${b.name}] Bot started successfully`, 'success'); }, 1800);
+}
 
-  output.forEach(line => {
-    if (typeof line === 'string') {
-      const cls = line.startsWith('[info]') || line.startsWith('[hint]') ? 'info' : '';
-      appendConsole(line, cls);
-    }
+function stopBot(id) {
+  const b = bots.find(x => x.id === id);
+  if (!b) return;
+  b.status = 'stopped'; saveBots(); renderBots();
+  showToast(`${b.name} stopped`, 'info');
+  appendLog(`[${b.name}] Bot stopped`, 'warn');
+}
+
+function restartBot(id) {
+  const b = bots.find(x => x.id === id);
+  if (!b) return;
+  b.status = 'starting'; saveBots(); renderBots();
+  showToast(`Restarting ${b.name}...`, 'info');
+  setTimeout(() => { b.status = 'running'; saveBots(); renderBots(); showToast(`${b.name} restarted`, 'success'); appendLog(`[${b.name}] Bot restarted`, 'success'); }, 2000);
+}
+
+function openBotLogs(id) { showPage('logs'); document.getElementById('logsBotSelect').value = id; }
+function restartCurrentBot() { const id = document.getElementById('deployBotSelect')?.value; if (id) restartBot(id); }
+function stopCurrentBot() { const id = document.getElementById('deployBotSelect')?.value; if (id) stopBot(id); }
+function deployBot() {
+  const id = document.getElementById('deployBotSelect')?.value;
+  const bot = bots.find(b => b.id === id);
+  showToast(`🚀 Deploying ${bot?.name || 'bot'}...`, 'success');
+  appendLog(`[deploy] Triggering GitHub Actions workflow...`, 'info');
+  setTimeout(() => { appendLog(`[deploy] ✅ Deployment successful`, 'success'); showToast('Deploy complete!', 'success'); }, 2500);
+}
+
+// ========== LOGS / CONSOLE ==========
+function renderLogsSelect() {
+  const sel = document.getElementById('logsBotSelect');
+  sel.innerHTML = bots.map(b => `<option value="${b.id}">${b.name} (${b.platform})</option>`).join('');
+}
+
+function renderLogsSelects() {
+  ['logsBotSelect', 'cmdBotSelect', 'fileBotSelect', 'deployBotSelect', 'envBotSelect'].forEach(id => {
+    const sel = document.getElementById(id);
+    if (sel) sel.innerHTML = bots.map(b => `<option value="${b.id}">${b.name}</option>`).join('');
   });
 }
 
-function appendConsole(text, cls = '', isHtml = true) {
+function appendLog(text, cls = '') {
   const output = document.getElementById('consoleOutput');
+  if (!output) return;
   const line = document.createElement('div');
   line.className = `console-line ${cls}`;
-  if (isHtml) line.innerHTML = text;
-  else line.textContent = text;
+  const ts = new Date().toTimeString().split(' ')[0];
+  line.innerHTML = `<span class="timestamp">[${ts}]</span> ${text}`;
   output.appendChild(line);
   output.scrollTop = output.scrollHeight;
 }
 
 function clearConsole() {
   const output = document.getElementById('consoleOutput');
-  output.innerHTML = '';
-  appendConsole('Console cleared.', 'system');
+  if (output) { output.innerHTML = ''; appendLog('Console cleared.', 'system'); }
 }
 
 function exportConsole() {
   const output = document.getElementById('consoleOutput');
+  if (!output) return;
   const text = Array.from(output.querySelectorAll('.console-line')).map(el => el.textContent).join('\n');
   const blob = new Blob([text], { type: 'text/plain' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `console-export-${Date.now()}.txt`;
+  a.download = `bot-logs-${Date.now()}.txt`;
   a.click();
-  URL.revokeObjectURL(a.href);
-  showToast('Console exported', 'success');
+  showToast('Logs exported', 'success');
 }
 
-// ============================================
-// FILE MANAGER
-// ============================================
-function renderFileSelect() {
-  const sel = document.getElementById('fileServerSelect');
-  sel.innerHTML = servers.map(s =>
-    `<option value="${s.id}">${s.name}</option>`
-  ).join('');
+function sendCommand() {
+  const input = document.getElementById('consoleInput');
+  const cmd = input.value.trim();
+  if (!cmd) return;
+  consoleHistory.push(cmd);
+  consoleHistoryIdx = consoleHistory.length;
+  appendLog(`<span class="prompt">$</span> <span class="cmd">${escapeHtml(cmd)}</span>`);
+  input.value = '';
+  processCommand(cmd);
 }
 
-function renderFiles() {
-  const serverId = document.getElementById('fileServerSelect').value;
-  const server = servers.find(s => s.id === serverId);
-  if (!server) return;
+document.getElementById('consoleInput')?.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') sendCommand();
+  else if (e.key === 'ArrowUp') { e.preventDefault(); if (consoleHistoryIdx > 0) { consoleHistoryIdx--; e.target.value = consoleHistory[consoleHistoryIdx] || ''; } }
+  else if (e.key === 'ArrowDown') { e.preventDefault(); if (consoleHistoryIdx < consoleHistory.length - 1) { consoleHistoryIdx++; e.target.value = consoleHistory[consoleHistoryIdx] || ''; } else { consoleHistoryIdx = consoleHistory.length; e.target.value = ''; } }
+});
 
-  if (!currentPath[serverId]) currentPath[serverId] = '/';
-  const files = server.files || [];
+function processCommand(cmd) {
+  const parts = cmd.split(' ');
+  const main = parts[0].toLowerCase();
+  const botId = document.getElementById('logsBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
 
-  const listEl = document.getElementById('fileList');
-  if (files.length === 0) {
-    listEl.innerHTML = '<div class="empty-state" style="padding:40px"><p>This directory is empty.</p></div>';
+  const commands = {
+    help: () => ['Commands: help, list, status, start, stop, restart, info, logs, deploy, echo, date, clear'],
+    list: () => ['', '  Bot Name              Platform      Status', '  ───────────────────── ───────────── ────────', ...bots.map(b => `  ${b.name.padEnd(22)}${b.platform.padEnd(14)}${b.status}`), '', `Total: ${bots.length} bots`],
+    status: () => bot ? [`${bot.status === 'running' ? '🟢' : '🔴'} ${bot.name} — ${bot.status}`, `  Platform: ${bot.platform} | Framework: ${FRAMEWORK_MAP[bot.framework]}`, `  Runtime: ${bot.runtime} | Messages: ${bot.messages}`] : ['No bot selected'],
+    start: () => { if (bot && bot.status !== 'running') { startBot(bot.id); return [`Starting ${bot.name}...`]; } return ['Bot already running or not selected']; },
+    stop: () => { if (bot && bot.status !== 'stopped') { stopBot(bot.id); return [`Stopping ${bot.name}...`]; } return ['Bot already stopped or not selected']; },
+    restart: () => { if (bot) { restartBot(bot.id); return [`Restarting ${bot.name}...`]; } return ['No bot selected']; },
+    info: () => bot ? [`Bot: ${bot.name}`, `Platform: ${bot.platform}`, `Framework: ${FRAMEWORK_MAP[bot.framework]}`, `Runtime: ${bot.runtime}`, `Command: ${bot.cmd}`, `Created: ${bot.created}`, `Messages: ${bot.messages}`, `Uptime: ${bot.uptime}`] : ['No bot selected'],
+    deploy: () => { deployBot(); return ['🚀 Deploying via GitHub Actions...']; },
+    logs: () => { if (!bot) return ['No bot selected']; const now = new Date(); return [`[${new Date(now - 1000).toTimeString().split(' ')[0]}] INFO  Message received from user`, `[${new Date(now - 3000).toTimeString().split(' ')[0]}] INFO  Processing command...`, `[${new Date(now - 5000).toTimeString().split(' ')[0]}] INFO  Response sent`]; },
+    echo: () => [parts.slice(1).join(' ') || ''],
+    date: () => [new Date().toString()],
+    clear: () => { clearConsole(); return []; },
+  };
+
+  let output = main === 'clear' ? null : (commands[main] ? commands[main]() : [`Unknown command: ${main}. Type "help" for list.`]);
+  if (output) output.forEach(line => appendLog(line, line.startsWith('  ') ? '' : ''));
+}
+
+// ========== COMMANDS ==========
+function renderCommands() {
+  renderLogsSelects();
+  const botId = document.getElementById('cmdBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
+  const tbody = document.getElementById('commandsBody');
+  if (!bot || !bot.commands.length) {
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;padding:32px;color:var(--text-muted)">No commands configured</td></tr>';
     return;
   }
-
-  listEl.innerHTML = files.map(f => {
-    const iconMap = {
-      'folder': '📁',
-      'file-js': '🟨',
-      'file-py': '🐍',
-      'file-json': '📋',
-      'file-md': '📝',
-      'file-default': '📄',
-    };
-    const icon = iconMap[f.type] || '📄';
-    const iconClass = f.type === 'folder' ? 'folder' : f.type;
-    const actions = f.type !== 'folder'
-      ? `<button class="btn-sm" onclick="editFile('${server.id}','${f.name}')">Edit</button>
-         <button class="btn-sm" onclick="deleteFile('${server.id}','${f.name}')" style="color:var(--red)">Delete</button>`
-      : '';
-
-    return `
-      <div class="file-row" onclick="${f.type === 'folder' ? `openFolder('${server.id}','${f.name}')` : ''}">
-        <div class="file-name">
-          <span class="icon ${iconClass}">${icon}</span>
-          ${f.name}
-        </div>
-        <span class="file-size">${f.size}</span>
-        <span class="file-date">${f.modified}</span>
-        <div class="file-actions" onclick="event.stopPropagation()">${actions}</div>
-      </div>
-    `;
-  }).join('');
+  tbody.innerHTML = bot.commands.map(c => `
+    <tr>
+      <td><code style="color:var(--accent)">${c.cmd}</code></td>
+      <td>${c.desc}</td>
+      <td><span class="badge badge-runtime">${c.cat}</span></td>
+      <td><span class="badge ${c.enabled ? 'badge-green' : 'badge-red'}">${c.enabled ? 'Enabled' : 'Disabled'}</span></td>
+      <td><button class="btn-sm" onclick="toggleCommand('${bot.id}','${c.cmd}')">${c.enabled ? 'Disable' : 'Enable'}</button></td>
+    </tr>`).join('');
 }
 
-document.getElementById('fileServerSelect')?.addEventListener('change', renderFiles);
+document.getElementById('cmdBotSelect')?.addEventListener('change', renderCommands);
 
-function openFolder(serverId, folderName) {
-  showToast(`Opened folder: ${folderName}`, 'info');
+function toggleCommand(botId, cmdName) {
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
+  const c = bot.commands.find(x => x.cmd === cmdName);
+  if (c) { c.enabled = !c.enabled; saveBots(); renderCommands(); showToast(`${cmdName} ${c.enabled ? 'enabled' : 'disabled'}`, 'info'); }
 }
 
-function editFile(serverId, fileName) {
-  showToast(`Opening ${fileName} in editor...`, 'info');
+function addCommand() {
+  const botId = document.getElementById('cmdBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
+  const cmd = prompt('Command name (e.g. /ping):');
+  if (!cmd) return;
+  const desc = prompt('Description:') || 'No description';
+  bot.commands.push({ cmd, desc, cat: 'General', enabled: true });
+  saveBots(); renderCommands(); showToast(`Command ${cmd} added`, 'success');
 }
 
-function deleteFile(serverId, fileName) {
-  const server = servers.find(s => s.id === serverId);
-  if (!server) return;
-  server.files = server.files.filter(f => f.name !== fileName);
-  saveServers();
+// ========== FILES ==========
+function renderFileSelect() {
+  renderLogsSelects();
   renderFiles();
-  showToast(`Deleted ${fileName}`, 'success');
+}
+
+document.getElementById('fileBotSelect')?.addEventListener('change', renderFiles);
+
+function renderFiles() {
+  const botId = document.getElementById('fileBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
+  const files = bot.files || [];
+  const listEl = document.getElementById('fileList');
+  if (!files.length) {
+    listEl.innerHTML = '<div class="empty-state" style="padding:40px"><p>No files yet</p></div>';
+    return;
+  }
+  const iconMap = { folder: '📁', 'file-js': '🟨', 'file-py': '🐍', 'file-json': '📋', 'file-md': '📝', 'file-default': '📄' };
+  listEl.innerHTML = files.map(f => `
+    <div class="file-row">
+      <div class="file-name"><span class="icon">${iconMap[f.type] || '📄'}</span> ${f.name}</div>
+      <span class="file-size">${f.size}</span>
+      <span class="file-date">${f.modified}</span>
+      <div class="file-actions">
+        <button class="btn-sm" onclick="showToast('Opening ${f.name}...','info')">Edit</button>
+        <button class="btn-sm" style="color:var(--red)" onclick="deleteFile('${bot.id}','${f.name}')">Del</button>
+      </div>
+    </div>`).join('');
+}
+
+function deleteFile(botId, fileName) {
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
+  bot.files = bot.files.filter(f => f.name !== fileName);
+  saveBots(); renderFiles(); showToast(`Deleted ${fileName}`, 'success');
 }
 
 function createNewFile() {
-  const serverId = document.getElementById('fileServerSelect').value;
-  const server = servers.find(s => s.id === serverId);
-  if (!server) return;
+  const botId = document.getElementById('fileBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
   const name = prompt('File name:', 'new-file.js');
   if (!name) return;
-  server.files.push({
-    name,
-    type: name.endsWith('.js') ? 'file-js' : name.endsWith('.py') ? 'file-py' : name.endsWith('.json') ? 'file-json' : name.endsWith('.md') ? 'file-md' : 'file-default',
-    size: '0 B',
-    modified: new Date().toISOString().split('T')[0],
-  });
-  saveServers();
-  renderFiles();
-  showToast(`Created ${name}`, 'success');
+  bot.files.push({ name, type: name.endsWith('.js') ? 'file-js' : name.endsWith('.py') ? 'file-py' : name.endsWith('.json') ? 'file-json' : name.endsWith('.md') ? 'file-md' : 'file-default', size: '0 B', modified: new Date().toISOString().split('T')[0] });
+  saveBots(); renderFiles(); showToast(`Created ${name}`, 'success');
 }
 
-// ============================================
-// GITHUB ACTIONS
-// ============================================
-function renderActions() {
-  const templatesEl = document.getElementById('workflowTemplates');
-  templatesEl.innerHTML = WORKFLOW_TEMPLATES.map(w => `
-    <div class="workflow-card" onclick="triggerSpecificWorkflow('${w.action}')">
-      <div class="workflow-icon">${w.icon}</div>
-      <h4>${w.name}</h4>
-      <p>${w.desc}</p>
-    </div>
-  `).join('');
+// ========== ENV ==========
+function renderEnv() {
+  renderLogsSelects();
+  const botId = document.getElementById('envBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
+  const tbody = document.getElementById('envBody');
+  if (!bot || !Object.keys(bot.env || {}).length) {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:32px;color:var(--text-muted)">No variables configured</td></tr>';
+    return;
+  }
+  tbody.innerHTML = Object.entries(bot.env).map(([k, v]) => `
+    <tr>
+      <td><code style="color:var(--accent)">${k}</code></td>
+      <td>${v}</td>
+      <td>${bot.name}</td>
+      <td><button class="btn-sm" style="color:var(--red)" onclick="deleteEnv('${bot.id}','${k}')">Delete</button></td>
+    </tr>`).join('');
+}
 
-  const runsEl = document.getElementById('runList');
-  runsEl.innerHTML = RECENT_RUNS.map(r => {
-    const statusIcon = r.status === 'success' ? '✅' : r.status === 'failed' ? '❌' : '🔄';
-    const statusBadge = r.status === 'success' ? 'badge-green' : r.status === 'failed' ? 'badge-red' : 'badge-yellow';
-    return `
-      <div class="run-item">
-        <span style="font-size:1.2rem">${statusIcon}</span>
-        <div class="run-info">
-          <h4>${r.name}</h4>
-          <p>${r.branch} • ${r.commit} • ${r.duration}</p>
-        </div>
-        <span class="badge ${statusBadge}">${r.status}</span>
-        <span class="run-time">${r.time}</span>
-      </div>
-    `;
+document.getElementById('envBotSelect')?.addEventListener('change', renderEnv);
+
+function saveEnv() {
+  const botId = document.getElementById('envBotSelect')?.value;
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
+  const key = document.getElementById('envKey').value.trim();
+  const value = document.getElementById('envValue').value.trim();
+  if (!key) { showToast('Key is required', 'error'); return; }
+  bot.env[key] = value || '••••••••';
+  saveBots(); closeModal('addEnvModal'); renderEnv(); showToast(`Variable ${key} saved`, 'success');
+  document.getElementById('envKey').value = '';
+  document.getElementById('envValue').value = '';
+}
+
+function deleteEnv(botId, key) {
+  const bot = bots.find(b => b.id === botId);
+  if (!bot) return;
+  delete bot.env[key];
+  saveBots(); renderEnv(); showToast(`Deleted ${key}`, 'success');
+}
+
+// ========== DEPLOY ==========
+function renderDeploy() {
+  renderLogsSelects();
+  document.getElementById('runList').innerHTML = DEPLOY_RUNS.map(r => {
+    const icon = r.status === 'success' ? '✅' : '❌';
+    const badge = r.status === 'success' ? 'badge-green' : 'badge-red';
+    return `<div class="run-item"><span style="font-size:1.2rem">${icon}</span><div class="run-info"><h4>${r.name}</h4><p>${r.bot} • ${r.duration}</p></div><span class="badge ${badge}">${r.status}</span><span class="run-time">${r.time}</span></div>`;
   }).join('');
 }
 
-function triggerWorkflow() {
-  showToast('🚀 GitHub Actions workflow triggered!', 'success');
-  appendConsole('[GitHub Actions] Workflow triggered: deploy-web-app', 'success');
-  appendConsole('[GitHub Actions] Runner: ubuntu-latest', 'info');
-  appendConsole('[GitHub Actions] Status: queued', 'info');
+// ========== MODALS ==========
+function openModal(id) { const m = document.getElementById(id); if (m) m.classList.add('open'); }
+function closeModal(id) { const m = document.getElementById(id); if (m) m.classList.remove('open'); }
+document.querySelectorAll('.modal-overlay').forEach(o => o.addEventListener('click', (e) => { if (e.target === o) o.classList.remove('open'); }));
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') document.querySelectorAll('.modal-overlay.open').forEach(m => m.classList.remove('open')); });
 
-  // Simulate run progress
-  setTimeout(() => appendConsole('[GitHub Actions] Status: in_progress', 'info'), 1000);
-  setTimeout(() => appendConsole('[GitHub Actions] ✅ Job completed successfully', 'success'), 3000);
-}
-
-function triggerSpecificWorkflow(action) {
-  const tpl = WORKFLOW_TEMPLATES.find(w => w.action === action);
-  if (tpl) {
-    showToast(`Triggering: ${tpl.name}`, 'info');
-    showPage('actions');
-    setTimeout(triggerWorkflow, 500);
-  }
-}
-
-// ============================================
-// MODALS
-// ============================================
-function openModal(id) {
-  const m = document.getElementById(id);
-  if (m) {
-    m.classList.add('open');
-    // Fill database linked server select
-    if (id === 'createDbModal') {
-      const sel = document.getElementById('dbLinkedServer');
-      if (sel) {
-        sel.innerHTML = servers.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
-      }
-    }
-  }
-}
-
-function closeModal(id) {
-  const m = document.getElementById(id);
-  if (m) m.classList.remove('open');
-}
-
-// Close modal on overlay click
-document.querySelectorAll('.modal-overlay').forEach(overlay => {
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) overlay.classList.remove('open');
-  });
-});
-
-// Close modal on Escape
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    document.querySelectorAll('.modal-overlay.open').forEach(m => m.classList.remove('open'));
-  }
-});
-
-// ============================================
-// TOASTS
-// ============================================
+// ========== TOASTS ==========
 function showToast(message, type = 'info') {
   const container = document.getElementById('toastContainer');
   const toast = document.createElement('div');
@@ -789,36 +568,17 @@ function showToast(message, type = 'info') {
   const icons = { success: '✅', error: '❌', info: 'ℹ️' };
   toast.innerHTML = `<span>${icons[type] || 'ℹ️'}</span><span>${message}</span>`;
   container.appendChild(toast);
-  setTimeout(() => {
-    toast.style.opacity = '0';
-    toast.style.transform = 'translateY(10px)';
-    toast.style.transition = 'all 0.3s ease';
-    setTimeout(() => toast.remove(), 300);
-  }, 3500);
+  setTimeout(() => { toast.style.opacity = '0'; toast.style.transform = 'translateY(10px)'; toast.style.transition = 'all 0.3s ease'; setTimeout(() => toast.remove(), 300); }, 3500);
 }
 
-// ============================================
-// UTILS
-// ============================================
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.appendChild(document.createTextNode(str));
-  return div.innerHTML;
-}
+// ========== UTILS ==========
+function escapeHtml(str) { const d = document.createElement('div'); d.appendChild(document.createTextNode(str)); return d.innerHTML; }
 
-function fmtTime(date) {
-  return date.toTimeString().split(' ')[0];
-}
-
-// ============================================
-// INIT
-// ============================================
+// ========== INIT ==========
 function initApp() {
   renderDashboard();
-  renderConsoleSelect();
-  appendConsole(`[system] Panel initialized`, 'success');
-  appendConsole(`[system] Connected to dnsptr77.github.io`, 'info');
-  appendConsole(`[system] ${servers.length} servers loaded`, 'info');
-  appendConsole('', '');
-  appendConsole('Type "help" to see available commands.', 'system');
+  renderLogsSelects();
+  appendLog('dnsptr77 Bot Manager initialized', 'success');
+  appendLog(`Loaded ${bots.length} bots (${bots.filter(b=>b.platform==='telegram').length} Telegram, ${bots.filter(b=>b.platform==='whatsapp').length} WhatsApp)`, 'info');
+  appendLog('Type "help" for available commands', 'system');
 }
