@@ -58,13 +58,13 @@ function fetchUrl(url) {
 
 // Detect apakah server di belakang Cloudflare
 function isBehindCF(server, port) {
-  if (CF_PORTS.includes(port)) return true;
-  if (/cloudflare|cloudfront|cdn/i.test(server)) return true;
+  // Server adalah IP Cloudflare
   if (/^\d+\.\d+\.\d+\.\d+$/.test(server)) {
-    // Check if IP range belongs to CF (104.x, 172.x ranges)
     const parts = server.split('.').map(Number);
     if (parts[0] === 104 || parts[0] === 172) return true;
   }
+  // Server mengandung cloudflare/cdn
+  if (/cloudflare|cloudfront|cdn/i.test(server)) return true;
   return false;
 }
 
@@ -346,6 +346,12 @@ async function main() {
   const wsConfigs = parsed.filter(c => c.net === 'ws' || c.net === 'websocket');
   const wsCF = wsConfigs.filter(c => c.behindCF).length;
   console.log(`  WebSocket: ${wsConfigs.length} (${wsCF} via Cloudflare ${CF_IP})`);
+
+  // Show all WS configs found
+  wsConfigs.forEach(c => {
+    const addr = c.behindCF ? CF_IP : c.server;
+    console.log(`    → ${c.type} ${c.server}:${c.port} Host:${c.host} SNI:${c.sni} CF:${c.behindCF}`);
+  });
 
   // 4. Filter: Host/SNI harus domain (bukan IP)
   const validConfigs = wsConfigs.filter(c => {
