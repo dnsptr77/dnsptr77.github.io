@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-09-02T23:24:02.399Z",
+  "updatedAt": "2026-09-02T23:25:29.762Z",
   "total": 34,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "118.193.57.167",
-      "port": 49667,
-      "tls": false,
-      "net": "ws",
-      "country": "TH",
-      "raw": "vmess://eyJhZGQiOiIxMTguMTkzLjU3LjE2NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkNDZiZjQ5Mi00NWY0LTRjMzMtODJkMS1lYTJhMWNiNTRlYjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2Q0NmJmNDkyIiwicGNzIjoiIiwicG9ydCI6IjQ5NjY3IiwicHMiOiJcdWQ4M2NcdWRkZjlcdWQ4M2NcdWRkZWRbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVRIIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇹🇭[openproxylist.com] vmess-TH"
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
