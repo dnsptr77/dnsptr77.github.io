@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-09-02T22:53:37.499Z",
+  "updatedAt": "2026-09-02T22:55:06.663Z",
   "total": 32,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "118.193.57.167",
+      "port": 49667,
+      "tls": false,
+      "net": "ws",
+      "country": "TH",
+      "raw": "vmess://eyJhZGQiOiIxMTguMTkzLjU3LjE2NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkNDZiZjQ5Mi00NWY0LTRjMzMtODJkMS1lYTJhMWNiNTRlYjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2Q0NmJmNDkyIiwicGNzIjoiIiwicG9ydCI6IjQ5NjY3IiwicHMiOiJcdWQ4M2NcdWRkZjlcdWQ4M2NcdWRkZWRbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVRIIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇹🇭[openproxylist.com] vmess-TH"
+    },
+    {
+      "type": "vmess",
+      "server": "fr3.niekotin.de",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "country": "FR",
+      "raw": "vmess://eyJhZGQiOiJmcjMubmlla290aW4uZGUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImZyMy5uaWVrb3Rpbi5kZSIsImlkIjoiNTllMjk5MTgtNTNiMy00ZmEyLWJlY2YtNTZhNjAxZjMzOTk4IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcyIsInBvcnQiOiI4MCIsInBzIjoiXHVkODNjXHVkZGViXHVkODNjXHVkZGY3W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1GUiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇫🇷[openproxylist.com] vmess-FR"
+    }
+  ]
 }
