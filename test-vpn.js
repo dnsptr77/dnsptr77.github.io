@@ -19,6 +19,24 @@ const RESULTS_FILE = path.join(__dirname, 'data.json');
 const CF_IP = '104.17.3.81';
 const CF_PORTS = [443, 2053, 2083, 2087, 8443];
 
+// Cek apakah string adalah IP address (bukan domain)
+function isIPAddress(str) {
+  return /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(str);
+}
+
+// Cek apakah Host/SNI valid (harus domain, bukan IP)
+function isValidDomain(host, sni) {
+  const h = host || '';
+  const s = sni || '';
+  // Jika host adalah IP → tolak
+  if (h && isIPAddress(h)) return false;
+  // Jika sni adalah IP → tolak
+  if (s && isIPAddress(s)) return false;
+  // Minimal salah satu harus domain
+  if (!h && !s) return false;
+  return true;
+}
+
 // ============================================================
 //  FETCH
 // ============================================================
@@ -329,14 +347,24 @@ async function main() {
   const wsCF = wsConfigs.filter(c => c.behindCF).length;
   console.log(`  WebSocket: ${wsConfigs.length} (${wsCF} via Cloudflare ${CF_IP})`);
 
-  // 4. Test
+  // 4. Filter: Host/SNI harus domain (bukan IP)
+  const validConfigs = wsConfigs.filter(c => {
+    if (!isValidDomain(c.host, c.sni)) {
+      console.log(`  ⏭️ SKIP: ${c.type} ${c.server} — Host/SNI is IP: ${c.host || c.sni}`);
+      return false;
+    }
+    return true;
+  });
+  console.log(`  Valid domain only: ${validConfigs.length} / ${wsConfigs.length}`);
+
+  // 5. Test
   console.log('\n[3/4] Testing with Xray-core...');
   const results = [];
   let tested = 0;
-  for (const cfg of wsConfigs) {
+  for (const cfg of validConfigs) {
     tested++;
     const addr = cfg.behindCF ? CF_IP : cfg.server;
-    process.stdout.write(`  [${tested}/${wsConfigs.length}] ${cfg.type} → ${addr}:${cfg.port} Host:${cfg.host.substring(0,30)}... `);
+    process.stdout.write(`  [${tested}/${validConfigs.length}] ${cfg.type} → ${addr}:${cfg.port} Host:${cfg.host.substring(0,30)}... `);
     const result = await testConfig(cfg);
     results.push(result);
     console.log(result.alive ? '✅' : '❌');
@@ -360,7 +388,8 @@ async function main() {
   fs.writeFileSync(RESULTS_FILE, JSON.stringify(output, null, 2));
   console.log(`  ✅ Saved ${active.length} active configs`);
   console.log('\n═══════════════════════════════════════');
-  console.log(`  DONE: ${active.length} / ${results.length} alive`);
+  console.log(`  DONE: ${active.length} / ${results.length} tested`);
+  console.log(`  (skipped ${wsConfigs.length - validConfigs.length} with IP as Host/SNI)`);
   console.log('═══════════════════════════════════════');
 }
 
