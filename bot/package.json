@@ -1,7 +1,7 @@
 {
-  "name": "dnsptr77-telegram-bot",
+  "name": "dnsptr77-vpn-finder",
   "version": "1.0.0",
-  "description": "Telegram Bot by dnsptr77",
+  "description": "Pencari Config VMess/VLESS/Trojan Aktif (WebSocket) - Telegram Bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
