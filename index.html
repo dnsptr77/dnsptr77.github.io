@@ -1,130 +1,536 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>GameHub - Snake FIX</title>
-  <style>
-    body{
-      margin:0;
-      font-family:Arial;
-      background:#0f172a;
-      color:white;
-      text-align:center;
-    }
-
-    header{
-      padding:15px;
-      background:#111827;
-    }
-
-    button{
-      padding:10px 15px;
-      background:#22c55e;
-      border:none;
-      border-radius:8px;
-      color:white;
-      cursor:pointer;
-    }
-
-    canvas{
-      background:black;
-      display:none;
-      margin:20px auto;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dnsptr77 Panel — Server Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="panel.css" />
 </head>
-
 <body>
 
-<header>
-  <h2>🐍 Snake Game FIX (GitHub Ready)</h2>
-</header>
+  <!-- Login Screen -->
+  <div class="login-screen" id="loginScreen">
+    <div class="login-box">
+      <div class="login-logo">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        <h1>dnsptr77 Panel</h1>
+        <p>GitHub-Powered Server Management</p>
+      </div>
+      <form id="loginForm" autocomplete="off">
+        <div class="form-group">
+          <label for="loginEmail">Email or Username</label>
+          <input type="text" id="loginEmail" placeholder="you@example.com" value="admin@dnsptr77.io" required />
+        </div>
+        <div class="form-group">
+          <label for="loginPass">Password</label>
+          <input type="password" id="loginPass" placeholder="••••••••" value="admin123" required />
+        </div>
+        <button type="submit" class="btn-primary full-width">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4M10 17l5-5-5-5M15 12H3"/></svg>
+          Sign In
+        </button>
+        <div class="login-hint">
+          <small>Default: admin@dnsptr77.io / admin123</small>
+        </div>
+      </form>
+    </div>
+  </div>
 
-<button onclick="startGame()">Start Game</button>
+  <!-- Main App -->
+  <div class="app" id="app" style="display:none">
 
-<canvas id="game" width="400" height="400"></canvas>
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        <span>dnsptr77 Panel</span>
+      </div>
 
-<script>
-const canvas = document.getElementById("game");
-const ctx = canvas.getContext("2d");
+      <nav class="sidebar-nav">
+        <div class="nav-section">Main</div>
+        <a href="#" class="nav-item active" data-page="dashboard">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Dashboard
+        </a>
+        <a href="#" class="nav-item" data-page="servers">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1"/><circle cx="6" cy="18" r="1"/></svg>
+          Servers
+        </a>
+        <a href="#" class="nav-item" data-page="console">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+          Console
+        </a>
+        <a href="#" class="nav-item" data-page="files">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+          File Manager
+        </a>
+        <a href="#" class="nav-item" data-page="actions">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+          GitHub Actions
+        </a>
 
-const box = 20;
-let snake, dir, food, loop;
+        <div class="nav-section">Management</div>
+        <a href="#" class="nav-item" data-page="database">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          Databases
+        </a>
+        <a href="#" class="nav-item" data-page="users">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          Users
+        </a>
+        <a href="#" class="nav-item" data-page="settings">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Profile
+        </a>
+      </nav>
 
-function startGame(){
-  canvas.style.display = "block";
+      <div class="sidebar-footer">
+        <div class="server-status-mini">
+          <span class="status-dot online"></span>
+          <span>System Online</span>
+        </div>
+        <a href="#" class="nav-item logout-btn" id="logoutBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+          Sign Out
+        </a>
+      </div>
+    </aside>
 
-  snake = [{x:200,y:200}];
-  dir = "right";
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+      <button class="hamburger" id="hamburgerBtn">
+        <span></span><span></span><span></span>
+      </button>
+      <span class="mobile-brand">dnsptr77 Panel</span>
+    </header>
 
-  food = spawnFood();
+    <!-- Content -->
+    <main class="content" id="content">
 
-  document.onkeydown = (e)=>{
-    if(e.key==="ArrowLeft" && dir!=="right") dir="left";
-    if(e.key==="ArrowRight" && dir!=="left") dir="right";
-    if(e.key==="ArrowUp" && dir!=="down") dir="up";
-    if(e.key==="ArrowDown" && dir!=="up") dir="down";
-  };
+      <!-- Dashboard Page -->
+      <section class="page active" id="page-dashboard">
+        <div class="page-head">
+          <div>
+            <h2>Dashboard</h2>
+            <p>Overview of your servers and resources</p>
+          </div>
+          <div class="page-actions">
+            <button class="btn-primary" onclick="showPage('servers')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              New Server
+            </button>
+          </div>
+        </div>
 
-  clearInterval(loop);
-  loop = setInterval(update, 120);
-}
+        <!-- Stats Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon green">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-value" id="totalServers">4</div>
+              <div class="stat-label">Total Servers</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-value" id="runningCount">2</div>
+              <div class="stat-label">Running</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon yellow">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-value">2 GB</div>
+              <div class="stat-label">RAM Used</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon purple">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1"/><circle cx="6" cy="18" r="1"/></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-value">10 GB</div>
+              <div class="stat-label">Disk Used</div>
+            </div>
+          </div>
+        </div>
 
-function spawnFood(){
-  return {
-    x: Math.floor(Math.random()*20)*box,
-    y: Math.floor(Math.random()*20)*box
-  };
-}
+        <!-- Quick Access Servers -->
+        <div class="card">
+          <div class="card-head">
+            <h3>Quick Access — Servers</h3>
+          </div>
+          <div class="server-list" id="dashboardServers">
+            <!-- Populated by JS -->
+          </div>
+        </div>
 
-function update(){
-  ctx.fillStyle="black";
-  ctx.fillRect(0,0,400,400);
+        <!-- Recent Activity -->
+        <div class="card">
+          <div class="card-head">
+            <h3>Recent Activity</h3>
+          </div>
+          <div class="activity-list" id="activityList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </section>
 
-  // draw food
-  ctx.fillStyle="red";
-  ctx.fillRect(food.x,food.y,box,box);
+      <!-- Servers Page -->
+      <section class="page" id="page-servers">
+        <div class="page-head">
+          <div>
+            <h2>Servers</h2>
+            <p>Manage all your servers</p>
+          </div>
+          <div class="page-actions">
+            <button class="btn-primary" id="createServerBtn" onclick="openModal('createServerModal')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Create Server
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <input type="text" placeholder="Search servers..." class="search-input" id="searchServers" />
+          </div>
+          <div class="server-list full" id="serverList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </section>
 
-  // draw snake
-  ctx.fillStyle="lime";
-  for(let i=0;i<snake.length;i++){
-    ctx.fillRect(snake[i].x,snake[i].y,box,box);
-  }
+      <!-- Console Page -->
+      <section class="page" id="page-console">
+        <div class="page-head">
+          <div>
+            <h2>Console</h2>
+            <p>Execute commands and view logs</p>
+          </div>
+          <div class="page-actions">
+            <select id="consoleServerSelect" class="select-input"></select>
+          </div>
+        </div>
+        <div class="console-wrap">
+          <div class="console-header">
+            <span class="console-title">
+              <span class="status-dot online"></span>
+              Terminal
+            </span>
+            <div class="console-actions">
+              <button class="btn-sm" onclick="clearConsole()">Clear</button>
+              <button class="btn-sm" onclick="exportConsole()">Export</button>
+            </div>
+          </div>
+          <div class="console-output" id="consoleOutput">
+            <div class="console-line system">Welcome to dnsptr77 Panel Terminal v1.0</div>
+            <div class="console-line system">Type commands below. Use GitHub Actions for execution.</div>
+            <div class="console-line system">───────────────────────────────────────────</div>
+          </div>
+          <div class="console-input-wrap">
+            <span class="console-prompt">$</span>
+            <input type="text" class="console-input" id="consoleInput" placeholder="Enter command..." autocomplete="off" />
+            <button class="btn-send" id="sendBtn" onclick="sendCommand()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
 
-  let head = {...snake[0]};
+      <!-- Files Page -->
+      <section class="page" id="page-files">
+        <div class="page-head">
+          <div>
+            <h2>File Manager</h2>
+            <p>Browse and edit your server files</p>
+          </div>
+          <div class="page-actions">
+            <select id="fileServerSelect" class="select-input"></select>
+            <button class="btn-primary" onclick="createNewFile()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              New File
+            </button>
+          </div>
+        </div>
+        <div class="file-breadcrumb" id="fileBreadcrumb">
+          <span class="crumb" onclick="navigateFiles('/')">/</span>
+        </div>
+        <div class="card">
+          <div class="file-table">
+            <div class="file-header">
+              <span>Name</span>
+              <span>Size</span>
+              <span>Modified</span>
+              <span>Actions</span>
+            </div>
+            <div class="file-list" id="fileList">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </section>
 
-  if(dir==="left") head.x -= box;
-  if(dir==="right") head.x += box;
-  if(dir==="up") head.y -= box;
-  if(dir==="down") head.y += box;
+      <!-- GitHub Actions Page -->
+      <section class="page" id="page-actions">
+        <div class="page-head">
+          <div>
+            <h2>GitHub Actions</h2>
+            <p>Trigger workflows and monitor builds</p>
+          </div>
+          <div class="page-actions">
+            <button class="btn-primary" onclick="triggerWorkflow()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Trigger Workflow
+            </button>
+          </div>
+        </div>
 
-  // ❌ hit wall = reset game
-  if(head.x < 0 || head.x >= 400 || head.y < 0 || head.y >= 400){
-    return reset();
-  }
+        <!-- Workflow Templates -->
+        <div class="card">
+          <div class="card-head">
+            <h3>Workflow Templates</h3>
+          </div>
+          <div class="workflow-grid" id="workflowTemplates">
+            <!-- Populated by JS -->
+          </div>
+        </div>
 
-  // ❌ hit self = reset
-  for(let i=0;i<snake.length;i++){
-    if(head.x === snake[i].x && head.y === snake[i].y){
-      return reset();
-    }
-  }
+        <!-- Recent Runs -->
+        <div class="card">
+          <div class="card-head">
+            <h3>Recent Workflow Runs</h3>
+          </div>
+          <div class="run-list" id="runList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </section>
 
-  snake.unshift(head);
+      <!-- Database Page -->
+      <section class="page" id="page-database">
+        <div class="page-head">
+          <div>
+            <h2>Databases</h2>
+            <p>Manage databases linked to your servers</p>
+          </div>
+          <div class="page-actions">
+            <button class="btn-primary" onclick="openModal('createDbModal')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Create Database
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="empty-state">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4b5563" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            <h3>No Databases Yet</h3>
+            <p>Create a MySQL or PostgreSQL database for your servers.</p>
+            <button class="btn-primary" onclick="openModal('createDbModal')">Create Database</button>
+          </div>
+        </div>
+      </section>
 
-  // eat food
-  if(head.x === food.x && head.y === food.y){
-    food = spawnFood();
-  } else {
-    snake.pop();
-  }
-}
+      <!-- Users Page -->
+      <section class="page" id="page-users">
+        <div class="page-head">
+          <div>
+            <h2>Users</h2>
+            <p>Manage panel users and permissions</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Email</th>
+                  <th>Role</th>
+                  <th>Created</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>admin@dnsptr77.io</strong></td>
+                  <td><span class="badge badge-admin">Admin</span></td>
+                  <td>2024-01-01</td>
+                  <td><span class="badge badge-green">Active</span></td>
+                </tr>
+                <tr>
+                  <td>user@example.com</td>
+                  <td><span class="badge badge-user">User</span></td>
+                  <td>2024-06-15</td>
+                  <td><span class="badge badge-green">Active</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 
-function reset(){
-  alert("Game Over!");
-  startGame();
-}
-</script>
+      <!-- Settings Page -->
+      <section class="page" id="page-settings">
+        <div class="page-head">
+          <div>
+            <h2>Profile</h2>
+            <p>Your account settings</p>
+          </div>
+        </div>
+        <div class="settings-grid">
+          <div class="card settings-card">
+            <h3>Account Details</h3>
+            <div class="form-group">
+              <label>Username</label>
+              <input type="text" value="dnsptr77" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" value="admin@dnsptr77.io" class="form-control" />
+            </div>
+            <button class="btn-primary">Save Changes</button>
+          </div>
+          <div class="card settings-card">
+            <h3>GitHub Integration</h3>
+            <div class="form-group">
+              <label>GitHub Token</label>
+              <input type="password" value="ghp_xxxxxxxxxxxx" class="form-control" placeholder="ghp_..." />
+              <small class="form-hint">Required for GitHub Actions execution. Get from <a href="https://github.com/settings/tokens" target="_blank">GitHub Settings</a></small>
+            </div>
+            <div class="form-group">
+              <label>Repository</label>
+              <input type="text" value="dnsptr77/dnsptr77.github.io" class="form-control" />
+            </div>
+            <button class="btn-primary">Save Integration</button>
+          </div>
+          <div class="card settings-card">
+            <h3>Appearance</h3>
+            <div class="theme-switch">
+              <label>Dark Mode</label>
+              <div class="toggle-wrap">
+                <input type="checkbox" id="darkToggle" checked />
+                <label for="darkToggle" class="toggle"></label>
+              </div>
+            </div>
+            <div class="theme-switch">
+              <label>Compact Mode</label>
+              <div class="toggle-wrap">
+                <input type="checkbox" id="compactToggle" />
+                <label for="compactToggle" class="toggle"></label>
+              </div>
+            </div>
+          </div>
+          <div class="card settings-card danger-zone">
+            <h3>Danger Zone</h3>
+            <p>These actions are irreversible.</p>
+            <div class="danger-actions">
+              <button class="btn-danger">Delete All Servers</button>
+              <button class="btn-danger">Delete Account</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
+    </main>
+  </div>
+
+  <!-- Modals -->
+  <div class="modal-overlay" id="createServerModal">
+    <div class="modal">
+      <div class="modal-head">
+        <h3>Create New Server</h3>
+        <button class="modal-close" onclick="closeModal('createServerModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Server Name</label>
+          <input type="text" class="form-control" id="newServerName" placeholder="my-awesome-server" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Runtime</label>
+            <select class="form-control" id="newServerRuntime">
+              <option value="node">Node.js (LTS)</option>
+              <option value="python">Python 3.12</option>
+              <option value="java">Java 21</option>
+              <option value="go">Go 1.22</option>
+              <option value="rust">Rust</option>
+              <option value="deno">Deno</option>
+              <option value="bun">Bun</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Port</label>
+            <input type="number" class="form-control" id="newServerPort" value="3000" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>RAM (MB)</label>
+            <input type="number" class="form-control" id="newServerRam" value="512" />
+          </div>
+          <div class="form-group">
+            <label>Disk (GB)</label>
+            <input type="number" class="form-control" id="newServerDisk" value="1" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Start Command</label>
+          <input type="text" class="form-control" id="newServerCmd" placeholder="node index.js" />
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn-ghost" onclick="closeModal('createServerModal')">Cancel</button>
+        <button class="btn-primary" onclick="createServer()">Create Server</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="createDbModal">
+    <div class="modal">
+      <div class="modal-head">
+        <h3>Create Database</h3>
+        <button class="modal-close" onclick="closeModal('createDbModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Database Name</label>
+          <input type="text" class="form-control" placeholder="my_database" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Type</label>
+            <select class="form-control">
+              <option>MySQL 8.0</option>
+              <option>PostgreSQL 16</option>
+              <option>MongoDB 7</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Linked Server</label>
+            <select class="form-control" id="dbLinkedServer"></select>
+          </div>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn-ghost" onclick="closeModal('createDbModal')">Cancel</button>
+        <button class="btn-primary" onclick="closeModal('createDbModal')">Create Database</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="panel.js"></script>
 </body>
 </html>

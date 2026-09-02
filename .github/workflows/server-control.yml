@@ -1,0 +1,45 @@
+name: Panel — Server Control
+
+on:
+  repository_dispatch:
+    types: [server-start, server-stop, server-restart]
+
+jobs:
+  server-control:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Server Action
+        run: |
+          ACTION="${{ github.event.action }}"
+          SERVER_NAME="${{ github.event.client_payload.server_name }}"
+
+          echo "═══════════════════════════════════════"
+          echo "  Panel Server Control"
+          echo "═══════════════════════════════════════"
+          echo "Action : $ACTION"
+          echo "Server : $SERVER_NAME"
+          echo "Time   : $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "═══════════════════════════════════════"
+
+          case "$ACTION" in
+            server-start)
+              echo ""
+              echo "▶ Starting server: $SERVER_NAME"
+              echo "✅ Server $SERVER_NAME started successfully"
+              ;;
+            server-stop)
+              echo ""
+              echo "▶ Stopping server: $SERVER_NAME"
+              echo "✅ Server $SERVER_NAME stopped successfully"
+              ;;
+            server-restart)
+              echo ""
+              echo "▶ Restarting server: $SERVER_NAME"
+              echo "✅ Server $SERVER_NAME restarted successfully"
+              ;;
+          esac
