@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T12:22:18.161Z",
+  "updatedAt": "2026-09-03T12:31:11.525Z",
   "total": 384,
-  "active": 12,
+  "active": 13,
   "configs": [
     {
       "type": "vless",
@@ -77,6 +77,19 @@
       "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
       "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
       "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IkVYMW9HdDczTnpQUUtBYzIudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfjJAiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiRVgxb0d0NzNOelBRS0FjMi52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🌐",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "ex1ogt73nzpqkac2.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
+      "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
+      "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IkVYMW9HdDczTnpQUUtBYzIudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfjq8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiRVgxb0d0NzNOelBRS0FjMi52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
       "ps": "By EbraSha 🎯",
       "behindCF": false
@@ -90,8 +103,8 @@
       "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
       "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiJFWDFvR3Q3M056UFFLQWMyLnYuM2Rucy52aXAiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+qkCIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IkVYMW9HdDczTnpQUUtBYzIudi4zZG5zLnZpcCIsInRscyI6InRscyJ9",
-      "ps": "By EbraSha 🪐",
+      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiJFWDFvR3Q3M056UFFLQWMyLnYuM2Rucy52aXAiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+SuyIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IkVYMW9HdDczTnpQUUtBYzIudi4zZG5zLnZpcCIsInRscyI6InRscyJ9",
+      "ps": "By EbraSha 💻",
       "behindCF": false
     },
     {
