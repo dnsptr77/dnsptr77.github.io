@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-03T10:20:54.001Z",
+  "updatedAt": "2026-09-03T10:27:41.053Z",
   "total": 389,
-  "active": 8,
+  "active": 7,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "ex1ogt73nzpqkac2.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
-      "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IkVYMW9HdDczTnpQUUtBYzIudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfqpAiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiRVgxb0d0NzNOelBRS0FjMi52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🪐",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "ex1ogt73nzpqkac2.v.3dns.vip",
