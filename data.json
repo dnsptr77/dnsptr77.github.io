@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-09-03T14:38:08.743Z",
+  "updatedAt": "2026-09-03T14:45:24.303Z",
   "total": 399,
   "active": 4,
   "configs": [
     {
-      "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
+      "type": "vless",
+      "server": "neth8.lunariai.ru",
       "port": 443,
-      "tls": true,
+      "tls": false,
       "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfjpvvuI8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🎛️",
+      "host": "neth8.lunariai.ru",
+      "sni": "neth8.lunariai.ru",
+      "country": "DE",
+      "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?allowInsecure=1&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
     {
@@ -25,8 +25,8 @@
       "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
       "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIOKMqO+4jyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha ⌨️",
+      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfjpvvuI8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🎛️",
       "behindCF": false
     },
     {
