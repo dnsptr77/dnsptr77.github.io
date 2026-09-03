@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T13:00:33.940Z",
-  "total": 388,
-  "active": 8,
+  "updatedAt": "2026-09-03T13:06:51.660Z",
+  "total": 394,
+  "active": 5,
   "configs": [
     {
       "type": "vless",
@@ -66,45 +66,6 @@
       "country": "JP",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1KUCIsImFkZCI6IjU0LjE2OC4yNDIuMjUiLCJwb3J0IjoiODU1NSIsImlkIjoiN2FhM2EwMjQtZTMzMy00YjYzLTk5YTItM2RiOWQzYjIwNTRlIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiIiLCJwYXRoIjoiXC8iLCJob3N0IjoiYS4xODkuY24iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇯🇵[openproxylist.com] vmess-JP",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "renderer-stream-2-62.mirra.now",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "renderer-stream-2-62.mirra.now",
-      "sni": "renderer-stream-2-62.mirra.now",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+MgyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0ZXN0X25hbWUiOiI0NSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🌃",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "sni": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ3d2FmajVsaGw2Ymk4YXU5LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsIm5ldCI6IndzIiwicGF0aCI6Ii93cy12bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg4puT77iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Ind3YWZqNWxobDZiaThhdTkudi4zZG5zLnZpcCIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha ⛓️",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "54.168.242.25",
-      "port": 8555,
-      "tls": false,
-      "net": "ws",
-      "host": "a.189.cn",
-      "sni": "a.189.cn",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiI1NC4xNjguMjQyLjI1IiwiYWlkIjoiMCIsImhvc3QiOiJhLjE4OS5jbiIsImlkIjoiN2FhM2EwMjQtZTMzMy00YjYzLTk5YTItM2RiOWQzYjIwNTRlIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4NTU1IiwicHMiOiJCeSBFYnJhU2hhIPCfjJEiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🌑",
       "behindCF": false
     }
   ]
