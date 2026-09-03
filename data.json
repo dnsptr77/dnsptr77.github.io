@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-09-03T23:09:59.337Z",
+  "updatedAt": "2026-09-03T23:17:30.693Z",
   "total": 398,
-  "active": 7,
+  "active": 8,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "phoenix0202.zgjok.com",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "phoenix0202.zgjok.com",
+      "sni": "phoenix0202.zgjok.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOiIwIiwiaG9zdCI6InBob2VuaXgwMjAyLnpnam9rLmNvbSIsImlkIjoiZDljMzZiNTUtNDQ3YS00NDg0LTg4MmItZDc5OWY1MzAxNjgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Q5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+puCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJ0ZXN0X25hbWUiOiJVUzExIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🩸",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "phoenix0202.zgjok.com",
