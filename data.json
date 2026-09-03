@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-03T21:06:30.318Z",
-  "total": 402,
-  "active": 2,
+  "updatedAt": "2026-09-03T21:12:06.820Z",
+  "total": 401,
+  "active": 1,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "renderer-stream-2-62.mirra.now",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "renderer-stream-2-62.mirra.now",
-      "sni": "renderer-stream-2-62.mirra.now",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+Wpe+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0ZXN0X25hbWUiOiIxNTQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🖥️",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "planb.mojcn.com.linuxlh.xin",
