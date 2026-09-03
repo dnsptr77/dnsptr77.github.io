@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T15:57:40.056Z",
+  "updatedAt": "2026-09-03T16:04:22.240Z",
   "total": 400,
-  "active": 5,
+  "active": 6,
   "configs": [
     {
       "type": "vless",
@@ -66,6 +66,19 @@
       "country": "IN",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsImlkIjoiY2VmYmUyMzQtYmNjNi00NTU4LWFiN2ItMTAzMGUzMzFlNmE1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiIiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🇮🇳[openproxylist.com] vmess-IN",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "maple.adaspoloandco.com",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "maple.adaspoloandco.com",
+      "sni": "maple.adaspoloandco.com",
+      "country": "CA",
+      "raw": "vless://db3f09ae-23f2-42b8-abee-7b89fb392c5e@maple.adaspoloandco.com:8443?encryption=none&security=tls&sni=maple.adaspoloandco.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=/uploader.php#🇨🇦[openproxylist.com] vless-CA",
+      "ps": "🇨🇦[openproxylist.com] vless-CA",
       "behindCF": false
     }
   ]
