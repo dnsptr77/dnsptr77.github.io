@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T06:51:27.912Z",
-  "total": 406,
-  "active": 8,
+  "updatedAt": "2026-09-03T06:59:42.212Z",
+  "total": 409,
+  "active": 5,
   "configs": [
     {
       "type": "vless",
@@ -31,6 +31,19 @@
     },
     {
       "type": "vless",
+      "server": "us6.lunariai.ru",
+      "port": 443,
+      "tls": false,
+      "net": "ws",
+      "host": "us6.lunariai.ru",
+      "sni": "us6.lunariai.ru",
+      "country": "US",
+      "raw": "vless://170e1be8-e51b-4a82-a779-3ad27b78607c@us6.lunariai.ru:443?&type=ws&headerType=none&host=us6.lunariai.ru&path=/#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
       "server": "k2.cloud--vpn.site",
       "port": 443,
       "tls": true,
@@ -44,67 +57,15 @@
     },
     {
       "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwY24iOiIiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCflbbvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoielVEc3NnVE1ScWc5THB2SS52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🕶️",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfp6kiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🧩",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfp6giLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🧨",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "renderer-stream-2-62.mirra.now",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "renderer-stream-2-62.mirra.now",
-      "sni": "renderer-stream-2-62.mirra.now",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+nrCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0ZXN0X25hbWUiOiIzIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🧬",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
       "server": "planb.mojcn.com.linuxlh.xin",
       "port": 16626,
       "tls": false,
       "net": "ws",
       "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+UriIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🔮",
+      "country": "IN",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsInR5cGUiOiJub25lIiwiaWQiOiJjZWZiZTIzNC1iY2M2LTQ1NTgtYWI3Yi0xMDMwZTMzMWU2YTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇮🇳[openproxylist.com] vmess-IN",
       "behindCF": false
     }
   ]
