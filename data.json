@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T15:23:03.825Z",
+  "updatedAt": "2026-09-03T15:30:47.226Z",
   "total": 402,
-  "active": 8,
+  "active": 6,
   "configs": [
     {
       "type": "vless",
@@ -69,42 +69,16 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "maple.adaspoloandco.com",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "maple.adaspoloandco.com",
-      "sni": "maple.adaspoloandco.com",
-      "country": "CA",
-      "raw": "vless://db3f09ae-23f2-42b8-abee-7b89fb392c5e@maple.adaspoloandco.com:8443?encryption=none&security=tls&sni=maple.adaspoloandco.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=/uploader.php#🇨🇦[openproxylist.com] vless-CA",
-      "ps": "🇨🇦[openproxylist.com] vless-CA",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "neth8.lunariai.ru",
-      "port": 443,
-      "tls": false,
-      "net": "ws",
-      "host": "neth8.lunariai.ru",
-      "sni": "neth8.lunariai.ru",
-      "country": "DE",
-      "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?allowInsecure=1&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
-    {
       "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
+      "server": "renderer-stream-2-62.mirra.now",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "host": "renderer-stream-2-62.mirra.now",
+      "sni": "renderer-stream-2-62.mirra.now",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfpociLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🦇",
+      "raw": "vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+buCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0ZXN0X25hbWUiOiI0NSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🛸",
       "behindCF": false
     }
   ]
