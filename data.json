@@ -1,19 +1,32 @@
 {
-  "updatedAt": "2026-09-03T17:07:04.350Z",
-  "total": 400,
-  "active": 1,
+  "updatedAt": "2026-09-03T17:13:30.478Z",
+  "total": 399,
+  "active": 2,
   "configs": [
     {
       "type": "vmess",
-      "server": "deapp.jisuyun.top",
-      "port": 2053,
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
+      "tls": false,
+      "net": "ws",
+      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "country": "IN",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsImlkIjoiY2VmYmUyMzQtYmNjNi00NTU4LWFiN2ItMTAzMGUzMzFlNmE1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiIiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇮🇳[openproxylist.com] vmess-IN",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "maple.adaspoloandco.com",
+      "port": 8443,
       "tls": true,
       "net": "ws",
-      "host": "deapp.jisuyun.top",
-      "sni": "deapp.jisuyun.top",
-      "country": "🌍",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJkZWFwcC5qaXN1eXVuLnRvcCIsInBvcnQiOiIyMDUzIiwiaWQiOiI5YTFhMDVkOS02OWJlLTQ1ZDMtZTMyNi1jNjYyMWVkZjdiMzEiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwicGF0aCI6IlwvZGV2bSIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🏳[openproxylist.com] vmess-",
+      "host": "maple.adaspoloandco.com",
+      "sni": "maple.adaspoloandco.com",
+      "country": "CA",
+      "raw": "vless://db3f09ae-23f2-42b8-abee-7b89fb392c5e@maple.adaspoloandco.com:8443?encryption=none&security=tls&sni=maple.adaspoloandco.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=/uploader.php#🇨🇦[openproxylist.com] vless-CA",
+      "ps": "🇨🇦[openproxylist.com] vless-CA",
       "behindCF": false
     }
   ]
