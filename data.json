@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-09-03T11:20:27.399Z",
+  "updatedAt": "2026-09-03T11:28:11.501Z",
   "total": 385,
   "active": 6,
   "configs": [
     {
       "type": "vmess",
-      "server": "ex1ogt73nzpqkac2.v.3dns.vip",
-      "port": 443,
-      "tls": true,
+      "server": "fr3.niekotin.de",
+      "port": 80,
+      "tls": false,
       "net": "ws",
-      "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
-      "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
+      "host": "fr3.niekotin.de",
+      "sni": "fr3.niekotin.de",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiJFWDFvR3Q3M056UFFLQWMyLnYuM2Rucy52aXAiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg4puT77iPIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiRVgxb0d0NzNOelBRS0FjMi52LjNkbnMudmlwIiwidGxzIjoidGxzIn0=",
-      "ps": "By EbraSha ⛓️",
+      "raw": "vmess://eyJhZGQiOiJmcjMubmlla290aW4uZGUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImZyMy5uaWVrb3Rpbi5kZSIsImlkIjoiNTllMjk5MTgtNTNiMy00ZmEyLWJlY2YtNTZhNjAxZjMzOTk4IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzIiwicG9ydCI6IjgwIiwicHMiOiJCeSBFYnJhU2hhIOKZoO+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha ♠️",
       "behindCF": false
     },
     {
