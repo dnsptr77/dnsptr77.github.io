@@ -9,7 +9,10 @@ const { execSync, spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE = 'https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt';
+const SOURCES = [
+  'https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt',
+  'https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/V2Ray-Config-By-EbraSha.txt',
+];
 const XRAY_BIN = path.join(__dirname, 'xray', 'xray');
 const PROXY_PORT = 10808;
 const TEST_TIMEOUT = 12000;
@@ -320,14 +323,23 @@ async function main() {
   console.log('  Smart Parser + Cloudflare-aware');
   console.log('═══════════════════════════════════════');
 
-  // 1. Fetch
-  console.log('\n[1/4] Fetching configs...');
-  const raw = await fetchUrl(SOURCE);
-  const lines = raw.split('\n').map(l => l.trim()).filter(l =>
-    l && !l.startsWith('#') &&
-    (l.startsWith('vmess://') || l.startsWith('vless://') || l.startsWith('trojan://'))
-  );
-  console.log(`  Found ${lines.length} configs`);
+  // 1. Fetch from all sources
+  console.log('\n[1/4] Fetching configs from all sources...');
+  const lines = [];
+  for (const src of SOURCES) {
+    try {
+      const raw = await fetchUrl(src);
+      const srcLines = raw.split('\n').map(l => l.trim()).filter(l =>
+        l && !l.startsWith('#') &&
+        (l.startsWith('vmess://') || l.startsWith('vless://') || l.startsWith('trojan://'))
+      );
+      console.log(`  ✅ ${src.split('/').pop()}: ${srcLines.length} configs`);
+      lines.push(...srcLines);
+    } catch (e) {
+      console.log(`  ❌ ${src.split('/').pop()}: ${e.message}`);
+    }
+  }
+  console.log(`  Total: ${lines.length} configs from ${SOURCES.length} sources`);
 
   // 2. Parse (Smart)
   console.log('\n[2/4] Parsing (smart host/sni extraction)...');
