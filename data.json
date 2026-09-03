@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-03T23:46:07.569Z",
-  "total": 398,
+  "updatedAt": "2026-09-03T23:54:49.628Z",
+  "total": 397,
   "active": 5,
   "configs": [
     {
@@ -12,8 +12,8 @@
       "host": "phoenix0202.zgjok.com",
       "sni": "phoenix0202.zgjok.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOiIwIiwiaG9zdCI6InBob2VuaXgwMjAyLnpnam9rLmNvbSIsImlkIjoiZDljMzZiNTUtNDQ3YS00NDg0LTg4MmItZDc5OWY1MzAxNjgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Q5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+qliIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJ0ZXN0X25hbWUiOiJVUzExIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🪖",
+      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOiIwIiwiaG9zdCI6InBob2VuaXgwMjAyLnpnam9rLmNvbSIsImlkIjoiZDljMzZiNTUtNDQ3YS00NDg0LTg4MmItZDc5OWY1MzAxNjgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Q5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+TtiIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJ0ZXN0X25hbWUiOiJVUzExIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 📶",
       "behindCF": false
     },
     {
@@ -25,8 +25,8 @@
       "host": "phoenix0202.zgjok.com",
       "sni": "phoenix0202.zgjok.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOjAsImhvc3QiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJpZCI6ImQ5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kOWMzNmI1NS00NDdhLTQ0ODQtODgyYi1kNzk5ZjUzMDE2ODEiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn4yRIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGhvZW5peDAyMDIuemdqb2suY29tIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
-      "ps": "By EbraSha 🌑",
+      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOjAsImhvc3QiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJpZCI6ImQ5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kOWMzNmI1NS00NDdhLTQ0ODQtODgyYi1kNzk5ZjUzMDE2ODEiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5O8Iiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGhvZW5peDAyMDIuemdqb2suY29tIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
+      "ps": "By EbraSha 📼",
       "behindCF": false
     },
     {
@@ -38,8 +38,8 @@
       "host": "phoenix0202.zgjok.com",
       "sni": "phoenix0202.zgjok.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOjAsImhvc3QiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJpZCI6ImQ5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kOWMzNmI1NS00NDdhLTQ0ODQtODgyYi1kNzk5ZjUzMDE2ODEiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDim5PvuI8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byJ9",
-      "ps": "By EbraSha ⛓️",
+      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOjAsImhvc3QiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJpZCI6ImQ5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kOWMzNmI1NS00NDdhLTQ0ODQtODgyYi1kNzk5ZjUzMDE2ODEiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5SQIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGhvZW5peDAyMDIuemdqb2suY29tIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
+      "ps": "By EbraSha 🔐",
       "behindCF": false
     },
     {
@@ -51,8 +51,8 @@
       "host": "phoenix0202.zgjok.com",
       "sni": "phoenix0202.zgjok.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOjAsImhvc3QiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJpZCI6ImQ5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kOWMzNmI1NS00NDdhLTQ0ODQtODgyYi1kNzk5ZjUzMDE2ODEiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5qAIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGhvZW5peDAyMDIuemdqb2suY29tIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
-      "ps": "By EbraSha 🚀",
+      "raw": "vmess://eyJhZGQiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJhaWQiOjAsImhvc3QiOiJwaG9lbml4MDIwMi56Z2pvay5jb20iLCJpZCI6ImQ5YzM2YjU1LTQ0N2EtNDQ4NC04ODJiLWQ3OTlmNTMwMTY4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kOWMzNmI1NS00NDdhLTQ0ODQtODgyYi1kNzk5ZjUzMDE2ODEiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn6epIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGhvZW5peDAyMDIuemdqb2suY29tIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
+      "ps": "By EbraSha 🧩",
       "behindCF": false
     },
     {
@@ -64,8 +64,8 @@
       "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg4puT77iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha ⛓️",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+SuyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 💻",
       "behindCF": false
     }
   ]
