@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T06:08:49.457Z",
+  "updatedAt": "2026-09-03T06:16:40.951Z",
   "total": 404,
   "active": 9,
   "configs": [
@@ -90,21 +90,21 @@
       "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
       "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiJFWDFvR3Q3M056UFFLQWMyLnYuM2Rucy52aXAiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+nqiIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IkVYMW9HdDczTnpQUUtBYzIudi4zZG5zLnZpcCIsInRscyI6InRscyJ9",
-      "ps": "By EbraSha 🧪",
+      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiJFWDFvR3Q3M056UFFLQWMyLnYuM2Rucy52aXAiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg4pqZ77iPIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiRVgxb0d0NzNOelBRS0FjMi52LjNkbnMudmlwIiwidGxzIjoidGxzIn0=",
+      "ps": "By EbraSha ⚙️",
       "behindCF": false
     },
     {
       "type": "vmess",
-      "server": "ex1ogt73nzpqkac2.v.3dns.vip",
-      "port": 443,
-      "tls": true,
+      "server": "fr3.niekotin.de",
+      "port": 80,
+      "tls": false,
       "net": "ws",
-      "host": "EX1oGt73NzPQKAc2.v.3dns.vip",
-      "sni": "EX1oGt73NzPQKAc2.v.3dns.vip",
+      "host": "fr3.niekotin.de",
+      "sni": "fr3.niekotin.de",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJleDFvZ3Q3M256cHFrYWMyLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiJFWDFvR3Q3M056UFFLQWMyLnYuM2Rucy52aXAiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg4pqZ77iPIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiRVgxb0d0NzNOelBRS0FjMi52LjNkbnMudmlwIiwidGxzIjoidGxzIn0=",
-      "ps": "By EbraSha ⚙️",
+      "raw": "vmess://eyJhZGQiOiJmcjMubmlla290aW4uZGUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImZyMy5uaWVrb3Rpbi5kZSIsImlkIjoiNTllMjk5MTgtNTNiMy00ZmEyLWJlY2YtNTZhNjAxZjMzOTk4IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzIiwicG9ydCI6IjgwIiwicHMiOiJCeSBFYnJhU2hhIPCfkqMiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoibm9uZSIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 💣",
       "behindCF": false
     },
     {
