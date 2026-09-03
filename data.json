@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-03T05:11:59.199Z",
+  "updatedAt": "2026-09-03T05:19:31.312Z",
   "total": 397,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "hamishevaslbashconfig-production-d2ec.up.railway.app",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "hamishevaslbashconfig-production-d2ec.up.railway.app",
-      "sni": "hamishevaslbashconfig-production-d2ec.up.railway.app",
-      "country": "NL",
-      "raw": "vless://8c061392-f0c1-c314-df43-261703660bcf@hamishevaslbashconfig-production-d2ec.up.railway.app:443?encryption=none&security=tls&type=ws&host=hamishevaslbashconfig-production-d2ec.up.railway.app&path=/ws/8c061392-f0c1-c314-df43-261703660bcf&sni=hamishevaslbashconfig-production-d2ec.up.railway.app&fp=chrome&alpn=http/1.1#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "ex1ogt73nzpqkac2.v.3dns.vip",
