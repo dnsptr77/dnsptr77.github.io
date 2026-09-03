@@ -1,0 +1,60 @@
+name: Test VPN Configs
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '*/3 * * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [vpn-test]
+
+permissions:
+  contents: write
+
+jobs:
+  test-vpn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Xray-core
+        run: |
+          echo "=== Installing Xray-core ==="
+          curl -sL https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -o xray.zip
+          unzip -o xray.zip -d xray
+          chmod +x xray/xray
+          echo "$(pwd)/xray" >> $GITHUB_PATH
+          xray/xray version
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch & Test VPN Configs
+        run: node test-vpn.js
+
+      - name: Commit Results
+        run: |
+          git config user.name "VPN Finder Bot"
+          git config user.email "bot@dnsptr77.github.io"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔄 Auto-update $(date -u '+%H:%M:%S UTC')"
+            git push
+          fi
+
+      - name: Trigger Next Scan
+        if: success()
+        run: |
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+            -d '{"event_type":"vpn-test"}' || true
