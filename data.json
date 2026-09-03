@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T06:43:12.348Z",
+  "updatedAt": "2026-09-03T06:51:27.912Z",
   "total": 406,
-  "active": 10,
+  "active": 8,
   "configs": [
     {
       "type": "vless",
@@ -31,19 +31,6 @@
     },
     {
       "type": "vless",
-      "server": "us6.lunariai.ru",
-      "port": 443,
-      "tls": false,
-      "net": "ws",
-      "host": "us6.lunariai.ru",
-      "sni": "us6.lunariai.ru",
-      "country": "US",
-      "raw": "vless://170e1be8-e51b-4a82-a779-3ad27b78607c@us6.lunariai.ru:443?&type=ws&headerType=none&host=us6.lunariai.ru&path=/#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
       "server": "k2.cloud--vpn.site",
       "port": 443,
       "tls": true,
@@ -53,19 +40,6 @@
       "country": "FI",
       "raw": "vless://d60e2537-13e8-41db-bdad-cd5c054a0ec7@k2.cloud--vpn.site:443?path=/&security=tls&alpn=h2&encryption=none&insecure=0&host=c12.com&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇫🇮[openproxylist.com] vless-FI",
       "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "planb.mojcn.com.linuxlh.xin",
-      "port": 16626,
-      "tls": false,
-      "net": "ws",
-      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "country": "IN",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsInR5cGUiOiJub25lIiwiaWQiOiJjZWZiZTIzNC1iY2M2LTQ1NTgtYWI3Yi0xMDMwZTMzMWU2YTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇮🇳[openproxylist.com] vmess-IN",
       "behindCF": false
     },
     {
