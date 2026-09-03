@@ -15,7 +15,7 @@ const SOURCES = [
 ];
 const XRAY_BIN = path.join(__dirname, 'xray', 'xray');
 const PROXY_PORT = 10808;
-const TEST_TIMEOUT = 12000;
+const TEST_TIMEOUT = 8000;
 const RESULTS_FILE = path.join(__dirname, 'data.json');
 
 // Cloudflare IPs — config di belakang CF wajib pakai ini
@@ -375,17 +375,20 @@ async function main() {
   });
   console.log(`  Valid domain only: ${validConfigs.length} / ${wsConfigs.length}`);
 
-  // 5. Test
+  // 5. Test (5 at a time for speed)
   console.log('\n[3/4] Testing with Xray-core...');
   const results = [];
-  let tested = 0;
-  for (const cfg of validConfigs) {
-    tested++;
-    const addr = cfg.behindCF ? CF_IP : cfg.server;
-    process.stdout.write(`  [${tested}/${validConfigs.length}] ${cfg.type} → ${addr}:${cfg.port} Host:${cfg.host.substring(0,30)}... `);
-    const result = await testConfig(cfg);
-    results.push(result);
-    console.log(result.alive ? '✅' : '❌');
+  const BATCH = 5;
+  for (let i = 0; i < validConfigs.length; i += BATCH) {
+    const batch = validConfigs.slice(i, i + BATCH);
+    const batchResults = await Promise.all(batch.map(async (cfg) => {
+      const addr = cfg.behindCF ? CF_IP : cfg.server;
+      process.stdout.write(`  [${results.length + 1}/${validConfigs.length}] ${cfg.type} → ${addr}:${cfg.port}... `);
+      const result = await testConfig(cfg);
+      console.log(result.alive ? '✅' : '❌');
+      return result;
+    }));
+    results.push(...batchResults);
   }
 
   // 5. Save

@@ -15,7 +15,7 @@ permissions:
 jobs:
   test-vpn:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
 
     steps:
       - name: Checkout
