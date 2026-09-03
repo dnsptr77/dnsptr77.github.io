@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T05:54:50.096Z",
+  "updatedAt": "2026-09-03T06:01:04.165Z",
   "total": 402,
-  "active": 2,
+  "active": 1,
   "configs": [
     {
       "type": "vless",
@@ -14,19 +14,6 @@
       "country": "NL",
       "raw": "vless://8c061392-f0c1-c314-df43-261703660bcf@hamishevaslbashconfig-production-d2ec.up.railway.app:443?encryption=none&security=tls&type=ws&host=hamishevaslbashconfig-production-d2ec.up.railway.app&path=/ws/8c061392-f0c1-c314-df43-261703660bcf&sni=hamishevaslbashconfig-production-d2ec.up.railway.app&fp=chrome&alpn=http/1.1#🇳🇱[openproxylist.com] vless-NL",
       "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "us6.lunariai.ru",
-      "port": 443,
-      "tls": false,
-      "net": "ws",
-      "host": "us6.lunariai.ru",
-      "sni": "us6.lunariai.ru",
-      "country": "US",
-      "raw": "vless://170e1be8-e51b-4a82-a779-3ad27b78607c@us6.lunariai.ru:443?&type=ws&headerType=none&host=us6.lunariai.ru&path=/#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
       "behindCF": false
     }
   ]
