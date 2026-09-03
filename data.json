@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T05:27:30.125Z",
+  "updatedAt": "2026-09-03T05:35:13.280Z",
   "total": 405,
-  "active": 3,
+  "active": 1,
   "configs": [
     {
       "type": "vless",
@@ -14,32 +14,6 @@
       "country": "NL",
       "raw": "vless://8c061392-f0c1-c314-df43-261703660bcf@hamishevaslbashconfig-production-d2ec.up.railway.app:443?encryption=none&security=tls&type=ws&host=hamishevaslbashconfig-production-d2ec.up.railway.app&path=/ws/8c061392-f0c1-c314-df43-261703660bcf&sni=hamishevaslbashconfig-production-d2ec.up.railway.app&fp=chrome&alpn=http/1.1#🇳🇱[openproxylist.com] vless-NL",
       "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwY24iOiIiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfjIMiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoielVEc3NnVE1ScWc5THB2SS52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🌃",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfp6kiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🧩",
       "behindCF": false
     }
   ]
