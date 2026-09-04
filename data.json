@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T02:57:59.144Z",
+  "updatedAt": "2026-09-04T03:05:56.005Z",
   "total": 409,
-  "active": 9,
+  "active": 8,
   "configs": [
     {
       "type": "vless",
@@ -80,19 +80,6 @@
       "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfmoAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
       "ps": "By EbraSha 🚀",
       "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "104.105.6.167",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "deapp.jisuyun.top",
-      "sni": "deapp.jisuyun.top",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTA1LjYuMTY3IiwiYWlkIjoiMCIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsImlkIjoiOWExYTA1ZDktNjliZS00NWQzLWUzMjYtYzY2MjFlZGY3YjMxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Rldm0iLCJwb3J0IjoiMjA1MyIsInBzIjoiQnkgRWJyYVNoYSDwn6m4Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🩸",
-      "behindCF": true
     },
     {
       "type": "vmess",
