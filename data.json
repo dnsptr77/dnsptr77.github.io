@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T00:09:04.698Z",
+  "updatedAt": "2026-09-04T00:14:36.559Z",
   "total": 401,
-  "active": 1,
+  "active": 3,
   "configs": [
     {
       "type": "vless",
@@ -15,6 +15,32 @@
       "raw": "vless://a17be1ef-d5bc-41a1-aeac-b02345823f07@y347t3784gfh478f4.tr.snapeurop.com:666?&type=ws&headerType=none&host=ads.mohsen3.ir&path=%2F#🇹🇷[openproxylist.com] vless-TR",
       "ps": "🇹🇷[openproxylist.com] vless-TR",
       "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.27.13.230",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "shopki.dearhossein-taktaz.ir",
+      "sni": "shopki.dearhossein-taktaz.ir",
+      "country": "FI",
+      "raw": "vless://5e2be2b4-8af5-4d18-a15c-d4cb4b1d6ae6@104.27.13.230:8443?&security=tls&fp=chrome&sni=shopki.dearhossein-taktaz.ir&type=ws&headerType=none&host=shopki.dearhossein-taktaz.ir&path=%2F#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": true
+    },
+    {
+      "type": "trojan",
+      "server": "104.21.70.21",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "id1.nathaya.web.id",
+      "sni": "id1.nathaya.web.id",
+      "country": "ID",
+      "raw": "trojan://018b8e7b-7813-4dcb-84a5-3c98f1521e00@104.21.70.21:443?path=/trojan&security=tls&fm={\"tcp\":[{\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"5\",\"94\",\"1\"],\"delays\":[\"0\"],\"maxSplit\":\"0\"}},{\"type\":\"fragment\",\"settings\":{\"packets\":\"1-1\",\"lengths\":[\"109\",\"1\"],\"delays\":[\"1\"],\"maxSplit\":\"355\"}}]}&insecure=0&host=id1.nathaya.web.id&fp=unsafe&type=ws&allowInsecure=0&sni=id1.nathaya.web.id#🇮🇩[openproxylist.com] trojan-ID",
+      "ps": "🇮🇩[openproxylist.com] trojan-ID",
+      "behindCF": true
     }
   ]
 }
