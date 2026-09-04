@@ -1,8 +1,34 @@
 {
-  "updatedAt": "2026-09-04T11:40:45.505Z",
+  "updatedAt": "2026-09-04T11:49:36.603Z",
   "total": 400,
-  "active": 3,
+  "active": 5,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIOKZo++4jyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha ♣️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCflIwiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🔌",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "104.105.6.167",
