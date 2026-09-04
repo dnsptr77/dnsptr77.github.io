@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-04T03:20:37.444Z",
+  "updatedAt": "2026-09-04T03:27:46.859Z",
   "total": 408,
-  "active": 9,
+  "active": 8,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "planb.mojcn.com.linuxlh.xin",
-      "port": 16626,
-      "tls": false,
-      "net": "ws",
-      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "country": "IN",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsInR5cGUiOiJub25lIiwiaWQiOiJjZWZiZTIzNC1iY2M2LTQ1NTgtYWI3Yi0xMDMwZTMzMWU2YTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇮🇳[openproxylist.com] vmess-IN",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "rush-w1niu.teeopp.online",
