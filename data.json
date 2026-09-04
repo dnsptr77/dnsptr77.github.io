@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T01:56:25.451Z",
+  "updatedAt": "2026-09-04T02:04:57.093Z",
   "total": 401,
-  "active": 7,
+  "active": 11,
   "configs": [
     {
       "type": "vless",
@@ -14,6 +14,58 @@
       "country": "NL",
       "raw": "vless://23578a2c-2493-41f0-89ef-d7d3a7b85252@sa-ee0441551507e46c.sr-cbeea22261c8564d.r.vpvpn.club:8443?path=%2FNL4W&security=tls&encryption=none&insecure=0&host=nl4.pad-service.com&fp=firefox&type=ws&allowInsecure=0&sni=nl4.pad-service.com#🇳🇱[openproxylist.com] vless-NL",
       "ps": "🇳🇱[openproxylist.com] vless-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "y347t3784gfh478f4.tr.snapeurop.com",
+      "port": 666,
+      "tls": false,
+      "net": "ws",
+      "host": "ads.mohsen3.ir",
+      "sni": "ads.mohsen3.ir",
+      "country": "TR",
+      "raw": "vless://a17be1ef-d5bc-41a1-aeac-b02345823f07@y347t3784gfh478f4.tr.snapeurop.com:666?&type=ws&headerType=none&host=ads.mohsen3.ir&path=%2F#🇹🇷[openproxylist.com] vless-TR",
+      "ps": "🇹🇷[openproxylist.com] vless-TR",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.27.13.230",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "shopki.dearhossein-taktaz.ir",
+      "sni": "shopki.dearhossein-taktaz.ir",
+      "country": "FI",
+      "raw": "vless://5e2be2b4-8af5-4d18-a15c-d4cb4b1d6ae6@104.27.13.230:8443?&security=tls&fp=chrome&sni=shopki.dearhossein-taktaz.ir&type=ws&headerType=none&host=shopki.dearhossein-taktaz.ir&path=%2F#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": true
+    },
+    {
+      "type": "vless",
+      "server": "sinavm.soft10.ir",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "sinavm.soft10.ir",
+      "sni": "sinavm.soft10.ir",
+      "country": "TR",
+      "raw": "vless://3a09e0c9-4194-4b85-8d7f-fd1fc38f00b2@sinavm.soft10.ir:443?encryption=none&type=ws&host=sinavm.soft10.ir&path=/assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM&security=tls&fp=chrome&sni=sinavm.soft10.ir&alpn=http/1.1#🇹🇷[openproxylist.com] vless-TR",
+      "ps": "🇹🇷[openproxylist.com] vless-TR",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
+      "tls": false,
+      "net": "ws",
+      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "country": "IN",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsInR5cGUiOiJub25lIiwiaWQiOiJjZWZiZTIzNC1iY2M2LTQ1NTgtYWI3Yi0xMDMwZTMzMWU2YTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇮🇳[openproxylist.com] vmess-IN",
       "behindCF": false
     },
     {
