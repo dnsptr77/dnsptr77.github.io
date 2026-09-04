@@ -1,34 +1,8 @@
 {
-  "updatedAt": "2026-09-04T02:43:02.087Z",
+  "updatedAt": "2026-09-04T02:50:32.059Z",
   "total": 410,
-  "active": 10,
+  "active": 7,
   "configs": [
-    {
-      "type": "vless",
-      "server": "sa-ee0441551507e46c.sr-cbeea22261c8564d.r.vpvpn.club",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "nl4.pad-service.com",
-      "sni": "nl4.pad-service.com",
-      "country": "NL",
-      "raw": "vless://23578a2c-2493-41f0-89ef-d7d3a7b85252@sa-ee0441551507e46c.sr-cbeea22261c8564d.r.vpvpn.club:8443?path=%2FNL4W&security=tls&encryption=none&insecure=0&host=nl4.pad-service.com&fp=firefox&type=ws&allowInsecure=0&sni=nl4.pad-service.com#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "y347t3784gfh478f4.tr.snapeurop.com",
-      "port": 666,
-      "tls": false,
-      "net": "ws",
-      "host": "ads.mohsen3.ir",
-      "sni": "ads.mohsen3.ir",
-      "country": "TR",
-      "raw": "vless://a17be1ef-d5bc-41a1-aeac-b02345823f07@y347t3784gfh478f4.tr.snapeurop.com:666?&type=ws&headerType=none&host=ads.mohsen3.ir&path=%2F#🇹🇷[openproxylist.com] vless-TR",
-      "ps": "🇹🇷[openproxylist.com] vless-TR",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "104.27.13.230",
@@ -53,19 +27,6 @@
       "country": "TR",
       "raw": "vless://3a09e0c9-4194-4b85-8d7f-fd1fc38f00b2@sinavm.soft10.ir:443?encryption=none&type=ws&host=sinavm.soft10.ir&path=/assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM&security=tls&fp=chrome&sni=sinavm.soft10.ir&alpn=http/1.1#🇹🇷[openproxylist.com] vless-TR",
       "ps": "🇹🇷[openproxylist.com] vless-TR",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "planb.mojcn.com.linuxlh.xin",
-      "port": 16626,
-      "tls": false,
-      "net": "ws",
-      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
-      "country": "IN",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1JTiIsImFkZCI6InBsYW5iLm1vamNuLmNvbS5saW51eGxoLnhpbiIsInBvcnQiOiIxNjYyNiIsInR5cGUiOiJub25lIiwiaWQiOiJjZWZiZTIzNC1iY2M2LTQ1NTgtYWI3Yi0xMDMwZTMzMWU2YTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiZDA1MmM2NmQ1MGRjZjdjM2NmYWI3NWVkN2Y4ZTgzMjIubW9iZ3NsYi50YmNhY2hlLmNvbSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇮🇳[openproxylist.com] vmess-IN",
       "behindCF": false
     },
     {
