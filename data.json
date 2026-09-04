@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-04T11:23:31.367Z",
+  "updatedAt": "2026-09-04T11:32:03.450Z",
   "total": 403,
-  "active": 3,
+  "active": 2,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "104.105.6.167",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "deapp.jisuyun.top",
-      "sni": "deapp.jisuyun.top",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTA1LjYuMTY3IiwiYWlkIjoiMCIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsImlkIjoiOWExYTA1ZDktNjliZS00NWQzLWUzMjYtYzY2MjFlZGY3YjMxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Rldm0iLCJwb3J0IjoiMjA1MyIsInBzIjoiQnkgRWJyYVNoYSDwn6m4Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwidGVzdF9uYW1lIjoiOTUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🩸",
-      "behindCF": true
-    },
     {
       "type": "vmess",
       "server": "renderer-stream-2-62.mirra.now",
