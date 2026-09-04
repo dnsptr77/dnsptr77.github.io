@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-04T09:10:31.266Z",
+  "updatedAt": "2026-09-04T09:18:00.819Z",
   "total": 413,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2096,
-      "tls": true,
-      "net": "ws",
-      "host": "shalana.xyz",
-      "sni": "shalana.xyz",
-      "country": "SG",
-      "raw": "vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?&security=tls&fp=unsafe&sni=shalana.xyz&type=ws&headerType=none&host=shalana.xyz&path=%2Fshalana#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "142.248.218.34",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "edge.yzkvm.top",
-      "sni": "edge.yzkvm.top",
-      "country": "US",
-      "raw": "vless://bba95b1f-f48c-454b-897b-a6c6bc307df1@142.248.218.34:2053?sni=edge.yzkvm.top&type=ws&host=edge.yzkvm.top&path=/fp=chromefp=chrome&security=tls#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
