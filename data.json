@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T06:41:01.675Z",
+  "updatedAt": "2026-09-04T06:48:52.560Z",
   "total": 410,
-  "active": 2,
+  "active": 1,
   "configs": [
     {
       "type": "vless",
@@ -14,19 +14,6 @@
       "country": "US",
       "raw": "vless://bba95b1f-f48c-454b-897b-a6c6bc307df1@142.248.218.34:2053?sni=edge.yzkvm.top&type=ws&host=edge.yzkvm.top&path=/fp=chromefp=chrome&security=tls#🇺🇸[openproxylist.com] vless-US",
       "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "pl3.lckdwn.ru",
-      "port": 443,
-      "tls": false,
-      "net": "ws",
-      "host": "pl3.lckdwn.ru",
-      "sni": "pl3.lckdwn.ru",
-      "country": "PL",
-      "raw": "vless://84c898c4-6990-4121-ae51-27d989f5ce39@pl3.lckdwn.ru:443?&type=ws&headerType=none&host=pl3.lckdwn.ru&path=%2F#🇵🇱[openproxylist.com] vless-PL",
-      "ps": "🇵🇱[openproxylist.com] vless-PL",
       "behindCF": false
     }
   ]
