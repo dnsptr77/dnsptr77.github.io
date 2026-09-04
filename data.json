@@ -1,6 +1,59 @@
 {
-  "updatedAt": "2026-09-04T16:03:15.138Z",
-  "total": 409,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-04T16:10:50.010Z",
+  "total": 407,
+  "active": 4,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "atila-production-a158.up.railway.app",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "atila-production-a158.up.railway.app",
+      "sni": "atila-production-a158.up.railway.app",
+      "country": "NL",
+      "raw": "vless://24bbe33b-71be-13c4-b15b-118dd019d878@atila-production-a158.up.railway.app:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=atila-production-a158.up.railway.app&type=ws&headerType=none&host=atila-production-a158.up.railway.app&path=%2Fws%2F24bbe33b-71be-13c4-b15b-118dd019d878#🇳🇱[openproxylist.com] vless-NL",
+      "ps": "🇳🇱[openproxylist.com] vless-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "rush-w1niu.teeopp.online",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "rush-w1niu.teeopp.online",
+      "sni": "rush-w1niu.teeopp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJydXNoLXcxbml1LnRlZW9wcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6InJ1c2gtdzFuaXUudGVlb3BwLm9ubGluZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZpZGVvL3Y0c3gzcS96eHpydXJrYy5tM3U4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5qoIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InJ1c2gtdzFuaXUudGVlb3BwLm9ubGluZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🚨",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "rush-w1niu.teeopp.online",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "rush-w1niu.teeopp.online",
+      "sni": "rush-w1niu.teeopp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJydXNoLXcxbml1LnRlZW9wcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6InJ1c2gtdzFuaXUudGVlb3BwLm9ubGluZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZpZGVvL3Y0c3gzcS96eHpydXJrYy5tM3U4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5e/Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InJ1c2gtdzFuaXUudGVlb3BwLm9ubGluZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🗿",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "rush-w1niu.teeopp.online",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "rush-w1niu.teeopp.online",
+      "sni": "rush-w1niu.teeopp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJydXNoLXcxbml1LnRlZW9wcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6InJ1c2gtdzFuaXUudGVlb3BwLm9ubGluZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZpZGVvL3Y0c3gzcS96eHpydXJrYy5tM3U4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5OAIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InJ1c2gtdzFuaXUudGVlb3BwLm9ubGluZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 📀",
+      "behindCF": false
+    }
+  ]
 }
