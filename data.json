@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T02:21:30.468Z",
+  "updatedAt": "2026-09-04T02:28:39.380Z",
   "total": 409,
-  "active": 6,
+  "active": 9,
   "configs": [
     {
       "type": "vless",
@@ -69,16 +69,55 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "163.8.195.241",
-      "port": 2087,
+      "type": "vmess",
+      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIOKbk++4jyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha ⛓️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "104.105.6.167",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "deapp.jisuyun.top",
+      "sni": "deapp.jisuyun.top",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTA1LjYuMTY3IiwiYWlkIjoiMCIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsImlkIjoiOWExYTA1ZDktNjliZS00NWQzLWUzMjYtYzY2MjFlZGY3YjMxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Rldm0iLCJwb3J0IjoiMjA1MyIsInBzIjoiQnkgRWJyYVNoYSDwn5O8Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 📼",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
       "tls": false,
       "net": "ws",
-      "host": "/?--v2rayNplus--v2rayNplus--v2rayNplus--",
-      "sni": "/?--v2rayNplus--v2rayNplus--v2rayNplus--",
-      "country": "DE",
-      "raw": "vless://56ba5d34-ef22-4ba6-8090-4188b807df54@163.8.195.241:2087?path=/29c8fed7ca22&security=&encryption=none&host=/?--v2rayNplus--v2rayNplus--v2rayNplus--&type=ws#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+nqiIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🧪",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
+      "tls": false,
+      "net": "ws",
+      "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+bnCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🛜",
       "behindCF": false
     }
   ]
