@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-04T00:03:29.484Z",
-  "total": 397,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-04T00:09:04.698Z",
+  "total": 401,
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "y347t3784gfh478f4.tr.snapeurop.com",
+      "port": 666,
+      "tls": false,
+      "net": "ws",
+      "host": "ads.mohsen3.ir",
+      "sni": "ads.mohsen3.ir",
+      "country": "TR",
+      "raw": "vless://a17be1ef-d5bc-41a1-aeac-b02345823f07@y347t3784gfh478f4.tr.snapeurop.com:666?&type=ws&headerType=none&host=ads.mohsen3.ir&path=%2F#🇹🇷[openproxylist.com] vless-TR",
+      "ps": "🇹🇷[openproxylist.com] vless-TR",
+      "behindCF": false
+    }
+  ]
 }
