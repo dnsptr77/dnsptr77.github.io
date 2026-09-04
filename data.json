@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-04T15:46:48.082Z",
-  "total": 408,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-04T15:52:00.695Z",
+  "total": 409,
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 2096,
+      "tls": true,
+      "net": "ws",
+      "host": "shalana.xyz",
+      "sni": "shalana.xyz",
+      "country": "SG",
+      "raw": "vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?&security=tls&fp=unsafe&sni=shalana.xyz&type=ws&headerType=none&host=shalana.xyz&path=%2Fshalana#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": false
+    }
+  ]
 }
