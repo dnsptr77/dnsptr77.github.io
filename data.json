@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-04T16:46:22.221Z",
-  "total": 404,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "atila-production-a158.up.railway.app",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "atila-production-a158.up.railway.app",
-      "sni": "atila-production-a158.up.railway.app",
-      "country": "NL",
-      "raw": "vless://24bbe33b-71be-13c4-b15b-118dd019d878@atila-production-a158.up.railway.app:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=atila-production-a158.up.railway.app&type=ws&headerType=none&host=atila-production-a158.up.railway.app&path=%2Fws%2F24bbe33b-71be-13c4-b15b-118dd019d878#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-09-04T16:56:20.936Z",
+  "total": 405,
+  "active": 0,
+  "configs": []
 }
