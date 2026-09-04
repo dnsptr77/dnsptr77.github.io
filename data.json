@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T01:14:51.437Z",
+  "updatedAt": "2026-09-04T01:23:10.545Z",
   "total": 402,
   "active": 8,
   "configs": [
@@ -90,8 +90,8 @@
       "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg4pqhIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha ⚡",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+UkCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🔐",
       "behindCF": false
     },
     {
@@ -103,8 +103,8 @@
       "host": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "sni": "d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg4pmj77iPIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha ♣️",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImQwNTJjNjZkNTBkY2Y3YzNjZmFiNzVlZDdmOGU4MzIyLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImNlZmJlMjM0LWJjYzYtNDU1OC1hYjdiLTEwMzBlMzMxZTZhNSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+TmyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 📛",
       "behindCF": false
     }
   ]
