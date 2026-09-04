@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-04T07:42:44.301Z",
+  "updatedAt": "2026-09-04T07:50:39.539Z",
   "total": 408,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "142.248.218.34",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "edge.yzkvm.top",
-      "sni": "edge.yzkvm.top",
-      "country": "US",
-      "raw": "vless://bba95b1f-f48c-454b-897b-a6c6bc307df1@142.248.218.34:2053?sni=edge.yzkvm.top&type=ws&host=edge.yzkvm.top&path=/fp=chromefp=chrome&security=tls#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "sa-ee0441551507e46c.sr-cbeea22261c8564d.r.vpvpn.club",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "nl4.pad-service.com",
-      "sni": "nl4.pad-service.com",
-      "country": "NL",
-      "raw": "vless://23578a2c-2493-41f0-89ef-d7d3a7b85252@sa-ee0441551507e46c.sr-cbeea22261c8564d.r.vpvpn.club:8443?path=%2FNL4W&security=tls&encryption=none&insecure=0&host=nl4.pad-service.com&fp=firefox&type=ws&allowInsecure=0&sni=nl4.pad-service.com#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
