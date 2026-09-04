@@ -1,8 +1,34 @@
 {
-  "updatedAt": "2026-09-04T09:53:14.810Z",
+  "updatedAt": "2026-09-04T10:02:23.882Z",
   "total": 410,
-  "active": 4,
+  "active": 7,
   "configs": [
+    {
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 2096,
+      "tls": true,
+      "net": "ws",
+      "host": "shalana.xyz",
+      "sni": "shalana.xyz",
+      "country": "SG",
+      "raw": "vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?&security=tls&fp=unsafe&sni=shalana.xyz&type=ws&headerType=none&host=shalana.xyz&path=%2Fshalana#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "142.248.218.34",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "edge.yzkvm.top",
+      "sni": "edge.yzkvm.top",
+      "country": "US",
+      "raw": "vless://bba95b1f-f48c-454b-897b-a6c6bc307df1@142.248.218.34:2053?sni=edge.yzkvm.top&type=ws&host=edge.yzkvm.top&path=/fp=chromefp=chrome&security=tls#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "zudssgtmrqg9lpvi.v.3dns.vip",
@@ -28,6 +54,19 @@
       "raw": "vmess://eyJhZGQiOiIxMDQuMTA1LjYuMTY3IiwiYWlkIjoiMCIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsImlkIjoiOWExYTA1ZDktNjliZS00NWQzLWUzMjYtYzY2MjFlZGY3YjMxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Rldm0iLCJwb3J0IjoiMjA1MyIsInBzIjoiQnkgRWJyYVNoYSDwn5C6Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwidGVzdF9uYW1lIjoiOTUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
       "ps": "By EbraSha 🐺",
       "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "renderer-stream-2-62.mirra.now",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "renderer-stream-2-62.mirra.now",
+      "sni": "renderer-stream-2-62.mirra.now",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg4oyo77iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRlc3RfbmFtZSI6IjU4IiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha ⌨️",
+      "behindCF": false
     },
     {
       "type": "vmess",
