@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T10:11:35.761Z",
+  "updatedAt": "2026-09-04T10:20:25.517Z",
   "total": 404,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -15,19 +15,6 @@
       "raw": "vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?&security=tls&fp=unsafe&sni=shalana.xyz&type=ws&headerType=none&host=shalana.xyz&path=%2Fshalana#🇸🇬[openproxylist.com] vless-SG",
       "ps": "🇸🇬[openproxylist.com] vless-SG",
       "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "104.105.6.167",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "deapp.jisuyun.top",
-      "sni": "deapp.jisuyun.top",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTA1LjYuMTY3IiwiYWlkIjoiMCIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsImlkIjoiOWExYTA1ZDktNjliZS00NWQzLWUzMjYtYzY2MjFlZGY3YjMxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Rldm0iLCJwb3J0IjoiMjA1MyIsInBzIjoiQnkgRWJyYVNoYSDwn4yAIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwidGVzdF9uYW1lIjoiOTUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🌀",
-      "behindCF": true
     },
     {
       "type": "vmess",
