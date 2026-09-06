@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-09-06T09:04:58.245Z",
-  "total": 399,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-06T09:13:16.009Z",
+  "total": 400,
+  "active": 5,
+  "configs": [
+    {
+      "type": "trojan",
+      "server": "5.249.164.28",
+      "port": 25615,
+      "tls": true,
+      "net": "ws",
+      "host": "op-1.firecone.eu",
+      "sni": "op-1.firecone.eu",
+      "country": "DE",
+      "raw": "trojan://kakashka13222@5.249.164.28:25615?allowInsecure=1&alpn=http/1.1&fp=firefox&host=op-1.firecone.eu&path=/femboyporn--femboyporn--femboyporn--femboyporn/free-trojan-node/only-smux-supported&security=tls&sni=op-1.firecone.eu&type=ws#🇩🇪[openproxylist.com] trojan-DE",
+      "ps": "🇩🇪[openproxylist.com] trojan-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "deapp.jisuyun.top",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "deapp.jisuyun.top",
+      "sni": "deapp.jisuyun.top",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImRlYXBwLmppc3V5dW4udG9wIiwicG9ydCI6IjIwNTMiLCJpZCI6IjlhMWEwNWQ5LTY5YmUtNDVkMy1lMzI2LWM2NjIxZWRmN2IzMSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwiYWxwbiI6IiIsInNuaSI6ImRlYXBwLmppc3V5dW4udG9wIiwicGF0aCI6IlwvZGV2bSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "web-production-0392e.up.railway.app",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "web-production-0392e.up.railway.app",
+      "sni": "web-production-0392e.up.railway.app",
+      "country": "NL",
+      "raw": "vmess://eyJhZGQiOiJ3ZWItcHJvZHVjdGlvbi0wMzkyZS51cC5yYWlsd2F5LmFwcCIsImFpZCI6IjAiLCJhbHBuIjoiaHR0cFwvMS4xIiwiZnAiOiIiLCJob3N0Ijoid2ViLXByb2R1Y3Rpb24tMDM5MmUudXAucmFpbHdheS5hcHAiLCJpZCI6ImU0ZWE3NGRkLTI2NjMtNDNhMS1iODQzLTE0NDQzY2Y3MGRkYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ilwvdm0td3MiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjNcdWQ4M2NcdWRkZjFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLU5MIiwic2N5IjoiYXV0byIsInNuaSI6IndlYi1wcm9kdWN0aW9uLTAzOTJlLnVwLnJhaWx3YXkuYXBwIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇳🇱[openproxylist.com] vmess-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.18.37.233",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "us.105794.xyz",
+      "sni": "us.105794.xyz",
+      "country": "US",
+      "raw": "vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@104.18.37.233:2053?encryption=none&type=ws&security=tls&path=%2Fdownload%2Fv3%2Finstaller-x64.bin&host=us.105794.xyz&sni=us.105794.xyz&alpn=http%2F1.1&fp=ios&insecure=0&allowInsecure=0#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "78.17.71.236",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "Telegram-Leviko_v2ray",
+      "sni": "Telegram-Leviko_v2ray",
+      "country": "NL",
+      "raw": "vmess://eyJhZGQiOiI3OC4xNy43MS4yMzYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IlRlbGVncmFtLUxldmlrb192MnJheSIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy13cyIsInBjcyI6IiIsInBvcnQiOiIzMzczNiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇳🇱[openproxylist.com] vmess-NL",
+      "behindCF": false
+    }
+  ]
 }
