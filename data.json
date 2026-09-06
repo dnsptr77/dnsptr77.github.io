@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-06T12:41:40.650Z",
+  "updatedAt": "2026-09-06T12:49:24.040Z",
   "total": 395,
-  "active": 8,
+  "active": 10,
   "configs": [
     {
       "type": "vless",
@@ -17,6 +17,19 @@
       "behindCF": false
     },
     {
+      "type": "vmess",
+      "server": "143.14.189.125",
+      "port": 21316,
+      "tls": false,
+      "net": "ws",
+      "host": "pull.free.video.10010.com",
+      "sni": "pull.free.video.10010.com",
+      "country": "HK",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE0My4xNC4xODkuMTI1IiwicG9ydCI6IjIxMzE2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjExNmY2ZWNkLTI3NWUtNGI1MC05MjFkLTc4MGU3OGE1MjZjYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsImhvc3QiOiJwdWxsLmZyZWUudmlkZW8uMTAwMTAuY29tIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "behindCF": false
+    },
+    {
       "type": "vless",
       "server": "www.visa.com.hk",
       "port": 443,
@@ -28,6 +41,19 @@
       "raw": "vless://db04ac87-08bb-49a9-9deb-556fe915892e@www.visa.com.hk:443?&security=tls&fp=random&sni=eu-central.xhs152.shop&type=ws&headerType=none&host=eu-central.xhs152.shop&path=%2Fannouncement#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.18.37.233",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "us.105794.xyz",
+      "sni": "us.105794.xyz",
+      "country": "US",
+      "raw": "vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@104.18.37.233:2053?encryption=none&type=ws&security=tls&path=%2Fdownload%2Fv3%2Finstaller-x64.bin&host=us.105794.xyz&sni=us.105794.xyz&alpn=http%2F1.1&fp=ios&insecure=0&allowInsecure=0#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
     },
     {
       "type": "vmess",
