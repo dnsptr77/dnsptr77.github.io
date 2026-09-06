@@ -1,60 +1,8 @@
 {
-  "updatedAt": "2026-09-06T14:54:52.947Z",
+  "updatedAt": "2026-09-06T15:03:08.745Z",
   "total": 400,
-  "active": 9,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "149.118.55.234",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "edge.xlordgrim.com",
-      "sni": "www.zoom.com",
-      "country": "SG",
-      "raw": "vless://58f7687b-5209-4dcd-a11e-6e4eb2191378@149.118.55.234:443?encryption=none&security=tls&sni=www.zoom.com&pcs=e7e1a45c6c95c7de92d2005845335145f51e31e15b8683809fdcda2b0c0b5e25&type=ws&host=edge.xlordgrim.com&path=%2Fxlordgrim%2Fsg#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "143.14.189.125",
-      "port": 21316,
-      "tls": false,
-      "net": "ws",
-      "host": "pull.free.video.10010.com",
-      "sni": "pull.free.video.10010.com",
-      "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE0My4xNC4xODkuMTI1IiwicG9ydCI6IjIxMzE2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjExNmY2ZWNkLTI3NWUtNGI1MC05MjFkLTc4MGU3OGE1MjZjYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsImhvc3QiOiJwdWxsLmZyZWUudmlkZW8uMTAwMTAuY29tIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "104.18.37.233",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "us.105794.xyz",
-      "sni": "us.105794.xyz",
-      "country": "US",
-      "raw": "vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@104.18.37.233:2053?encryption=none&type=ws&security=tls&path=%2Fdownload%2Fv3%2Finstaller-x64.bin&host=us.105794.xyz&sni=us.105794.xyz&alpn=http%2F1.1&fp=ios&insecure=0&allowInsecure=0#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "78.17.71.236",
-      "port": 33736,
-      "tls": false,
-      "net": "ws",
-      "host": "Telegram-Leviko_v2ray",
-      "sni": "Telegram-Leviko_v2ray",
-      "country": "NL",
-      "raw": "vmess://eyJhZGQiOiI3OC4xNy43MS4yMzYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IlRlbGVncmFtLUxldmlrb192MnJheSIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy13cyIsInBjcyI6IiIsInBvcnQiOiIzMzczNiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇳🇱[openproxylist.com] vmess-NL",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "zudssgtmrqg9lpvi.v.3dns.vip",
