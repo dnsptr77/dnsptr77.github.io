@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-09-06T17:24:30.789Z",
+  "updatedAt": "2026-09-06T17:30:35.419Z",
   "total": 402,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 2096,
+      "tls": true,
+      "net": "ws",
+      "host": "shalana.xyz",
+      "sni": "shalana.xyz",
+      "country": "SG",
+      "raw": "vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?&security=tls&fp=unsafe&sni=shalana.xyz&type=ws&headerType=none&host=shalana.xyz&path=%2Fshalana#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "149.118.55.234",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "edge.xlordgrim.com",
+      "sni": "www.zoom.com",
+      "country": "SG",
+      "raw": "vless://58f7687b-5209-4dcd-a11e-6e4eb2191378@149.118.55.234:443?encryption=none&security=tls&sni=www.zoom.com&pcs=e7e1a45c6c95c7de92d2005845335145f51e31e15b8683809fdcda2b0c0b5e25&type=ws&host=edge.xlordgrim.com&path=%2Fxlordgrim%2Fsg#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": false
+    }
+  ]
 }
