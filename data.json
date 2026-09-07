@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-09-07T00:51:32.494Z",
-  "total": 399,
-  "active": 3,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "104.17.74.206",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "8.sahanwickramasinghe.me",
-      "sni": "8.sahanwickramasinghe.me",
-      "country": "SG",
-      "raw": "vless://542fd687-5160-4f80-9223-56678567dd29@104.17.74.206:8443?encryption=none&type=ws&path=%2F&host=8.sahanwickramasinghe.me&security=tls&sni=8.sahanwickramasinghe.me&fp=firefox#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "104.16.0.0",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "gongyilm.dpdns.org",
-      "sni": "gongyilm.dpdns.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTYuMC4wIiwiYWlkIjoiMCIsImhvc3QiOiJnb25neWlsbS5kcGRucy5vcmciLCJpZCI6Ijk1ZDJjNDYxLTYxZjUtNGRhZS1iYzc0LTRkMTBjZTFmNjIzNiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cy1nb25neWkiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfpoUiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiZ29uZ3lpbG0uZHBkbnMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🦅",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "104.219.208.195",
-      "port": 34001,
-      "tls": true,
-      "net": "ws",
-      "host": "www.56982071.xyz",
-      "sni": "www.56982071.xyz",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMjE5LjIwOC4xOTUiLCJhaWQiOjY0LCJob3N0Ijoid3d3LjU2OTgyMDcxLnh5eiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwibmV0Ijoid3MiLCJwYXRoIjoiL3BhdGgvMTkxMDE5MDcyOTI3IiwicG9ydCI6MzQwMDEsInBzIjoiQnkgRWJyYVNoYSDwn4yDIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
-      "ps": "By EbraSha 🌃",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-09-07T01:00:56.647Z",
+  "total": 400,
+  "active": 0,
+  "configs": []
 }
