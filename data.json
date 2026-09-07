@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-07T01:51:00.579Z",
+  "updatedAt": "2026-09-07T01:56:41.854Z",
   "total": 406,
-  "active": 1,
+  "active": 2,
   "configs": [
     {
       "type": "vless",
@@ -15,6 +15,19 @@
       "raw": "vless://b71637c2-94a5-49bd-8233-b4ed5e3170c3@176.124.214.116:8443?encryption=none&type=ws&path=%2Fimages&host=free-ger1.wooden-table.org&security=tls&sni=free-ger1.wooden-table.org&fp=chrome&alpn=http%2F1.1#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.17.71.206",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "8.sahanwickramasinghe.me",
+      "sni": "8.sahanwickramasinghe.me",
+      "country": "SG",
+      "raw": "vless://542fd687-5160-4f80-9223-56678567dd29@104.17.71.206:8443?encryption=none&type=ws&path=%2F&host=8.sahanwickramasinghe.me&security=tls&sni=8.sahanwickramasinghe.me&fp=firefox#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": true
     }
   ]
 }
