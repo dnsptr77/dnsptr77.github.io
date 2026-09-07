@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-07T01:09:51.493Z",
+  "updatedAt": "2026-09-07T01:18:58.243Z",
   "total": 403,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "176.124.214.116",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "free-ger1.wooden-table.org",
-      "sni": "free-ger1.wooden-table.org",
-      "country": "DE",
-      "raw": "vless://b71637c2-94a5-49bd-8233-b4ed5e3170c3@176.124.214.116:8443?encryption=none&type=ws&path=%2Fimages&host=free-ger1.wooden-table.org&security=tls&sni=free-ger1.wooden-table.org&fp=chrome&alpn=http%2F1.1#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
