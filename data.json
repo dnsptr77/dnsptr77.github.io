@@ -1,33 +1,20 @@
 {
-  "updatedAt": "2026-09-07T02:02:09.848Z",
-  "total": 406,
-  "active": 2,
+  "updatedAt": "2026-09-07T02:10:39.611Z",
+  "total": 409,
+  "active": 1,
   "configs": [
     {
-      "type": "vless",
-      "server": "176.124.214.116",
-      "port": 8443,
-      "tls": true,
+      "type": "vmess",
+      "server": "193.168.200.207",
+      "port": 55136,
+      "tls": false,
       "net": "ws",
-      "host": "free-ger1.wooden-table.org",
-      "sni": "free-ger1.wooden-table.org",
+      "host": "pull.free.video.10010.com",
+      "sni": "pull.free.video.10010.com",
       "country": "DE",
-      "raw": "vless://b71637c2-94a5-49bd-8233-b4ed5e3170c3@176.124.214.116:8443?encryption=none&type=ws&path=%2Fimages&host=free-ger1.wooden-table.org&security=tls&sni=free-ger1.wooden-table.org&fp=chrome&alpn=http%2F1.1#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6IjE5My4xNjguMjAwLjIwNyIsInBvcnQiOiI1NTEzNiIsInR5cGUiOiJub25lIiwiaWQiOiJmZTBmNmFlMi04NWU0LTQ4MTUtOTIwNi00MjA5YmMxMThlOTQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoicHVsbC5mcmVlLnZpZGVvLjEwMDEwLmNvbSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
       "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "104.17.71.206",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "8.sahanwickramasinghe.me",
-      "sni": "8.sahanwickramasinghe.me",
-      "country": "SG",
-      "raw": "vless://542fd687-5160-4f80-9223-56678567dd29@104.17.71.206:8443?encryption=none&type=ws&path=%2F&host=8.sahanwickramasinghe.me&security=tls&sni=8.sahanwickramasinghe.me&fp=firefox#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": true
     }
   ]
 }
