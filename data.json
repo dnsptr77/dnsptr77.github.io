@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-09-07T11:54:57.951Z",
+  "updatedAt": "2026-09-07T12:02:32.557Z",
   "total": 392,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "zudssgtmrqg9lpvi.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "sni": "zUDssgTMRqg9LpvI.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJ6dWRzc2d0bXJxZzlscHZpLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InpVRHNzZ1RNUnFnOUxwdkkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfkrsiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 💻",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "193.168.200.207",
+      "port": 55136,
+      "tls": false,
+      "net": "ws",
+      "host": "pull.free.video.10010.com",
+      "sni": "pull.free.video.10010.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxOTMuMTY4LjIwMC4yMDciLCJhaWQiOiIwIiwiaG9zdCI6InB1bGwuZnJlZS52aWRlby4xMDAxMC5jb20iLCJpZCI6ImZlMGY2YWUyLTg1ZTQtNDgxNS05MjA2LTQyMDliYzExOGU5NCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNTUxMzYiLCJwcyI6IkJ5IEVicmFTaGEg8J+ltyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🥷",
+      "behindCF": false
+    }
+  ]
 }
