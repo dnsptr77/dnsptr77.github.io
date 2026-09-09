@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-09T10:16:35.955Z",
+  "updatedAt": "2026-09-09T10:25:30.465Z",
   "total": 401,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "89.36.161.222",
+      "port": 2096,
+      "tls": false,
+      "net": "ws",
+      "host": "laoye.in-gect.fun",
+      "sni": "laoye.in-gect.fun",
+      "country": "LV",
+      "raw": "vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#🇱🇻[openproxylist.com] vless-LV",
+      "ps": "🇱🇻[openproxylist.com] vless-LV",
+      "behindCF": false
+    }
+  ]
 }
