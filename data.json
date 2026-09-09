@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-09T12:04:27.218Z",
-  "total": 395,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "94.183.209.58",
-      "port": 443,
-      "tls": false,
-      "net": "ws",
-      "host": "pl2.lckdwn.ru",
-      "sni": "pl2.lckdwn.ru",
-      "country": "PL",
-      "raw": "vless://78791f9e-fe09-4d4f-88ec-895764bae0d6@94.183.209.58:443?encryption=none&host=pl2.lckdwn.ru&path=%2F&security=none&type=ws#🇵🇱[openproxylist.com] vless-PL",
-      "ps": "🇵🇱[openproxylist.com] vless-PL",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-09-09T12:11:05.205Z",
+  "total": 389,
+  "active": 0,
+  "configs": []
 }
