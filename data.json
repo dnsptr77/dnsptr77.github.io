@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T12:51:40.667Z",
+  "updatedAt": "2026-09-10T12:58:49.833Z",
   "total": 393,
-  "active": 3,
+  "active": 2,
   "configs": [
     {
       "type": "vmess",
@@ -14,19 +14,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIxOTQuMjI2LjE0Mi4xMjAiLCJhaWQiOiIwIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+miCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJ0ZXN0X25hbWUiOiIxNjEiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
       "ps": "By EbraSha 🦈",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "sni": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ3d2FmajVsaGw2Ymk4YXU5LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsIm5ldCI6IndzIiwicGF0aCI6Ii93cy12bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg4pyoIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Ind3YWZqNWxobDZiaThhdTkudi4zZG5zLnZpcCIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha ✨",
       "behindCF": false
     },
     {
