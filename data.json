@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-10T12:22:25.000Z",
+  "updatedAt": "2026-09-10T12:30:09.195Z",
   "total": 396,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "planb.mojcn.com.linuxlh.xin",
-      "port": 16626,
-      "tls": false,
-      "net": "ws",
-      "host": "9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com",
-      "sni": "9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6Ijk1MzE3MjRlM2VmYzMxMzViZGY3ZjQzMzliMmUwNGQ3Lm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImJjOGE1OGM5LWE1NDQtNGY4NS04N2NmLTI3NGY2ZWI0ZDhjYiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+UiyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🔋",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
