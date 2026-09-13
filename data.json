@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-13T16:20:07.262Z",
+  "updatedAt": "2026-09-13T16:27:21.706Z",
   "total": 400,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "104.21.70.21",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "a.cwvps.eu.org",
+      "sni": "a.cwvps.eu.org",
+      "country": "US",
+      "raw": "vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@104.21.70.21:443?path=/ws&security=tls&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"5\", \"94\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"109\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"355\"}}]}&insecure=0&host=a.cwvps.eu.org&fp=unsafe&type=ws&allowInsecure=0&sni=a.cwvps.eu.org#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
+    }
+  ]
 }
