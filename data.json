@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-09-13T06:49:11.658Z",
-  "total": 417,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-13T12:14:41.106Z",
+  "total": 404,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "sni": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImY3ODRmZGI3NWU0ZmM4YTQ3OGMxMGQ5YWNmZjUxM2QzLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6IjBjNjU3OTEzLWU1OTMtNDg5My05NTU1LWY4ODQ3OGMzM2E0YiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MzIiLCJwcyI6IkJ5IEVicmFTaGEg4puT77iPIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha ⛓️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "sni": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImY3ODRmZGI3NWU0ZmM4YTQ3OGMxMGQ5YWNmZjUxM2QzLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6IjBjNjU3OTEzLWU1OTMtNDg5My05NTU1LWY4ODQ3OGMzM2E0YiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MzIiLCJwcyI6IkJ5IEVicmFTaGEg8J+TvCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 📼",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com",
+      "sni": "407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiI0MDdhMmJjNmQ0NTJmZjkzZTZkN2I3MzA3ODUzOWQ5ZS5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiI5N2M2MzhjNi04NmQ1LTRjZjYtYjcwYi0xMTRjNjgwOWI2MzciLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6MTY2MzIsInBzIjoiQnkgRWJyYVNoYSDwn5O8Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IjQwN2EyYmM2ZDQ1MmZmOTNlNmQ3YjczMDc4NTM5ZDllLm1vYmdzbGIudGJjYWNoZS5jb20iLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 📼",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
+      "tls": false,
+      "net": "ws",
+      "host": "706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com",
+      "sni": "706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiI3MDZhMGEyZmIyZjc3MjlhY2Y5YTEwMzA2MGE3YWJjMy5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiI2MmUwODc4Yy1mZjhjLTRhNjctYjE4Zi04OTg4NmUyNDc1MGMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6MTY2MjYsInBzIjoiQnkgRWJyYVNoYSDwn6egIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🧠",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
+      "tls": false,
+      "net": "ws",
+      "host": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com",
+      "sni": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiJkMmMzMTU4NTNkMjAxOTQyYjkzYzZkNmRlNTZmZWM1ZC5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiIzMDJjZjE0MS1mOGUyLTQ0OGQtYWNhNS0zYWQ5ZTlmMWI0YzEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6MTY2MjYsInBzIjoiQnkgRWJyYVNoYSDwn4yQIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6ImF1dG8ifQ==",
+      "ps": "By EbraSha 🌐",
+      "behindCF": false
+    }
+  ]
 }
