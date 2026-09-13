@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-09-13T14:10:08.388Z",
-  "total": 400,
+  "updatedAt": "2026-09-13T14:17:08.812Z",
+  "total": 397,
   "active": 5,
   "configs": [
     {
-      "type": "trojan",
-      "server": "188.42.145.180",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&host=www.volumeroot.com&fp=chrome&type=ws&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
-    },
-    {
       "type": "vmess",
       "server": "planb.mojcn.com.linuxlh.xin",
       "port": 16626,
@@ -30,30 +17,43 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "163.8.195.241",
-      "port": 2087,
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
       "tls": false,
       "net": "ws",
-      "host": "/?--v2rayNplus--v2rayNplus--v2rayNplus--",
-      "sni": "/?--v2rayNplus--v2rayNplus--v2rayNplus--",
-      "country": "DE",
-      "raw": "vless://56ba5d34-ef22-4ba6-8090-4188b807df54@163.8.195.241:2087?type=ws&encryption=none&flow=&host=%2F%3F--v2rayNplus--v2rayNplus--v2rayNplus--&path=%2F29c8fed7ca22#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "host": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "sni": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImY3ODRmZGI3NWU0ZmM4YTQ3OGMxMGQ5YWNmZjUxM2QzLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6IjBjNjU3OTEzLWU1OTMtNDg5My05NTU1LWY4ODQ3OGMzM2E0YiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MzIiLCJwcyI6IkJ5IEVicmFTaGEg8J+TnyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 📟",
       "behindCF": false
     },
     {
-      "type": "trojan",
-      "server": "104.21.70.21",
-      "port": 443,
-      "tls": true,
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
+      "tls": false,
       "net": "ws",
-      "host": "id1.nathaya.web.id",
-      "sni": "id1.nathaya.web.id",
-      "country": "ID",
-      "raw": "trojan://018b8e7b-7813-4dcb-84a5-3c98f1521e00@104.21.70.21:443?fp=unsafe&host=id1.nathaya.web.id&path=/trojan&security=tls&sni=id1.nathaya.web.id&type=ws#🇮🇩[openproxylist.com] trojan-ID",
-      "ps": "🇮🇩[openproxylist.com] trojan-ID",
-      "behindCF": true
+      "host": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "sni": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImY3ODRmZGI3NWU0ZmM4YTQ3OGMxMGQ5YWNmZjUxM2QzLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6IjBjNjU3OTEzLWU1OTMtNDg5My05NTU1LWY4ODQ3OGMzM2E0YiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MzIiLCJwcyI6IkJ5IEVicmFTaGEg8J+MjCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🌌",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com",
+      "sni": "407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiI0MDdhMmJjNmQ0NTJmZjkzZTZkN2I3MzA3ODUzOWQ5ZS5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiI5N2M2MzhjNi04NmQ1LTRjZjYtYjcwYi0xMTRjNjgwOWI2MzciLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6MTY2MzIsInBzIjoiQnkgRWJyYVNoYSDwn6m4Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IjQwN2EyYmM2ZDQ1MmZmOTNlNmQ3YjczMDc4NTM5ZDllLm1vYmdzbGIudGJjYWNoZS5jb20iLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🩸",
+      "behindCF": false
     },
     {
       "type": "vmess",
@@ -63,9 +63,9 @@
       "net": "ws",
       "host": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com",
       "sni": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com",
-      "country": "IN",
-      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiJkMmMzMTU4NTNkMjAxOTQyYjkzYzZkNmRlNTZmZWM1ZC5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiIzMDJjZjE0MS1mOGUyLTQ0OGQtYWNhNS0zYWQ5ZTlmMWI0YzEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOjE2NjI2LCJwcyI6Ilx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSU4iLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiJ9",
-      "ps": "🇮🇳[openproxylist.com] vmess-IN",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiJkMmMzMTU4NTNkMjAxOTQyYjkzYzZkNmRlNTZmZWM1ZC5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiIzMDJjZjE0MS1mOGUyLTQ0OGQtYWNhNS0zYWQ5ZTlmMWI0YzEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6MTY2MjYsInBzIjoiQnkgRWJyYVNoYSDwn5SlIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6ImF1dG8ifQ==",
+      "ps": "By EbraSha 🔥",
       "behindCF": false
     }
   ]
