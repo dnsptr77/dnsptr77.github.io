@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-13T12:36:10.559Z",
-  "total": 401,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-13T12:43:37.160Z",
+  "total": 402,
+  "active": 1,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "sni": "f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6ImY3ODRmZGI3NWU0ZmM4YTQ3OGMxMGQ5YWNmZjUxM2QzLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6IjBjNjU3OTEzLWU1OTMtNDg5My05NTU1LWY4ODQ3OGMzM2E0YiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MzIiLCJwcyI6IkJ5IEVicmFTaGEg8J+bsO+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🛰️",
+      "behindCF": false
+    }
+  ]
 }
