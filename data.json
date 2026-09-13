@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-13T12:58:26.848Z",
+  "updatedAt": "2026-09-13T13:05:43.679Z",
   "total": 401,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "port": 16626,
+      "tls": false,
+      "net": "ws",
+      "host": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com",
+      "sni": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com",
+      "country": "IN",
+      "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOjAsImhvc3QiOiJkMmMzMTU4NTNkMjAxOTQyYjkzYzZkNmRlNTZmZWM1ZC5tb2Jnc2xiLnRiY2FjaGUuY29tIiwiaWQiOiIzMDJjZjE0MS1mOGUyLTQ0OGQtYWNhNS0zYWQ5ZTlmMWI0YzEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOjE2NjI2LCJwcyI6Ilx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSU4iLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiJ9",
+      "ps": "🇮🇳[openproxylist.com] vmess-IN",
+      "behindCF": false
+    }
+  ]
 }
