@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-16T23:28:51.780Z",
-  "total": 408,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "a.cwvps.eu.org",
-      "sni": "a.cwvps.eu.org",
-      "country": "US",
-      "raw": "vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@188.114.97.6:443?path=%2Fws&security=tls&encryption=none&insecure=0&host=a.cwvps.eu.org&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=a.cwvps.eu.org#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "sni": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6Ind3YWZqNWxobDZiaThhdTkudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ3d2FmajVsaGw2Ymk4YXU5LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-09-16T23:36:57.249Z",
+  "total": 406,
+  "active": 0,
+  "configs": []
 }
