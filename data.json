@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-17T05:02:50.582Z",
-  "total": 404,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "104.21.70.21",
-      "port": 8080,
-      "tls": false,
-      "net": "ws",
-      "host": "trex-panel-nubj0s.samifakor.workers.dev",
-      "sni": "trex-panel-nubj0s.samifakor.workers.dev",
-      "country": "DE",
-      "raw": "vless://50414e45-4c5f-5a45-5553-ef859652a80e@104.21.70.21:8080?&sni=trex-panel-nubj0s.samifakor.workers.dev&type=ws&headerType=none&host=trex-panel-nubj0s.samifakor.workers.dev&path=%2Fstream%2FTrexBridge%2Fef859652a80e#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-09-17T05:10:31.356Z",
+  "total": 414,
+  "active": 0,
+  "configs": []
 }
