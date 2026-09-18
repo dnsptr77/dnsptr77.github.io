@@ -1,6 +1,59 @@
 {
-  "updatedAt": "2026-09-18T11:01:32.509Z",
-  "total": 428,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-18T11:09:07.738Z",
+  "total": 421,
+  "active": 4,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "194.164.192.16",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "renderer-stream-2-62.mirra.now",
+      "sni": "renderer-stream-2-62.mirra.now",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6IjE5NC4xNjQuMTkyLjE2IiwicG9ydCI6IjQ0MyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsInBhdGgiOiJcL2FwaVwvdjFcL2dwdS1zdHJlYW1cL3NvY2tldCIsInRscyI6InRscyIsInNuaSI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImFscG4iOiIiLCJmcCI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.21.70.21",
+      "port": 8080,
+      "tls": false,
+      "net": "ws",
+      "host": "trex-panel-nubj0s.samifakor.workers.dev",
+      "sni": "trex-panel-nubj0s.samifakor.workers.dev",
+      "country": "DE",
+      "raw": "vless://50414e45-4c5f-5a45-5553-ef859652a80e@104.21.70.21:8080?&sni=trex-panel-nubj0s.samifakor.workers.dev&type=ws&headerType=none&host=trex-panel-nubj0s.samifakor.workers.dev&path=%2Fstream%2FTrexBridge%2Fef859652a80e#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": true
+    },
+    {
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "a.cwvps.eu.org",
+      "sni": "a.cwvps.eu.org",
+      "country": "US",
+      "raw": "vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@188.114.97.6:443?path=%2Fws&security=tls&encryption=none&insecure=0&host=a.cwvps.eu.org&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=a.cwvps.eu.org#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "wwafj5LHl6bI8aU9.v.3dns.vip",
+      "sni": "wwafj5LHl6bI8aU9.v.3dns.vip",
+      "country": "HK",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6Ind3YWZqNWxobDZiaThhdTkudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6Ind3YWZqNUxIbDZiSThhVTkudi4zZG5zLnZpcCIsInBhdGgiOiJcL3dzLXZtZXNzIiwidGxzIjoidGxzIiwic25pIjoid3dhZmo1TEhsNmJJOGFVOS52LjNkbnMudmlwIiwidGVzdF9uYW1lIjoiSEsxMCIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "behindCF": false
+    }
+  ]
 }
