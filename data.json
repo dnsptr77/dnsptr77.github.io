@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-09-18T11:32:34.453Z",
-  "total": 418,
-  "active": 3,
+  "updatedAt": "2026-09-18T11:40:31.002Z",
+  "total": 416,
+  "active": 4,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "194.164.192.16",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "renderer-stream-2-62.mirra.now",
+      "sni": "renderer-stream-2-62.mirra.now",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6IjE5NC4xNjQuMTkyLjE2IiwicG9ydCI6IjQ0MyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsInBhdGgiOiJcL2FwaVwvdjFcL2dwdS1zdHJlYW1cL3NvY2tldCIsInRscyI6InRscyIsInNuaSI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImFscG4iOiIiLCJmcCI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    },
     {
       "type": "vless",
       "server": "104.21.70.21",
