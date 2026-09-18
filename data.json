@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-18T11:16:34.208Z",
-  "total": 421,
-  "active": 4,
+  "updatedAt": "2026-09-18T11:24:29.382Z",
+  "total": 418,
+  "active": 5,
   "configs": [
     {
       "type": "vmess",
@@ -52,6 +52,19 @@
       "sni": "wwafj5LHl6bI8aU9.v.3dns.vip",
       "country": "HK",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6Ind3YWZqNWxobDZiaThhdTkudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6Ind3YWZqNUxIbDZiSThhVTkudi4zZG5zLnZpcCIsInBhdGgiOiJcL3dzLXZtZXNzIiwidGxzIjoidGxzIiwic25pIjoid3dhZmo1TEhsNmJJOGFVOS52LjNkbnMudmlwIiwidGVzdF9uYW1lIjoiSEsxMCIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "156.245.232.239",
+      "port": 35043,
+      "tls": false,
+      "net": "ws",
+      "host": "www.pubgmobile.com",
+      "sni": "www.pubgmobile.com",
+      "country": "HK",
+      "raw": "vmess://eyJhZGQiOiIxNTYuMjQ1LjIzMi4yMzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Ind3dy5wdWJnbW9iaWxlLmNvbSIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiaW5zZWN1cmUiOiIxIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJwY3MiOiIiLCJwb3J0IjoiMzUwNDMiLCJwcyI6Ilx1ZDgzY1x1ZGRlZFx1ZDgzY1x1ZGRmMFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSEsiLCJzY3kiOiJhdXRvIiwic25pIjoid3d3LnB1Ymdtb2JpbGUuY29tIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
       "behindCF": false
     }
