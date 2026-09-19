@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-19T15:45:16.485Z",
-  "total": 406,
-  "active": 5,
+  "updatedAt": "2026-09-19T15:52:18.730Z",
+  "total": 407,
+  "active": 7,
   "configs": [
     {
       "type": "trojan",
@@ -15,6 +15,19 @@
       "raw": "trojan://018b8e7b-7813-4dcb-84a5-3c98f1521e00@104.21.70.21:443?fp=unsafe&host=id1.nathaya.web.id&path=/trojan&security=tls&sni=id1.nathaya.web.id&type=ws#🇮🇩[openproxylist.com] trojan-ID",
       "ps": "🇮🇩[openproxylist.com] trojan-ID",
       "behindCF": true
+    },
+    {
+      "type": "vless",
+      "server": "neth8.lunariai.ru",
+      "port": 443,
+      "tls": false,
+      "net": "ws",
+      "host": "neth8.lunariai.ru",
+      "sni": "neth8.lunariai.ru",
+      "country": "DE",
+      "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?encryption=none&security=none&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
     },
     {
       "type": "vless",
@@ -57,6 +70,19 @@
     },
     {
       "type": "vmess",
+      "server": "qtkdr8jxe3wefxjm.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "qTKDR8jXE3wEFxJM.v.3dns.vip",
+      "sni": "qtkdr8jxe3wefxjm.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJxdGtkcjhqeGUzd2VmeGptLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxsb3dJbnNlY3VyZSI6IjEiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicVRLRFI4alhFM3dFRnhKTS52LjNkbnMudmlwIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImluc2VjdXJlIjoiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii93cy12bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+TgCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJxdGtkcjhqeGUzd2VmeGptLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 📀",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
       "server": "188.114.96.19",
       "port": 80,
       "tls": false,
@@ -64,8 +90,8 @@
       "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
       "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uaGVzYW5pZDguaXIuIiwiaWQiOiJhZWQ4OGU3OS01NzYyLTRkMmYtODZmYS1mNDM4ZjMyYTc2NTQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJCeSBFYnJhU2hhIOKcqCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
-      "ps": "By EbraSha ✨",
+      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uaGVzYW5pZDguaXIuIiwiaWQiOiJhZWQ4OGU3OS01NzYyLTRkMmYtODZmYS1mNDM4ZjMyYTc2NTQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJCeSBFYnJhU2hhIPCfkIkiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🐉",
       "behindCF": false
     }
   ]
