@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-19T15:38:44.555Z",
+  "updatedAt": "2026-09-19T15:45:16.485Z",
   "total": 406,
-  "active": 3,
+  "active": 5,
   "configs": [
     {
       "type": "trojan",
@@ -14,6 +14,19 @@
       "country": "ID",
       "raw": "trojan://018b8e7b-7813-4dcb-84a5-3c98f1521e00@104.21.70.21:443?fp=unsafe&host=id1.nathaya.web.id&path=/trojan&security=tls&sni=id1.nathaya.web.id&type=ws#🇮🇩[openproxylist.com] trojan-ID",
       "ps": "🇮🇩[openproxylist.com] trojan-ID",
+      "behindCF": true
+    },
+    {
+      "type": "vless",
+      "server": "172.67.156.147",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "jp3.yohototo.top",
+      "sni": "jp3.yohototo.top",
+      "country": "JP",
+      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?&security=tls&fp=chrome&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵[openproxylist.com] vless-JP",
+      "ps": "🇯🇵[openproxylist.com] vless-JP",
       "behindCF": true
     },
     {
@@ -40,6 +53,19 @@
       "country": "PL",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGY1XHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1QTCIsImFkZCI6IjE4OC4xMTQuOTYuMTkiLCJwb3J0IjoiODAiLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwiYWxwbiI6IiIsInBhdGgiOiJcLyIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇵🇱[openproxylist.com] vmess-PL",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "188.114.96.19",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uaGVzYW5pZDguaXIuIiwiaWQiOiJhZWQ4OGU3OS01NzYyLTRkMmYtODZmYS1mNDM4ZjMyYTc2NTQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJCeSBFYnJhU2hhIOKcqCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
+      "ps": "By EbraSha ✨",
       "behindCF": false
     }
   ]
