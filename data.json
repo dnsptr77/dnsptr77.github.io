@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-09-19T15:01:29.837Z",
-  "total": 418,
-  "active": 4,
+  "updatedAt": "2026-09-19T15:09:21.300Z",
+  "total": 410,
+  "active": 5,
   "configs": [
+    {
+      "type": "trojan",
+      "server": "104.21.70.21",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "id1.nathaya.web.id",
+      "sni": "id1.nathaya.web.id",
+      "country": "ID",
+      "raw": "trojan://018b8e7b-7813-4dcb-84a5-3c98f1521e00@104.21.70.21:443?fp=unsafe&host=id1.nathaya.web.id&path=/trojan&security=tls&sni=id1.nathaya.web.id&type=ws#🇮🇩[openproxylist.com] trojan-ID",
+      "ps": "🇮🇩[openproxylist.com] trojan-ID",
+      "behindCF": true
+    },
     {
       "type": "vless",
       "server": "neth8.lunariai.ru",
@@ -12,7 +25,7 @@
       "host": "neth8.lunariai.ru",
       "sni": "neth8.lunariai.ru",
       "country": "DE",
-      "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?allowInsecure=1&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
+      "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?encryption=none&security=none&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
@@ -25,34 +38,34 @@
       "host": "jp3.yohototo.top",
       "sni": "jp3.yohototo.top",
       "country": "JP",
-      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=jp3.yohototo.top&path=/tyxyws#🇯🇵[openproxylist.com] vless-JP",
+      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?&security=tls&fp=chrome&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵[openproxylist.com] vless-JP",
       "ps": "🇯🇵[openproxylist.com] vless-JP",
       "behindCF": true
     },
     {
-      "type": "vless",
-      "server": "188.114.97.6",
+      "type": "vmess",
+      "server": "47.243.80.106",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "a.cwvps.eu.org",
-      "sni": "a.cwvps.eu.org",
-      "country": "US",
-      "raw": "vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@188.114.97.6:443?path=%2Fws&security=tls&encryption=none&insecure=0&host=a.cwvps.eu.org&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=a.cwvps.eu.org#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "host": "wwafj5LHl6bI8aU9.v.3dns.vip",
+      "sni": "wwafj5LHl6bI8aU9.v.3dns.vip",
+      "country": "HK",
+      "raw": "vmess://eyJhZGQiOiI0Ny4yNDMuODAuMTA2IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0Ijoid3dhZmo1TEhsNmJJOGFVOS52LjNkbnMudmlwIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsIm5hbWUiOiJISyBcdWQ4M2NcdWRkZWRcdWQ4M2NcdWRkZjAgfCBAUmF5ZGlrYWx4IHwgRTlFN0EzIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93cy12bWVzcyIsInBvcnQiOjQ0MywicHMiOiJcdWQ4M2NcdWRkZWRcdWQ4M2NcdWRkZjBbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUhLIiwic2N5IjoiYXV0byIsInNuaSI6Ind3YWZqNUxIbDZiSThhVTkudi4zZG5zLnZpcCIsInRscyI6InRscyIsInR5cGUiOm51bGwsInYiOm51bGwsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
       "behindCF": false
     },
     {
       "type": "vmess",
-      "server": "156.245.232.239",
-      "port": 35043,
+      "server": "188.114.96.19",
+      "port": 80,
       "tls": false,
       "net": "ws",
-      "host": "www.pubgmobile.com",
-      "sni": "www.pubgmobile.com",
-      "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE1Ni4yNDUuMjMyLjIzOSIsInBvcnQiOiIzNTA0MyIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0Ijoid3d3LnB1Ymdtb2JpbGUuY29tIiwicGF0aCI6IlwvIiwidGxzIjoiIiwic25pIjoid3d3LnB1Ymdtb2JpbGUuY29tIiwidGVzdF9uYW1lIjoiSEsxMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "country": "PL",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGY1XHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1QTCIsImFkZCI6IjE4OC4xMTQuOTYuMTkiLCJwb3J0IjoiODAiLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwiYWxwbiI6IiIsInBhdGgiOiJcLyIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇵🇱[openproxylist.com] vmess-PL",
       "behindCF": false
     }
   ]
