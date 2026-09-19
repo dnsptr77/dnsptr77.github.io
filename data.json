@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T14:27:53.128Z",
+  "updatedAt": "2026-09-19T14:36:24.876Z",
   "total": 419,
   "active": 5,
   "configs": [
@@ -57,14 +57,14 @@
     },
     {
       "type": "vmess",
-      "server": "156.245.232.239",
-      "port": 35043,
-      "tls": false,
+      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
+      "port": 443,
+      "tls": true,
       "net": "ws",
-      "host": "www.pubgmobile.com",
-      "sni": "www.pubgmobile.com",
+      "host": "vah4urdzl3jdx5r2.v.3dns.vip",
+      "sni": "vah4urdzl3jdx5r2.v.3dns.vip",
       "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE1Ni4yNDUuMjMyLjIzOSIsInBvcnQiOiIzNTA0MyIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0Ijoid3d3LnB1Ymdtb2JpbGUuY29tIiwicGF0aCI6IlwvIiwidGxzIjoiIiwic25pIjoid3d3LnB1Ymdtb2JpbGUuY29tIiwidGVzdF9uYW1lIjoiSEsxMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6InZhaDR1cmR6bDNqZHg1cjIudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoidmFoNHVyZHpsM2pkeDVyMi52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJ0ZXN0X25hbWUiOiJISzEwIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
       "behindCF": false
     }
