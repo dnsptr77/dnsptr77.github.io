@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T14:11:51.372Z",
+  "updatedAt": "2026-09-19T14:19:36.029Z",
   "total": 415,
   "active": 4,
   "configs": [
@@ -18,19 +18,6 @@
     },
     {
       "type": "vless",
-      "server": "172.67.156.147",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "jp3.yohototo.top",
-      "sni": "jp3.yohototo.top",
-      "country": "JP",
-      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=jp3.yohototo.top&path=/tyxyws#🇯🇵[openproxylist.com] vless-JP",
-      "ps": "🇯🇵[openproxylist.com] vless-JP",
-      "behindCF": true
-    },
-    {
-      "type": "vless",
       "server": "188.114.97.6",
       "port": 443,
       "tls": true,
@@ -40,6 +27,19 @@
       "country": "US",
       "raw": "vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@188.114.97.6:443?path=%2Fws&security=tls&encryption=none&insecure=0&host=a.cwvps.eu.org&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=a.cwvps.eu.org#🇺🇸[openproxylist.com] vless-US",
       "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "wwafj5LHl6bI8aU9.v.3dns.vip",
+      "sni": "wwafj5LHl6bI8aU9.v.3dns.vip",
+      "country": "HK",
+      "raw": "vmess://eyJhZGQiOiJ3d2FmajVsaGw2Ymk4YXU5LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6Ind3YWZqNUxIbDZiSThhVTkudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dzLXZtZXNzIiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
       "behindCF": false
     },
     {
