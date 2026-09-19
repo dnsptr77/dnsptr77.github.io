@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-19T14:45:01.490Z",
-  "total": 417,
-  "active": 5,
+  "updatedAt": "2026-09-19T14:53:15.984Z",
+  "total": 418,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -15,19 +15,6 @@
       "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?allowInsecure=1&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "172.67.156.147",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "jp3.yohototo.top",
-      "sni": "jp3.yohototo.top",
-      "country": "JP",
-      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=jp3.yohototo.top&path=/tyxyws#🇯🇵[openproxylist.com] vless-JP",
-      "ps": "🇯🇵[openproxylist.com] vless-JP",
-      "behindCF": true
     },
     {
       "type": "vless",
@@ -57,14 +44,14 @@
     },
     {
       "type": "vmess",
-      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "port": 443,
-      "tls": true,
+      "server": "156.245.232.239",
+      "port": 35043,
+      "tls": false,
       "net": "ws",
-      "host": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "sni": "vah4urdzl3jdx5r2.v.3dns.vip",
+      "host": "www.pubgmobile.com",
+      "sni": "www.pubgmobile.com",
       "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6InZhaDR1cmR6bDNqZHg1cjIudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoidmFoNHVyZHpsM2pkeDVyMi52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJ0ZXN0X25hbWUiOiJISzEwIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE1Ni4yNDUuMjMyLjIzOSIsInBvcnQiOiIzNTA0MyIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0Ijoid3d3LnB1Ymdtb2JpbGUuY29tIiwicGF0aCI6IlwvIiwidGxzIjoiIiwic25pIjoid3d3LnB1Ymdtb2JpbGUuY29tIiwidGVzdF9uYW1lIjoiSEsxMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
       "behindCF": false
     }
