@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-19T10:39:38.464Z",
+  "updatedAt": "2026-09-19T10:48:25.081Z",
   "total": 418,
-  "active": 4,
+  "active": 5,
   "configs": [
     {
       "type": "vmess",
@@ -15,6 +15,19 @@
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6IjE4NS4yMzIuMjA0LjIyMiIsInBvcnQiOiI0NDMiLCJpZCI6ImRiNTBhMjBlLTdmZjUtNGU3MC05NDhmLTE3Y2M5Y2E3YzE1NCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJwYXRoIjoiXC9hcGlcL3YxXC9ncHUtc3RyZWFtXC9zb2NrZXQiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJwYWNrZXRFbmNvZGluZyI6Inh1ZHAiLCJhbHBuIjoiIiwiZnAiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇩🇪[openproxylist.com] vmess-DE",
       "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.20.37.53",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "trex-panel-ew6n46.zeus-e0oqfp.workers.dev",
+      "sni": "trex-panel-ew6n46.zeus-e0oqfp.workers.dev",
+      "country": "DE",
+      "raw": "vless://50414e45-4c5f-5a45-5553-b52a90ada6ab@104.20.37.53:80?&sni=trex-panel-ew6n46.zeus-e0oqfp.workers.dev&type=ws&headerType=none&host=trex-panel-ew6n46.zeus-e0oqfp.workers.dev&path=%2Fstream%2FTrexBridge%2Fb52a90ada6ab#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": true
     },
     {
       "type": "vmess",
