@@ -1,34 +1,8 @@
 {
-  "updatedAt": "2026-09-19T11:57:21.277Z",
+  "updatedAt": "2026-09-19T12:05:18.494Z",
   "total": 420,
-  "active": 7,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "104.20.37.53",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "trex-panel-ew6n46.zeus-e0oqfp.workers.dev",
-      "sni": "trex-panel-ew6n46.zeus-e0oqfp.workers.dev",
-      "country": "DE",
-      "raw": "vless://50414e45-4c5f-5a45-5553-b52a90ada6ab@104.20.37.53:80?&sni=trex-panel-ew6n46.zeus-e0oqfp.workers.dev&type=ws&headerType=none&host=trex-panel-ew6n46.zeus-e0oqfp.workers.dev&path=%2Fstream%2FTrexBridge%2Fb52a90ada6ab#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "sni": "wwafj5lhl6bi8au9.v.3dns.vip",
-      "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6Ind3YWZqNWxobDZiaThhdTkudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ3d2FmajVsaGw2Ymk4YXU5LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "20.235.220.189",
