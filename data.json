@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-19T22:28:31.991Z",
-  "total": 408,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "grimness-backlogs.cdn-content.com",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "grimness-backlogs.cdn-content.com",
-      "sni": "grimness-backlogs.cdn-content.com",
-      "country": "US",
-      "raw": "vless://a3108d14-1f45-4f82-bb36-e2c41bdab527@grimness-backlogs.cdn-content.com:443?&security=tls&fp=chrome&packet-encoding=xudp&alpn=http%2F1.1&sni=grimness-backlogs.cdn-content.com&type=ws&headerType=none&host=grimness-backlogs.cdn-content.com&path=%2Fws#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-09-19T22:37:03.212Z",
+  "total": 406,
+  "active": 0,
+  "configs": []
 }
