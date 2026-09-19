@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-09-19T18:58:03.294Z",
+  "updatedAt": "2026-09-19T19:06:43.103Z",
   "total": 415,
-  "active": 9,
+  "active": 10,
   "configs": [
+    {
+      "type": "vless",
+      "server": "neth8.lunariai.ru",
+      "port": 443,
+      "tls": false,
+      "net": "ws",
+      "host": "neth8.lunariai.ru",
+      "sni": "neth8.lunariai.ru",
+      "country": "DE",
+      "raw": "vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?allowInsecure=1&type=ws&host=neth8.lunariai.ru&path=/#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    },
     {
       "type": "vless",
       "server": "172.67.156.147",
