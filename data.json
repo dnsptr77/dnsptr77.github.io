@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T16:36:07.633Z",
-  "total": 402,
+  "updatedAt": "2026-09-20T16:43:10.784Z",
+  "total": 403,
   "active": 5,
   "configs": [
     {
@@ -12,8 +12,8 @@
       "host": "varzesh3.com",
       "sni": "varzesh3.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNjMuMjIzLjIyNC42OCIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiM2UyNGRlMGQtNDNjMS00NmQ2LWRlNzItNDRjNjgwNmMwMzg2IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjQ5NTE1LCJwcyI6IkJ5IEVicmFTaGEg8J+QuiIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InZhcnplc2gzLmNvbSIsInRscyI6IiIsInR5cGUiOiJhdXRvIn0=",
-      "ps": "By EbraSha 🐺",
+      "raw": "vmess://eyJhZGQiOiIxNjMuMjIzLjIyNC42OCIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiM2UyNGRlMGQtNDNjMS00NmQ2LWRlNzItNDRjNjgwNmMwMzg2IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjQ5NTE1LCJwcyI6IkJ5IEVicmFTaGEg4pqU77iPIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoidmFyemVzaDMuY29tIiwidGxzIjoiIiwidHlwZSI6ImF1dG8ifQ==",
+      "ps": "By EbraSha ⚔️",
       "behindCF": false
     },
     {
@@ -25,8 +25,8 @@
       "host": "renderer-stream-2-62.mirra.now",
       "sni": "renderer-stream-2-62.mirra.now",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNjguMTAwLjkuODEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+UpSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🔥",
+      "raw": "vmess://eyJhZGQiOiIxNjguMTAwLjkuODEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+boe+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🛡️",
       "behindCF": false
     },
     {
@@ -38,8 +38,8 @@
       "host": "deapp.jisuyun.top",
       "sni": "deapp.jisuyun.top",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuMjM4Ljk2LjIxNSIsImFpZCI6IjAiLCJob3N0IjoiZGVhcHAuamlzdXl1bi50b3AiLCJpZCI6IjlhMWEwNWQ5LTY5YmUtNDVkMy1lMzI2LWM2NjIxZWRmN2IzMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kZXZtIiwicG9ydCI6IjIwNTMiLCJwcyI6IkJ5IEVicmFTaGEg8J+SjiIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 💎",
+      "raw": "vmess://eyJhZGQiOiIxNzIuMjM4Ljk2LjIxNSIsImFpZCI6IjAiLCJob3N0IjoiZGVhcHAuamlzdXl1bi50b3AiLCJpZCI6IjlhMWEwNWQ5LTY5YmUtNDVkMy1lMzI2LWM2NjIxZWRmN2IzMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kZXZtIiwicG9ydCI6IjIwNTMiLCJwcyI6IkJ5IEVicmFTaGEg8J+puCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🩸",
       "behindCF": true
     },
     {
@@ -51,8 +51,8 @@
       "host": "cg1c12.waimaojd.com",
       "sni": "cg1c12.waimaojd.com",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTc2LjI0NSIsImFpZCI6IjAiLCJob3N0IjoiY2cxYzEyLndhaW1hb2pkLmNvbSIsImlkIjoiMDYzMmJmYTktYjE1Yy00MjU3LThjNzUtMzJmN2MwYzUzYjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn4yDIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImNnMWMxMi53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🌃",
+      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTc2LjI0NSIsImFpZCI6IjAiLCJob3N0IjoiY2cxYzEyLndhaW1hb2pkLmNvbSIsImlkIjoiMDYzMmJmYTktYjE1Yy00MjU3LThjNzUtMzJmN2MwYzUzYjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDinKgiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiY2cxYzEyLndhaW1hb2pkLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha ✨",
       "behindCF": true
     },
     {
@@ -64,8 +64,8 @@
       "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
       "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkJ5IEVicmFTaGEg8J+TsSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 📱",
+      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkJ5IEVicmFTaGEg8J+MgCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🌀",
       "behindCF": false
     }
   ]
