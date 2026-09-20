@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-20T19:53:21.163Z",
+  "updatedAt": "2026-09-20T20:01:39.891Z",
   "total": 414,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "168.100.9.81",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "renderer-stream-2-62.mirra.now",
-      "sni": "renderer-stream-2-62.mirra.now",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNjguMTAwLjkuODEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+Vt++4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🕷️",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
