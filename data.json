@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-21T08:08:38.413Z",
-  "total": 447,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "168.100.9.81",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "renderer-stream-2-62.mirra.now",
-      "sni": "renderer-stream-2-62.mirra.now",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNjguMTAwLjkuODEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0yLTYyLm1pcnJhLm5vdyIsImlkIjoiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+aqCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🚨",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "172.238.96.215",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "deapp.jisuyun.top",
-      "sni": "deapp.jisuyun.top",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuMjM4Ljk2LjIxNSIsImFpZCI6IjAiLCJob3N0IjoiZGVhcHAuamlzdXl1bi50b3AiLCJpZCI6IjlhMWEwNWQ5LTY5YmUtNDVkMy1lMzI2LWM2NjIxZWRmN2IzMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9kZXZtIiwicG9ydCI6IjIwNTMiLCJwcyI6IkJ5IEVicmFTaGEg8J+qrCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🪬",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-09-21T08:17:23.471Z",
+  "total": 449,
+  "active": 0,
+  "configs": []
 }
