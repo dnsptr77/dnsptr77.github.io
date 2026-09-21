@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-21T03:40:48.688Z",
+  "updatedAt": "2026-09-21T03:47:22.983Z",
   "total": 433,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vmess",
@@ -54,19 +54,6 @@
       "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTc2LjI0NSIsImFpZCI6IjAiLCJob3N0IjoiY2cxYzEyLndhaW1hb2pkLmNvbSIsImlkIjoiMDYzMmJmYTktYjE1Yy00MjU3LThjNzUtMzJmN2MwYzUzYjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDimaDvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiY2cxYzEyLndhaW1hb2pkLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9",
       "ps": "By EbraSha ♠️",
       "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "188.114.96.19",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkJ5IEVicmFTaGEg8J+MkSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
-      "ps": "By EbraSha 🌑",
-      "behindCF": false
     }
   ]
 }
