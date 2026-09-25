@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-09-25T23:17:49.320Z",
+  "updatedAt": "2026-09-25T23:19:01.365Z",
   "total": 96,
-  "active": 3,
+  "active": 5,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "139.64.166.25",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIOKalO+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJwYWhvYmFjLm9yZyIsInRscyI6InRscyIsInR5cGUiOm51bGwsInYiOm51bGx9",
+      "ps": "By EbraSha ⚔️",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "186.190.211.67",
@@ -27,6 +40,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImFpZCI6MCwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCflKUiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiI2SkR2QXJhemdVM3FRUjZRLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 🔥",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "216.106.187.60",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "kentspark.org",
+      "sni": "kentspark.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIyMTYuMTA2LjE4Ny42MCIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6ImtlbnRzcGFyay5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiLwn4ep8J+HqiBERSAxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn4yMIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImtlbnRzcGFyay5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
+      "ps": "By EbraSha 🌌",
       "behindCF": false
     },
     {
