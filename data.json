@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25T03:14:51.976Z",
-  "total": 88,
-  "active": 5,
+  "updatedAt": "2026-09-25T03:16:04.337Z",
+  "total": 91,
+  "active": 10,
   "configs": [
     {
       "type": "vless",
@@ -66,6 +66,71 @@
       "country": "PL",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGY1XHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1QTCIsImFkZCI6IjE4OC4xMTQuOTYuMTkiLCJwb3J0IjoiODAiLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwiYWxwbiI6IiIsInBhdGgiOiJcLyIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇵🇱[openproxylist.com] vmess-PL",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "pahobac.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwYWhvYmFjLm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicGNzIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn6eKIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InBhaG9iYWMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=",
+      "ps": "By EbraSha 🧊",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "pahobac.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwYWhvYmFjLm9yZyIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6InBhaG9iYWMub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuYW1lIjoiTkwg8J+Hs/Cfh7EgfCBAUmF5ZGlrYWx4IHwgNEExMjc1IiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5ucIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InBhaG9iYWMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6bnVsbCwidiI6bnVsbH0=",
+      "ps": "By EbraSha 🛜",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "pahobac.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJwYWhvYmFjLm9yZyIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6InBhaG9iYWMub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuYW1lIjoiTkwg8J+Hs/Cfh7EgfCBAUmF5ZGlrYWx4IHwgNEExMjc1IiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn46vIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InBhaG9iYWMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6bnVsbCwidiI6bnVsbH0=",
+      "ps": "By EbraSha 🎯",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "lcv8v9l7oyamxxfz.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "lcv8v9l7oyamxxfz.v.3dns.vip",
+      "sni": "lcv8v9l7oyamxxfz.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJsY3Y4djlsN295YW14eGZ6LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfm5wiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoibGN2OHY5bDdveWFteHhmei52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🛜",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "188.114.96.19",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uaGVzYW5pZDguaXIuIiwiaWQiOiJhZWQ4OGU3OS01NzYyLTRkMmYtODZmYS1mNDM4ZjMyYTc2NTQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJCeSBFYnJhU2hhIPCfpoUiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🦅",
       "behindCF": false
     }
   ]
