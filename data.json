@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25T20:41:49.797Z",
+  "updatedAt": "2026-09-25T20:43:13.221Z",
   "total": 89,
-  "active": 4,
+  "active": 3,
   "configs": [
     {
       "type": "vmess",
@@ -13,19 +13,6 @@
       "sni": "pahobac.org",
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIPCfkqMiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGFob2JhYy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
-      "ps": "By EbraSha 💣",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "20.235.220.189",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "6JDvArazgU3qQR6Q.v.3dns.vip",
-      "sni": "6JDvArazgU3qQR6Q.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImFpZCI6MCwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfkqMiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiI2SkR2QXJhemdVM3FRUjZRLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 💣",
       "behindCF": false
     },
