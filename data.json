@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-25T23:27:45.591Z",
+  "updatedAt": "2026-09-25T23:29:45.872Z",
   "total": 96,
-  "active": 6,
+  "active": 4,
   "configs": [
-    {
-      "type": "vless",
-      "server": "support.cloudflare.com",
-      "port": 2095,
-      "tls": false,
-      "net": "ws",
-      "host": "llm-api.sofurry.dpdns.org",
-      "sni": "llm-api.sofurry.dpdns.org",
-      "country": "US",
-      "raw": "vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?type=ws&encryption=none&flow=&host=llm-api.sofurry.dpdns.org&path=%2F#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": true
-    },
     {
       "type": "vmess",
       "server": "139.64.166.25",
@@ -53,19 +40,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImFpZCI6MCwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCflKUiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiI2SkR2QXJhemdVM3FRUjZRLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 🔥",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "216.106.187.60",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "kentspark.org",
-      "sni": "kentspark.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIyMTYuMTA2LjE4Ny42MCIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6ImtlbnRzcGFyay5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiLwn4ep8J+HqiBERSAxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn4yMIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImtlbnRzcGFyay5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
-      "ps": "By EbraSha 🌌",
       "behindCF": false
     },
     {
