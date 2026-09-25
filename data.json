@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-09-25T22:59:17.201Z",
-  "total": 96,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-09-25T23:00:21.152Z",
+  "total": 95,
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "support.cloudflare.com",
+      "port": 2095,
+      "tls": false,
+      "net": "ws",
+      "host": "llm-api.sofurry.dpdns.org",
+      "sni": "llm-api.sofurry.dpdns.org",
+      "country": "US",
+      "raw": "vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?type=ws&encryption=none&flow=&host=llm-api.sofurry.dpdns.org&path=%2F#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
+    }
+  ]
 }
