@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:54:50.323Z",
+  "updatedAt": "2026-09-25T23:56:14.010Z",
   "total": 96,
   "active": 4,
   "configs": [
@@ -18,15 +18,15 @@
     },
     {
       "type": "vmess",
-      "server": "186.190.211.67",
+      "server": "20.235.220.189",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "pahobac.org",
-      "sni": "pahobac.org",
+      "host": "6JDvArazgU3qQR6Q.v.3dns.vip",
+      "sni": "6JDvArazgU3qQR6Q.v.3dns.vip",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxODYuMTkwLjIxMS42NyIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6InBhaG9iYWMub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuYW1lIjoiR0Ig8J+HrPCfh6cgfCBAUmF5ZGlrYWx4IHwgRkMzMUVGIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn6aFIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InBhaG9iYWMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6bnVsbCwidiI6bnVsbH0=",
-      "ps": "By EbraSha 🦅",
+      "raw": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImFpZCI6MCwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfp7IiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiI2SkR2QXJhemdVM3FRUjZRLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🧲",
       "behindCF": false
     },
     {
