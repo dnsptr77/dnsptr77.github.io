@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25T20:52:03.028Z",
+  "updatedAt": "2026-09-25T20:53:16.606Z",
   "total": 87,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vmess",
@@ -40,19 +40,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImFpZCI6MCwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIOKZo++4jyIsInNjeSI6ImF1dG8iLCJzZXJ2aWNlTmFtZSI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsInRscyI6InRscyIsInYiOiIyIn0=",
       "ps": "By EbraSha ♣️",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "216.106.187.60",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "kentspark.org",
-      "sni": "kentspark.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIyMTYuMTA2LjE4Ny42MCIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6ImtlbnRzcGFyay5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiLwn4ep8J+HqiBERSAxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5SQIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImtlbnRzcGFyay5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
-      "ps": "By EbraSha 🔐",
       "behindCF": false
     },
     {
