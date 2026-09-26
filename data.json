@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-26T14:34:52.601Z",
+  "updatedAt": "2026-09-26T14:36:34.120Z",
   "total": 104,
-  "active": 3,
+  "active": 2,
   "configs": [
     {
       "type": "vless",
-      "server": "platform108.golnamakcert.top",
+      "server": "platform113.golnamakcert.top",
       "port": 80,
       "tls": false,
       "net": "ws",
-      "host": "platform108.halalkhor.info",
-      "sni": "platform108.halalkhor.info",
+      "host": "platform113.halalkhor.info",
+      "sni": "platform113.halalkhor.info",
       "country": "CL",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?type=ws&encryption=none&flow=&host=platform108.halalkhor.info&path=%2Fplatform108#🇨🇱[openproxylist.com] vless-CL",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform113.golnamakcert.top:80?&sni=platform113.halalkhor.info&type=ws&headerType=none&host=platform113.halalkhor.info&path=%2Fplatform113#🇨🇱[openproxylist.com] vless-CL",
       "ps": "🇨🇱[openproxylist.com] vless-CL",
       "behindCF": false
     },
@@ -27,19 +27,6 @@
       "country": "CL",
       "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?&type=ws&headerType=none&host=platform101.halalkhor.info&path=%2Fplatform101#🇨🇱[openproxylist.com] vless-CL",
       "ps": "🇨🇱[openproxylist.com] vless-CL",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "45.32.128.44",
-      "port": 2095,
-      "tls": false,
-      "net": "ws",
-      "host": "www.bing.com",
-      "sni": "www.bing.com",
-      "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IjQ1LjMyLjEyOC40NCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjFkYTc2ZmVhLTIzNjAtNDBkNy05OWNlLTczNzQ5NzE4MDhiYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIxZGE3NmZlYS0yMzYwLTQwZDctOTljZS03Mzc0OTcxODA4YmItdm0iLCJob3N0Ijoid3d3LmJpbmcuY29tIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
       "behindCF": false
     }
   ]
