@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-26T16:09:00.724Z",
+  "updatedAt": "2026-09-26T16:10:39.506Z",
   "total": 109,
-  "active": 8,
+  "active": 9,
   "configs": [
     {
       "type": "vless",
@@ -18,6 +18,19 @@
     },
     {
       "type": "vless",
+      "server": "platform113.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform113.halalkhor.info",
+      "sni": "platform113.halalkhor.info",
+      "country": "CL",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform113.golnamakcert.top:80?&sni=platform113.halalkhor.info&type=ws&headerType=none&host=platform113.halalkhor.info&path=%2Fplatform113#🇨🇱[openproxylist.com] vless-CL",
+      "ps": "🇨🇱[openproxylist.com] vless-CL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
       "server": "platform108.golnamakcert.top",
       "port": 80,
       "tls": false,
@@ -26,19 +39,6 @@
       "sni": "platform108.halalkhor.info",
       "country": "CL",
       "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?type=ws&encryption=none&flow=&host=platform108.halalkhor.info&path=%2Fplatform108#🇨🇱[openproxylist.com] vless-CL",
-      "ps": "🇨🇱[openproxylist.com] vless-CL",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "platform101.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform101.halalkhor.info",
-      "sni": "platform101.halalkhor.info",
-      "country": "CL",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?&type=ws&headerType=none&host=platform101.halalkhor.info&path=%2Fplatform101#🇨🇱[openproxylist.com] vless-CL",
       "ps": "🇨🇱[openproxylist.com] vless-CL",
       "behindCF": false
     },
@@ -66,6 +66,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIPCfk58iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGFob2JhYy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
       "ps": "By EbraSha 📟",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "186.190.211.67",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxODYuMTkwLjIxMS42NyIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6InBhaG9iYWMub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuYW1lIjoiR0Ig8J+HrPCfh6cgfCBAUmF5ZGlrYWx4IHwgRkMzMUVGIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5SLIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InBhaG9iYWMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6bnVsbCwidiI6bnVsbH0=",
+      "ps": "By EbraSha 🔋",
       "behindCF": false
     },
     {
