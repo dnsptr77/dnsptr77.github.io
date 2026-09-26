@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-26T00:00:28.289Z",
+  "updatedAt": "2026-09-26T00:01:40.807Z",
   "total": 96,
-  "active": 3,
+  "active": 5,
   "configs": [
     {
       "type": "vmess",
@@ -40,6 +40,32 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImFpZCI6MCwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfp7IiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiI2SkR2QXJhemdVM3FRUjZRLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 🧲",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "216.106.187.60",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "kentspark.org",
+      "sni": "kentspark.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIyMTYuMTA2LjE4Ny42MCIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6ImtlbnRzcGFyay5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiLwn4ep8J+HqiBERSAxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5qnIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImtlbnRzcGFyay5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
+      "ps": "By EbraSha 🚧",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "45.32.128.44",
+      "port": 2095,
+      "tls": false,
+      "net": "ws",
+      "host": "www.bing.com",
+      "sni": "www.bing.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiI0NS4zMi4xMjguNDQiLCJhaWQiOiIwIiwiaG9zdCI6Ind3dy5iaW5nLmNvbSIsImlkIjoiMWRhNzZmZWEtMjM2MC00MGQ3LTk5Y2UtNzM3NDk3MTgwOGJiIiwibmV0Ijoid3MiLCJwYXRoIjoiMWRhNzZmZWEtMjM2MC00MGQ3LTk5Y2UtNzM3NDk3MTgwOGJiLXZtIiwicG9ydCI6IjIwOTUiLCJwcyI6IkJ5IEVicmFTaGEg8J+TnyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 📟",
       "behindCF": false
     }
   ]
