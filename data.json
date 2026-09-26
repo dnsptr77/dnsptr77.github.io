@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-09-26T10:52:45.664Z",
+  "updatedAt": "2026-09-26T10:53:56.073Z",
   "total": 115,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "139.64.166.25",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "pahobac.org",
-      "sni": "pahobac.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIOKame+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJwYWhvYmFjLm9yZyIsInRscyI6InRscyIsInR5cGUiOm51bGwsInYiOm51bGx9",
-      "ps": "By EbraSha ⚙️",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
