@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-02T09:21:50.591Z",
+  "updatedAt": "2026-10-02T09:23:35.022Z",
   "total": 173,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "yg1.ygkkk.dpdns.org",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "jmp1.907737.xyz",
-      "sni": "jmp1.907737.xyz",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ5ZzEueWdra2suZHBkbnMub3JnIiwiYWlkIjoiMCIsImhvc3QiOiJqbXAxLjkwNzczNy54eXoiLCJpZCI6ImIyYmE0YTczLTMxMjMtNDc5ZS1hYTk2LTU5NzNhOWVjZDBjMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9iMmJhNGE3My0zMTIzLTQ3OWUtYWE5Ni01OTczYTllY2QwYzAtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfqpYiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiam1wMS45MDc3MzcueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🪖",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
