@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-08T17:57:41.036Z",
+  "updatedAt": "2026-10-08T17:59:42.693Z",
   "total": 208,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "platform101.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform101.halalkhor.info",
-      "sni": "platform101.halalkhor.info",
-      "country": "ZA",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇿🇦[openproxylist.com] vless-ZA",
-      "ps": "🇿🇦[openproxylist.com] vless-ZA",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "psf-3.weedly.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "machinemag.ir",
-      "sni": "machinemag.ir",
-      "country": "FI",
-      "raw": "vless://b0fae3b7-02de-4002-b8ca-b7159fe33841@psf-3.weedly.top:80?&type=ws&headerType=none&host=machinemag.ir&path=%2F#🇫🇮[openproxylist.com] vless-FI",
-      "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
