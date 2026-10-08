@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-08T19:25:49.040Z",
+  "updatedAt": "2026-10-08T19:27:54.495Z",
   "total": 209,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "psf-3.weedly.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "machinemag.ir",
+      "sni": "machinemag.ir",
+      "country": "FI",
+      "raw": "vless://b0fae3b7-02de-4002-b8ca-b7159fe33841@psf-3.weedly.top:80?&type=ws&headerType=none&host=machinemag.ir&path=%2F#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    }
+  ]
 }
