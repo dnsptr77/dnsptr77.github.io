@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T21:39:23.458Z",
+  "updatedAt": "2026-10-08T21:41:50.775Z",
   "total": 204,
-  "active": 9,
+  "active": 10,
   "configs": [
     {
       "type": "vless",
@@ -27,6 +27,19 @@
       "country": "US",
       "raw": "vless://489f1717-d3c7-4940-ad68-bdbdbab857f4@146.70.233.51:443?&security=tls&fp=chrome&sni=x.m-90.xyz&type=ws&headerType=none&host=x.m-90.xyz&path=%2Ft.me%2FTEAMNETGRATISCOL#🇺🇸[openproxylist.com] vless-US",
       "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform102.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform102.halalkhor.info",
+      "sni": "platform102.golnamakcert.top",
+      "country": "ZA",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform102.golnamakcert.top:80?sni=platform102.golnamakcert.top&type=ws&host=platform102.halalkhor.info&path=/platform102#🇿🇦[openproxylist.com] vless-ZA",
+      "ps": "🇿🇦[openproxylist.com] vless-ZA",
       "behindCF": false
     },
     {
