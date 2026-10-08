@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-08T22:21:24.883Z",
+  "updatedAt": "2026-10-08T22:23:52.323Z",
   "total": 209,
-  "active": 8,
+  "active": 9,
   "configs": [
     {
       "type": "vless",
-      "server": "146.70.233.51",
-      "port": 443,
-      "tls": true,
+      "server": "platform101.golnamakcert.top",
+      "port": 80,
+      "tls": false,
       "net": "ws",
-      "host": "x.m-90.xyz",
-      "sni": "x.m-90.xyz",
-      "country": "US",
-      "raw": "vless://489f1717-d3c7-4940-ad68-bdbdbab857f4@146.70.233.51:443?&security=tls&fp=chrome&sni=x.m-90.xyz&type=ws&headerType=none&host=x.m-90.xyz&path=%2Ft.me%2FTEAMNETGRATISCOL#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "host": "platform101.halalkhor.info",
+      "sni": "platform101.halalkhor.info",
+      "country": "MY",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇲🇾[openproxylist.com] vless-MY",
+      "ps": "🇲🇾[openproxylist.com] vless-MY",
       "behindCF": false
     },
     {
@@ -40,6 +40,19 @@
       "country": "ZA",
       "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇿🇦[openproxylist.com] vless-ZA",
       "ps": "🇿🇦[openproxylist.com] vless-ZA",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "NL",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy13cyIsInBvcnQiOiIzMzczNiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇳🇱[openproxylist.com] vmess-NL",
       "behindCF": false
     },
     {
