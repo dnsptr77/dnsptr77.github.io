@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-09T15:10:22.860Z",
+  "updatedAt": "2026-10-09T15:12:13.995Z",
   "total": 187,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "platform101.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform101.halalkhor.info",
-      "sni": "platform101.halalkhor.info",
-      "country": "MY",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇲🇾[openproxylist.com] vless-MY",
-      "ps": "🇲🇾[openproxylist.com] vless-MY",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
