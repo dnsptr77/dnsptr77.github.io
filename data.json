@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-09T05:48:40.239Z",
+  "updatedAt": "2026-10-09T05:50:36.933Z",
   "total": 200,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "uk2-2.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "server3.9966338.xyz",
-      "sni": "server3.9966338.xyz",
-      "country": "DE",
-      "raw": "vmess://eyJhZGQiOiJ1azItMi45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjMuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd2FldGFzaXVvZmd1aXdlcj9lZD0yNTYwIiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsInNjeSI6ImF1dG8iLCJzZXJ2aWNlTmFtZSI6IiIsInNuaSI6InNlcnZlcjMuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇩🇪[openproxylist.com] vmess-DE",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
