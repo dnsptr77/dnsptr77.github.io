@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-09T01:22:06.386Z",
+  "updatedAt": "2026-10-09T01:24:07.895Z",
   "total": 211,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "209.38.238.229",
-      "port": 20202,
-      "tls": true,
-      "net": "ws",
-      "host": "wzs.echo.net.eu.org",
-      "sni": "wzs.echo.net.eu.org",
-      "country": "DE",
-      "raw": "vless://d18c6897-2849-456a-8c46-d7ecece47c20@209.38.238.229:20202?&security=tls&fp=chrome&sni=wzs.echo.net.eu.org&type=ws&headerType=none&host=wzs.echo.net.eu.org&path=%2Fvideo%2FHxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs%3D#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "platform101.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform101.halalkhor.info",
-      "sni": "platform101.halalkhor.info",
-      "country": "MY",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇲🇾[openproxylist.com] vless-MY",
-      "ps": "🇲🇾[openproxylist.com] vless-MY",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
