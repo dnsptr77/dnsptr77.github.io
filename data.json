@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-09T11:55:53.872Z",
+  "updatedAt": "2026-10-09T11:57:57.141Z",
   "total": 197,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "mygptagent.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "mygptagent.org",
+      "sni": "mygptagent.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDinKgiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoibXlncHRhZ2VudC5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+      "ps": "By EbraSha ✨",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "mygptagent.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "mygptagent.org",
+      "sni": "mygptagent.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5ucIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🛜",
+      "behindCF": false
+    }
+  ]
 }
