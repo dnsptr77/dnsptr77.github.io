@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-09T11:22:08.572Z",
+  "updatedAt": "2026-10-09T11:24:03.581Z",
   "total": 198,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "us5-1.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "server4.9966338.xyz",
-      "sni": "server4.9966338.xyz",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiJ1czUtMS45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvYW5kcm9pcmZkc3Jlb2lnaHRyamg/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJzbmkiOiJzZXJ2ZXI0Ljk5NjYzMzgueHl6IiwidGxzIjoidGxzIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
