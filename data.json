@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-09T16:54:51.852Z",
+  "updatedAt": "2026-10-09T16:57:02.389Z",
   "total": 184,
-  "active": 4,
+  "active": 5,
   "configs": [
     {
       "type": "vmess",
@@ -14,6 +14,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJ1czUtMS45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvYW5kcm9pcmZkc3Jlb2lnaHRyamg/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoic2VydmVyNC45OTY2MzM4Lnh5eiIsInRscyI6InRscyIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform101.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform101.halalkhor.info",
+      "sni": "platform101.halalkhor.info",
+      "country": "MY",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇲🇾[openproxylist.com] vless-MY",
+      "ps": "🇲🇾[openproxylist.com] vless-MY",
       "behindCF": false
     },
     {
