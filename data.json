@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-09T03:54:50.554Z",
+  "updatedAt": "2026-10-09T03:57:16.102Z",
   "total": 216,
-  "active": 5,
+  "active": 4,
   "configs": [
-    {
-      "type": "vless",
-      "server": "46.183.16.4",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "ro1.b0w.ir",
-      "sni": "ro1.b0w.ir",
-      "country": "RO",
-      "raw": "vless://69d76969-4c52-40f5-ac1d-303571634362@46.183.16.4:2087?&security=tls&fp=firefox&sni=ro1.b0w.ir&type=ws&headerType=none&path=%2F#🇷🇴[openproxylist.com] vless-RO",
-      "ps": "🇷🇴[openproxylist.com] vless-RO",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "209.38.238.229",
