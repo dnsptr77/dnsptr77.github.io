@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-09T03:49:46.165Z",
+  "updatedAt": "2026-10-09T03:52:24.225Z",
   "total": 216,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -53,19 +53,6 @@
       "country": "US",
       "raw": "vless://489f1717-d3c7-4940-ad68-bdbdbab857f4@146.70.233.51:443?&security=tls&fp=chrome&sni=x.m-90.xyz&type=ws&headerType=none&host=x.m-90.xyz&path=%2Ft.me%2FTEAMNETGRATISCOL#🇺🇸[openproxylist.com] vless-US",
       "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "nl-2a972c8052.shamanapp.online",
-      "port": 33736,
-      "tls": false,
-      "net": "ws",
-      "host": "nl-2a972c8052.shamanapp.online",
-      "sni": "nl-2a972c8052.shamanapp.online",
-      "country": "NL",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy13cyIsInBvcnQiOiIzMzczNiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇳🇱[openproxylist.com] vmess-NL",
       "behindCF": false
     }
   ]
