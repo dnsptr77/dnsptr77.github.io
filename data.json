@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-09T01:41:45.175Z",
+  "updatedAt": "2026-10-09T01:43:45.803Z",
   "total": 211,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "209.38.238.229",
-      "port": 20202,
-      "tls": true,
-      "net": "ws",
-      "host": "wzs.echo.net.eu.org",
-      "sni": "wzs.echo.net.eu.org",
-      "country": "DE",
-      "raw": "vless://d18c6897-2849-456a-8c46-d7ecece47c20@209.38.238.229:20202?&security=tls&fp=chrome&sni=wzs.echo.net.eu.org&type=ws&headerType=none&host=wzs.echo.net.eu.org&path=%2Fvideo%2FHxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs%3D#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
