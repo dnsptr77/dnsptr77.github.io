@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-10T04:04:54.856Z",
+  "updatedAt": "2026-10-10T04:06:49.632Z",
   "total": 191,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "61.18.134.10",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "mswo-gy191m.zhiyuantech.cloud",
+      "sni": "mswo-gy191m.zhiyuantech.cloud",
+      "country": "DE",
+      "raw": "vless://e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384@61.18.134.10:443?&security=tls&fp=chrome&sni=mswo-gy191m.zhiyuantech.cloud&type=ws&headerType=none&host=mswo-gy191m.zhiyuantech.cloud&path=%2Fe077d2c2-7dc5-4e6e-a44d-79c4e4d8b384#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    }
+  ]
 }
