@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-10T16:50:32.283Z",
+  "updatedAt": "2026-10-10T16:52:39.125Z",
   "total": 194,
-  "active": 6,
+  "active": 4,
   "configs": [
-    {
-      "type": "vless",
-      "server": "drive.korroh.com",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "drive.korroh.com",
-      "sni": "drive.korroh.com",
-      "country": "FI",
-      "raw": "vless://ec6f8131-7a5d-4117-9627-6fb2b39ae0da@drive.korroh.com:443?&security=tls&fp=chrome&sni=drive.korroh.com&type=ws&headerType=none&host=drive.korroh.com&path=%2Fremote.php%2Fdav%2F89f7661a0011ce46#🇫🇮[openproxylist.com] vless-FI",
-      "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
@@ -53,19 +40,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfkqMiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 💣",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "nl-2a972c8052.shamanapp.online",
-      "port": 33736,
-      "tls": false,
-      "net": "ws",
-      "host": "nl-2a972c8052.shamanapp.online",
-      "sni": "nl-2a972c8052.shamanapp.online",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfjIAiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🌀",
       "behindCF": false
     },
     {
