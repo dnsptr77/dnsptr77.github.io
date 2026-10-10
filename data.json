@@ -1,8 +1,34 @@
 {
-  "updatedAt": "2026-10-10T12:07:04.855Z",
+  "updatedAt": "2026-10-10T12:09:00.235Z",
   "total": 189,
-  "active": 4,
+  "active": 7,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "NL",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy13cyIsInBvcnQiOiIzMzczNiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇳🇱[openproxylist.com] vmess-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "194.26.229.39",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ost.tmk-videos.online",
+      "sni": "ost.tmk-videos.online",
+      "country": "BY",
+      "raw": "vless://d1004cfe-c279-e865-d865-71964dbdf85d@194.26.229.39:443?&security=tls&fp=edge&sni=ost.tmk-videos.online&type=ws&headerType=none&host=ost.tmk-videos.online&path=%2Fhls%2Flive%2Fbroadcast%2Fe75ebceb#🇧🇾[openproxylist.com] vless-BY",
+      "ps": "🇧🇾[openproxylist.com] vless-BY",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
@@ -53,6 +79,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDim5PvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoibXlncHRhZ2VudC5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
       "ps": "By EbraSha ⛓️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfk4AiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 📀",
       "behindCF": false
     }
   ]
