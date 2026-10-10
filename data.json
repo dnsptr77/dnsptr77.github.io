@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-10T16:23:40.680Z",
+  "updatedAt": "2026-10-10T16:25:35.183Z",
   "total": 192,
-  "active": 1,
+  "active": 2,
   "configs": [
     {
       "type": "vless",
@@ -14,6 +14,19 @@
       "country": "FI",
       "raw": "vless://ec6f8131-7a5d-4117-9627-6fb2b39ae0da@drive.korroh.com:443?&security=tls&fp=chrome&sni=drive.korroh.com&type=ws&headerType=none&host=drive.korroh.com&path=%2Fremote.php%2Fdav%2F89f7661a0011ce46#🇫🇮[openproxylist.com] vless-FI",
       "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "84.23.52.65",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "seo.video-save.online",
+      "sni": "seo.video-save.online",
+      "country": "NL",
+      "raw": "vless://d1004cfe-c279-e865-d865-71964dbdf85d@84.23.52.65:443?&security=tls&fp=edge&sni=seo.video-save.online&type=ws&headerType=none&host=seo.video-save.online&path=%2Fapi%2Fv3%2Fstream%2Fmanifest%2F54dea6bc#🇳🇱[openproxylist.com] vless-NL",
+      "ps": "🇳🇱[openproxylist.com] vless-NL",
       "behindCF": false
     }
   ]
