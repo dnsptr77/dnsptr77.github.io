@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-10T14:26:15.900Z",
+  "updatedAt": "2026-10-10T14:28:12.766Z",
   "total": 189,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "84.23.52.65",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "seo.video-save.online",
-      "sni": "seo.video-save.online",
-      "country": "NL",
-      "raw": "vless://d1004cfe-c279-e865-d865-71964dbdf85d@84.23.52.65:443?&security=tls&fp=edge&sni=seo.video-save.online&type=ws&headerType=none&host=seo.video-save.online&path=%2Fapi%2Fv3%2Fstream%2Fmanifest%2F54dea6bc#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
