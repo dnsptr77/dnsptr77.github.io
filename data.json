@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-10T17:04:31.852Z",
+  "updatedAt": "2026-10-10T17:06:29.442Z",
   "total": 198,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "drive.korroh.com",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "drive.korroh.com",
-      "sni": "drive.korroh.com",
-      "country": "FI",
-      "raw": "vless://ec6f8131-7a5d-4117-9627-6fb2b39ae0da@drive.korroh.com:443?&security=tls&fp=chrome&sni=drive.korroh.com&type=ws&headerType=none&host=drive.korroh.com&path=%2Fremote.php%2Fdav%2F89f7661a0011ce46#🇫🇮[openproxylist.com] vless-FI",
-      "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
