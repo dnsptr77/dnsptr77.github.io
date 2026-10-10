@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-10T05:43:42.354Z",
+  "updatedAt": "2026-10-10T05:46:02.890Z",
   "total": 185,
-  "active": 5,
+  "active": 7,
   "configs": [
+    {
+      "type": "vless",
+      "server": "61.18.134.10",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "mswo-gy191m.zhiyuantech.cloud",
+      "sni": "mswo-gy191m.zhiyuantech.cloud",
+      "country": "DE",
+      "raw": "vless://e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384@61.18.134.10:443?&security=tls&fp=chrome&sni=mswo-gy191m.zhiyuantech.cloud&type=ws&headerType=none&host=mswo-gy191m.zhiyuantech.cloud&path=%2Fe077d2c2-7dc5-4e6e-a44d-79c4e4d8b384#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
@@ -66,6 +79,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfkLoiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 🐺",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "yg1.ygkkk.dpdns.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "jmp1.907737.xyz",
+      "sni": "jmp1.907737.xyz",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJ5ZzEueWdra2suZHBkbnMub3JnIiwiYWlkIjoiMCIsImhvc3QiOiJqbXAxLjkwNzczNy54eXoiLCJpZCI6ImIyYmE0YTczLTMxMjMtNDc5ZS1hYTk2LTU5NzNhOWVjZDBjMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9iMmJhNGE3My0zMTIzLTQ3OWUtYWE5Ni01OTczYTllY2QwYzAtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfko4iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiam1wMS45MDc3MzcueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
+      "ps": "By EbraSha 💎",
       "behindCF": false
     }
   ]
