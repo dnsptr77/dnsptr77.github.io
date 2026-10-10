@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T16:27:29.713Z",
+  "updatedAt": "2026-10-10T16:29:28.071Z",
   "total": 192,
   "active": 2,
   "configs": [
@@ -17,16 +17,16 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "84.23.52.65",
+      "type": "vmess",
+      "server": "mygptagent.org",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "seo.video-save.online",
-      "sni": "seo.video-save.online",
-      "country": "NL",
-      "raw": "vless://d1004cfe-c279-e865-d865-71964dbdf85d@84.23.52.65:443?&security=tls&fp=edge&sni=seo.video-save.online&type=ws&headerType=none&host=seo.video-save.online&path=%2Fapi%2Fv3%2Fstream%2Fmanifest%2F54dea6bc#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
+      "host": "mygptagent.org",
+      "sni": "mygptagent.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDinKgiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoibXlncHRhZ2VudC5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
+      "ps": "By EbraSha ✨",
       "behindCF": false
     }
   ]
