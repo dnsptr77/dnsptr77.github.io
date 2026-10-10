@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-10T16:19:52.343Z",
+  "updatedAt": "2026-10-10T16:21:47.184Z",
   "total": 192,
-  "active": 2,
+  "active": 1,
   "configs": [
     {
       "type": "vless",
@@ -14,19 +14,6 @@
       "country": "FI",
       "raw": "vless://ec6f8131-7a5d-4117-9627-6fb2b39ae0da@drive.korroh.com:443?&security=tls&fp=chrome&sni=drive.korroh.com&type=ws&headerType=none&host=drive.korroh.com&path=%2Fremote.php%2Fdav%2F89f7661a0011ce46#🇫🇮[openproxylist.com] vless-FI",
       "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "mygptagent.org",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "mygptagent.org",
-      "sni": "mygptagent.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDinKgiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoibXlncHRhZ2VudC5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
-      "ps": "By EbraSha ✨",
       "behindCF": false
     }
   ]
