@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-10T11:29:35.383Z",
-  "total": 191,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "mygptagent.org",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "mygptagent.org",
-      "sni": "mygptagent.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDimabvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoibXlncHRhZ2VudC5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
-      "ps": "By EbraSha ♦️",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-10-10T11:31:31.175Z",
+  "total": 192,
+  "active": 0,
+  "configs": []
 }
