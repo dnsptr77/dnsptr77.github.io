@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T12:28:16.607Z",
+  "updatedAt": "2026-10-10T12:30:16.742Z",
   "total": 188,
   "active": 2,
   "configs": [
@@ -17,16 +17,16 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "194.26.229.39",
+      "type": "vmess",
+      "server": "mygptagent.org",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "ost.tmk-videos.online",
-      "sni": "ost.tmk-videos.online",
-      "country": "BY",
-      "raw": "vless://d1004cfe-c279-e865-d865-71964dbdf85d@194.26.229.39:443?&security=tls&fp=edge&sni=ost.tmk-videos.online&type=ws&headerType=none&host=ost.tmk-videos.online&path=%2Fhls%2Flive%2Fbroadcast%2Fe75ebceb#🇧🇾[openproxylist.com] vless-BY",
-      "ps": "🇧🇾[openproxylist.com] vless-BY",
+      "host": "mygptagent.org",
+      "sni": "mygptagent.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5KOIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 💎",
       "behindCF": false
     }
   ]
