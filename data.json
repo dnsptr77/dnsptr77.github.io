@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-10T17:18:18.341Z",
+  "updatedAt": "2026-10-10T17:20:23.195Z",
   "total": 195,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vless",
+      "server": "drive.korroh.com",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "drive.korroh.com",
+      "sni": "drive.korroh.com",
+      "country": "FI",
+      "raw": "vless://ec6f8131-7a5d-4117-9627-6fb2b39ae0da@drive.korroh.com:443?&security=tls&fp=chrome&sni=drive.korroh.com&type=ws&headerType=none&host=drive.korroh.com&path=%2Fremote.php%2Fdav%2F89f7661a0011ce46#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
