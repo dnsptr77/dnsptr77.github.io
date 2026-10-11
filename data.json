@@ -1,34 +1,8 @@
 {
-  "updatedAt": "2026-10-11T10:20:39.666Z",
+  "updatedAt": "2026-10-11T10:22:39.072Z",
   "total": 192,
-  "active": 7,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "5.189.254.168",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "cf3.schzyc.cc.cd",
-      "sni": "cf3.schzyc.cc.cd",
-      "country": "SE",
-      "raw": "vless://51a0af77-a60c-4d9b-81a4-f50e1b38d90b@5.189.254.168:2053?&security=tls&fp=chrome&sni=cf3.schzyc.cc.cd&type=ws&headerType=none&host=cf3.schzyc.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net#🇸🇪[openproxylist.com] vless-SE",
-      "ps": "🇸🇪[openproxylist.com] vless-SE",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "spb.ai-boost.tech",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "spb.ai-boost.tech",
-      "sni": "spb.ai-boost.tech",
-      "country": "NL",
-      "raw": "vless://e2599b64-2eaa-4b81-b2bc-738605ecfeec@spb.ai-boost.tech:443?&security=tls&fp=random&sni=spb.ai-boost.tech&type=ws&headerType=none&host=spb.ai-boost.tech&path=%2FbKGK1ZI0PzpQz3OeEeq1#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
