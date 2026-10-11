@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T10:12:24.092Z",
+  "updatedAt": "2026-10-11T10:14:26.817Z",
   "total": 194,
-  "active": 7,
+  "active": 8,
   "configs": [
     {
       "type": "vless",
@@ -27,6 +27,19 @@
       "country": "NL",
       "raw": "vless://e2599b64-2eaa-4b81-b2bc-738605ecfeec@spb.ai-boost.tech:443?&security=tls&fp=random&sni=spb.ai-boost.tech&type=ws&headerType=none&host=spb.ai-boost.tech&path=%2FbKGK1ZI0PzpQz3OeEeq1#🇳🇱[openproxylist.com] vless-NL",
       "ps": "🇳🇱[openproxylist.com] vless-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "170.114.45.6",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "primelinelk.me",
+      "sni": "primelinelk.me",
+      "country": "SG",
+      "raw": "vless://ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65@170.114.45.6:8443?path=/xprolk-primeline&security=tls&encryption=none&insecure=0&host=primelinelk.me&fp=chrome&type=ws&allowInsecure=0&sni=primelinelk.me#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
       "behindCF": false
     },
     {
