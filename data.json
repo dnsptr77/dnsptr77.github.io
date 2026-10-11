@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-11T12:43:57.505Z",
+  "updatedAt": "2026-10-11T12:46:34.313Z",
   "total": 199,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "45.127.32.220",
+      "port": 55002,
+      "tls": false,
+      "net": "ws",
+      "host": "www.bing.com",
+      "sni": "www.bing.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiI0NS4xMjcuMzIuMjIwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3d3cuYmluZy5jb20iLCJpZCI6ImIyNTczMWFmLTA0MjgtNDI3NC1iZTVkLTMxYTI3M2E4ZDYzMiIsIm5ldCI6IndzIiwicGF0aCI6ImIyNTczMWFmLTA0MjgtNDI3NC1iZTVkLTMxYTI3M2E4ZDYzMi12bSIsInBvcnQiOiI1NTAwMiIsInBzIjoiQnkgRWJyYVNoYSDwn5al77iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🖥️",
+      "behindCF": false
+    }
+  ]
 }
