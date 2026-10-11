@@ -1,6 +1,98 @@
 {
-  "updatedAt": "2026-10-11T12:29:29.786Z",
-  "total": 197,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-10-11T12:31:37.123Z",
+  "total": 199,
+  "active": 7,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "us5-1.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "server4.9966338.xyz",
+      "sni": "server4.9966338.xyz",
+      "country": "US",
+      "raw": "vmess://eyJhZGQiOiJ1czUtMS45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvYW5kcm9pcmZkc3Jlb2lnaHRyamg/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJzbmkiOiJzZXJ2ZXI0Ljk5NjYzMzgueHl6IiwidGxzIjoidGxzIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "support.zoom.us",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "primelinelk.me",
+      "sni": "primelinelk.me",
+      "country": "SG",
+      "raw": "vless://ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65@support.zoom.us:8443?path=/xprolk-primeline&security=tls&encryption=none&insecure=0&host=primelinelk.me&fp=chrome&type=ws&allowInsecure=0&sni=primelinelk.me#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "216.106.187.60",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "kentspark.org",
+      "sni": "kentspark.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIyMTYuMTA2LjE4Ny42MCIsImFpZCI6IjAiLCJhbHBuIjpudWxsLCJmcCI6bnVsbCwiaG9zdCI6ImtlbnRzcGFyay5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiLwn4ep8J+HqiBERSAxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiQnkgRWJyYVNoYSDwn5SLIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImtlbnRzcGFyay5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
+      "ps": "By EbraSha 🔋",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "2b9hwy8ocx7q74nm.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "2b9hwy8ocx7q74nm.v.3dns.vip",
+      "sni": "2b9hwy8ocx7q74nm.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIyYjlod3k4b2N4N3E3NG5tLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxwbiI6bnVsbCwiZnAiOm51bGwsImhvc3QiOm51bGwsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuYW1lIjoiSEsg8J+HrfCfh7AgfCBAUmF5ZGlrYWx4IHwgOUU3MTk1IiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+nqiIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOm51bGwsInRscyI6InRscyIsInR5cGUiOm51bGwsInYiOm51bGx9",
+      "ps": "By EbraSha 🧪",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "2b9hwy8ocx7q74nm.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "2b9hwY8oCx7Q74NM.v.3dns.vip",
+      "sni": "2b9hwY8oCx7Q74NM.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIyYjlod3k4b2N4N3E3NG5tLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IjJiOWh3WThvQ3g3UTc0Tk0udi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIPCfjJEiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🌑",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "2b9hwy8ocx7q74nm.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "2b9hwY8oCx7Q74NM.v.3dns.vip",
+      "sni": "2b9hwY8oCx7Q74NM.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIyYjlod3k4b2N4N3E3NG5tLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IjJiOWh3WThvQ3g3UTc0Tk0udi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJCeSBFYnJhU2hhIOKMqO+4jyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha ⌨️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "45.127.32.220",
+      "port": 55002,
+      "tls": false,
+      "net": "ws",
+      "host": "www.bing.com",
+      "sni": "www.bing.com",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiI0NS4xMjcuMzIuMjIwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3d3cuYmluZy5jb20iLCJpZCI6ImIyNTczMWFmLTA0MjgtNDI3NC1iZTVkLTMxYTI3M2E4ZDYzMiIsIm5ldCI6IndzIiwicGF0aCI6ImIyNTczMWFmLTA0MjgtNDI3NC1iZTVkLTMxYTI3M2E4ZDYzMi12bSIsInBvcnQiOiI1NTAwMiIsInBzIjoiQnkgRWJyYVNoYSDwn6eKIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
+      "ps": "By EbraSha 🧊",
+      "behindCF": false
+    }
+  ]
 }
