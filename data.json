@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T12:07:06.813Z",
+  "updatedAt": "2026-10-11T12:09:04.921Z",
   "total": 195,
-  "active": 1,
+  "active": 2,
   "configs": [
     {
       "type": "vmess",
@@ -14,6 +14,19 @@
       "country": "US",
       "raw": "vmess://eyJhZGQiOiJ1czUtMS45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvYW5kcm9pcmZkc3Jlb2lnaHRyamg/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJzbmkiOiJzZXJ2ZXI0Ljk5NjYzMzgueHl6IiwidGxzIjoidGxzIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "support.zoom.us",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "primelinelk.me",
+      "sni": "primelinelk.me",
+      "country": "SG",
+      "raw": "vless://ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65@support.zoom.us:8443?path=/xprolk-primeline&security=tls&encryption=none&insecure=0&host=primelinelk.me&fp=chrome&type=ws&allowInsecure=0&sni=primelinelk.me#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
       "behindCF": false
     }
   ]
