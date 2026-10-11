@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-11T02:53:38.994Z",
+  "updatedAt": "2026-10-11T02:55:36.434Z",
   "total": 197,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "msk.ai-boost.tech",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "msk.ai-boost.tech",
-      "sni": "msk.ai-boost.tech",
-      "country": "DE",
-      "raw": "vless://513e7ad9-318b-4495-8f5b-d88c4302fdc1@msk.ai-boost.tech:443?&security=tls&fp=android&sni=msk.ai-boost.tech&type=ws&headerType=none&host=msk.ai-boost.tech&path=%2F3a7lzIHlgUuz2QnV1CaQ#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
