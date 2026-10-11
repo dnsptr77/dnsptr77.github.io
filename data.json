@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T08:23:51.097Z",
+  "updatedAt": "2026-10-11T08:25:51.023Z",
   "total": 196,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -14,19 +14,6 @@
       "country": "SE",
       "raw": "vless://51a0af77-a60c-4d9b-81a4-f50e1b38d90b@5.189.254.168:2053?&security=tls&fp=chrome&sni=cf3.schzyc.cc.cd&type=ws&headerType=none&host=cf3.schzyc.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net#🇸🇪[openproxylist.com] vless-SE",
       "ps": "🇸🇪[openproxylist.com] vless-SE",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "nimm.mpd.cc.cd",
-      "port": 2053,
-      "tls": true,
-      "net": "ws",
-      "host": "nimm.mpd.cc.cd",
-      "sni": "nimm.mpd.cc.cd",
-      "country": "TR",
-      "raw": "trojan://e309e031-991e-4656-9934-44d10deb8fd8@nimm.mpd.cc.cd:2053?security=tls&sni=nimm.mpd.cc.cd&type=ws&path=/0962&Host=nimm.mpd.cc.cd#🇹🇷[openproxylist.com] trojan-TR",
-      "ps": "🇹🇷[openproxylist.com] trojan-TR",
       "behindCF": false
     },
     {
