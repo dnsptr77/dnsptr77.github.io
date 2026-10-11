@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-11T01:16:56.494Z",
+  "updatedAt": "2026-10-11T01:19:32.996Z",
   "total": 191,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "trojan",
-      "server": "172.66.40.99",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.trusteeforward.com",
-      "sni": "www.trusteeforward.com",
-      "country": "NL",
-      "raw": "trojan://humanity@172.66.40.99:443?allowInsecure=1&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": true
-    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
