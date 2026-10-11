@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-11T10:00:15.872Z",
+  "updatedAt": "2026-10-11T10:02:12.131Z",
   "total": 194,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vless",
+      "server": "5.189.254.168",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "cf3.schzyc.cc.cd",
+      "sni": "cf3.schzyc.cc.cd",
+      "country": "SE",
+      "raw": "vless://51a0af77-a60c-4d9b-81a4-f50e1b38d90b@5.189.254.168:2053?&security=tls&fp=chrome&sni=cf3.schzyc.cc.cd&type=ws&headerType=none&host=cf3.schzyc.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net#🇸🇪[openproxylist.com] vless-SE",
+      "ps": "🇸🇪[openproxylist.com] vless-SE",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
