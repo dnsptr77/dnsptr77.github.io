@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T02:57:37.894Z",
+  "updatedAt": "2026-10-11T02:59:36.404Z",
   "total": 197,
-  "active": 7,
+  "active": 6,
   "configs": [
     {
       "type": "vless",
@@ -15,19 +15,6 @@
       "raw": "vless://513e7ad9-318b-4495-8f5b-d88c4302fdc1@msk.ai-boost.tech:443?&security=tls&fp=android&sni=msk.ai-boost.tech&type=ws&headerType=none&host=msk.ai-boost.tech&path=%2F3a7lzIHlgUuz2QnV1CaQ#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "172.66.40.99",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.trusteeforward.com",
-      "sni": "www.trusteeforward.com",
-      "country": "NL",
-      "raw": "trojan://humanity@172.66.40.99:443?allowInsecure=1&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": true
     },
     {
       "type": "vmess",
