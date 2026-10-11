@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-11T09:07:15.453Z",
+  "updatedAt": "2026-10-11T09:09:12.537Z",
   "total": 196,
-  "active": 1,
+  "active": 2,
   "configs": [
+    {
+      "type": "vless",
+      "server": "5.189.254.168",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "cf3.schzyc.cc.cd",
+      "sni": "cf3.schzyc.cc.cd",
+      "country": "SE",
+      "raw": "vless://51a0af77-a60c-4d9b-81a4-f50e1b38d90b@5.189.254.168:2053?&security=tls&fp=chrome&sni=cf3.schzyc.cc.cd&type=ws&headerType=none&host=cf3.schzyc.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net#🇸🇪[openproxylist.com] vless-SE",
+      "ps": "🇸🇪[openproxylist.com] vless-SE",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "nl-2a972c8052.shamanapp.online",
