@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-11T06:48:02.993Z",
-  "total": 205,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-10-11T06:50:06.764Z",
+  "total": 206,
+  "active": 1,
+  "configs": [
+    {
+      "type": "trojan",
+      "server": "172.66.40.99",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.trusteeforward.com",
+      "sni": "www.trusteeforward.com",
+      "country": "NL",
+      "raw": "trojan://humanity@172.66.40.99:443?allowInsecure=1&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": true
+    }
+  ]
 }
