@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-10-12T20:01:41.106Z",
-  "total": 208,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-10-12T20:03:48.168Z",
+  "total": 207,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "91.215.43.248",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "my.kempekl.online",
+      "sni": "my.kempekl.online",
+      "country": "PL",
+      "raw": "vless://a5893c8b-28a2-4947-9a1c-708db25506c3@91.215.43.248:443?encryption=none&fp=chrome&host=my.kempekl.online&path=/gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae&security=tls&sni=my.kempekl.online&type=ws#🇵🇱[openproxylist.com] vless-PL",
+      "ps": "🇵🇱[openproxylist.com] vless-PL",
+      "behindCF": false
+    },
+    {
+      "type": "trojan",
+      "server": "nimm.mpd.cc.cd",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "nimm.mpd.cc.cd",
+      "sni": "nimm.mpd.cc.cd",
+      "country": "TR",
+      "raw": "trojan://e309e031-991e-4656-9934-44d10deb8fd8@nimm.mpd.cc.cd:2053?sni=nimm.mpd.cc.cd&type=ws&path=/0962#🇹🇷[openproxylist.com] trojan-TR",
+      "ps": "🇹🇷[openproxylist.com] trojan-TR",
+      "behindCF": false
+    },
+    {
+      "type": "trojan",
+      "server": "172.66.40.99",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.trusteeforward.com",
+      "sni": "www.trusteeforward.com",
+      "country": "NL",
+      "raw": "trojan://humanity@172.66.40.99:443?allowInsecure=1&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "us5-1.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "server4.9966338.xyz",
+      "sni": "server4.9966338.xyz",
+      "country": "US",
+      "raw": "vmess://eyJhZGQiOiJ1czUtMS45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvYW5kcm9pcmZkc3Jlb2lnaHRyamg/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJzbmkiOiJzZXJ2ZXI0Ljk5NjYzMzgueHl6IiwidGxzIjoidGxzIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "NL",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsImFkZCI6Im5sLTJhOTcyYzgwNTIuc2hhbWFuYXBwLm9ubGluZSIsInBvcnQiOiIzMzczNiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiJcL3ZtZXNzLXdzIiwidGxzIjoiIiwic25pIjoiIiwidGVzdF9uYW1lIjoiMTA1Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇳🇱[openproxylist.com] vmess-NL",
+      "behindCF": false
+    }
+  ]
 }
