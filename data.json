@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-13T16:11:41.719Z",
+  "updatedAt": "2026-10-13T16:14:09.276Z",
   "total": 237,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
-      "sni": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
-      "country": "🌍",
-      "raw": "vless://0b3c3f4f-843a-5b0a-98fe-132c88fbefc0@86153507-1976-48f1-ac86-e8ab274470a8.fly.dev:443?encryption=none&security=tls&sni=86153507-1976-48f1-ac86-e8ab274470a8.fly.dev&fp=chrome&type=ws&path=%2Fws%2F0b3c3f4f-843a-5b0a-98fe-132c88fbefc0#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
