@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-13T16:39:05.051Z",
+  "updatedAt": "2026-10-13T16:41:30.666Z",
   "total": 239,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "23.95.225.10",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "IE",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@23.95.225.10:8443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🇮🇪[openproxylist.com] vless-IE",
-      "ps": "🇮🇪[openproxylist.com] vless-IE",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "nl-2a972c8052.shamanapp.online",
