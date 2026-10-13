@@ -1,19 +1,32 @@
 {
-  "updatedAt": "2026-10-13T18:45:24.487Z",
+  "updatedAt": "2026-10-13T18:48:35.502Z",
   "total": 238,
-  "active": 5,
+  "active": 6,
   "configs": [
     {
-      "type": "vmess",
-      "server": "mygptagent.org",
+      "type": "vless",
+      "server": "23.95.225.10",
+      "port": 8443,
+      "tls": false,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "IE",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@23.95.225.10:8443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇮🇪[openproxylist.com] vless-IE",
+      "ps": "🇮🇪[openproxylist.com] vless-IE",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "mygptagent.org",
-      "sni": "mygptagent.org",
+      "host": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
+      "sni": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn6a+Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🦾",
+      "raw": "vless://0b3c3f4f-843a-5b0a-98fe-132c88fbefc0@86153507-1976-48f1-ac86-e8ab274470a8.fly.dev:443?encryption=none&security=tls&sni=86153507-1976-48f1-ac86-e8ab274470a8.fly.dev&fp=chrome&type=ws&path=%2Fws%2F0b3c3f4f-843a-5b0a-98fe-132c88fbefc0#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
       "behindCF": false
     },
     {
