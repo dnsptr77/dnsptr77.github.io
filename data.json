@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-14T05:11:39.776Z",
+  "updatedAt": "2026-10-14T05:14:06.896Z",
   "total": 255,
-  "active": 10,
+  "active": 11,
   "configs": [
+    {
+      "type": "vless",
+      "server": "104.21.70.22",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "luminouspetal.cyou",
+      "sni": "luminouspetal.cyou",
+      "country": "US",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=luminouspetal.cyou&fp=chrome&ech=luminouspetal.cyou%2Bhttps%3A%2F%2F1.1.1.1%2Fdns-query&type=ws&allowInsecure=0&sni=luminouspetal.cyou#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
