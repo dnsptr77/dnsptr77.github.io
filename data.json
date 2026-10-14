@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-14T17:39:53.175Z",
+  "updatedAt": "2026-10-14T17:42:59.715Z",
   "total": 253,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "tuyiuoyuthgfdbf.localip.ir",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "tuyiuoyuthgfdbf.localip.ir",
-      "sni": "tuyiuoyuthgfdbf.localip.ir",
-      "country": "DE",
-      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@tuyiuoyuthgfdbf.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=tuyiuoyuthgfdbf.localip.ir&type=ws&allowInsecure=0&sni=tuyiuoyuthgfdbf.localip.ir#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
