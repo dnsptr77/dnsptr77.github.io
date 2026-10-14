@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-14T05:03:59.396Z",
+  "updatedAt": "2026-10-14T05:06:34.085Z",
   "total": 255,
-  "active": 11,
+  "active": 13,
   "configs": [
+    {
+      "type": "vless",
+      "server": "104.21.70.22",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "luminouspetal.cyou",
+      "sni": "luminouspetal.cyou",
+      "country": "US",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=luminouspetal.cyou&fp=chrome&ech=luminouspetal.cyou%2Bhttps%3A%2F%2F1.1.1.1%2Fdns-query&type=ws&allowInsecure=0&sni=luminouspetal.cyou#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
+    },
     {
       "type": "vmess",
       "server": "eu3.998998.best",
@@ -14,6 +27,19 @@
       "country": "EE",
       "raw": "vmess://eyJhZGQiOiJldTMuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJzZXJ2ZXI0MC45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9haWFpYWkiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZWFcdWQ4M2NcdWRkZWFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUVFIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoic2VydmVyNDAuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🇪🇪[openproxylist.com] vmess-EE",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "5.189.254.168",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "cf3.schzyc.cc.cd",
+      "sni": "cf3.schzyc.cc.cd",
+      "country": "SE",
+      "raw": "vless://51a0af77-a60c-4d9b-81a4-f50e1b38d90b@5.189.254.168:2053?&security=tls&fp=chrome&sni=cf3.schzyc.cc.cd&type=ws&headerType=none&host=cf3.schzyc.cc.cd&path=%2Fproxyip%3DProxyIP.CMLiussss.net#🇸🇪[openproxylist.com] vless-SE",
+      "ps": "🇸🇪[openproxylist.com] vless-SE",
       "behindCF": false
     },
     {
