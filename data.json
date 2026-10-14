@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-14T03:37:41.120Z",
+  "updatedAt": "2026-10-14T03:40:08.318Z",
   "total": 241,
-  "active": 12,
+  "active": 10,
   "configs": [
     {
       "type": "vmess",
@@ -17,19 +17,6 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "104.21.70.22",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "brightlux.forum",
-      "sni": "brightlux.forum",
-      "country": "CA",
-      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=/raccoonwsvless&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum#🇨🇦[openproxylist.com] vless-CA",
-      "ps": "🇨🇦[openproxylist.com] vless-CA",
-      "behindCF": true
-    },
-    {
       "type": "vmess",
       "server": "cdn.sfacg.uk",
       "port": 2083,
@@ -40,19 +27,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im9yMy5zZmFjZy51ayIsImlkIjoiYWMyNTEyMzctNTc2Zi00MGM4LWE1NDMtNTU0OTYwYzk1OGIxIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IDIyRjgwQyIsIm5ldCI6IndzIiwicGF0aCI6Ii9vcjMiLCJwb3J0IjoyMDgzLCJwcyI6IkJ5IEVicmFTaGEg8J+bsO+4jyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
       "ps": "By EbraSha 🛰️",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "cdn.sfacg.uk",
-      "port": 2083,
-      "tls": true,
-      "net": "ws",
-      "host": "or3.sfacg.uk",
-      "sni": "or3.sfacg.uk",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOiIwIiwiaG9zdCI6Im9yMy5zZmFjZy51ayIsImlkIjoiYWMyNTEyMzctNTc2Zi00MGM4LWE1NDMtNTU0OTYwYzk1OGIxIiwibmV0Ijoid3MiLCJwYXRoIjoiL29yMyIsInBvcnQiOiIyMDgzIiwicHMiOiJCeSBFYnJhU2hhIPCflKUiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🔥",
       "behindCF": true
     },
     {
