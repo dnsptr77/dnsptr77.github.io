@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-10-14T13:49:37.121Z",
-  "total": 242,
-  "active": 3,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🔮",
-      "ps": " By EbraSha 🔮",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha ⚔️",
-      "ps": " By EbraSha ⚔️",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "104.21.70.22",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "luminouspetal.cyou",
-      "sni": "luminouspetal.cyou",
-      "country": "🌍",
-      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=luminouspetal.cyou&fp=chrome&ech=luminouspetal.cyou%2Bhttps%3A%2F%2F1.1.1.1%2Fdns-query&type=ws&allowInsecure=0&sni=luminouspetal.cyou# By EbraSha ⛓️",
-      "ps": " By EbraSha ⛓️",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-10-14T13:52:01.342Z",
+  "total": 241,
+  "active": 0,
+  "configs": []
 }
