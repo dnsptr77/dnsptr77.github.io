@@ -1,19 +1,32 @@
 {
-  "updatedAt": "2026-10-14T19:59:10.411Z",
-  "total": 261,
-  "active": 5,
+  "updatedAt": "2026-10-14T20:01:45.728Z",
+  "total": 262,
+  "active": 7,
   "configs": [
     {
       "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
+      "server": "77.110.97.245",
+      "port": 443,
+      "tls": true,
       "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🎛️",
-      "ps": " By EbraSha 🎛️",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "FI",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "fert6.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "fert6.localip.ir",
+      "sni": "fert6.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert6.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
     {
@@ -25,8 +38,21 @@
       "host": "platform118.halalkhor.info",
       "sni": "platform118.halalkhor.info",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha ⚔️",
-      "ps": " By EbraSha ⚔️",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🩸",
+      "ps": " By EbraSha 🩸",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform118.halalkhor.info",
+      "sni": "platform118.halalkhor.info",
+      "country": "🌍",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🔌",
+      "ps": " By EbraSha 🔌",
       "behindCF": false
     },
     {
@@ -38,8 +64,8 @@
       "host": "lucasjow.us.ci",
       "sni": "lucasjow.us.ci",
       "country": "🌍",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}&insecure=0&host=lucasjow.us.ci&fp=unsafe&type=ws&allowInsecure=0&sni=lucasjow.us.ci# By EbraSha 📶",
-      "ps": " By EbraSha 📶",
+      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}&insecure=0&host=lucasjow.us.ci&fp=unsafe&type=ws&allowInsecure=0&sni=lucasjow.us.ci# By EbraSha 🔥",
+      "ps": " By EbraSha 🔥",
       "behindCF": false
     },
     {
@@ -51,8 +77,8 @@
       "host": "brightlux.forum",
       "sni": "brightlux.forum",
       "country": "🌍",
-      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha 📶",
-      "ps": " By EbraSha 📶",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha 🌃",
+      "ps": " By EbraSha 🌃",
       "behindCF": true
     },
     {
@@ -64,8 +90,8 @@
       "host": "vmess.lbw666.dpdns.org",
       "sni": "vmess.lbw666.dpdns.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzP2VkPTIwNDgiLCJwY3MiOiIiLCJwb3J0IjoiODAiLCJwcyI6IkJ5IEVicmFTaGEg8J+nqiIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
-      "ps": "By EbraSha 🧪",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzP2VkPTIwNDgiLCJwY3MiOiIiLCJwb3J0IjoiODAiLCJwcyI6IkJ5IEVicmFTaGEg8J+SoyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
+      "ps": "By EbraSha 💣",
       "behindCF": true
     }
   ]
