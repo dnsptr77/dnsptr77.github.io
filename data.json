@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-14T09:12:12.458Z",
+  "updatedAt": "2026-10-14T09:14:46.770Z",
   "total": 259,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "eu3.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "server40.9966338.xyz",
+      "sni": "server40.9966338.xyz",
+      "country": "EE",
+      "raw": "vmess://eyJhZGQiOiJldTMuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJzZXJ2ZXI0MC45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9haWFpYWkiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZWFcdWQ4M2NcdWRkZWFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUVFIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoic2VydmVyNDAuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇪🇪[openproxylist.com] vmess-EE",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
