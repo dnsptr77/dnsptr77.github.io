@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-14T16:27:53.342Z",
-  "total": 246,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🔌",
-      "ps": " By EbraSha 🔌",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "31.57.190.17",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "lucasjow.us.ci",
-      "sni": "lucasjow.us.ci",
-      "country": "🌍",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}&insecure=0&host=lucasjow.us.ci&fp=unsafe&type=ws&allowInsecure=0&sni=lucasjow.us.ci# By EbraSha 🧲",
-      "ps": " By EbraSha 🧲",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-10-14T16:30:17.710Z",
+  "total": 247,
+  "active": 0,
+  "configs": []
 }
