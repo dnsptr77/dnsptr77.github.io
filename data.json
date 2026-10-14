@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-14T19:22:39.449Z",
+  "updatedAt": "2026-10-14T19:25:13.810Z",
   "total": 261,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vless",
+      "server": "77.110.97.245",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "FI",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
     {
       "type": "vless",
       "server": "platform118.golnamakcert.top",
