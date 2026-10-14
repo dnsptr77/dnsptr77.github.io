@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-14T17:01:51.072Z",
-  "total": 250,
+  "updatedAt": "2026-10-14T17:05:05.864Z",
+  "total": 252,
   "active": 1,
   "configs": [
     {
       "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
+      "server": "tuyiuoyuthgfdbf.localip.ir",
+      "port": 2087,
+      "tls": true,
       "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha ⚔️",
-      "ps": " By EbraSha ⚔️",
+      "host": "tuyiuoyuthgfdbf.localip.ir",
+      "sni": "tuyiuoyuthgfdbf.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@tuyiuoyuthgfdbf.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=tuyiuoyuthgfdbf.localip.ir&type=ws&allowInsecure=0&sni=tuyiuoyuthgfdbf.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     }
   ]
