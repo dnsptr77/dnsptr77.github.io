@@ -1,20 +1,33 @@
 {
-  "updatedAt": "2026-10-14T01:30:28.522Z",
+  "updatedAt": "2026-10-14T01:33:40.004Z",
   "total": 244,
-  "active": 10,
+  "active": 11,
   "configs": [
     {
-      "type": "vmess",
-      "server": "cdn.sfacg.uk",
-      "port": 2083,
+      "type": "vless",
+      "server": "23.95.225.10",
+      "port": 8443,
       "tls": true,
       "net": "ws",
-      "host": "or3.sfacg.uk",
-      "sni": "or3.sfacg.uk",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im9yMy5zZmFjZy51ayIsImlkIjoiYWMyNTEyMzctNTc2Zi00MGM4LWE1NDMtNTU0OTYwYzk1OGIxIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IDIyRjgwQyIsIm5ldCI6IndzIiwicGF0aCI6Ii9vcjMiLCJwb3J0IjoyMDgzLCJwcyI6IkJ5IEVicmFTaGEg8J+miCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🦈",
-      "behindCF": true
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "IE",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@23.95.225.10:8443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🇮🇪[openproxylist.com] vless-IE",
+      "ps": "🇮🇪[openproxylist.com] vless-IE",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "23.95.225.10",
+      "port": 8443,
+      "tls": false,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "IE",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@23.95.225.10:8443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇮🇪[openproxylist.com] vless-IE",
+      "ps": "🇮🇪[openproxylist.com] vless-IE",
+      "behindCF": false
     },
     {
       "type": "vmess",
