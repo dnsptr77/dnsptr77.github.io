@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T02:05:42.442Z",
+  "updatedAt": "2026-10-14T02:08:55.230Z",
   "total": 244,
   "active": 12,
   "configs": [
@@ -17,17 +17,17 @@
       "behindCF": false
     },
     {
-      "type": "vmess",
-      "server": "eu3.998998.best",
+      "type": "vless",
+      "server": "104.21.70.22",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "server40.9966338.xyz",
-      "sni": "server40.9966338.xyz",
-      "country": "EE",
-      "raw": "vmess://eyJhZGQiOiJldTMuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJzZXJ2ZXI0MC45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9haWFpYWkiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZWFcdWQ4M2NcdWRkZWFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUVFIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoic2VydmVyNDAuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇪🇪[openproxylist.com] vmess-EE",
-      "behindCF": false
+      "host": "brightlux.forum",
+      "sni": "brightlux.forum",
+      "country": "CA",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=/raccoonwsvless&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum#🇨🇦[openproxylist.com] vless-CA",
+      "ps": "🇨🇦[openproxylist.com] vless-CA",
+      "behindCF": true
     },
     {
       "type": "vmess",
