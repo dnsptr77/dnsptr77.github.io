@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-15T01:06:30.811Z",
+  "updatedAt": "2026-10-15T01:09:01.788Z",
   "total": 259,
   "active": 5,
   "configs": [
+    {
+      "type": "vless",
+      "server": "104.21.70.22",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "brightlux.forum",
+      "sni": "brightlux.forum",
+      "country": "CA",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=/raccoonwsvless&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum#🇨🇦[openproxylist.com] vless-CA",
+      "ps": "🇨🇦[openproxylist.com] vless-CA",
+      "behindCF": true
+    },
     {
       "type": "vless",
       "server": "platform118.golnamakcert.top",
@@ -14,19 +27,6 @@
       "country": "🌍",
       "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=%2Fplatform118# By EbraSha 🕷️",
       "ps": " By EbraSha 🕷️",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha ⚙️",
-      "ps": " By EbraSha ⚙️",
       "behindCF": false
     },
     {
