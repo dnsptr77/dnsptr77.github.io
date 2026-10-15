@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-15T15:35:37.976Z",
+  "updatedAt": "2026-10-15T15:38:01.208Z",
   "total": 244,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "ops5788tugfuy.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "ops5788tugfuy.localip.ir",
+      "sni": "ops5788tugfuy.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@ops5788tugfuy.localip.ir:2087?encryption=none&security=tls&sni=ops5788tugfuy.localip.ir&alpn=http%2F1.1&type=ws&host=ops5788tugfuy.localip.ir&path=%2Fhokm#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "tuyiuoyuthgfdbf.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "tuyiuoyuthgfdbf.localip.ir",
+      "sni": "tuyiuoyuthgfdbf.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@tuyiuoyuthgfdbf.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=tuyiuoyuthgfdbf.localip.ir&type=ws&allowInsecure=0&sni=tuyiuoyuthgfdbf.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    }
+  ]
 }
