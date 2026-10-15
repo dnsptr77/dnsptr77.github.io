@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-15T23:44:43.044Z",
-  "total": 268,
-  "active": 7,
+  "updatedAt": "2026-10-15T23:47:27.101Z",
+  "total": 269,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -53,45 +53,6 @@
       "country": "NL",
       "raw": "trojan://humanity@31.57.190.34:443?path=/assignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
       "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "104.17.147.222",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIiwibmFtZSI6IkNBIFx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNiB8IEBSYXlkaWthbHggfCBGMjVDMzIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": true
-    },
-    {
-      "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🦾",
-      "ps": " By EbraSha 🦾",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "31.57.190.49",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "lucasjow.us.ci",
-      "sni": "lucasjow.us.ci",
-      "country": "🌍",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.49:443?sni=lucasjow.us.ci&alpn=http/1.1&type=ws&host=lucasjow.us.ci&path=/cart/docs/www/proxyip=108.160.132.132fp=unsafe&security=tls# By EbraSha 🧨",
-      "ps": " By EbraSha 🧨",
       "behindCF": false
     }
   ]
