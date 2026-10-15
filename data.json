@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-15T15:25:53.926Z",
+  "updatedAt": "2026-10-15T15:28:20.050Z",
   "total": 246,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "ops5788tugfuy.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "ops5788tugfuy.localip.ir",
+      "sni": "ops5788tugfuy.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@ops5788tugfuy.localip.ir:2087?encryption=none&security=tls&sni=ops5788tugfuy.localip.ir&alpn=http%2F1.1&type=ws&host=ops5788tugfuy.localip.ir&path=%2Fhokm#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    }
+  ]
 }
