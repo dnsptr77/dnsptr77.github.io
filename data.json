@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-15T11:47:15.781Z",
+  "updatedAt": "2026-10-15T11:49:50.558Z",
   "total": 263,
-  "active": 4,
+  "active": 5,
   "configs": [
     {
       "type": "vless",
@@ -40,6 +40,19 @@
       "country": "FI",
       "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🇫🇮[openproxylist.com] vless-FI",
       "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "fert6.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "fert6.localip.ir",
+      "sni": "fert6.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert6.localip.ir:2087?encryption=none&security=tls&sni=fert6.localip.ir&alpn=http%2F1.1&type=ws&host=fert6.localip.ir&path=%2Fhokm#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
     {
