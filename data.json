@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-15T02:52:33.306Z",
+  "updatedAt": "2026-10-15T02:55:00.571Z",
   "total": 255,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "fert1qswdfegrthy.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "fert1qswdfegrthy.localip.ir",
+      "sni": "fert1qswdfegrthy.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert1qswdfegrthy.localip.ir:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&host=fert1qswdfegrthy.localip.ir&type=ws&sni=fert1qswdfegrthy.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    }
+  ]
 }
