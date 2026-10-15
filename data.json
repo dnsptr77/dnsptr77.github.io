@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-15T19:09:38.236Z",
+  "updatedAt": "2026-10-15T19:12:08.282Z",
   "total": 254,
   "active": 1,
   "configs": [
     {
       "type": "vless",
-      "server": "31.57.190.49",
-      "port": 443,
+      "server": "fert6.localip.ir",
+      "port": 2087,
       "tls": true,
       "net": "ws",
-      "host": "lucasjow.us.ci",
-      "sni": "lucasjow.us.ci",
-      "country": "🌍",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.49:443?&security=tls&fp=unsafe&alpn=http%2F1.1&sni=lucasjow.us.ci&type=ws&headerType=none&host=lucasjow.us.ci&path=%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132# By EbraSha ⛓️",
-      "ps": " By EbraSha ⛓️",
+      "host": "fert6.localip.ir",
+      "sni": "fert6.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert6.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     }
   ]
