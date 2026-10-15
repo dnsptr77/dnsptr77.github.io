@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-15T02:03:40.597Z",
+  "updatedAt": "2026-10-15T02:06:09.530Z",
   "total": 255,
-  "active": 2,
+  "active": 1,
   "configs": [
     {
       "type": "vless",
@@ -13,19 +13,6 @@
       "sni": "fert1qswdfegrthy.localip.ir",
       "country": "DE",
       "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert1qswdfegrthy.localip.ir:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&host=fert1qswdfegrthy.localip.ir&type=ws&sni=fert1qswdfegrthy.localip.ir#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "ops5788tugfuy.localip.ir",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "ops5788tugfuy.localip.ir",
-      "sni": "ops5788tugfuy.localip.ir",
-      "country": "DE",
-      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@ops5788tugfuy.localip.ir:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&host=ops5788tugfuy.localip.ir&type=ws&allowInsecure=0&sni=ops5788tugfuy.localip.ir#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     }
