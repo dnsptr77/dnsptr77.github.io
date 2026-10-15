@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-15T09:58:44.568Z",
-  "total": 274,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
-      "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 📼",
-      "ps": " By EbraSha 📼",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-10-15T10:01:19.551Z",
+  "total": 275,
+  "active": 0,
+  "configs": []
 }
