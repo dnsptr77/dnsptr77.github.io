@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-15T20:48:16.844Z",
+  "updatedAt": "2026-10-15T20:50:48.933Z",
   "total": 258,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "fert6.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "fert6.localip.ir",
+      "sni": "fert6.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert6.localip.ir:2087?encryption=none&security=tls&sni=fert6.localip.ir&alpn=http%2F1.1&type=ws&host=fert6.localip.ir&path=%2Fhokm#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    },
+    {
+      "type": "trojan",
+      "server": "31.57.190.34",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.volumeroot.com",
+      "sni": "www.volumeroot.com",
+      "country": "NL",
+      "raw": "trojan://humanity@31.57.190.34:443?path=/assignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
+    }
+  ]
 }
