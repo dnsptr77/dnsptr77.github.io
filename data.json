@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-16T07:06:47.877Z",
+  "updatedAt": "2026-10-16T07:09:41.255Z",
   "total": 289,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "trojan",
+      "server": "31.57.190.34",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.pleadcourt.org",
+      "sni": "www.pleadcourt.org",
+      "country": "NL",
+      "raw": "trojan://humanity@31.57.190.34:443?allowInsecure=0&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
+    },
     {
       "type": "vless",
       "server": "platform118.golnamakcert.top",
