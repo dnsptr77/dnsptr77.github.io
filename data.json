@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-16T00:35:25.689Z",
+  "updatedAt": "2026-10-16T00:38:03.015Z",
   "total": 272,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -27,19 +27,6 @@
       "country": "DE",
       "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert6.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "31.57.190.34",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.pleadcourt.org",
-      "sni": "www.pleadcourt.org",
-      "country": "NL",
-      "raw": "trojan://humanity@31.57.190.34:443?path=/assignment&security=tls&alpn=http/1.1&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
       "behindCF": false
     },
     {
