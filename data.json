@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-16T06:09:55.437Z",
+  "updatedAt": "2026-10-16T06:12:54.788Z",
   "total": 291,
-  "active": 11,
+  "active": 10,
   "configs": [
-    {
-      "type": "vless",
-      "server": "31.57.190.17",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "lucasjow.us.ci",
-      "sni": "lucasjow.us.ci",
-      "country": "ES",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}&insecure=0&host=lucasjow.us.ci&fp=unsafe&type=ws&allowInsecure=0&sni=lucasjow.us.ci#🇪🇸[openproxylist.com] vless-ES",
-      "ps": "🇪🇸[openproxylist.com] vless-ES",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "platform118.golnamakcert.top",
