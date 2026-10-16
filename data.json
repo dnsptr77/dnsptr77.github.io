@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-16T11:56:25.648Z",
+  "updatedAt": "2026-10-16T11:59:07.645Z",
   "total": 272,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vless",
+      "server": "104.21.70.22",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "brightlux.forum",
+      "sni": "brightlux.forum",
+      "country": "🌍",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=/raccoonwsvless&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha 🃏",
+      "ps": " By EbraSha 🃏",
+      "behindCF": true
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
