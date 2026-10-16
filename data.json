@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-16T05:56:37.896Z",
+  "updatedAt": "2026-10-16T06:00:07.311Z",
   "total": 289,
-  "active": 6,
+  "active": 8,
   "configs": [
     {
       "type": "vmess",
@@ -69,6 +69,19 @@
       "behindCF": true
     },
     {
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform118.halalkhor.info",
+      "sni": "platform118.halalkhor.info",
+      "country": "🌍",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 📀",
+      "ps": " By EbraSha 📀",
+      "behindCF": false
+    },
+    {
       "type": "vmess",
       "server": "158.51.121.123",
       "port": 443,
@@ -79,6 +92,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIxNTguNTEuMTIxLjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn6qWIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
       "ps": "By EbraSha 🪖",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "167.17.68.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vspeedfast.org",
+      "sni": "vspeedfast.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxNjcuMTcuNjguODkiLCJhaWQiOiIwIiwiYWxwbiI6bnVsbCwiZnAiOm51bGwsImhvc3QiOiJ2c3BlZWRmYXN0Lm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmFtZSI6IlVTIPCfh7rwn4e4IHwgQFJheWRpa2FseCB8IEJGMjRGNSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+puCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOm51bGwsInRscyI6InRscyIsInR5cGUiOm51bGwsInYiOm51bGx9",
+      "ps": "By EbraSha 🩸",
       "behindCF": false
     }
   ]
