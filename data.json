@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-16T06:12:54.788Z",
-  "total": 291,
-  "active": 10,
+  "updatedAt": "2026-10-16T06:15:40.910Z",
+  "total": 289,
+  "active": 5,
   "configs": [
     {
       "type": "vless",
@@ -12,8 +12,8 @@
       "host": "platform118.halalkhor.info",
       "sni": "platform118.halalkhor.info",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=%2Fplatform118# By EbraSha ♠️",
-      "ps": " By EbraSha ♠️",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🕶️",
+      "ps": " By EbraSha 🕶️",
       "behindCF": false
     },
     {
@@ -25,21 +25,21 @@
       "host": "platform118.halalkhor.info",
       "sni": "platform118.halalkhor.info",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🌑",
-      "ps": " By EbraSha 🌑",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🪖",
+      "ps": " By EbraSha 🪖",
       "behindCF": false
     },
     {
       "type": "vless",
-      "server": "platform118.golnamakcert.top",
-      "port": 80,
-      "tls": false,
+      "server": "31.57.190.17",
+      "port": 443,
+      "tls": true,
       "net": "ws",
-      "host": "platform118.halalkhor.info",
-      "sni": "platform118.halalkhor.info",
+      "host": "lucasjow.us.ci",
+      "sni": "lucasjow.us.ci",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha ⚔️",
-      "ps": " By EbraSha ⚔️",
+      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}&insecure=0&host=lucasjow.us.ci&fp=unsafe&type=ws&allowInsecure=0&sni=lucasjow.us.ci# By EbraSha 🎯",
+      "ps": " By EbraSha 🎯",
       "behindCF": false
     },
     {
@@ -51,8 +51,8 @@
       "host": "brightlux.forum",
       "sni": "brightlux.forum",
       "country": "🌍",
-      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha 🦂",
-      "ps": " By EbraSha 🦂",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha ⚡",
+      "ps": " By EbraSha ⚡",
       "behindCF": true
     },
     {
@@ -64,73 +64,8 @@
       "host": "vmess.lbw666.dpdns.org",
       "sni": "vmess.lbw666.dpdns.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IEYyNUMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn4yRIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
-      "ps": "By EbraSha 🌑",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "139.64.166.25",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "pahobac.org",
-      "sni": "pahobac.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIPCfjJEiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGFob2JhYy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
-      "ps": "By EbraSha 🌑",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "158.51.121.123",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "mygptagent.org",
-      "sni": "mygptagent.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNTguNTEuMTIxLjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5qAIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🚀",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "167.17.68.89",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "vspeedfast.org",
-      "sni": "vspeedfast.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNjcuMTcuNjguODkiLCJhaWQiOiIwIiwiYWxwbiI6bnVsbCwiZnAiOm51bGwsImhvc3QiOiJ2c3BlZWRmYXN0Lm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmFtZSI6IlVTIPCfh7rwn4e4IHwgQFJheWRpa2FseCB8IEJGMjRGNSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+UpSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOm51bGwsInRscyI6InRscyIsInR5cGUiOm51bGwsInYiOm51bGx9",
-      "ps": "By EbraSha 🔥",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "172.66.203.67",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjYuMjAzLjY3IiwiYWlkIjoiMCIsImZwIjoiY2hyb21lIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn4yNIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🌍",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.187.145",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTg3LjE0NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IDBBRDUxOSIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn6aCIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🦂",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IEYyNUMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn5ObIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
+      "ps": "By EbraSha 📛",
       "behindCF": true
     }
   ]
