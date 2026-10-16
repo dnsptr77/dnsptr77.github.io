@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-16T11:00:41.033Z",
-  "total": 272,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "tuyiuoyuthgfdbf.localip.ir",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "tuyiuoyuthgfdbf.localip.ir",
-      "sni": "tuyiuoyuthgfdbf.localip.ir",
-      "country": "DE",
-      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@tuyiuoyuthgfdbf.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=tuyiuoyuthgfdbf.localip.ir&type=ws&allowInsecure=0&sni=tuyiuoyuthgfdbf.localip.ir#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.137.209",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ukl.lovehk.xyz",
-      "sni": "ukl.lovehk.xyz",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTM3LjIwOSIsImFpZCI6MCwiaG9zdCI6InVrbC5sb3ZlaGsueHl6IiwiaWQiOiJmNWYwYmFiZS1hZWEyLTRmMDctYTFmYy0zYzk4MjAyNTNmNDkiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL0xvbmRvbjMxIiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJzbmkiOiJ1a2wubG92ZWhrLnh5eiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-10-16T11:03:18.983Z",
+  "total": 273,
+  "active": 0,
+  "configs": []
 }
