@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-16T00:03:23.685Z",
-  "total": 267,
-  "active": 5,
+  "updatedAt": "2026-10-16T00:06:46.886Z",
+  "total": 268,
+  "active": 10,
   "configs": [
-    {
-      "type": "vless",
-      "server": "tuyiuoyuthgfdbf.localip.ir",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "tuyiuoyuthgfdbf.localip.ir",
-      "sni": "tuyiuoyuthgfdbf.localip.ir",
-      "country": "DE",
-      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@tuyiuoyuthgfdbf.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=tuyiuoyuthgfdbf.localip.ir&type=ws&allowInsecure=0&sni=tuyiuoyuthgfdbf.localip.ir#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "77.110.97.245",
@@ -27,6 +14,19 @@
       "country": "FI",
       "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇫🇮[openproxylist.com] vless-FI",
       "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "fert6.localip.ir",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "fert6.localip.ir",
+      "sni": "fert6.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@fert6.localip.ir:2087?path=%2Fhokm&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
     {
@@ -57,15 +57,80 @@
     },
     {
       "type": "vmess",
-      "server": "104.17.147.222",
+      "server": "104.21.7.133",
       "port": 80,
       "tls": false,
       "net": "ws",
       "host": "vmess.lbw666.dpdns.org",
       "sni": "vmess.lbw666.dpdns.org",
       "country": "US",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIiwibmFtZSI6IkNBIFx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNiB8IEBSYXlkaWthbHggfCBGMjVDMzIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMjEuNy4xMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5hbWUiOiJDQSBcdWQ4M2NcdWRkZThcdWQ4M2NcdWRkZTYgfCBAUmF5ZGlrYWx4IHwgMjJBODNDIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93cz9lZD0yMDQ4IiwicG9ydCI6ODAsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": true
+    },
+    {
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform118.halalkhor.info",
+      "sni": "platform118.halalkhor.info",
+      "country": "🌍",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 💎",
+      "ps": " By EbraSha 💎",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform118.halalkhor.info",
+      "sni": "platform118.halalkhor.info",
+      "country": "🌍",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha ⚙️",
+      "ps": " By EbraSha ⚙️",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.57.190.49",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "lucasjow.us.ci",
+      "sni": "lucasjow.us.ci",
+      "country": "🌍",
+      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.49:443?sni=lucasjow.us.ci&alpn=http/1.1&type=ws&host=lucasjow.us.ci&path=/cart/docs/www/proxyip=108.160.132.132fp=unsafe&security=tls# By EbraSha ♣️",
+      "ps": " By EbraSha ♣️",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.21.70.22",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "luminouspetal.cyou",
+      "sni": "luminouspetal.cyou",
+      "country": "🌍",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=luminouspetal.cyou&fp=chrome&ech=luminouspetal.cyou%2Bhttps%3A%2F%2F1.1.1.1%2Fdns-query&type=ws&allowInsecure=0&sni=luminouspetal.cyou# By EbraSha 🚨",
+      "ps": " By EbraSha 🚨",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "104.17.147.222",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IEYyNUMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn4yMIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
+      "ps": "By EbraSha 🌌",
       "behindCF": true
     }
   ]
