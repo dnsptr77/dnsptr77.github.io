@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-16T07:03:57.453Z",
+  "updatedAt": "2026-10-16T07:06:47.877Z",
   "total": 289,
-  "active": 4,
+  "active": 5,
   "configs": [
     {
       "type": "vless",
@@ -41,6 +41,19 @@
       "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\": \"11\"}}]}&insecure=0&host=lucasjow.us.ci&fp=unsafe&type=ws&allowInsecure=0&sni=lucasjow.us.ci# By EbraSha ♣️",
       "ps": " By EbraSha ♣️",
       "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.21.70.22",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "brightlux.forum",
+      "sni": "brightlux.forum",
+      "country": "🌍",
+      "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=%2Fraccoonwsvless&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha 💎",
+      "ps": " By EbraSha 💎",
+      "behindCF": true
     },
     {
       "type": "vmess",
