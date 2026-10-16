@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-16T12:14:57.561Z",
+  "updatedAt": "2026-10-16T12:17:32.598Z",
   "total": 263,
   "active": 10,
   "configs": [
-    {
-      "type": "trojan",
-      "server": "219.76.13.177",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.pleadcourt.org",
-      "sni": "www.pleadcourt.org",
-      "country": "NL",
-      "raw": "trojan://humanity@219.76.13.177:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "platform118.golnamakcert.top",
@@ -66,6 +53,19 @@
       "country": "🌍",
       "raw": "vless://efe19c5a-0ea1-4666-8a4c-4a33f4670775@104.21.70.22:443?path=/raccoonwsvless&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=brightlux.forum&type=ws&allowInsecure=0&sni=brightlux.forum# By EbraSha 🔐",
       "ps": " By EbraSha 🔐",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "104.17.147.222",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IEYyNUMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn5W377iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
+      "ps": "By EbraSha 🕷️",
       "behindCF": true
     },
     {
