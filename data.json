@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-17T21:07:22.186Z",
+  "updatedAt": "2026-10-17T21:11:02.709Z",
   "total": 302,
-  "active": 10,
+  "active": 9,
   "configs": [
     {
       "type": "vmess",
@@ -27,19 +27,6 @@
       "country": "SG",
       "raw": "vless://20ff936a-8eb5-4d27-9cce-93f2016d467b@45.118.133.249:443?path=%2F&security=tls&encryption=none&insecure=0&host=free.nadun.store&fp=firefox&type=ws&allowInsecure=0&sni=free.nadun.store#🇸🇬[openproxylist.com] vless-SG",
       "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "199.232.78.170",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "Appxdn.global.ssl.fastly.net",
-      "sni": "ssl.fastly.com",
-      "country": "FR",
-      "raw": "vless://XpnTeam-17@199.232.78.170:443?encryption=none&security=tls&type=ws&host=Appxdn.global.ssl.fastly.net&path=%2F&sni=ssl.fastly.com&fp=chrome#🇫🇷[openproxylist.com] vless-FR",
-      "ps": "🇫🇷[openproxylist.com] vless-FR",
       "behindCF": false
     },
     {
