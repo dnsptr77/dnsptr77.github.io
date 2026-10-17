@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-17T14:18:10.066Z",
+  "updatedAt": "2026-10-17T14:21:16.182Z",
   "total": 282,
-  "active": 9,
+  "active": 8,
   "configs": [
     {
       "type": "vless",
@@ -17,17 +17,30 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "fert6.localip.ir",
-      "port": 2087,
+      "type": "vmess",
+      "server": "cdn.sfacg.uk",
+      "port": 2083,
       "tls": true,
       "net": "ws",
-      "host": "fert6.localip.ir",
-      "sni": "fert6.localip.ir",
+      "host": "or3.sfacg.uk",
+      "sni": "or3.sfacg.uk",
       "country": "🌍",
-      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@fert6.localip.ir:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
+      "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOiIwIiwiaG9zdCI6Im9yMy5zZmFjZy51ayIsImlkIjoiYWMyNTEyMzctNTc2Zi00MGM4LWE1NDMtNTU0OTYwYzk1OGIxIiwibmV0Ijoid3MiLCJwYXRoIjoiL29yMyIsInBvcnQiOiIyMDgzIiwicHMiOiJCeSBFYnJhU2hhIPCfjq8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🎯",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "cdn.sfacg.uk",
+      "port": 2083,
+      "tls": true,
+      "net": "ws",
+      "host": "or3.sfacg.uk",
+      "sni": "or3.sfacg.uk",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOjAsImhvc3QiOiJvcjMuc2ZhY2cudWsiLCJpZCI6ImFjMjUxMjM3LTU3NmYtNDBjOC1hNTQzLTU1NDk2MGM5NThiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9vcjMiLCJwb3J0IjoyMDgzLCJwcyI6IkJ5IEVicmFTaGEg8J+MjSIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiJhdXRvIn0=",
+      "ps": "By EbraSha 🌍",
+      "behindCF": true
     },
     {
       "type": "vmess",
@@ -92,32 +105,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfg48iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 🃏",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "yg1.ygkkk.dpdns.org",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "jmp1.907737.xyz",
-      "sni": "jmp1.907737.xyz",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ5ZzEueWdra2suZHBkbnMub3JnIiwiYWlkIjowLCJob3N0Ijoiam1wMS45MDc3MzcueHl6IiwiaWQiOiJiMmJhNGE3My0zMTIzLTQ3OWUtYWE5Ni01OTczYTllY2QwYzAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYjJiYTRhNzMtMzEyMy00NzllLWFhOTYtNTk3M2E5ZWNkMGMwLXZtIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg4pqhIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImptcDEuOTA3NzM3Lnh5eiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==",
-      "ps": "By EbraSha ⚡",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "nl-2a972c8052.shamanapp.online",
-      "port": 33736,
-      "tls": false,
-      "net": "ws",
-      "host": "nl-2a972c8052.shamanapp.online",
-      "sni": "nl-2a972c8052.shamanapp.online",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCflK4iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGVzdF9uYW1lIjoiMTIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🔮",
       "behindCF": false
     }
   ]
