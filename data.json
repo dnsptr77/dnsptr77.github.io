@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-17T06:26:37.148Z",
-  "total": 305,
-  "active": 10,
+  "updatedAt": "2026-10-17T06:29:51.158Z",
+  "total": 308,
+  "active": 9,
   "configs": [
     {
       "type": "vless",
@@ -12,8 +12,8 @@
       "host": "platform118.halalkhor.info",
       "sni": "platform118.halalkhor.info",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=%2Fplatform118# By EbraSha 👾",
-      "ps": " By EbraSha 👾",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=%2Fplatform118# By EbraSha 🛸",
+      "ps": " By EbraSha 🛸",
       "behindCF": false
     },
     {
@@ -25,8 +25,8 @@
       "host": "platform118.halalkhor.info",
       "sni": "platform118.halalkhor.info",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🐺",
-      "ps": " By EbraSha 🐺",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🧠",
+      "ps": " By EbraSha 🧠",
       "behindCF": false
     },
     {
@@ -38,8 +38,8 @@
       "host": "platform118.halalkhor.info",
       "sni": "platform118.halalkhor.info",
       "country": "🌍",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🤖",
-      "ps": " By EbraSha 🤖",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?type=ws&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🧪",
+      "ps": " By EbraSha 🧪",
       "behindCF": false
     },
     {
@@ -51,8 +51,8 @@
       "host": "lucasjow.us.ci",
       "sni": "lucasjow.us.ci",
       "country": "🌍",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?alpn=http%2F1.1&encryption=none&host=lucasjow.us.ci&path=%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132fp%3Dunsafe&security=tls&sni=lucasjow.us.ci&type=ws# By EbraSha 🚬",
-      "ps": " By EbraSha 🚬",
+      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?alpn=http%2F1.1&encryption=none&host=lucasjow.us.ci&path=%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132fp%3Dunsafe&security=tls&sni=lucasjow.us.ci&type=ws# By EbraSha 🦅",
+      "ps": " By EbraSha 🦅",
       "behindCF": false
     },
     {
@@ -64,8 +64,8 @@
       "host": "vmess.lbw666.dpdns.org",
       "sni": "vmess.lbw666.dpdns.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IEYyNUMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn6a+Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
-      "ps": "By EbraSha 🦾",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIPCfh6jwn4emIHwgQFJheWRpa2FseCB8IEYyNUMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicGNzIjoiIiwicG9ydCI6ODAsInBzIjoiQnkgRWJyYVNoYSDwn5K7Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==",
+      "ps": "By EbraSha 💻",
       "behindCF": true
     },
     {
@@ -77,8 +77,8 @@
       "host": "nl-2a972c8052.shamanapp.online",
       "sni": "nl-2a972c8052.shamanapp.online",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfjI0iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🌍",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCflbnvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🕹️",
       "behindCF": false
     },
     {
@@ -90,8 +90,8 @@
       "host": "nl-2a972c8052.shamanapp.online",
       "sni": "nl-2a972c8052.shamanapp.online",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfmqciLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🚧",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfm6HvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🛡️",
       "behindCF": false
     },
     {
@@ -103,8 +103,8 @@
       "host": "nl-2a972c8052.shamanapp.online",
       "sni": "nl-2a972c8052.shamanapp.online",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfkb4iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 👾",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfjIwiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🌌",
       "behindCF": false
     },
     {
@@ -116,21 +116,8 @@
       "host": "nl-2a972c8052.shamanapp.online",
       "sni": "nl-2a972c8052.shamanapp.online",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfk5siLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGVzdF9uYW1lIjoiMTA1IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 📛",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "nl-2a972c8052.shamanapp.online",
-      "port": 33736,
-      "tls": false,
-      "net": "ws",
-      "host": "nl-2a972c8052.shamanapp.online",
-      "sni": "nl-2a972c8052.shamanapp.online",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfqbgiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGVzdF9uYW1lIjoiMzQiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🩸",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfpr4iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGVzdF9uYW1lIjoiMTA1IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🦾",
       "behindCF": false
     }
   ]
