@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-17T10:34:53.369Z",
+  "updatedAt": "2026-10-17T10:37:33.538Z",
   "total": 277,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform118.halalkhor.info",
+      "sni": "platform118.halalkhor.info",
+      "country": "🌍",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=/platform118# By EbraSha 🛰️",
+      "ps": " By EbraSha 🛰️",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
