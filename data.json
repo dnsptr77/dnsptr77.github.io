@@ -1,32 +1,19 @@
 {
-  "updatedAt": "2026-10-17T11:34:07.072Z",
-  "total": 274,
-  "active": 6,
+  "updatedAt": "2026-10-17T11:37:15.107Z",
+  "total": 275,
+  "active": 7,
   "configs": [
     {
       "type": "vmess",
-      "server": "cf.877771.xyz",
+      "server": "mygptagent.org",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6ImNmLjg3Nzc3MS54eXoiLCJwb3J0IjoiNDQzIiwiaWQiOiIwY2Y2ZDk3MC0zZjFkLTRhYWUtYTk4OS05MmE4Zjc2YWUzZGIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsInBhdGgiOiJcL3dzP2VkPTIwNDgiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwiZnAiOiJjaHJvbWUiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "us5-1.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "server4.9966338.xyz",
-      "sni": "server4.9966338.xyz",
+      "host": "mygptagent.org",
+      "sni": "mygptagent.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ1czUtMS45OTg5OTguYmVzdCIsImFpZCI6MCwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvYW5kcm9pcmZkc3Jlb2lnaHRyamg/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoic2VydmVyNC45OTY2MzM4Lnh5eiIsInRscyI6InRscyIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🏳[openproxylist.com] vmess-",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn6aHIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🦇",
       "behindCF": false
     },
     {
@@ -38,8 +25,8 @@
       "host": "mygptagent.org",
       "sni": "mygptagent.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5SlIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🔥",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5uw77iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🛰️",
       "behindCF": false
     },
     {
@@ -51,8 +38,21 @@
       "host": "mygptagent.org",
       "sni": "mygptagent.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5O8Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 📼",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5SuIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🔮",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "mygptagent.org",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "mygptagent.org",
+      "sni": "mygptagent.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5KjIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 💣",
       "behindCF": false
     },
     {
@@ -64,8 +64,8 @@
       "host": "nl-2a972c8052.shamanapp.online",
       "sni": "nl-2a972c8052.shamanapp.online",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCflIsiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🔋",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfmqciLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🚧",
       "behindCF": false
     },
     {
@@ -77,8 +77,21 @@
       "host": "nl-2a972c8052.shamanapp.online",
       "sni": "nl-2a972c8052.shamanapp.online",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfmoAiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🚀",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCflbnvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🕹️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfp6kiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🧩",
       "behindCF": false
     }
   ]
