@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-17T01:11:03.177Z",
+  "updatedAt": "2026-10-17T01:13:42.073Z",
   "total": 272,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "167.17.68.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vspeedfast.org",
+      "sni": "vspeedfast.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxNjcuMTcuNjguODkiLCJhaWQiOiIwIiwiYWxwbiI6bnVsbCwiZnAiOm51bGwsImhvc3QiOiJ2c3BlZWRmYXN0Lm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmFtZSI6IlVTIPCfh7rwn4e4IHwgQFJheWRpa2FseCB8IEJGMjRGNSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg4pmj77iPIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6bnVsbCwidGxzIjoidGxzIiwidHlwZSI6bnVsbCwidiI6bnVsbH0=",
+      "ps": "By EbraSha ♣️",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
