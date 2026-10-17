@@ -1,32 +1,19 @@
 {
-  "updatedAt": "2026-10-17T14:38:16.511Z",
+  "updatedAt": "2026-10-17T14:41:23.912Z",
   "total": 283,
-  "active": 7,
+  "active": 6,
   "configs": [
     {
-      "type": "vmess",
-      "server": "node8.liudonghoe.com",
+      "type": "vless",
+      "server": "77.110.97.245",
       "port": 443,
-      "tls": true,
+      "tls": false,
       "net": "ws",
-      "host": "node8.liudonghoe.com",
-      "sni": "node8.liudonghoe.com",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiNDcwNTBlNGUtOTY1ZC00MWNhLTk3NmQtNzNjMWYxMWU2OTA1IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9ob2U4IiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "eu3.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "server40.9966338.xyz",
-      "sni": "server40.9966338.xyz",
-      "country": "EE",
-      "raw": "vmess://eyJhZGQiOiJldTMuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJzZXJ2ZXI0MC45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9haWFpYWkiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZWFcdWQ4M2NcdWRkZWFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUVFIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoic2VydmVyNDAuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇪🇪[openproxylist.com] vmess-EE",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "FI",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
       "behindCF": false
     },
     {
