@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-17T00:18:22.840Z",
+  "updatedAt": "2026-10-17T00:21:04.426Z",
   "total": 276,
-  "active": 6,
+  "active": 7,
   "configs": [
     {
       "type": "trojan",
@@ -13,6 +13,19 @@
       "sni": "wWw.Volumeroot.cOm.",
       "country": "NL",
       "raw": "trojan://humanity@157.173.97.132:443?cs=semi-python&path=/assignment&security=tls&alpn=http/1.1&fm=tlshello-0-len&insecure=0&host=www.volumerOot.coM.&fp=unsafe&type=ws&allowInsecure=0&sni=wWw.Volumeroot.cOm.#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
+    },
+    {
+      "type": "trojan",
+      "server": "31.57.190.40",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.volumeroot.com",
+      "sni": "www.volumeroot.com",
+      "country": "NL",
+      "raw": "trojan://humanity@31.57.190.40:443?cs=semi-python&path=/assignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
       "ps": "🇳🇱[openproxylist.com] trojan-NL",
       "behindCF": false
     },
