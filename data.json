@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-17T21:25:04.285Z",
+  "updatedAt": "2026-10-17T21:28:50.237Z",
   "total": 306,
-  "active": 22,
+  "active": 16,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "de-d21e56c13c.shamanapp.online",
-      "port": 33744,
-      "tls": false,
-      "net": "ws",
-      "host": "de-d21e56c13c.shamanapp.online:33744",
-      "sni": "de-d21e56c13c.shamanapp.online:33744",
-      "country": "DE",
-      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9TaGFtYW5WTUVTUzIwMjYiLCJwb3J0IjoiMzM3NDQiLCJwcyI6Ilx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtREUiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇩🇪[openproxylist.com] vmess-DE",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "47.76.57.83",
@@ -27,19 +14,6 @@
       "country": "HK",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjQ3Ljc2LjU3LjgzIiwicG9ydCI6NDQzLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwidGxzIjoidGxzIiwiaWQiOiJmMjNiYjQyNy1jMWY5LTQzNzMtODc2Yy0yZjQzZTlmNzkwZjMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJob3N0IjoidmFoNHVyZHpsM2pkeDVyMi52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MifQ==",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "45.118.133.249",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "free.nadun.store",
-      "sni": "free.nadun.store",
-      "country": "SG",
-      "raw": "vless://20ff936a-8eb5-4d27-9cce-93f2016d467b@45.118.133.249:443?path=%2F&security=tls&encryption=none&insecure=0&host=free.nadun.store&fp=firefox&type=ws&allowInsecure=0&sni=free.nadun.store#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
       "behindCF": false
     },
     {
@@ -148,67 +122,15 @@
     },
     {
       "type": "vmess",
-      "server": "cdn.sfacg.uk",
-      "port": 2083,
-      "tls": true,
-      "net": "ws",
-      "host": "or3.sfacg.uk",
-      "sni": "or3.sfacg.uk",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOjAsImhvc3QiOiJvcjMuc2ZhY2cudWsiLCJpZCI6ImFjMjUxMjM3LTU3NmYtNDBjOC1hNTQzLTU1NDk2MGM5NThiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9vcjMiLCJwb3J0IjoyMDgzLCJwcyI6IkJ5IEVicmFTaGEg4pmj77iPIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==",
-      "ps": "By EbraSha ♣️",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "cf.0sm.com",
+      "server": "139.64.166.25",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJjZi4wc20uY29tIiwiYWlkIjoiMCIsImZwIjoiY2hyb21lIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5G+Iiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 👾",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "de-d21e56c13c.shamanapp.online",
-      "port": 33744,
-      "tls": false,
-      "net": "ws",
-      "host": "de-d21e56c13c.shamanapp.online:33744",
-      "sni": "de-d21e56c13c.shamanapp.online:33744",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn6aHIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🦇",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "de-d21e56c13c.shamanapp.online",
-      "port": 33744,
-      "tls": false,
-      "net": "ws",
-      "host": "de-d21e56c13c.shamanapp.online:33744",
-      "sni": "de-d21e56c13c.shamanapp.online:33744",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn5SQIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🔐",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "de-d21e56c13c.shamanapp.online",
-      "port": 33744,
-      "tls": false,
-      "net": "ws",
-      "host": "de-d21e56c13c.shamanapp.online:33744",
-      "sni": "de-d21e56c13c.shamanapp.online:33744",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn6qWIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-      "ps": "By EbraSha 🪖",
+      "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIPCfjIMiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGFob2JhYy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
+      "ps": "By EbraSha 🌃",
       "behindCF": false
     },
     {
