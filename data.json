@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-17T09:35:06.282Z",
+  "updatedAt": "2026-10-17T09:38:05.779Z",
   "total": 308,
-  "active": 15,
+  "active": 14,
   "configs": [
     {
       "type": "trojan",
@@ -27,19 +27,6 @@
       "country": "🌍",
       "raw": "trojan://humanity@31.57.190.34:443?allowInsecure=0&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#🏳[openproxylist.com] trojan-",
       "ps": "🏳[openproxylist.com] trojan-",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "31.57.190.34",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@31.57.190.34:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
       "behindCF": false
     },
     {
