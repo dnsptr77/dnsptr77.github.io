@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-17T19:57:37.215Z",
+  "updatedAt": "2026-10-17T20:01:18.462Z",
   "total": 317,
-  "active": 5,
+  "active": 6,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "cdn.sfacg.uk",
+      "port": 2083,
+      "tls": true,
+      "net": "ws",
+      "host": "or3.sfacg.uk",
+      "sni": "or3.sfacg.uk",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJjZG4uc2ZhY2cudWsiLCJhaWQiOjAsImhvc3QiOiJvcjMuc2ZhY2cudWsiLCJpZCI6ImFjMjUxMjM3LTU3NmYtNDBjOC1hNTQzLTU1NDk2MGM5NThiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9vcjMiLCJwb3J0IjoyMDgzLCJwcyI6IkJ5IEVicmFTaGEg8J+MkCIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiJhdXRvIn0=",
+      "ps": "By EbraSha 🌐",
+      "behindCF": true
+    },
     {
       "type": "vmess",
       "server": "mygptagent.org",
