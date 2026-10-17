@@ -1,19 +1,32 @@
 {
-  "updatedAt": "2026-10-17T22:02:42.664Z",
+  "updatedAt": "2026-10-17T22:05:44.364Z",
   "total": 303,
-  "active": 16,
+  "active": 24,
   "configs": [
     {
       "type": "vmess",
-      "server": "47.76.57.83",
+      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
       "port": 443,
       "tls": true,
       "net": "ws",
       "host": "vah4urdzl3jdx5r2.v.3dns.vip",
       "sni": "vah4urdzl3jdx5r2.v.3dns.vip",
       "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjQ3Ljc2LjU3LjgzIiwicG9ydCI6NDQzLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwidGxzIjoidGxzIiwiaWQiOiJmMjNiYjQyNy1jMWY5LTQzNzMtODc2Yy0yZjQzZTlmNzkwZjMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJob3N0IjoidmFoNHVyZHpsM2pkeDVyMi52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MifQ==",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6InZhaDR1cmR6bDNqZHg1cjIudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6ImYyM2JiNDI3YzFmOTQzNzM4NzZjMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiXC93cy12bWVzcyIsInNuaSI6InZhaDR1cmR6bDNqZHg1cjIudi4zZG5zLnZpcCIsImFsbG93SW5zZWN1cmUiOiIxIiwiaW5zZWN1cmUiOiIxIiwic2N5IjoiYXV0byIsImhvc3QiOiIiLCJhbHBuIjoiIiwiZnAiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "nl5.hap-plus.ru",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "nl5.hap-plus.ru",
+      "sni": "nl5.hap-plus.ru",
+      "country": "KH",
+      "raw": "vless://05d7a479-a099-40cf-aecf-41aa934767b0@nl5.hap-plus.ru:8443?path=%2Fapi%2Fv1%2Fevents&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=nl5.hap-plus.ru&fp=firefox&type=ws&allowInsecure=0&sni=nl5.hap-plus.ru#🇰🇭[openproxylist.com] vless-KH",
+      "ps": "🇰🇭[openproxylist.com] vless-KH",
       "behindCF": false
     },
     {
@@ -27,19 +40,6 @@
       "country": "SG",
       "raw": "vless://20ff936a-8eb5-4d27-9cce-93f2016d467b@45.118.133.249:443?path=%2F&security=tls&encryption=none&insecure=0&host=free.nadun.store&fp=firefox&type=ws&allowInsecure=0&sni=free.nadun.store#🇸🇬[openproxylist.com] vless-SG",
       "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "199.232.78.170",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "Appxdn.global.ssl.fastly.net",
-      "sni": "ssl.fastly.com",
-      "country": "FR",
-      "raw": "vless://XpnTeam-17@199.232.78.170:443?encryption=none&security=tls&type=ws&host=Appxdn.global.ssl.fastly.net&path=%2F&sni=ssl.fastly.com&fp=chrome#🇫🇷[openproxylist.com] vless-FR",
-      "ps": "🇫🇷[openproxylist.com] vless-FR",
       "behindCF": false
     },
     {
@@ -135,6 +135,84 @@
     },
     {
       "type": "vmess",
+      "server": "139.64.166.25",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "pahobac.org",
+      "sni": "pahobac.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMzkuNjQuMTY2LjI1IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoicGFob2JhYy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCBCNzM5OUUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJCeSBFYnJhU2hhIPCfkZEiLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoicGFob2JhYy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==",
+      "ps": "By EbraSha 👑",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "cf.0sm.com",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJjZi4wc20uY29tIiwiYWlkIjoiMCIsImZwIjoiY2hyb21lIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn4yDIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🌃",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "de-d21e56c13c.shamanapp.online",
+      "port": 33744,
+      "tls": false,
+      "net": "ws",
+      "host": "de-d21e56c13c.shamanapp.online:33744",
+      "sni": "de-d21e56c13c.shamanapp.online:33744",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn6aIIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🦈",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "de-d21e56c13c.shamanapp.online",
+      "port": 33744,
+      "tls": false,
+      "net": "ws",
+      "host": "de-d21e56c13c.shamanapp.online:33744",
+      "sni": "de-d21e56c13c.shamanapp.online:33744",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn5e/Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🗿",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "de-d21e56c13c.shamanapp.online",
+      "port": 33744,
+      "tls": false,
+      "net": "ws",
+      "host": "de-d21e56c13c.shamanapp.online:33744",
+      "sni": "de-d21e56c13c.shamanapp.online:33744",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn5SuIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🔮",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "de-d21e56c13c.shamanapp.online",
+      "port": 33744,
+      "tls": false,
+      "net": "ws",
+      "host": "de-d21e56c13c.shamanapp.online:33744",
+      "sni": "de-d21e56c13c.shamanapp.online:33744",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDwn5SMIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🔌",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
       "server": "nl-2a972c8052.shamanapp.online",
       "port": 33736,
       "tls": false,
@@ -187,6 +265,19 @@
     },
     {
       "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicG9ydCI6IjMzNzM2IiwicHMiOiJCeSBFYnJhU2hhIPCfjKrvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGVzdF9uYW1lIjoiMTA1IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "ps": "By EbraSha 🌪️",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
       "server": "47.76.57.83",
       "port": 443,
       "tls": true,
@@ -209,6 +300,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJwbGFuYi5tb2pjbi5jb20ubGludXhsaC54aW4iLCJhaWQiOiIwIiwiaG9zdCI6IjRiNDEzZjMwMTMwNDhjNDg3MDhlYjVhYzFhYzNkOTBkLm1vYmdzbGIudGJjYWNoZS5jb20iLCJpZCI6ImEwMDRlMTk2LThlOTQtNGQxNy1iOTVkLWZhMDJmYTY4MDM4ZSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjYiLCJwcyI6IkJ5IEVicmFTaGEg8J+SjiIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
       "ps": "By EbraSha 💎",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "tls": false,
+      "net": "ws",
+      "host": "nl-2a972c8052.shamanapp.online",
+      "sni": "nl-2a972c8052.shamanapp.online",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6bnVsbCwiZnAiOm51bGwsImhvc3QiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJpZCI6IjEyODFhY2NhLWYyMWQtNDc1Yy1iZjA0LWVjY2JlZTdmOGRmMiIsIm5hbWUiOiJOTCDwn4ez8J+HsSB8IEBSYXlkaWthbHggfCA3M0UyM0YiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3Mtd3MiLCJwb3J0IjozMzczNiwicHMiOiJCeSBFYnJhU2hhIPCflbnvuI8iLCJzY3kiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjpudWxsLCJ0bHMiOiJub25lIiwidHlwZSI6bnVsbCwidiI6bnVsbH0=",
+      "ps": "By EbraSha 🕹️",
       "behindCF": false
     }
   ]
