@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T09:52:37.356Z",
+  "updatedAt": "2026-10-18T10:02:49.979Z",
   "total": 65,
-  "active": 10,
+  "active": 9,
   "configs": [
     {
       "type": "vless",
@@ -40,19 +40,6 @@
       "country": "PH",
       "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?&sni=platform103.halalkhor.info&type=ws&headerType=none&host=platform103.halalkhor.info&path=/platform103#🇵🇭[openproxylist.com] vless-PH",
       "ps": "🇵🇭[openproxylist.com] vless-PH",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "de-d21e56c13c.shamanapp.online",
-      "port": 33744,
-      "tls": false,
-      "net": "ws",
-      "host": "de-d21e56c13c.shamanapp.online:33744",
-      "sni": "de-d21e56c13c.shamanapp.online:33744",
-      "country": "DE",
-      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9TaGFtYW5WTUVTUzIwMjYiLCJwb3J0IjoiMzM3NDQiLCJwcyI6Ilx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtREUiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇩🇪[openproxylist.com] vmess-DE",
       "behindCF": false
     },
     {
