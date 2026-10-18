@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T12:05:10.333Z",
+  "updatedAt": "2026-10-18T12:15:23.848Z",
   "total": 33,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -54,19 +54,6 @@
       "raw": "trojan://humanity@31.57.190.34:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🏳[openproxylist.com] trojan-",
       "ps": "🏳[openproxylist.com] trojan-",
       "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "104.21.7.133",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMjEuNy4xMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5hbWUiOiJDQSBcdWQ4M2NcdWRkZThcdWQ4M2NcdWRkZTYgfCBAUmF5ZGlrYWx4IHwgMjJBODNDIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93cz9lZD0yMDQ4IiwicG9ydCI6ODAsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": true
     }
   ]
 }
