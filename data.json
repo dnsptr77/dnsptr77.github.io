@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T02:19:18.177Z",
+  "updatedAt": "2026-10-18T02:22:37.676Z",
   "total": 287,
-  "active": 23,
+  "active": 22,
   "configs": [
     {
       "type": "vless",
@@ -14,19 +14,6 @@
       "country": "PH",
       "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform106.golnamakcert.top:80?type=ws&host=platform106.halalkhor.info&path=/platform106#🇵🇭[openproxylist.com] vless-PH",
       "ps": "🇵🇭[openproxylist.com] vless-PH",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "31.57.190.34",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@31.57.190.34:443?allowInsecure=0&sni=www.volumeroot.com&type=ws&host=www.volumeroot.com&path=%2Fassignment#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
       "behindCF": false
     },
     {
