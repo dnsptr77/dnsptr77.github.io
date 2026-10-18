@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T06:17:12.261Z",
+  "updatedAt": "2026-10-18T06:20:20.285Z",
   "total": 335,
-  "active": 11,
+  "active": 10,
   "configs": [
     {
       "type": "vless",
@@ -67,19 +67,6 @@
       "raw": "vmess://eyJhZGQiOiIxMDQuMjEuNy4xMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5hbWUiOiJDQSDwn4eo8J+HpiB8IEBSYXlkaWthbHggfCAyMkE4M0MiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3M/ZWQ9MjA0OCIsInBvcnQiOjgwLCJwcyI6IkJ5IEVicmFTaGEg8J+arCIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
       "ps": "By EbraSha 🚬",
       "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "cf.0sm.com",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJjZi4wc20uY29tIiwiYWlkIjoiMCIsImZwIjoiY2hyb21lIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn5ObIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 📛",
-      "behindCF": false
     },
     {
       "type": "vmess",
