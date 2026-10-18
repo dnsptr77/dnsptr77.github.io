@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T01:42:09.561Z",
+  "updatedAt": "2026-10-18T01:45:53.141Z",
   "total": 294,
-  "active": 19,
+  "active": 18,
   "configs": [
     {
       "type": "vless",
@@ -222,19 +222,6 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiJ5ZzEueWdra2suZHBkbnMub3JnIiwiYWlkIjowLCJob3N0Ijoiam1wMS45MDc3MzcueHl6IiwiaWQiOiJiMmJhNGE3My0zMTIzLTQ3OWUtYWE5Ni01OTczYTllY2QwYzAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYjJiYTRhNzMtMzEyMy00NzllLWFhOTYtNTk3M2E5ZWNkMGMwLXZtIiwicG9ydCI6NDQzLCJwcyI6IkJ5IEVicmFTaGEg8J+TsSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJqbXAxLjkwNzczNy54eXoiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
       "ps": "By EbraSha 📱",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "sni": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxsb3dJbnNlY3VyZSI6IjEiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImluc2VjdXJlIjoiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii93cy12bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IkJ5IEVicmFTaGEg8J+UriIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
-      "ps": "By EbraSha 🔮",
       "behindCF": false
     },
     {
