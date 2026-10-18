@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T05:01:32.741Z",
+  "updatedAt": "2026-10-18T05:04:33.411Z",
   "total": 298,
-  "active": 18,
+  "active": 19,
   "configs": [
     {
       "type": "vless",
@@ -66,6 +66,19 @@
       "country": "DE",
       "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9TaGFtYW5WTUVTUzIwMjYiLCJwb3J0IjoiMzM3NDQiLCJwcyI6Ilx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtREUiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform118.halalkhor.info",
+      "sni": "platform118.halalkhor.info",
+      "country": "🌍",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?&type=ws&headerType=none&host=platform118.halalkhor.info&path=%2Fplatform118# By EbraSha 🧪",
+      "ps": " By EbraSha 🧪",
       "behindCF": false
     },
     {
