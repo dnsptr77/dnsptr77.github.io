@@ -1,8 +1,34 @@
 {
-  "updatedAt": "2026-10-18T05:11:04.109Z",
+  "updatedAt": "2026-10-18T05:14:24.262Z",
   "total": 332,
-  "active": 7,
+  "active": 9,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "cf.0sm.com",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJjZi4wc20uY29tIiwiYWlkIjoiMCIsImZwIjoiY2hyb21lIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ii93cz9lZD0yMDQ4IiwicG9ydCI6IjQ0MyIsInBzIjoiQnkgRWJyYVNoYSDwn6eoIiwic2N5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha 🧨",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "de-d21e56c13c.shamanapp.online",
+      "port": 33744,
+      "tls": false,
+      "net": "ws",
+      "host": "de-d21e56c13c.shamanapp.online:33744",
+      "sni": "de-d21e56c13c.shamanapp.online:33744",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiaG9zdCI6ImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwibmV0Ijoid3MiLCJwYXRoIjoiL1NoYW1hblZNRVNTMjAyNiIsInBvcnQiOiIzMzc0NCIsInBzIjoiQnkgRWJyYVNoYSDimaPvuI8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "By EbraSha ♣️",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "nl-2a972c8052.shamanapp.online",
