@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-19T03:15:14.160Z",
+  "updatedAt": "2026-10-19T03:25:26.893Z",
   "total": 36,
-  "active": 5,
+  "active": 4,
   "configs": [
-    {
-      "type": "vless",
-      "server": "fert6.localip.ir",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "fert6.localip.ir",
-      "sni": "fert6.localip.ir",
-      "country": "DE",
-      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@fert6.localip.ir:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "172.67.137.209",
