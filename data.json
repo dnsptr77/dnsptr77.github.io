@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-10-19T00:31:39.079Z",
+  "updatedAt": "2026-10-19T00:41:53.498Z",
   "total": 40,
   "active": 2,
   "configs": [
     {
-      "type": "trojan",
-      "server": "31.57.190.34",
+      "type": "vmess",
+      "server": "172.67.197.71",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@31.57.190.34:443?allowInsecure=0&sni=www.volumeroot.com&type=ws&host=www.volumeroot.com&path=%2Fassignment#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
+      "host": "aus.lovehk.xyz",
+      "sni": "aus.lovehk.xyz",
+      "country": "AU",
+      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTk3LjcxIiwiYWlkIjowLCJob3N0IjoiYXVzLmxvdmVoay54eXoiLCJpZCI6ImY1ZjBiYWJlLWFlYTItNGYwNy1hMWZjLTNjOTgyMDI1M2Y0OSIsIm5ldCI6IndzIiwicGF0aCI6IlwvU3lkbmV5MyIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRlNlx1ZDgzY1x1ZGRmYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtQVUiLCJzbmkiOiJhdXMubG92ZWhrLnh5eiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇦🇺[openproxylist.com] vmess-AU",
+      "behindCF": true
     },
     {
-      "type": "trojan",
-      "server": "46.62.204.134",
-      "port": 443,
-      "tls": true,
+      "type": "vless",
+      "server": "platform103.golnamakcert.top",
+      "port": 80,
+      "tls": false,
       "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@46.62.204.134:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "host": "platform103.halalkhor.info",
+      "sni": "platform103.halalkhor.info",
+      "country": "PH",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?&sni=platform103.halalkhor.info&type=ws&headerType=none&host=platform103.halalkhor.info&path=/platform103#🇵🇭[openproxylist.com] vless-PH",
+      "ps": "🇵🇭[openproxylist.com] vless-PH",
       "behindCF": false
     }
   ]
