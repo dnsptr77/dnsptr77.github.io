@@ -1,46 +1,20 @@
 {
-  "updatedAt": "2026-10-19T10:35:31.468Z",
+  "updatedAt": "2026-10-19T10:45:42.745Z",
   "total": 41,
-  "active": 3,
+  "active": 1,
   "configs": [
     {
-      "type": "vless",
-      "server": "platform103.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform103.halalkhor.info",
-      "sni": "platform103.halalkhor.info",
-      "country": "JP",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?sni=platform103.halalkhor.info&type=ws&host=platform103.halalkhor.info&path=/platform103#🇯🇵[openproxylist.com] vless-JP",
-      "ps": "🇯🇵[openproxylist.com] vless-JP",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "platform107.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform107.golnamakcert.top",
-      "sni": "platform107.golnamakcert.top",
-      "country": "PH",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?type=ws&path=/platform107#🇵🇭[openproxylist.com] vless-PH",
-      "ps": "🇵🇭[openproxylist.com] vless-PH",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.195.146",
+      "type": "trojan",
+      "server": "31.57.190.34",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "aus.lovehk.xyz",
-      "sni": "aus.lovehk.xyz",
-      "country": "AU",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTk1LjE0NiIsImFpZCI6MCwiaG9zdCI6ImF1cy5sb3ZlaGsueHl6IiwiaWQiOiJmNWYwYmFiZS1hZWEyLTRmMDctYTFmYy0zYzk4MjAyNTNmNDkiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL1N5ZG5leTMiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZTZcdWQ4M2NcdWRkZmFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUFVIiwic25pIjoiYXVzLmxvdmVoay54eXoiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇦🇺[openproxylist.com] vmess-AU",
-      "behindCF": true
+      "host": "www.volumeroot.com",
+      "sni": "www.volumeroot.com",
+      "country": "NL",
+      "raw": "trojan://humanity@31.57.190.34:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
     }
   ]
 }
