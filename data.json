@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-19T08:12:21.110Z",
+  "updatedAt": "2026-10-19T08:22:37.054Z",
   "total": 78,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform108.halalkhor.info",
+      "sni": "platform108.golnamakcert.top",
+      "country": "PH",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?sni=platform108.golnamakcert.top&type=ws&host=platform108.halalkhor.info&path=/platform108#🇵🇭[openproxylist.com] vless-PH",
+      "ps": "🇵🇭[openproxylist.com] vless-PH",
+      "behindCF": false
+    }
+  ]
 }
