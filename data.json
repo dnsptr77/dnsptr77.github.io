@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-19T00:41:53.498Z",
+  "updatedAt": "2026-10-19T00:52:05.621Z",
   "total": 40,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "172.67.197.71",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "aus.lovehk.xyz",
-      "sni": "aus.lovehk.xyz",
-      "country": "AU",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTk3LjcxIiwiYWlkIjowLCJob3N0IjoiYXVzLmxvdmVoay54eXoiLCJpZCI6ImY1ZjBiYWJlLWFlYTItNGYwNy1hMWZjLTNjOTgyMDI1M2Y0OSIsIm5ldCI6IndzIiwicGF0aCI6IlwvU3lkbmV5MyIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRlNlx1ZDgzY1x1ZGRmYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtQVUiLCJzbmkiOiJhdXMubG92ZWhrLnh5eiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇦🇺[openproxylist.com] vmess-AU",
-      "behindCF": true
-    },
-    {
-      "type": "vless",
-      "server": "platform103.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform103.halalkhor.info",
-      "sni": "platform103.halalkhor.info",
-      "country": "PH",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?&sni=platform103.halalkhor.info&type=ws&headerType=none&host=platform103.halalkhor.info&path=/platform103#🇵🇭[openproxylist.com] vless-PH",
-      "ps": "🇵🇭[openproxylist.com] vless-PH",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
