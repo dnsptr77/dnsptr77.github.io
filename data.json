@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-19T10:45:42.745Z",
+  "updatedAt": "2026-10-19T10:55:59.167Z",
   "total": 41,
-  "active": 1,
-  "configs": [
-    {
-      "type": "trojan",
-      "server": "31.57.190.34",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@31.57.190.34:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
