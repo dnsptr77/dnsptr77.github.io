@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-19T14:39:25.432Z",
+  "updatedAt": "2026-10-19T14:49:43.779Z",
   "total": 45,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "node8.liudonghoe.com",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "node8.liudonghoe.com",
-      "sni": "node8.liudonghoe.com",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6IjAiLCJob3N0Ijoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJpZCI6IjQ3MDUwZTRlLTk2NWQtNDFjYS05NzZkLTczYzFmMTFlNjkwNSIsIm5ldCI6IndzIiwicGF0aCI6IlwvaG9lOCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
