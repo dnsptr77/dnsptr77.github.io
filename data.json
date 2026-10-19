@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-19T10:04:48.394Z",
+  "updatedAt": "2026-10-19T10:15:04.044Z",
   "total": 41,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "platform103.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform103.halalkhor.info",
+      "sni": "platform103.halalkhor.info",
+      "country": "JP",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?sni=platform103.halalkhor.info&type=ws&host=platform103.halalkhor.info&path=/platform103#🇯🇵[openproxylist.com] vless-JP",
+      "ps": "🇯🇵[openproxylist.com] vless-JP",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform107.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform107.golnamakcert.top",
+      "sni": "platform107.golnamakcert.top",
+      "country": "PH",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?type=ws&path=/platform107#🇵🇭[openproxylist.com] vless-PH",
+      "ps": "🇵🇭[openproxylist.com] vless-PH",
+      "behindCF": false
+    }
+  ]
 }
