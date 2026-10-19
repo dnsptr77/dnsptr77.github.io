@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-19T07:41:35.848Z",
+  "updatedAt": "2026-10-19T07:51:50.400Z",
   "total": 74,
   "active": 4,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "jp4.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "nat12.9966338.xyz",
+      "sni": "nat12.9966338.xyz",
+      "country": "KR",
+      "raw": "vmess://eyJhZGQiOiJqcDQuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJuYXQxMi45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92dnZ2dnZ2dnYiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUtSIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoibmF0MTIuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇰🇷[openproxylist.com] vmess-KR",
+      "behindCF": false
+    },
     {
       "type": "trojan",
       "server": "92.42.99.143",
@@ -27,19 +40,6 @@
       "country": "🌍",
       "raw": "trojan://humanity@31.57.190.34:443?allowInsecure=0&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#🏳[openproxylist.com] trojan-",
       "ps": "🏳[openproxylist.com] trojan-",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "31.57.190.34",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.volumeroot.com",
-      "sni": "www.volumeroot.com",
-      "country": "NL",
-      "raw": "trojan://humanity@31.57.190.34:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
       "behindCF": false
     },
     {
