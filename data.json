@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-19T02:54:48.998Z",
-  "total": 41,
+  "updatedAt": "2026-10-19T03:05:01.843Z",
+  "total": 36,
   "active": 5,
   "configs": [
     {
-      "type": "vmess",
-      "server": "node8.liudonghoe.com",
-      "port": 443,
+      "type": "vless",
+      "server": "fert6.localip.ir",
+      "port": 2087,
       "tls": true,
       "net": "ws",
-      "host": "node8.liudonghoe.com",
-      "sni": "node8.liudonghoe.com",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6IjAiLCJob3N0Ijoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJpZCI6IjQ3MDUwZTRlLTk2NWQtNDFjYS05NzZkLTczYzFmMTFlNjkwNSIsIm5ldCI6IndzIiwicGF0aCI6IlwvaG9lOCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "host": "fert6.localip.ir",
+      "sni": "fert6.localip.ir",
+      "country": "DE",
+      "raw": "vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@fert6.localip.ir:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=fert6.localip.ir&type=ws&allowInsecure=0&sni=fert6.localip.ir#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
     {
@@ -57,14 +57,14 @@
     },
     {
       "type": "vmess",
-      "server": "104.17.147.222",
+      "server": "104.21.7.133",
       "port": 80,
       "tls": false,
       "net": "ws",
       "host": "vmess.lbw666.dpdns.org",
       "sni": "vmess.lbw666.dpdns.org",
       "country": "US",
-      "raw": "vmess://eyJhZGQiOiIxMDQuMTcuMTQ3LjIyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwiaW5zZWN1cmUiOiIwIiwibmFtZSI6IkNBIFx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNiB8IEBSYXlkaWthbHggfCBGMjVDMzIiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dzP2VkPTIwNDgiLCJwY3MiOiIiLCJwb3J0Ijo4MCwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMjEuNy4xMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5hbWUiOiJDQSBcdWQ4M2NcdWRkZThcdWQ4M2NcdWRkZTYgfCBAUmF5ZGlrYWx4IHwgMjJBODNDIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93cz9lZD0yMDQ4IiwicG9ydCI6ODAsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
       "behindCF": true
     }
