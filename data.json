@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-10-20T10:59:54.847Z",
-  "total": 43,
-  "active": 3,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "155.103.71.142",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "🌍",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@155.103.71.142:443?&security=tls&fp=chrome&sni=ccc.010304.xyz&type=ws&headerType=none&host=ccc.010304.xyz&path=/fp=chrome#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "103.148.73.173",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "ty986gfazs.cainiaohub.xyz",
-      "sni": "ty986gfazs.cainiaohub.xyz",
-      "country": "HK",
-      "raw": "vless://c1c04450-bf71-4049-ad0c-9cf6d94d9f1f@103.148.73.173:8443?&security=tls&fp=chrome&sni=ty986gfazs.cainiaohub.xyz&type=ws&headerType=none&host=ty986gfazs.cainiaohub.xyz&path=%2F81574b6b-c9d7-44a0-b83d-dad56e8cb530#🇭🇰[openproxylist.com] vless-HK",
-      "ps": "🇭🇰[openproxylist.com] vless-HK",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "54.37.131.126",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRmZjNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-10-20T11:10:05.755Z",
+  "total": 41,
+  "active": 0,
+  "configs": []
 }
