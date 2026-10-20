@@ -1,6 +1,124 @@
 {
-  "updatedAt": "2026-10-20T19:52:23.970Z",
-  "total": 78,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-10-20T20:02:47.903Z",
+  "total": 79,
+  "active": 9,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform108.halalkhor.info",
+      "sni": "platform108.golnamakcert.top",
+      "country": "PH",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?sni=platform108.golnamakcert.top&type=ws&host=platform108.halalkhor.info&path=/platform108#🇵🇭[openproxylist.com] vless-PH",
+      "ps": "🇵🇭[openproxylist.com] vless-PH",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "platform103.golnamakcert.top",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "platform103.halalkhor.info",
+      "sni": "platform103.halalkhor.info",
+      "country": "PH",
+      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?&sni=platform103.halalkhor.info&type=ws&headerType=none&host=platform103.halalkhor.info&path=/platform103#🇵🇭[openproxylist.com] vless-PH",
+      "ps": "🇵🇭[openproxylist.com] vless-PH",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "jp4.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "nat12.9966338.xyz",
+      "sni": "nat12.9966338.xyz",
+      "country": "KR",
+      "raw": "vmess://eyJhZGQiOiJqcDQuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJuYXQxMi45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92dnZ2dnZ2dnYiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUtSIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoibmF0MTIuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇰🇷[openproxylist.com] vmess-KR",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "de-d21e56c13c.shamanapp.online",
+      "port": 33744,
+      "tls": false,
+      "net": "ws",
+      "host": "de-d21e56c13c.shamanapp.online:33744",
+      "sni": "de-d21e56c13c.shamanapp.online:33744",
+      "country": "DE",
+      "raw": "vmess://eyJhZGQiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOjAsImhvc3QiOiJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLCJpZCI6ImIzYTExMDY4LTFhN2UtNDY0My04NWRlLTdjODJjY2U0Njk0MyIsIm5ldCI6IndzIiwicGF0aCI6IlwvU2hhbWFuVk1FU1MyMDI2IiwicG9ydCI6MzM3NDQsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiZGUtZDIxZTU2YzEzYy5zaGFtYW5hcHAub25saW5lOjMzNzQ0In0=",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "jp4.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "nat12.9966338.xyz",
+      "sni": "nat12.9966338.xyz",
+      "country": "KR",
+      "raw": "vmess://eyJhZGQiOiJqcDQuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJuYXQxMi45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92dnZ2dnZ2dnYiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUtSIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoibmF0MTIuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇰🇷[openproxylist.com] vmess-KR",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "jp4.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "nat12.9966338.xyz",
+      "sni": "nat12.9966338.xyz",
+      "country": "KR",
+      "raw": "vmess://eyJhZGQiOiJqcDQuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJuYXQxMi45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92dnZ2dnZ2dnYiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUtSIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoibmF0MTIuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇰🇷[openproxylist.com] vmess-KR",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "jp4.998998.best",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "nat12.9966338.xyz",
+      "sni": "nat12.9966338.xyz",
+      "country": "KR",
+      "raw": "vmess://eyJhZGQiOiJqcDQuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJuYXQxMi45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92dnZ2dnZ2dnYiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUtSIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoibmF0MTIuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇰🇷[openproxylist.com] vmess-KR",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.57.190.15",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "ES",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.15:443?path=/fp&security=tls&encryption=none&host=ccc.010304.xyz&type=ws&sni=ccc.010304.xyz#🇪🇸[openproxylist.com] vless-ES",
+      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "172.67.187.145",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "US",
+      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTg3LjE0NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwibmFtZSI6IkNBIFx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNiB8IEBSYXlkaWthbHggfCAwQUQ1MTkiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dzP2VkPTIwNDgiLCJwb3J0Ijo4MCwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": true
+    }
+  ]
 }
