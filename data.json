@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-20T12:42:26.517Z",
+  "updatedAt": "2026-10-20T12:52:39.825Z",
   "total": 49,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "platform107.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform107.golnamakcert.top",
-      "sni": "platform107.golnamakcert.top",
-      "country": "PH",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform107.golnamakcert.top:80?type=ws&path=/platform107#🇵🇭[openproxylist.com] vless-PH",
-      "ps": "🇵🇭[openproxylist.com] vless-PH",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
