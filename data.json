@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-21T13:41:25.439Z",
+  "updatedAt": "2026-10-21T13:51:50.196Z",
   "total": 34,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "trojan",
+      "server": "46.62.204.134",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.volumeroot.com",
+      "sni": "www.volumeroot.com",
+      "country": "NL",
+      "raw": "trojan://humanity@46.62.204.134:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.57.190.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "ES",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?encryption=none&security=tls&sni=ccc.010304.xyz&fp=chrome&type=ws&host=ccc.010304.xyz&path=%2Ffp%3Dchrome#🇪🇸[openproxylist.com] vless-ES",
+      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "behindCF": false
+    }
+  ]
 }
