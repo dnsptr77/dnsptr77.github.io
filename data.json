@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T15:16:27.335Z",
+  "updatedAt": "2026-10-22T15:26:49.270Z",
   "total": 34,
   "active": 4,
   "configs": [
@@ -17,16 +17,16 @@
       "behindCF": true
     },
     {
-      "type": "vmess",
-      "server": "eu3.998998.best",
+      "type": "vless",
+      "server": "77.110.97.245",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "server40.9966338.xyz",
-      "sni": "server40.9966338.xyz",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
       "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJldTMuOTk4OTk4LmJlc3QiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InNlcnZlcjQwLjk5NjYzMzgueHl6IiwiaWQiOiI1NTA0ZWFhOC0xMzk1LTQwMmYtOGUwZS03NWVjZDc2MmU2MjciLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2FpYWlhaSIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNuaSI6InNlcnZlcjQwLjk5NjYzMzgueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🏳[openproxylist.com] vmess-",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
       "behindCF": false
     },
     {
