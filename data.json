@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-10-22T14:46:07.286Z",
+  "updatedAt": "2026-10-22T14:56:33.068Z",
   "total": 42,
   "active": 7,
   "configs": [
+    {
+      "type": "vless",
+      "server": "31.57.190.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "ES",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?encryption=none&host=ccc.010304.xyz&path=%2Ffp%3Dchrome&security=tls&sni=ccc.010304.xyz&type=ws#🇪🇸[openproxylist.com] vless-ES",
+      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "node8.liudonghoe.com",
@@ -14,19 +27,6 @@
       "country": "US",
       "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6IjAiLCJob3N0Ijoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJpZCI6IjQ3MDUwZTRlLTk2NWQtNDFjYS05NzZkLTczYzFmMTFlNjkwNSIsIm5ldCI6IndzIiwicGF0aCI6IlwvaG9lOCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "b2n.ir",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "lucasjow.us.ci",
-      "sni": "lucasjow.us.ci",
-      "country": "ES",
-      "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@b2n.ir:443?path=%2FChanel0111Net&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=lucasjow.us.ci&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&type=ws&allowInsecure=0&sni=lucasjow.us.ci#🇪🇸[openproxylist.com] vless-ES",
-      "ps": "🇪🇸[openproxylist.com] vless-ES",
       "behindCF": false
     },
     {
