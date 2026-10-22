@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-22T14:05:08.447Z",
+  "updatedAt": "2026-10-22T14:15:24.216Z",
   "total": 42,
-  "active": 9,
+  "active": 8,
   "configs": [
     {
       "type": "vless",
@@ -41,19 +41,6 @@
       "raw": "vless://e6df2095-a73c-4043-8693-8d5a03686870@b2n.ir:443?path=%2FChanel0111Net&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=lucasjow.us.ci&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&type=ws&allowInsecure=0&sni=lucasjow.us.ci#🇪🇸[openproxylist.com] vless-ES",
       "ps": "🇪🇸[openproxylist.com] vless-ES",
       "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.187.145",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTg3LjE0NSIsImFpZCI6MCwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd3MiLCJwb3J0IjoiODAiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": true
     },
     {
       "type": "vless",
