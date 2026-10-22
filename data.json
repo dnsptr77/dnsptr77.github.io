@@ -1,33 +1,20 @@
 {
-  "updatedAt": "2026-10-22T14:56:33.068Z",
-  "total": 42,
-  "active": 7,
+  "updatedAt": "2026-10-22T15:06:03.011Z",
+  "total": 34,
+  "active": 5,
   "configs": [
     {
-      "type": "vless",
-      "server": "31.57.190.89",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "ES",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?encryption=none&host=ccc.010304.xyz&path=%2Ffp%3Dchrome&security=tls&sni=ccc.010304.xyz&type=ws#🇪🇸[openproxylist.com] vless-ES",
-      "ps": "🇪🇸[openproxylist.com] vless-ES",
-      "behindCF": false
-    },
-    {
       "type": "vmess",
-      "server": "node8.liudonghoe.com",
-      "port": 443,
-      "tls": true,
+      "server": "172.67.187.145",
+      "port": 80,
+      "tls": false,
       "net": "ws",
-      "host": "node8.liudonghoe.com",
-      "sni": "node8.liudonghoe.com",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6IjAiLCJob3N0Ijoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJpZCI6IjQ3MDUwZTRlLTk2NWQtNDFjYS05NzZkLTczYzFmMTFlNjkwNSIsIm5ldCI6IndzIiwicGF0aCI6IlwvaG9lOCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTg3LjE0NSIsImFpZCI6MCwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd3MiLCJwb3J0IjoiODAiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": true
     },
     {
       "type": "vless",
@@ -37,22 +24,9 @@
       "net": "ws",
       "host": "ccc.010304.xyz",
       "sni": "ccc.010304.xyz",
-      "country": "FI",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🇫🇮[openproxylist.com] vless-FI",
-      "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "us3-2.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "nat3.xxai.dpdns.org",
-      "sni": "nat3.xxai.dpdns.org",
-      "country": "US",
-      "raw": "trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@us3-2.998998.best:443?allowInsecure=1&host=nat3.xxai.dpdns.org&path=%2Fanyway&security=tls&sni=nat3.xxai.dpdns.org&type=ws#🇺🇸[openproxylist.com] trojan-US",
-      "ps": "🇺🇸[openproxylist.com] trojan-US",
+      "country": "🌍",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
       "behindCF": false
     },
     {
