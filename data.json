@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-22T22:12:51.858Z",
+  "updatedAt": "2026-10-22T22:23:05.148Z",
   "total": 31,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -40,19 +40,6 @@
       "country": "FI",
       "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇫🇮[openproxylist.com] vless-FI",
       "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "31.57.190.89",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "ES",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?path=/fp=chrome&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&sni=ccc.010304.xyz#🇪🇸[openproxylist.com] vless-ES",
-      "ps": "🇪🇸[openproxylist.com] vless-ES",
       "behindCF": false
     },
     {
