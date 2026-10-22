@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-22T11:51:26.481Z",
-  "total": 42,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "wjofhsqteueywxeq.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "wjofhsqteueywxeq.v.3dns.vip",
-      "sni": "wjofhsqteueywxeq.v.3dns.vip",
-      "country": "SG",
-      "raw": "vmess://eyJhZGQiOiJ3am9maHNxdGV1ZXl3eGVxLnYuM2Rucy52aXAiLCJhaWQiOjAsImhvc3QiOiIiLCJpZCI6ImE5ZjRkZThiLTY4ZjEtNDRiNi1iNmEyLTFkYjYwOTQwNTAzYSIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjhcdWQ4M2NcdWRkZWNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVNHIiwic25pIjoid2pvZmhzcXRldWV5d3hlcS52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇸🇬[openproxylist.com] vmess-SG",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "platform108.golnamakcert.top",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "platform108.halalkhor.info",
-      "sni": "platform108.golnamakcert.top",
-      "country": "PH",
-      "raw": "vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform108.golnamakcert.top:80?sni=platform108.golnamakcert.top&type=ws&host=platform108.halalkhor.info&path=/platform108#🇵🇭[openproxylist.com] vless-PH",
-      "ps": "🇵🇭[openproxylist.com] vless-PH",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-10-22T12:01:39.283Z",
+  "total": 45,
+  "active": 0,
+  "configs": []
 }
