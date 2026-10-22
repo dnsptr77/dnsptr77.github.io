@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T15:26:49.270Z",
+  "updatedAt": "2026-10-22T15:37:01.221Z",
   "total": 34,
   "active": 4,
   "configs": [
@@ -31,15 +31,15 @@
     },
     {
       "type": "vmess",
-      "server": "us5-1.998998.best",
+      "server": "eu3.998998.best",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "server4.9966338.xyz",
-      "sni": "server4.9966338.xyz",
-      "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InVzNS0xLjk5ODk5OC5iZXN0IiwicG9ydCI6IjQ0MyIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJwYXRoIjoiXC9hbmRyb2lyZmRzcmVvaWdodHJqaCIsInRscyI6InRscyIsInNuaSI6InNlcnZlcjQuOTk2NjMzOC54eXoiLCJ0ZXN0X25hbWUiOiIxNSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "host": "server40.9966338.xyz",
+      "sni": "server40.9966338.xyz",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiJldTMuOTk4OTk4LmJlc3QiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InNlcnZlcjQwLjk5NjYzMzgueHl6IiwiaWQiOiI1NTA0ZWFhOC0xMzk1LTQwMmYtOGUwZS03NWVjZDc2MmU2MjciLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2FpYWlhaSIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNuaSI6InNlcnZlcjQwLjk5NjYzMzgueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🏳[openproxylist.com] vmess-",
       "behindCF": false
     },
     {
