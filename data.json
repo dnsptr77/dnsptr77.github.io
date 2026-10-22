@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-22T13:14:13.071Z",
+  "updatedAt": "2026-10-22T13:24:15.343Z",
   "total": 46,
-  "active": 5,
+  "active": 8,
   "configs": [
     {
       "type": "vmess",
@@ -66,6 +66,45 @@
       "country": "NL",
       "raw": "vmess://eyJhZGQiOiJubC0yYTk3MmM4MDUyLnNoYW1hbmFwcC5vbmxpbmUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImVjaENvbmZpZ0xpc3QiOiIiLCJleHRyYSI6IiIsImZtIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJiM2ExMTA2OC0xYTdlLTQ2NDMtODVkZS03YzgyY2NlNDY5NDMiLCJtb2RlIjoiIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy13cyIsInBjcyI6IiIsInBvcnQiOiIzMzczNiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1OTCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIiLCJ2Y24iOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇳🇱[openproxylist.com] vmess-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.57.190.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "ES",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?encryption=none&host=ccc.010304.xyz&path=%2Ffp%3Dchrome&security=tls&sni=ccc.010304.xyz&type=ws#🇪🇸[openproxylist.com] vless-ES",
+      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "node8.liudonghoe.com",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "node8.liudonghoe.com",
+      "sni": "node8.liudonghoe.com",
+      "country": "US",
+      "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6IjAiLCJob3N0Ijoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJpZCI6IjQ3MDUwZTRlLTk2NWQtNDFjYS05NzZkLTczYzFmMTFlNjkwNSIsIm5ldCI6IndzIiwicGF0aCI6IlwvaG9lOCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "77.110.97.245",
+      "port": 443,
+      "tls": false,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "FI",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
       "behindCF": false
     }
   ]
