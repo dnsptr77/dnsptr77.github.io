@@ -1,59 +1,6 @@
 {
-  "updatedAt": "2026-10-23T08:58:01.589Z",
-  "total": 69,
-  "active": 4,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "jp4.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "nat12.9966338.xyz",
-      "sni": "nat12.9966338.xyz",
-      "country": "KR",
-      "raw": "vmess://eyJhZGQiOiJqcDQuOTk4OTk4LmJlc3QiLCJhaWQiOjAsImhvc3QiOiJuYXQxMi45OTY2MzM4Lnh5eiIsImlkIjoiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92dnZ2dnZ2dnYiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUtSIiwic2N5IjoiYXV0byIsInNlcnZpY2VOYW1lIjoiIiwic25pIjoibmF0MTIuOTk2NjMzOC54eXoiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇰🇷[openproxylist.com] vmess-KR",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "46.62.204.134",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.pleadcourt.org",
-      "sni": "www.pleadcourt.org",
-      "country": "NL",
-      "raw": "trojan://humanity@46.62.204.134:443?allowInsecure=0&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "31.57.190.89",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "ES",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?path=/fp=chrome&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&sni=ccc.010304.xyz#🇪🇸[openproxylist.com] vless-ES",
-      "ps": "🇪🇸[openproxylist.com] vless-ES",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.187.145",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTg3LjE0NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsImlkIjoiMGNmNmQ5NzAtM2YxZC00YWFlLWE5ODktOTJhOGY3NmFlM2RiIiwibmFtZSI6IkNBIFx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNiB8IEBSYXlkaWthbHggfCAwQUQ1MTkiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dzP2VkPTIwNDgiLCJwb3J0Ijo4MCwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-10-23T09:07:58.629Z",
+  "total": 71,
+  "active": 0,
+  "configs": []
 }
