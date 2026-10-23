@@ -1,60 +1,8 @@
 {
-  "updatedAt": "2026-10-23T14:45:42.683Z",
+  "updatedAt": "2026-10-23T14:56:03.216Z",
   "total": 41,
-  "active": 5,
+  "active": 1,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "156.245.232.239",
-      "port": 35043,
-      "tls": false,
-      "net": "ws",
-      "host": "www.pubgmobile.com",
-      "sni": "www.pubgmobile.com",
-      "country": "HK",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE1Ni4yNDUuMjMyLjIzOSIsInBvcnQiOiIzNTA0MyIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0Ijoid3d3LnB1Ymdtb2JpbGUuY29tIiwicGF0aCI6IlwvIiwidGxzIjoiIiwic25pIjoid3d3LnB1Ymdtb2JpbGUuY29tIiwidGVzdF9uYW1lIjoiSEsiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "54.37.131.126",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRmZjNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "103.180.20.108",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "ty986gfazs.cainiaohub.xyz",
-      "sni": "ty986gfazs.cainiaohub.xyz",
-      "country": "🌍",
-      "raw": "vless://c1c04450-bf71-4049-ad0c-9cf6d94d9f1f@103.180.20.108:8443?&security=tls&fp=chrome&sni=ty986gfazs.cainiaohub.xyz&type=ws&headerType=none&host=ty986gfazs.cainiaohub.xyz&path=%2F81574b6b-c9d7-44a0-b83d-dad56e8cb530#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "www.5199dy.com",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "🌍",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@www.5199dy.com:443?security=tls&type=ws&path=/&host=ccc.010304.xyz&packetEncoding=xudp&sni=ccc.010304.xyz&fp=chrome#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "145.239.55.210",
