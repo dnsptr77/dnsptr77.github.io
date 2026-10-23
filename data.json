@@ -1,19 +1,32 @@
 {
-  "updatedAt": "2026-10-23T08:07:09.902Z",
+  "updatedAt": "2026-10-23T08:17:13.840Z",
   "total": 69,
-  "active": 1,
+  "active": 2,
   "configs": [
     {
-      "type": "vless",
-      "server": "31.57.190.89",
+      "type": "trojan",
+      "server": "46.62.204.134",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "ES",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?path=/fp=chrome&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&sni=ccc.010304.xyz#🇪🇸[openproxylist.com] vless-ES",
-      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "host": "www.pleadcourt.org",
+      "sni": "www.pleadcourt.org",
+      "country": "NL",
+      "raw": "trojan://humanity@46.62.204.134:443?allowInsecure=0&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
+    },
+    {
+      "type": "trojan",
+      "server": "31.57.190.34",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.pleadcourt.org",
+      "sni": "www.pleadcourt.org",
+      "country": "NL",
+      "raw": "trojan://humanity@31.57.190.34:443?allowInsecure=0&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
       "behindCF": false
     }
   ]
