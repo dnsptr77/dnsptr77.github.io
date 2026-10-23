@@ -1,60 +1,8 @@
 {
-  "updatedAt": "2026-10-23T13:55:27.542Z",
-  "total": 48,
-  "active": 12,
+  "updatedAt": "2026-10-23T14:04:43.469Z",
+  "total": 41,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "213.111.177.107",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "vlso5.1d.mom",
-      "sni": "vlso5.1d.mom",
-      "country": "🌍",
-      "raw": "vless://a1de0630-5786-48a0-84f6-dc6f2de10d6d@213.111.177.107:443?encryption=none&security=tls&sni=vlso5.1d.mom&fp=chrome&type=ws&host=vlso5.1d.mom&path=%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "mix2.998998.best",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "server10.9966338.xyz",
-      "sni": "server10.9966338.xyz",
-      "country": "PL",
-      "raw": "vmess://eyJhZGQiOiJtaXgyLjk5ODk5OC5iZXN0IiwiYWlkIjowLCJob3N0Ijoic2VydmVyMTAuOTk2NjMzOC54eXoiLCJpZCI6IjU1MDRlYWE4LTEzOTUtNDAyZi04ZTBlLTc1ZWNkNzYyZTYyNyIsIm5ldCI6IndzIiwicGF0aCI6IlwvcnRoaXVnb3lyZXRkc3VpZ2c/ZWQ9MjU2MCIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmNVx1ZDgzY1x1ZGRmMVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtUEwiLCJzY3kiOiJhdXRvIiwic2VydmljZU5hbWUiOiIiLCJzbmkiOiJzZXJ2ZXIxMC45OTY2MzM4Lnh5eiIsInRscyI6InRscyIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇵🇱[openproxylist.com] vmess-PL",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "108.162.194.134",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.pleadcourt.org",
-      "sni": "www.pleadcourt.org",
-      "country": "NL",
-      "raw": "trojan://humanity@108.162.194.134:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇳🇱[openproxylist.com] trojan-NL",
-      "ps": "🇳🇱[openproxylist.com] trojan-NL",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "104.16.6.70",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.pleadcourt.org",
-      "sni": "www.pleadcourt.org",
-      "country": "🌍",
-      "raw": "trojan://humanity@104.16.6.70:443?path=%2Fassignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🏳[openproxylist.com] trojan-",
-      "ps": "🏳[openproxylist.com] trojan-",
-      "behindCF": true
-    },
     {
       "type": "vmess",
       "server": "156.245.232.239",
@@ -76,9 +24,9 @@
       "net": "ws",
       "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
       "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
-      "country": "PL",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGY1XHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1QTCIsImFkZCI6IjU0LjM3LjEzMS4xMjYiLCJwb3J0IjoiODAiLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwiYWxwbiI6IiIsInBhdGgiOiJcLyIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇵🇱[openproxylist.com] vmess-PL",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRmZjNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🏳[openproxylist.com] vmess-",
       "behindCF": false
     },
     {
@@ -108,55 +56,16 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "tls": false,
-      "net": "ws",
-      "host": "uae.unixzone.us",
-      "sni": "uae.unixzone.us",
-      "country": "AE",
-      "raw": "vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?type=ws&host=uae.unixzone.us&path=/#🇦🇪[openproxylist.com] vless-AE",
-      "ps": "🇦🇪[openproxylist.com] vless-AE",
-      "behindCF": false
-    },
-    {
       "type": "vmess",
-      "server": "57.128.164.21",
+      "server": "145.239.55.210",
       "port": 80,
       "tls": false,
       "net": "ws",
-      "host": "https.http.www.net.com.ramseyv2.ir.",
-      "sni": "https.http.www.net.com.ramseyv2.ir.",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiI1Ny4xMjguMTY0LjIxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJodHRwcy5odHRwLnd3dy5uZXQuY29tLnJhbXNleXYyLmlyLiIsImlkIjoiYmRhODJiY2QtZjZlMi00NmFlLTk1NTItNjczZjBiODdhYzMwIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9kM2QzTG1seVlXNW9iM04wTG1OdmJRPT0/ZWQ9MjU2MCIsInBjcyI6IiIsInBvcnQiOiI4MCIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "47.244.120.197",
-      "port": 36703,
-      "tls": false,
-      "net": "ws",
-      "host": "google.com",
-      "sni": "google.com",
-      "country": "HK",
-      "raw": "vmess://eyJhZGQiOiI0Ny4yNDQuMTIwLjE5NyIsImFpZCI6MCwiaG9zdCI6Imdvb2dsZS5jb20iLCJpZCI6IjQ1YjgzNTE5LTljNGYtNDA1Mi1hMTFiLTAyZTAxN2I2MzZkNCIsIm5ldCI6IndzIiwicGF0aCI6IlwvYXJraSIsInBvcnQiOiIzNjcwMyIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "in-152.67.8.205-0250",
-      "sni": "in-152.67.8.205-0250",
-      "country": "IN",
-      "raw": "vmess://eyJ2IjpudWxsLCJwcyI6Ilx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSU4iLCJhZGQiOiIxNTIuNjcuOC4yMDUiLCJwb3J0Ijo4MCwiaWQiOiI5ZGI0YzcwOC1hZWY4LTQzNTktODIxYi0zOGU0Nzk5MGJlMGQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6ImluLTE1Mi42Ny44LjIwNS0wMjUwIiwiYWxwbiI6bnVsbCwicGF0aCI6IlwvIiwidGxzIjoibm9uZSIsInNuaSI6bnVsbCwiZnAiOm51bGwsIm5hbWUiOiJJTiBcdWQ4M2NcdWRkZWVcdWQ4M2NcdWRkZjMgfCBAUmF5ZGlrYWx4IHwgODczQzUxIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇮🇳[openproxylist.com] vmess-IN",
+      "host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
+      "sni": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
+      "country": "FR",
+      "raw": "vmess://eyJhZGQiOiIxNDUuMjM5LjU1LjIxMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uZm9ydHJlc3Nob3N0LmlyLiIsImlkIjoiMDY3ZmNkNjMtYjIxNS00YWJkLTg1MjktYWU5MjlhOTk3MWE5IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJwY3MiOiIiLCJwb3J0IjoiODAiLCJwcyI6Ilx1ZDgzY1x1ZGRlYlx1ZDgzY1x1ZGRmN1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtRlIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇫🇷[openproxylist.com] vmess-FR",
       "behindCF": false
     }
   ]
