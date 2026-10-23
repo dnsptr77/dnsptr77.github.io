@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-10-22T23:55:14.855Z",
-  "total": 29,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-10-23T00:05:28.435Z",
+  "total": 30,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "node8.liudonghoe.com",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "node8.liudonghoe.com",
+      "sni": "node8.liudonghoe.com",
+      "country": "US",
+      "raw": "vmess://eyJhZGQiOiJub2RlOC5saXVkb25naG9lLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJpZCI6IjQ3MDUwZTRlLTk2NWQtNDFjYS05NzZkLTczYzFmMTFlNjkwNSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IlwvaG9lOCIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoibm9kZTgubGl1ZG9uZ2hvZS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "77.110.97.245",
+      "port": 443,
+      "tls": false,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "FI",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@77.110.97.245:443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chromesecurity=tls#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
+    {
+      "type": "trojan",
+      "server": "46.62.204.134",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "www.pleadcourt.org",
+      "sni": "www.pleadcourt.org",
+      "country": "NL",
+      "raw": "trojan://humanity@46.62.204.134:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇳🇱[openproxylist.com] trojan-NL",
+      "ps": "🇳🇱[openproxylist.com] trojan-NL",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.57.190.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "ES",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?path=/fp=chrome&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&sni=ccc.010304.xyz#🇪🇸[openproxylist.com] vless-ES",
+      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "104.21.7.133",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "US",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMjEuNy4xMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd3M/ZWQ9MjA0OCIsInBjcyI6IiIsInBvcnQiOjgwLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoibm9uZSIsInR5cGUiOiJhdXRvIiwidiI6IjIiLCJ2Y24iOiIiLCJuYW1lIjoiQ0EgXHVkODNjXHVkZGU4XHVkODNjXHVkZGU2IHwgQFJheWRpa2FseCB8IDIyQTgzQyIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": true
+    }
+  ]
 }
