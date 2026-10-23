@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-23T11:10:50.072Z",
+  "updatedAt": "2026-10-23T11:21:03.633Z",
   "total": 74,
-  "active": 6,
+  "active": 5,
   "configs": [
-    {
-      "type": "vless",
-      "server": "104.21.0.87",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "jp3.yohototo.top",
-      "sni": "jp3.yohototo.top",
-      "country": "JP",
-      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.21.0.87:443?&security=tls&fp=unsafe&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵[openproxylist.com] vless-JP",
-      "ps": "🇯🇵[openproxylist.com] vless-JP",
-      "behindCF": true
-    },
     {
       "type": "trojan",
       "server": "104.19.229.21",
