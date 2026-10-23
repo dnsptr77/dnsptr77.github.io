@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-23T10:19:33.231Z",
+  "updatedAt": "2026-10-23T10:30:11.670Z",
   "total": 48,
-  "active": 10,
+  "active": 9,
   "configs": [
-    {
-      "type": "trojan",
-      "server": "104.16.6.70",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.pleadcourt.org",
-      "sni": "www.pleadcourt.org",
-      "country": "🌍",
-      "raw": "trojan://humanity@104.16.6.70:443?path=%2Fassignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🏳[openproxylist.com] trojan-",
-      "ps": "🏳[openproxylist.com] trojan-",
-      "behindCF": true
-    },
     {
       "type": "vless",
       "server": "104.21.0.87",
