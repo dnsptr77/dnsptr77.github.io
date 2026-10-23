@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T13:03:56.968Z",
+  "updatedAt": "2026-10-23T13:14:11.496Z",
   "total": 48,
-  "active": 18,
+  "active": 17,
   "configs": [
     {
       "type": "vless",
@@ -170,19 +170,6 @@
       "country": "FR",
       "raw": "trojan://humanity@104.17.121.71:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇫🇷[openproxylist.com] trojan-FR",
       "ps": "🇫🇷[openproxylist.com] trojan-FR",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.170.13",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "linde06.indiavideo.sbs",
-      "sni": "linde06.indiavideo.sbs",
-      "country": "🌍",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiIxNzIuNjcuMTcwLjEzIiwicG9ydCI6NDQzLCJpZCI6ImVkYmIxMDU5LTE2MzMtNDI3MS1iNjZlLWVkNGZiYTQ3YTFiZiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImxpbmRlMDYuaW5kaWF2aWRlby5zYnMiLCJwYXRoIjoiXC9saW5rd3MiLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🏳[openproxylist.com] vmess-",
       "behindCF": true
     },
     {
