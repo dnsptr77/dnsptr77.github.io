@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T13:44:58.410Z",
+  "updatedAt": "2026-10-23T13:55:27.542Z",
   "total": 48,
-  "active": 16,
+  "active": 12,
   "configs": [
     {
       "type": "vless",
@@ -135,45 +135,6 @@
     },
     {
       "type": "vmess",
-      "server": "v2ray1.dozapp.xyz",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "v2ray1.dozapp.xyz",
-      "sni": "v2ray1.dozapp.xyz",
-      "country": "🌍",
-      "raw": "vmess://eyJhZGQiOiJ2MnJheTEuZG96YXBwLnh5eiIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiNjA0NDE1NDgtYjY4ZS00M2IyLTgxOTEtZTNiODg0YmU0YjNjIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9sTW5zWlVONFwvIiwicG9ydCI6Ijg0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic25pIjoidjJyYXkxLmRvemFwcC54eXoiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": false
-    },
-    {
-      "type": "trojan",
-      "server": "104.17.121.71",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.calmlunch.com",
-      "sni": "www.calmlunch.com",
-      "country": "FR",
-      "raw": "trojan://humanity@104.17.121.71:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇫🇷[openproxylist.com] trojan-FR",
-      "ps": "🇫🇷[openproxylist.com] trojan-FR",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "172.67.170.13",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "linde06.indiavideo.sbs",
-      "sni": "linde06.indiavideo.sbs",
-      "country": "🌍",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiIxNzIuNjcuMTcwLjEzIiwicG9ydCI6NDQzLCJpZCI6ImVkYmIxMDU5LTE2MzMtNDI3MS1iNjZlLWVkNGZiYTQ3YTFiZiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImxpbmRlMDYuaW5kaWF2aWRlby5zYnMiLCJwYXRoIjoiXC9saW5rd3MiLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": true
-    },
-    {
-      "type": "vmess",
       "server": "47.244.120.197",
       "port": 36703,
       "tls": false,
@@ -183,19 +144,6 @@
       "country": "HK",
       "raw": "vmess://eyJhZGQiOiI0Ny4yNDQuMTIwLjE5NyIsImFpZCI6MCwiaG9zdCI6Imdvb2dsZS5jb20iLCJpZCI6IjQ1YjgzNTE5LTljNGYtNDA1Mi1hMTFiLTAyZTAxN2I2MzZkNCIsIm5ldCI6IndzIiwicGF0aCI6IlwvYXJraSIsInBvcnQiOiIzNjcwMyIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "31.77.126.2",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ccc.010304.xyz",
-      "sni": "ccc.010304.xyz",
-      "country": "DE",
-      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.77.126.2:443?path=%2F&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
     },
     {
