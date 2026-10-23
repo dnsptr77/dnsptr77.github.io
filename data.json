@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-23T14:56:03.216Z",
-  "total": 41,
+  "updatedAt": "2026-10-23T15:06:17.129Z",
+  "total": 33,
   "active": 1,
   "configs": [
     {
-      "type": "vmess",
-      "server": "145.239.55.210",
-      "port": 80,
-      "tls": false,
+      "type": "vless",
+      "server": "104.16.10.251",
+      "port": 443,
+      "tls": true,
       "net": "ws",
-      "host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
-      "sni": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
-      "country": "FR",
-      "raw": "vmess://eyJhZGQiOiIxNDUuMjM5LjU1LjIxMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uZm9ydHJlc3Nob3N0LmlyLiIsImlkIjoiMDY3ZmNkNjMtYjIxNS00YWJkLTg1MjktYWU5MjlhOTk3MWE5IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJwY3MiOiIiLCJwb3J0IjoiODAiLCJwcyI6Ilx1ZDgzY1x1ZGRlYlx1ZDgzY1x1ZGRmN1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtRlIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇫🇷[openproxylist.com] vmess-FR",
-      "behindCF": false
+      "host": "a.cwvps.eu.org",
+      "sni": "a.cwvps.eu.org",
+      "country": "US",
+      "raw": "vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@104.16.10.251:443?&security=tls&fp=unsafe&sni=a.cwvps.eu.org&type=ws&headerType=none&host=a.cwvps.eu.org&path=%2Fws#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": true
     }
   ]
 }
