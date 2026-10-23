@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T10:40:12.431Z",
+  "updatedAt": "2026-10-23T10:50:26.002Z",
   "total": 48,
-  "active": 9,
+  "active": 10,
   "configs": [
     {
       "type": "trojan",
@@ -53,6 +53,19 @@
       "country": "🌍",
       "raw": "vmess://eyJhZGQiOiIxNTYuMjQ1LjIzMi4yMzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Ind3dy5wdWJnbW9iaWxlLmNvbSIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiaW5zZWN1cmUiOiIxIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJwY3MiOiIiLCJwb3J0IjoiMzUwNDMiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNuaSI6Ind3dy5wdWJnbW9iaWxlLmNvbSIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "54.37.131.126",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "sni": "google.whatsapp.snapp.torob.basalam.hesanid8.ir.",
+      "country": "PL",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGY1XHVkODNjXHVkZGYxW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1QTCIsImFkZCI6IjU0LjM3LjEzMS4xMjYiLCJwb3J0IjoiODAiLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwiYWxwbiI6IiIsInBhdGgiOiJcLyIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇵🇱[openproxylist.com] vmess-PL",
       "behindCF": false
     },
     {
