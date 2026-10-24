@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-10-24T22:08:20.377Z",
+  "updatedAt": "2026-10-24T22:18:33.251Z",
   "total": 42,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "trojan",
+      "server": "185.114.72.31",
+      "port": 2053,
+      "tls": true,
+      "net": "ws",
+      "host": "www.calmlunch.com",
+      "sni": "www.calmlunch.com",
+      "country": "FR",
+      "raw": "trojan://humanity@185.114.72.31:2053?allowInsecure=0&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=/assignment#🇫🇷[openproxylist.com] trojan-FR",
+      "ps": "🇫🇷[openproxylist.com] trojan-FR",
+      "behindCF": false
+    }
+  ]
 }
