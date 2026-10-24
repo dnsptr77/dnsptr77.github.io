@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-24T21:06:36.129Z",
+  "updatedAt": "2026-10-24T21:17:04.980Z",
   "total": 49,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vmess",
@@ -15,19 +15,6 @@
       "raw": "vmess://eyJhZGQiOiJsY3Y4djlsN295YW14eGZ6LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dzLXZtZXNzIiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0ZXN0X25hbWUiOiJISzE0IiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
       "ps": "🇭🇰[openproxylist.com] vmess-HK",
       "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "104.16.10.185",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "v2ray.simspeedup.com",
-      "sni": "v2ray.simspeedup.com",
-      "country": "TH",
-      "raw": "vless://3c52e091-6714-4915-949f-2149fe69951b@104.16.10.185:443?security=tls&type=ws&path=%2Fws&host=v2ray.simspeedup.com&packetEncoding=xudp&sni=v2ray.simspeedup.com&fp=unsafe#🇹🇭[openproxylist.com] vless-TH",
-      "ps": "🇹🇭[openproxylist.com] vless-TH",
-      "behindCF": true
     },
     {
       "type": "vless",
