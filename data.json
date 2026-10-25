@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-25T06:48:52.446Z",
+  "updatedAt": "2026-10-25T06:59:17.205Z",
   "total": 52,
-  "active": 5,
+  "active": 4,
   "configs": [
-    {
-      "type": "vmess",
-      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "sni": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "country": "HK",
-      "raw": "vmess://eyJ2IjpudWxsLCJwcyI6Ilx1ZDgzY1x1ZGRlZFx1ZDgzY1x1ZGRmMFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSEsiLCJhZGQiOiJ2YWg0dXJkemwzamR4NXIyLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6IiIsImFscG4iOm51bGwsInBhdGgiOiJcL3dzLXZtZXNzIiwidGxzIjoidGxzIiwic25pIjoidmFoNHVyZHpsM2pkeDVyMi52LjNkbnMudmlwIiwiZnAiOm51bGwsIm5hbWUiOiJISyBcdWQ4M2NcdWRkZWRcdWQ4M2NcdWRkZjAgfCBAUmF5ZGlrYWx4IHwgRkI5MjFCIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇭🇰[openproxylist.com] vmess-HK",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "31.57.190.89",
