@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-26T16:03:46.037Z",
+  "updatedAt": "2026-10-26T16:13:57.841Z",
   "total": 25,
-  "active": 3,
+  "active": 5,
   "configs": [
     {
       "type": "vless",
@@ -41,6 +41,32 @@
       "raw": "vless://7858128a-6b5e-4f86-9bff-52c1f1e6439d@sino.bestsellers1.site:2083?security=tls&type=ws&path=%2F&packetEncoding=xudp&sni=sino.bestsellers1.site&fp=chrome#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.57.190.89",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "ccc.010304.xyz",
+      "sni": "ccc.010304.xyz",
+      "country": "ES",
+      "raw": "vless://d342d11e-d224-4463-b982-532309285094@31.57.190.89:443?security=tls&type=ws&path=%2Ffp%3Dchrome&host=ccc.010304.xyz&packetEncoding=xudp&sni=ccc.010304.xyz&fp=chrome&encryption=none#🇪🇸[openproxylist.com] vless-ES",
+      "ps": "🇪🇸[openproxylist.com] vless-ES",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "104.21.7.133",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMjEuNy4xMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd3M/ZWQ9MjA0OCIsInBjcyI6IiIsInBvcnQiOjgwLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiYXV0byIsInYiOiIyIiwidmNuIjoiIiwibmFtZSI6IkNBIFx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNiB8IEBSYXlkaWthbHggfCAyMkE4M0MiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": true
     }
   ]
 }
