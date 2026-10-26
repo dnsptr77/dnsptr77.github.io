@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-10-26T15:53:29.363Z",
-  "total": 31,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-10-26T16:03:46.037Z",
+  "total": 25,
+  "active": 3,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "vpn.cintaku.qzz.io",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vpn.cintaku.qzz.io",
+      "sni": "vpn.cintaku.qzz.io",
+      "country": "MY",
+      "raw": "vless://fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349@vpn.cintaku.qzz.io:443?security=tls&type=ws&path=%2Fvlessws&host=vpn.cintaku.qzz.io&packetEncoding=xudp&sni=vpn.cintaku.qzz.io&fp=unsafe#🇲🇾[openproxylist.com] vless-MY",
+      "ps": "🇲🇾[openproxylist.com] vless-MY",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "sni": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IlJpYjlKWEFZb3FqR04yS1cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "sino.bestsellers1.site",
+      "port": 2083,
+      "tls": true,
+      "net": "ws",
+      "host": "sino.bestsellers1.site",
+      "sni": "sino.bestsellers1.site",
+      "country": "DE",
+      "raw": "vless://7858128a-6b5e-4f86-9bff-52c1f1e6439d@sino.bestsellers1.site:2083?security=tls&type=ws&path=%2F&packetEncoding=xudp&sni=sino.bestsellers1.site&fp=chrome#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    }
+  ]
 }
