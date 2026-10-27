@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-27T16:56:05.936Z",
+  "updatedAt": "2026-10-27T17:06:21.407Z",
   "total": 13,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "199.232.78.170",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "Appxdn.global.ssl.fastly.net",
+      "sni": "ssl.fastly.com",
+      "country": "FR",
+      "raw": "vless://XpnTeam-56@199.232.78.170:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=ssl.fastly.com&type=ws&headerType=none&host=Appxdn.global.ssl.fastly.net&path=%2F#🇫🇷[openproxylist.com] vless-FR",
+      "ps": "🇫🇷[openproxylist.com] vless-FR",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "cf.0sm.com",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "vmess.lbw666.dpdns.org",
+      "sni": "vmess.lbw666.dpdns.org",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6ImNmLjBzbS5jb20iLCJwb3J0Ijo4MCwiaWQiOiIwY2Y2ZDk3MC0zZjFkLTRhYWUtYTk4OS05MmE4Zjc2YWUzZGIiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiIiLCJwYXRoIjoiXC93cyIsImhvc3QiOiJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    }
+  ]
 }
