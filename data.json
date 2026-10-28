@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-28T18:57:00.086Z",
-  "total": 21,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "172.67.187.145",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "vmess.lbw666.dpdns.org",
-      "sni": "vmess.lbw666.dpdns.org",
-      "country": "US",
-      "raw": "vmess://eyJhZGQiOiIxNzIuNjcuMTg3LjE0NSIsImFpZCI6MCwiaG9zdCI6InZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCJpZCI6IjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsIm5ldCI6IndzIiwicGF0aCI6Ilwvd3MiLCJwb3J0IjoiODAiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": true
-    }
-  ]
+  "updatedAt": "2026-10-28T19:07:15.123Z",
+  "total": 23,
+  "active": 0,
+  "configs": []
 }
