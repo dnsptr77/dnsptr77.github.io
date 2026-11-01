@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-01T13:38:17.512Z",
+  "updatedAt": "2026-11-01T13:48:34.674Z",
   "total": 16,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "92.242.165.11",
+      "port": 2083,
+      "tls": true,
+      "net": "ws",
+      "host": "speedtestmark.com",
+      "sni": "speedtestmark.com",
+      "country": "FI",
+      "raw": "vless://75b517db-1f97-4bda-a479-863d988c31a0@92.242.165.11:2083?&security=tls&fp=firefox&alpn=http%2F1.1&sni=speedtestmark.com&type=ws&headerType=none&path=%2Fvless-ws#🇫🇮[openproxylist.com] vless-FI",
+      "ps": "🇫🇮[openproxylist.com] vless-FI",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "az-1.linkaa.xyz",
+      "port": 55386,
+      "tls": false,
+      "net": "ws",
+      "host": "az-1.linkaa.xyz",
+      "sni": "az-1.linkaa.xyz",
+      "country": "MY",
+      "raw": "vmess://eyJhZGQiOiJhei0xLmxpbmthYS54eXoiLCJhaWQiOjAsImhvc3QiOiJhei0xLmxpbmthYS54eXoiLCJpZCI6IjZFNTcxNDg0LTQxNjYtNDY5OS04RjU4LUIzNEExODIzNjkxRiIsIm5ldCI6IndzIiwicGF0aCI6IlwvZ2FtZVwvcmVzb3VyY2VzIiwicG9ydCI6IjU1Mzg2IiwicHMiOiJcdWQ4M2NcdWRkZjJcdWQ4M2NcdWRkZmVbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLU1ZIiwic25pIjoiYXotMS5saW5rYWEueHl6IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇲🇾[openproxylist.com] vmess-MY",
+      "behindCF": false
+    }
+  ]
 }
