@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-11-01T02:33:43.922Z",
+  "updatedAt": "2026-11-01T02:44:05.038Z",
   "total": 15,
-  "active": 2,
+  "active": 1,
   "configs": [
-    {
-      "type": "vless",
-      "server": "hw5.roghanmo.com",
-      "port": 465,
-      "tls": true,
-      "net": "ws",
-      "host": "hw5.roghanmo.com",
-      "sni": "hw5.roghanmo.com.",
-      "country": "FI",
-      "raw": "vless://a356fa77-7199-417a-80dd-0c0925789161@hw5.roghanmo.com:465?&security=tls&fp=chrome&alpn=http%2F1.1&sni=hw5.roghanmo.com.&type=ws&headerType=none&host=hw5.roghanmo.com&path=%2F#🇫🇮[openproxylist.com] vless-FI",
-      "ps": "🇫🇮[openproxylist.com] vless-FI",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "hw14.roghanmo.com",
