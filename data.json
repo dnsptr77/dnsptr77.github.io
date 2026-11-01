@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-01T02:44:05.038Z",
+  "updatedAt": "2026-11-01T02:53:57.237Z",
   "total": 15,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "hw14.roghanmo.com",
-      "port": 465,
-      "tls": true,
-      "net": "ws",
-      "host": "hw14.roghanmo.com",
-      "sni": "hw14.roghanmo.com.",
-      "country": "DE",
-      "raw": "vless://98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8@hw14.roghanmo.com:465?&security=tls&fp=chrome&alpn=http%2F1.1&sni=hw14.roghanmo.com.&type=ws&headerType=none&host=hw14.roghanmo.com&path=%2F#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
