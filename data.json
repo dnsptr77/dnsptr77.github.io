@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-03T19:40:49.355Z",
+  "updatedAt": "2026-11-03T19:51:20.297Z",
   "total": 12,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "hw6.divarkhaghazi.com",
-      "port": 465,
-      "tls": true,
-      "net": "ws",
-      "host": "hw6.divarkhaghazi.com.",
-      "sni": "hw6.divarkhaghazi.com.",
-      "country": "SG",
-      "raw": "vless://09f30c46-3964-41ce-882a-72aee83ddd42@hw6.divarkhaghazi.com:465?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=hw6.divarkhaghazi.com.&fp=chrome&type=ws&allowInsecure=0&sni=hw6.divarkhaghazi.com.#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
