@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-04T03:55:59.034Z",
-  "total": 12,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-11-04T04:06:23.696Z",
+  "total": 13,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "146.75.59.186",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.",
+      "sni": "community.fastly.steamstatic.com",
+      "country": "US",
+      "raw": "vless://58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f@146.75.59.186:443?&security=tls&fp=chrome&sni=community.fastly.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.&path=%2F#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "146.75.59.186",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.",
+      "sni": "community.fastly.steamstatic.com",
+      "country": "US",
+      "raw": "vless://afed9510-8648-49c6-9fbd-c2d4d8bdd417@146.75.59.186:443?&security=tls&fp=chrome&sni=community.fastly.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.&path=%2F#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "146.75.59.186",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.",
+      "sni": "community.fastly.steamstatic.com",
+      "country": "US",
+      "raw": "vless://afed9510-8648-49c6-9fbd-c2d4d8bdd417@146.75.59.186:443?&security=tls&fp=chrome&sni=community.fastly.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.&path=%2F#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "207.148.115.152",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vlso5.1d.mom",
+      "sni": "vlso5.1d.mom",
+      "country": "JP",
+      "raw": "vless://a1de0630-5786-48a0-84f6-dc6f2de10d6d@207.148.115.152:443?security=tls&type=ws&path=%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080&host=vlso5.1d.mom&packetEncoding=xudp&sni=vlso5.1d.mom&fp=chrome&encryption=none#🇯🇵[openproxylist.com] vless-JP",
+      "ps": "🇯🇵[openproxylist.com] vless-JP",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "d2.anonix.cloud",
+      "port": 8018,
+      "tls": false,
+      "net": "ws",
+      "host": "shit.67133767.xyz",
+      "sni": "shit.67133767.xyz",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImQyLmFub25peC5jbG91ZCIsInBvcnQiOiI4MDE4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImI4MzEzODFkLTYzMjQtNGQ1My1hZDRmLThjZGE0OGIzMDgxMSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dlYnNvY2tldFwvdHJhbnNmZXJcL2dheXBvcm4iLCJob3N0Ijoic2hpdC42NzEzMzc2Ny54eXoiLCJ0bHMiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    }
+  ]
 }
