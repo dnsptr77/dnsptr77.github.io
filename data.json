@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04:57:30.856Z",
+  "updatedAt": "2026-11-04T05:07:48.547Z",
   "total": 13,
   "active": 5,
   "configs": [
@@ -64,7 +64,7 @@
       "host": "shit.67133767.xyz",
       "sni": "shit.67133767.xyz",
       "country": "DE",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImQyLmFub25peC5jbG91ZCIsInBvcnQiOiI4MDE4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImI4MzEzODFkLTYzMjQtNGQ1My1hZDRmLThjZGE0OGIzMDgxMSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3dlYnNvY2tldFwvdHJhbnNmZXJcL2dheXBvcm4iLCJob3N0Ijoic2hpdC42NzEzMzc2Ny54eXoiLCJ0bHMiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJhZGQiOiJkMi5hbm9uaXguY2xvdWQiLCJhaWQiOjAsImhvc3QiOiJzaGl0LjY3MTMzNzY3Lnh5eiIsImlkIjoiYjgzMTM4MWQtNjMyNC00ZDUzLWFkNGYtOGNkYTQ4YjMwODExIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93ZWJzb2NrZXRcL3RyYW5zZmVyXC9nYXlwb3JuIiwicG9ydCI6ODAxOCwicHMiOiJcdWQ4M2NcdWRkZTlcdWQ4M2NcdWRkZWFbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLURFIiwidGxzIjoiIiwidHlwZSI6ImNoYWNoYTIwLXBvbHkxMzA1Iiwic2VjdXJpdHkiOiJjaGFjaGEyMC1wb2x5MTMwNSIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiJ9",
       "ps": "🇩🇪[openproxylist.com] vmess-DE",
       "behindCF": false
     }
