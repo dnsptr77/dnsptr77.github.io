@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T08:54:41.741Z",
-  "total": 12,
+  "updatedAt": "2026-11-04T09:05:03.458Z",
+  "total": 17,
   "active": 5,
   "configs": [
     {
@@ -50,9 +50,9 @@
       "net": "ws",
       "host": "hw6.divarkhaghazi.com.",
       "sni": "hw6.divarkhaghazi.com.",
-      "country": "🌍",
-      "raw": "vless://09f30c46-3964-41ce-882a-72aee83ddd42@hw6.divarkhaghazi.com:465?&security=tls&fp=chrome&alpn=http%2F1.1&sni=hw6.divarkhaghazi.com.&type=ws&headerType=none&host=hw6.divarkhaghazi.com.&path=%2F#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
+      "country": "SG",
+      "raw": "vless://09f30c46-3964-41ce-882a-72aee83ddd42@hw6.divarkhaghazi.com:465?&security=tls&fp=chrome&alpn=http%2F1.1&sni=hw6.divarkhaghazi.com.&type=ws&headerType=none&host=hw6.divarkhaghazi.com.&path=%2F#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
       "behindCF": false
     },
     {
