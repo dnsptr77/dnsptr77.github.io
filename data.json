@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-05T20:12:47.012Z",
+  "updatedAt": "2026-11-05T20:23:13.329Z",
   "total": 13,
   "active": 2,
   "configs": [
     {
-      "type": "vless",
-      "server": "104.21.91.49",
+      "type": "vmess",
+      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "vpn.cintaku.qzz.io",
-      "sni": "vpn.cintaku.qzz.io",
-      "country": "🌍",
-      "raw": "vless://fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349@104.21.91.49:443?security=tls&type=ws&path=%2Fvlessws&host=vpn.cintaku.qzz.io&packetEncoding=xudp&sni=vpn.cintaku.qzz.io&fp=unsafe#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": true
+      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
     },
     {
       "type": "vmess",
