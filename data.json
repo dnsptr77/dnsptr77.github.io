@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-11-05T20:43:36.403Z",
+  "updatedAt": "2026-11-05T20:53:52.544Z",
   "total": 13,
-  "active": 2,
+  "active": 3,
   "configs": [
+    {
+      "type": "vless",
+      "server": "104.21.91.49",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vpn.cintaku.qzz.io",
+      "sni": "vpn.cintaku.qzz.io",
+      "country": "🌍",
+      "raw": "vless://fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349@104.21.91.49:443?security=tls&type=ws&path=%2Fvlessws&host=vpn.cintaku.qzz.io&packetEncoding=xudp&sni=vpn.cintaku.qzz.io&fp=unsafe#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": true
+    },
     {
       "type": "vmess",
       "server": "rib9jxayoqjgn2kw.v.3dns.vip",
