@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-11-05T11:27:26.833Z",
+  "updatedAt": "2026-11-05T11:37:51.575Z",
   "total": 17,
-  "active": 2,
+  "active": 1,
   "configs": [
-    {
-      "type": "vless",
-      "server": "199.232.78.160",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "Appxdn.global.ssl.fastly.net",
-      "sni": "cdn.akamai.steamstatic.com",
-      "country": "FR",
-      "raw": "vless://XpnTeam-89@199.232.78.160:443?&security=tls&fp=chrome&sni=cdn.akamai.steamstatic.com&type=ws&headerType=none&host=Appxdn.global.ssl.fastly.net&path=%2F#🇫🇷[openproxylist.com] vless-FR",
-      "ps": "🇫🇷[openproxylist.com] vless-FR",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "104.17.147.222",
