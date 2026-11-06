@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-11-05T23:48:07.843Z",
+  "updatedAt": "2026-11-05T23:58:22.446Z",
   "total": 9,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "vipccc.cc",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vipccc.cc",
+      "sni": "vipccc.cc",
+      "country": "🌍",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJ2aXBjY2MuY2MiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViZWFkMzJmLWE5ODctNGY1Ny1iMWE4LTY2OTg3NzhmYWNkYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3JheV9wcm94eSIsImhvc3QiOiJ2aXBjY2MuY2MiLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    }
+  ]
 }
