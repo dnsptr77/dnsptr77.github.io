@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T20:58:38.253Z",
-  "total": 7,
+  "updatedAt": "2026-11-06T21:08:51.372Z",
+  "total": 9,
   "active": 5,
   "configs": [
     {
@@ -44,14 +44,14 @@
     },
     {
       "type": "vmess",
-      "server": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "Rib9JXAYoqjGN2KW.v.3dns.vip",
-      "sni": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
       "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IlJpYjlKWEFZb3FqR04yS1cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
       "behindCF": false
     },
@@ -63,9 +63,9 @@
       "net": "ws",
       "host": "shit.67133767.xyz",
       "sni": "shit.67133767.xyz",
-      "country": "🌍",
-      "raw": "vmess://eyJ2IjpudWxsLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwiYWRkIjoiZDIuYW5vbml4LmNsb3VkIiwicG9ydCI6ODAxOCwiaWQiOiJiODMxMzgxZC02MzI0LTRkNTMtYWQ0Zi04Y2RhNDhiMzA4MTEiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6InNoaXQuNjcxMzM3NjcueHl6IiwiYWxwbiI6bnVsbCwicGF0aCI6Ilwvd2Vic29ja2V0XC90cmFuc2ZlclwvZ2F5cG9ybiIsInRscyI6Im5vbmUiLCJzbmkiOm51bGwsImZwIjpudWxsLCJuYW1lIjoiREUgXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhIHwgQFJheWRpa2FseCB8IEQ4MEY5QiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🏳[openproxylist.com] vmess-",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImQyLmFub25peC5jbG91ZCIsInBvcnQiOjgwMTgsImlkIjoiYjgzMTM4MWQtNjMyNC00ZDUzLWFkNGYtOGNkYTQ4YjMwODExIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwicGF0aCI6Ilwvd2Vic29ja2V0XC90cmFuc2ZlclwvZ2F5cG9ybiIsImhvc3QiOiJzaGl0LjY3MTMzNzY3Lnh5eiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
       "behindCF": false
     }
   ]
