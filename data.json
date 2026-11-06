@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-11-06T18:55:41.909Z",
+  "updatedAt": "2026-11-06T19:05:55.748Z",
   "total": 8,
   "active": 5,
   "configs": [
+    {
+      "type": "vless",
+      "server": "199.232.249.131",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.",
+      "sni": "cdn.akamai.steamstatic.com",
+      "country": "🌍",
+      "raw": "vless://33751cb1-43ea-458c-8dc5-0b8993746bce@199.232.249.131:443?&security=tls&fp=chrome&sni=cdn.akamai.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.&path=%2F#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": false
+    },
     {
       "type": "vless",
       "server": "199.232.249.131",
@@ -30,28 +43,15 @@
       "behindCF": false
     },
     {
-      "type": "vless",
-      "server": "lte-v2-ws.gacvpn.site",
-      "port": 8443,
-      "tls": true,
-      "net": "ws",
-      "host": "lte-v2-ws.gacvpn.site",
-      "sni": "lte-v2-ws.gacvpn.site",
-      "country": "PL",
-      "raw": "vless://981c7ccc-2b17-473c-8358-7fd1d6eec1b4@lte-v2-ws.gacvpn.site:8443?&security=tls&fp=firefox&sni=lte-v2-ws.gacvpn.site&type=ws&headerType=none&host=lte-v2-ws.gacvpn.site&path=%2Fstatic%2Fjs%2Fruntime.9d03c7.js#🇵🇱[openproxylist.com] vless-PL",
-      "ps": "🇵🇱[openproxylist.com] vless-PL",
-      "behindCF": false
-    },
-    {
       "type": "vmess",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "server": "Rib9JXAYoqjGN2KW.v.3dns.vip",
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "host": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "sni": "Rib9JXAYoqjGN2KW.v.3dns.vip",
       "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IlJpYjlKWEFZb3FqR04yS1cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
       "behindCF": false
     },
