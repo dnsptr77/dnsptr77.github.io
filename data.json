@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T13:58:20.860Z",
-  "total": 8,
+  "updatedAt": "2026-11-06T14:08:34.468Z",
+  "total": 6,
   "active": 5,
   "configs": [
     {
@@ -35,24 +35,24 @@
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "host": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "sni": "Rib9JXAYoqjGN2KW.v.3dns.vip",
       "country": "🌍",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImlkIjoiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwic25pIjoicmliOWp4YXlvcWpnbjJrdy52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImlkIjoiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwic25pIjoiUmliOUpYQVlvcWpHTjJLVy52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJob3N0IjoiUmliOUpYQVlvcWpHTjJLVy52LjNkbnMudmlwIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🏳[openproxylist.com] vmess-",
       "behindCF": false
     },
     {
       "type": "vless",
-      "server": "news.zoom.us",
+      "server": "141.193.213.20",
       "port": 8443,
       "tls": true,
       "net": "ws",
       "host": "u.srilankangrill.online",
       "sni": "u.srilankangrill.online",
-      "country": "SG",
-      "raw": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&packetEncoding=xudp&sni=u.srilankangrill.online&fp=chrome#🇸🇬[openproxylist.com] vless-SG",
-      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "country": "🌍",
+      "raw": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&packetEncoding=xudp&sni=u.srilankangrill.online&fp=chrome#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
       "behindCF": false
     },
     {
