@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-06T10:53:52.946Z",
-  "total": 10,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-11-06T11:04:08.735Z",
+  "total": 9,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "145.63.143.205",
+      "port": 8444,
+      "tls": true,
+      "net": "ws",
+      "host": "pl1.meshbeat.online",
+      "sni": "pl1.meshbeat.online",
+      "country": "PL",
+      "raw": "vless://35c9f200-7520-4005-b78e-f8a2fb9f68f7@145.63.143.205:8444?security=tls&type=ws&path=%2Fapi%2Fv1%2Fdevices%2F10be32b380%2Ftelemetry&host=pl1.meshbeat.online&packetEncoding=xudp&sni=pl1.meshbeat.online&fp=firefox&encryption=none#🇵🇱[openproxylist.com] vless-PL",
+      "ps": "🇵🇱[openproxylist.com] vless-PL",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "vipccc.cc",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "vipccc.cc",
+      "sni": "vipccc.cc",
+      "country": "🌍",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJ2aXBjY2MuY2MiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViZWFkMzJmLWE5ODctNGY1Ny1iMWE4LTY2OTg3NzhmYWNkYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL3JheV9wcm94eSIsImhvc3QiOiJ2aXBjY2MuY2MiLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "sni": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImlkIjoiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwic25pIjoiUmliOUpYQVlvcWpHTjJLVy52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJob3N0IjoiUmliOUpYQVlvcWpHTjJLVy52LjNkbnMudmlwIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.16.156.227",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "u.srilankangrill.online",
+      "sni": "u.srilankangrill.online",
+      "country": "🌍",
+      "raw": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.156.227:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&packetEncoding=xudp&sni=u.srilankangrill.online&fp=chrome#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "d2.anonix.cloud",
+      "port": 8018,
+      "tls": false,
+      "net": "ws",
+      "host": "shit.67133767.xyz",
+      "sni": "shit.67133767.xyz",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImQyLmFub25peC5jbG91ZCIsInBvcnQiOjgwMTgsImlkIjoiYjgzMTM4MWQtNjMyNC00ZDUzLWFkNGYtOGNkYTQ4YjMwODExIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwicGF0aCI6Ilwvd2Vic29ja2V0XC90cmFuc2ZlclwvZ2F5cG9ybiIsImhvc3QiOiJzaGl0LjY3MTMzNzY3Lnh5eiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    }
+  ]
 }
