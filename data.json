@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-06T17:54:06.392Z",
-  "total": 7,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-11-06T18:04:26.375Z",
+  "total": 8,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "199.232.249.131",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.",
+      "sni": "cdn.akamai.steamstatic.com",
+      "country": "🌍",
+      "raw": "vless://33751cb1-43ea-458c-8dc5-0b8993746bce@199.232.249.131:443?&security=tls&fp=chrome&sni=cdn.akamai.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.&path=%2F#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "95.142.32.42",
+      "port": 8444,
+      "tls": true,
+      "net": "ws",
+      "host": "nl18.meshbeat.online",
+      "sni": "nl18.meshbeat.online",
+      "country": "🌍",
+      "raw": "vless://a8321cfe-39a2-48a0-a918-f01f7d9006ed@95.142.32.42:8444?security=tls&type=ws&path=%2Fapi%2Fv1%2Fdevices%2F86f81c4330%2Ftelemetry&host=nl18.meshbeat.online&packetEncoding=xudp&alpn=http%2F1.1&sni=nl18.meshbeat.online&fp=firefox#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "lte-v2-ws.gacvpn.site",
+      "port": 8443,
+      "tls": true,
+      "net": "ws",
+      "host": "lte-v2-ws.gacvpn.site",
+      "sni": "lte-v2-ws.gacvpn.site",
+      "country": "PL",
+      "raw": "vless://981c7ccc-2b17-473c-8358-7fd1d6eec1b4@lte-v2-ws.gacvpn.site:8443?&security=tls&fp=firefox&sni=lte-v2-ws.gacvpn.site&type=ws&headerType=none&host=lte-v2-ws.gacvpn.site&path=%2Fstatic%2Fjs%2Fruntime.9d03c7.js#🇵🇱[openproxylist.com] vless-PL",
+      "ps": "🇵🇱[openproxylist.com] vless-PL",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "d2.anonix.cloud",
+      "port": 8018,
+      "tls": false,
+      "net": "ws",
+      "host": "shit.67133767.xyz",
+      "sni": "shit.67133767.xyz",
+      "country": "🌍",
+      "raw": "vmess://eyJ2IjpudWxsLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwiYWRkIjoiZDIuYW5vbml4LmNsb3VkIiwicG9ydCI6ODAxOCwiaWQiOiJiODMxMzgxZC02MzI0LTRkNTMtYWQ0Zi04Y2RhNDhiMzA4MTEiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6InNoaXQuNjcxMzM3NjcueHl6IiwiYWxwbiI6bnVsbCwicGF0aCI6Ilwvd2Vic29ja2V0XC90cmFuc2ZlclwvZ2F5cG9ybiIsInRscyI6Im5vbmUiLCJzbmkiOm51bGwsImZwIjpudWxsLCJuYW1lIjoiREUgXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhIHwgQFJheWRpa2FseCB8IEQ4MEY5QiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    }
+  ]
 }
