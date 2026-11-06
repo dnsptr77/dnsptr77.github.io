@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T19:57:08.956Z",
-  "total": 8,
+  "updatedAt": "2026-11-06T20:07:26.268Z",
+  "total": 7,
   "active": 5,
   "configs": [
     {
@@ -31,15 +31,15 @@
     },
     {
       "type": "vless",
-      "server": "95.142.32.42",
+      "server": "145.63.143.205",
       "port": 8444,
       "tls": true,
       "net": "ws",
-      "host": "nl18.meshbeat.online",
-      "sni": "nl18.meshbeat.online",
-      "country": "🌍",
-      "raw": "vless://a8321cfe-39a2-48a0-a918-f01f7d9006ed@95.142.32.42:8444?security=tls&type=ws&path=%2Fapi%2Fv1%2Fdevices%2F86f81c4330%2Ftelemetry&host=nl18.meshbeat.online&packetEncoding=xudp&alpn=http%2F1.1&sni=nl18.meshbeat.online&fp=firefox#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
+      "host": "pl1.meshbeat.online",
+      "sni": "pl1.meshbeat.online",
+      "country": "PL",
+      "raw": "vless://a8321cfe-39a2-48a0-a918-f01f7d9006ed@145.63.143.205:8444?security=tls&type=ws&path=%2Fapi%2Fv1%2Fdevices%2F10be32b380%2Ftelemetry&host=pl1.meshbeat.online&packetEncoding=xudp&sni=pl1.meshbeat.online&fp=firefox&encryption=none#🇵🇱[openproxylist.com] vless-PL",
+      "ps": "🇵🇱[openproxylist.com] vless-PL",
       "behindCF": false
     },
     {
