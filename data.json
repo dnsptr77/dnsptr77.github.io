@@ -1,60 +1,8 @@
 {
-  "updatedAt": "2026-11-07T14:52:48.221Z",
-  "total": 5,
-  "active": 5,
+  "updatedAt": "2026-11-07T15:03:01.026Z",
+  "total": 6,
+  "active": 1,
   "configs": [
-    {
-      "type": "vless",
-      "server": "199.232.249.131",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.",
-      "sni": "cdn.akamai.steamstatic.com",
-      "country": "US",
-      "raw": "vless://33751cb1-43ea-458c-8dc5-0b8993746bce@199.232.249.131:443?&security=tls&fp=chrome&sni=cdn.akamai.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.&path=%2F#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "199.232.249.131",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.",
-      "sni": "cdn.akamai.steamstatic.com",
-      "country": "US",
-      "raw": "vless://33751cb1-43ea-458c-8dc5-0b8993746bce@199.232.249.131:443?&security=tls&fp=chrome&sni=cdn.akamai.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.&path=%2F#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "95.142.32.42",
-      "port": 8444,
-      "tls": true,
-      "net": "ws",
-      "host": "nl18.meshbeat.online",
-      "sni": "nl18.meshbeat.online",
-      "country": "NL",
-      "raw": "vless://a8321cfe-39a2-48a0-a918-f01f7d9006ed@95.142.32.42:8444?path=%2Fapi%2Fv1%2Fdevices%2F86f81c4330%2Ftelemetry&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=nl18.meshbeat.online&fp=qq&type=ws&allowInsecure=0&sni=nl18.meshbeat.online#🇳🇱[openproxylist.com] vless-NL",
-      "ps": "🇳🇱[openproxylist.com] vless-NL",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
-    },
     {
       "type": "vmess",
       "server": "d2.anonix.cloud",
@@ -63,9 +11,9 @@
       "net": "ws",
       "host": "shit.67133767.xyz",
       "sni": "shit.67133767.xyz",
-      "country": "DE",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImQyLmFub25peC5jbG91ZCIsInBvcnQiOjgwMTgsImlkIjoiYjgzMTM4MWQtNjMyNC00ZDUzLWFkNGYtOGNkYTQ4YjMwODExIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwicGF0aCI6Ilwvd2Vic29ja2V0XC90cmFuc2ZlclwvZ2F5cG9ybiIsImhvc3QiOiJzaGl0LjY3MTMzNzY3Lnh5eiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "country": "🌍",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJkMi5hbm9uaXguY2xvdWQiLCJwb3J0Ijo4MDE4LCJpZCI6ImI4MzEzODFkLTYzMjQtNGQ1My1hZDRmLThjZGE0OGIzMDgxMSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6IiIsInBhdGgiOiJcL3dlYnNvY2tldFwvdHJhbnNmZXJcL2dheXBvcm4iLCJob3N0Ijoic2hpdC42NzEzMzc2Ny54eXoiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🏳[openproxylist.com] vmess-",
       "behindCF": false
     }
   ]
