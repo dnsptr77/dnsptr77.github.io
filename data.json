@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-11-07T19:59:35.035Z",
-  "total": 4,
-  "active": 4,
+  "updatedAt": "2026-11-07T20:09:45.815Z",
+  "total": 3,
+  "active": 3,
   "configs": [
-    {
-      "type": "vless",
-      "server": "199.232.249.131",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.",
-      "sni": "cdn.akamai.steamstatic.com",
-      "country": "US",
-      "raw": "vless://33751cb1-43ea-458c-8dc5-0b8993746bce@199.232.249.131:443?&security=tls&fp=chrome&sni=cdn.akamai.steamstatic.com&type=ws&headerType=none&host=copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.&path=%2F#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
     {
       "type": "vless",
       "server": "95.142.32.42",
@@ -35,10 +22,10 @@
       "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "Rib9JXAYoqjGN2KW.v.3dns.vip",
-      "sni": "Rib9JXAYoqjGN2KW.v.3dns.vip",
+      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
       "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOjQ0MywiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwYXRoIjoiXC93cy12bWVzcyIsImhvc3QiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
       "behindCF": false
     },
