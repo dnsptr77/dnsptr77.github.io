@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-11-07T05:50:58.348Z",
-  "total": 11,
-  "active": 1,
+  "updatedAt": "2026-11-07T06:01:12.289Z",
+  "total": 12,
+  "active": 2,
   "configs": [
+    {
+      "type": "vless",
+      "server": "104.19.178.244",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "u.srilankangrill.online",
+      "sni": "u.srilankangrill.online",
+      "country": "SG",
+      "raw": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.19.178.244:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&packetEncoding=xudp&sni=u.srilankangrill.online&fp=chrome#🇸🇬[openproxylist.com] vless-SG",
+      "ps": "🇸🇬[openproxylist.com] vless-SG",
+      "behindCF": true
+    },
     {
       "type": "vmess",
       "server": "d2.anonix.cloud",
