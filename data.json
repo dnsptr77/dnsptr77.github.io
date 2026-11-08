@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-11-08T19:55:23.433Z",
-  "total": 11,
-  "active": 1,
+  "updatedAt": "2026-11-08T20:05:36.194Z",
+  "total": 12,
+  "active": 2,
   "configs": [
+    {
+      "type": "vmess",
+      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "sni": "rib9jxayoqjgn2kw.v.3dns.vip",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6IjliMzE0OTBkLTE5MGUtNGVmMS1hZjBhLTdjY2FiM2U3YzNiNSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwic25pIjoicmliOWp4YXlvcWpnbjJrdy52LjNkbnMudmlwIiwicGF0aCI6Ilwvd3Mtdm1lc3MiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "d2.anonix.cloud",
