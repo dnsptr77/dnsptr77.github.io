@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-11-10T11:53:50.316Z",
-  "total": 10,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-11-10T12:04:08.611Z",
+  "total": 13,
+  "active": 3,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "162.159.128.17",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "v2ray.ryin.vip",
+      "sni": "v2ray.ryin.vip",
+      "country": "JP",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1KUCIsImFkZCI6IjE2Mi4xNTkuMTI4LjE3IiwicG9ydCI6IjQ0MyIsImlkIjoiYzhiNDU1YWQtZmZmMS00M2U5LTlhZjktZDk3NTg1YzQ1MzRhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InYycmF5LnJ5aW4udmlwIiwicGF0aCI6IlwvcnlpbnNvY2tzdjJib2FyZCIsInRscyI6InRscyIsInNuaSI6InYycmF5LnJ5aW4udmlwIiwiYWxwbiI6IiIsImZwIjoiIiwiaW5zZWN1cmUiOiIwIiwidmNuIjoiIiwicGNzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇯🇵[openproxylist.com] vmess-JP",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "dBcaeS0WKJRoAhsQ.v.3dns.vip",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "dBcaeS0WKJRoAhsQ.v.3dns.vip",
+      "sni": "dBcaeS0WKJRoAhsQ.v.3dns.vip",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6ImRCY2FlUzBXS0pSb0Foc1Eudi4zZG5zLnZpcCIsInBvcnQiOiI0NDMiLCJpZCI6IjIzNGE4MDQxMmI0ZDQ0YTNhOGQ4NTIzY2JmZDU4ZGM0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImRCY2FlUzBXS0pSb0Foc1Eudi4zZG5zLnZpcCIsInBhdGgiOiJcL3dzLXZtZXNzIiwidGxzIjoidGxzIiwic25pIjoiZEJjYWVTMFdLSlJvQWhzUS52LjNkbnMudmlwIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "d2.anonix.cloud",
+      "port": 8018,
+      "tls": false,
+      "net": "ws",
+      "host": "shit.67133767.xyz",
+      "sni": "shit.67133767.xyz",
+      "country": "DE",
+      "raw": "vmess://eyJ2IjpudWxsLCJwcyI6Ilx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtREUiLCJhZGQiOiJkMi5hbm9uaXguY2xvdWQiLCJwb3J0Ijo4MDE4LCJpZCI6ImI4MzEzODFkLTYzMjQtNGQ1My1hZDRmLThjZGE0OGIzMDgxMSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0Ijoic2hpdC42NzEzMzc2Ny54eXoiLCJhbHBuIjpudWxsLCJwYXRoIjoiXC93ZWJzb2NrZXRcL3RyYW5zZmVyXC9nYXlwb3JuIiwidGxzIjoibm9uZSIsInNuaSI6bnVsbCwiZnAiOm51bGwsIm5hbWUiOiJERSBcdWQ4M2NcdWRkZTlcdWQ4M2NcdWRkZWEgfCBAUmF5ZGlrYWx4IHwgRDgwRjlCIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇩🇪[openproxylist.com] vmess-DE",
+      "behindCF": false
+    }
+  ]
 }
