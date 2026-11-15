@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-15T01:20:36.709Z",
+  "updatedAt": "2026-11-15T01:31:03.567Z",
   "total": 14,
-  "active": 9,
+  "active": 7,
   "configs": [
     {
       "type": "vmess",
@@ -92,32 +92,6 @@
       "country": "AE",
       "raw": "vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?sni=uae.unixzone.us&type=ws&host=uae.unixzone.us&path=/#🇦🇪[openproxylist.com] vless-AE",
       "ps": "🇦🇪[openproxylist.com] vless-AE",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "132.145.80.230",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "kr02.a0a.xyz",
-      "sni": "kr02.a0a.xyz",
-      "country": "KR",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGYwXHVkODNjXHVkZGY3W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1LUiIsImFkZCI6IjEzMi4xNDUuODAuMjMwIiwicG9ydCI6IjgwIiwiaWQiOiI1MTU1ODYwZS1kMDdkLTQ2YzMtOTEyOC0zYWZiZDg0NjI2YzciLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6IiIsInBhdGgiOiJcL2NjdHYxMy5tM3U4IiwiaG9zdCI6ImtyMDIuYTBhLnh5eiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇰🇷[openproxylist.com] vmess-KR",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "162.19.192.89",
-      "port": 16641,
-      "tls": false,
-      "net": "ws",
-      "host": "7d56482dc5251e2efaca623dcbc64e3d.mobgslb.tbcache.com",
-      "sni": "7d56482dc5251e2efaca623dcbc64e3d.mobgslb.tbcache.com",
-      "country": "CA",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU4XHVkODNjXHVkZGU2W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1DQSIsImFkZCI6IjE2Mi4xOS4xOTIuODkiLCJwb3J0IjoiMTY2NDEiLCJpZCI6IjlkNWMxNWEzLTE2NmMtNGQ2NS04YTBiLWQ3YTdhN2M4ODYzYSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwicGF0aCI6IlwvIiwiaG9zdCI6IjdkNTY0ODJkYzUyNTFlMmVmYWNhNjIzZGNiYzY0ZTNkLm1vYmdzbGIudGJjYWNoZS5jb20iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇨🇦[openproxylist.com] vmess-CA",
       "behindCF": false
     }
   ]
