@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-15T02:12:01.349Z",
+  "updatedAt": "2026-11-15T02:22:17.089Z",
   "total": 16,
-  "active": 10,
+  "active": 9,
   "configs": [
     {
       "type": "vmess",
@@ -79,19 +79,6 @@
       "country": "US",
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IlVTMDMyMDEzLnNzZ3JlZW4ub3JnIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI0YjY0MTFlMy05MTRkLTRkNmMtYjQ4Ni01OGIxYjg4ZjVjNWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC93ZXMiLCJob3N0IjoiVVMwMzIwMTMuc3NncmVlbi5vcmciLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
       "ps": "🇺🇸[openproxylist.com] vmess-US",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "145.239.55.210",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
-      "sni": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
-      "country": "FR",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGViXHVkODNjXHVkZGY3W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1GUiIsImFkZCI6IjE0NS4yMzkuNTUuMjEwIiwicG9ydCI6IjgwIiwiaWQiOiIyYmM4MGU3Ny05NTkwLTRkZWQtYTQ4Yi0wZWRhNDkzZjYxMWIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6IiIsImFscG4iOiIiLCJwYXRoIjoiXC8iLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uZm9ydHJlc3Nob3N0LmlyLiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇫🇷[openproxylist.com] vmess-FR",
       "behindCF": false
     },
     {
