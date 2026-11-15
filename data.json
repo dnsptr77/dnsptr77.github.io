@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-11-15T00:19:08.238Z",
+  "updatedAt": "2026-11-15T00:29:19.353Z",
   "total": 16,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "in-152.67.8.205-0250",
+      "sni": "in-152.67.8.205-0250",
+      "country": "IN",
+      "raw": "vmess://eyJ2IjpudWxsLCJwcyI6Ilx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSU4iLCJhZGQiOiIxNTIuNjcuOC4yMDUiLCJwb3J0Ijo4MCwiaWQiOiI5ZGI0YzcwOC1hZWY4LTQzNTktODIxYi0zOGU0Nzk5MGJlMGQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6ImluLTE1Mi42Ny44LjIwNS0wMjUwIiwiYWxwbiI6bnVsbCwicGF0aCI6IlwvIiwidGxzIjoibm9uZSIsInNuaSI6bnVsbCwiZnAiOm51bGwsIm5hbWUiOiJJTiBcdWQ4M2NcdWRkZWVcdWQ4M2NcdWRkZjMgfCBAUmF5ZGlrYWx4IHwgODczQzUxIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇮🇳[openproxylist.com] vmess-IN",
+      "behindCF": false
+    }
+  ]
 }
