@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-11-15T05:56:53.442Z",
+  "updatedAt": "2026-11-15T06:07:22.984Z",
   "total": 9,
-  "active": 0,
-  "configs": []
+  "active": 3,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "199.232.78.159",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.",
+      "sni": "cdn.akamai.steamstatic.com",
+      "country": "US",
+      "raw": "vless://64ce5faf-427b-4dd1-926c-6b7ced6b8c38@199.232.78.159:443?security=tls&type=ws&path=%2F&host=copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.&packetEncoding=xudp&pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&sni=cdn.akamai.steamstatic.com&fp=chrome&encryption=none#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "162.159.128.17",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "v2ray.ryin.vip",
+      "sni": "v2ray.ryin.vip",
+      "country": "JP",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1KUCIsImFkZCI6IjE2Mi4xNTkuMTI4LjE3IiwicG9ydCI6IjQ0MyIsImlkIjoiYzhiNDU1YWQtZmZmMS00M2U5LTlhZjktZDk3NTg1YzQ1MzRhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InYycmF5LnJ5aW4udmlwIiwicGF0aCI6IlwvcnlpbnNvY2tzdjJib2FyZCIsInRscyI6InRscyIsInNuaSI6InYycmF5LnJ5aW4udmlwIiwiYWxwbiI6IiIsImZwIjoiIiwiaW5zZWN1cmUiOiIwIiwidmNuIjoiIiwicGNzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
+      "ps": "🇯🇵[openproxylist.com] vmess-JP",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "172.67.79.160",
+      "port": 2087,
+      "tls": true,
+      "net": "ws",
+      "host": "cvhpyn.pages.dev",
+      "sni": "cvhpyn.pages.dev",
+      "country": "CA",
+      "raw": "vless://a4a951b9-901d-4db8-8a7d-6df82c4b5c23@172.67.79.160:2087?encryption=none&security=tls&sni=cvhpyn.pages.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=cvhpyn.pages.dev&path=%2F#🇨🇦[openproxylist.com] vless-CA",
+      "ps": "🇨🇦[openproxylist.com] vless-CA",
+      "behindCF": true
+    }
+  ]
 }
