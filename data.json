@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-15T06:58:38.928Z",
+  "updatedAt": "2026-11-15T07:08:33.856Z",
   "total": 9,
-  "active": 2,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "199.232.78.159",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.",
-      "sni": "cdn.akamai.steamstatic.com",
-      "country": "US",
-      "raw": "vless://64ce5faf-427b-4dd1-926c-6b7ced6b8c38@199.232.78.159:443?security=tls&type=ws&path=%2F&host=copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.&packetEncoding=xudp&pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&sni=cdn.akamai.steamstatic.com&fp=chrome&encryption=none#🇺🇸[openproxylist.com] vless-US",
-      "ps": "🇺🇸[openproxylist.com] vless-US",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "172.67.79.160",
-      "port": 2087,
-      "tls": true,
-      "net": "ws",
-      "host": "cvhpyn.pages.dev",
-      "sni": "cvhpyn.pages.dev",
-      "country": "CA",
-      "raw": "vless://a4a951b9-901d-4db8-8a7d-6df82c4b5c23@172.67.79.160:2087?encryption=none&security=tls&sni=cvhpyn.pages.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=cvhpyn.pages.dev&path=%2F#🇨🇦[openproxylist.com] vless-CA",
-      "ps": "🇨🇦[openproxylist.com] vless-CA",
-      "behindCF": true
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
