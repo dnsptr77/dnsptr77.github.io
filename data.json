@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-11-16T18:52:52.329Z",
-  "total": 9,
-  "active": 4,
+  "updatedAt": "2026-11-16T19:03:16.411Z",
+  "total": 11,
+  "active": 5,
   "configs": [
+    {
+      "type": "vless",
+      "server": "34.39.80.57",
+      "port": 50818,
+      "tls": true,
+      "net": "ws",
+      "host": "yingguo.rymaker.cn",
+      "sni": "yingguo.rymaker.cn",
+      "country": "GB",
+      "raw": "vless://408c814e-f70a-4d16-b3b3-8182bb70211d@34.39.80.57:50818?security=tls&type=ws&path=%2FGunService&packetEncoding=xudp&sni=yingguo.rymaker.cn&fp=chrome&encryption=none#🇬🇧[openproxylist.com] vless-GB",
+      "ps": "🇬🇧[openproxylist.com] vless-GB",
+      "behindCF": false
+    },
     {
       "type": "vless",
       "server": "139.162.27.96",
