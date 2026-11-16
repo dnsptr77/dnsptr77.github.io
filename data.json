@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-16T21:41:13.410Z",
+  "updatedAt": "2026-11-16T21:51:25.082Z",
   "total": 12,
-  "active": 2,
+  "active": 1,
   "configs": [
     {
       "type": "vmess",
@@ -15,19 +15,6 @@
       "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1KUCIsImFkZCI6IjEwNC4yMS41MC4xNzciLCJwb3J0IjoiMjA4MyIsImlkIjoiYWMyNTEyMzctNTc2Zi00MGM4LWE1NDMtNTU0OTYwYzk1OGIxIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJvcjMuc2ZhY2cudWsiLCJwYXRoIjoiXC9vcjMiLCJob3N0Ijoib3IzLnNmYWNnLnVrIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
       "ps": "🇯🇵[openproxylist.com] vmess-JP",
       "behindCF": true
-    },
-    {
-      "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "none",
-      "sni": "none",
-      "country": "JP",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1KUCIsImFkZCI6IjE2OC4xMzguNDMuNzUiLCJwb3J0Ijo4MCwiaWQiOiIxMWMzNjI3Zi0zMWU4LTQ2OTUtZGZiZC0zNDA3NmUyZjFmNWQiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiIiLCJwYXRoIjoiXC9jY3R2MTMubTN1OCIsImhvc3QiOiJub25lIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=",
-      "ps": "🇯🇵[openproxylist.com] vmess-JP",
-      "behindCF": false
     }
   ]
 }
