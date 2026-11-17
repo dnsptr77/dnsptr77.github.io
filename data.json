@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-17T10:30:55.642Z",
+  "updatedAt": "2026-11-17T10:41:09.350Z",
   "total": 16,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "60.248.219.53",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "ty986gfazs.cainiaohub.xyz",
-      "sni": "ty986gfazs.cainiaohub.xyz",
-      "country": "TW",
-      "raw": "vless://c1c04450-bf71-4049-ad0c-9cf6d94d9f1f@60.248.219.53:443?&security=tls&fp=chrome&sni=ty986gfazs.cainiaohub.xyz&type=ws&headerType=none&host=ty986gfazs.cainiaohub.xyz&path=%2F81574b6b-c9d7-44a0-b83d-dad56e8cb530#🇹🇼[openproxylist.com] vless-TW",
-      "ps": "🇹🇼[openproxylist.com] vless-TW",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
