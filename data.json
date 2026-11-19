@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-19T11:59:02.984Z",
-  "total": 2,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vmess",
-      "server": "www.true.th",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "d1g0jlrlppl8b0.cloudfront.net",
-      "sni": "d1g0jlrlppl8b0.cloudfront.net",
-      "country": "🌍",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiJ3d3cudHJ1ZS50aCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2NGI0ZjQ2OC05M2FmLTQ1MWYtYTcyMS0xNzFhMmU5ZjMxNGQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9teW8iLCJob3N0IjoiZDFnMGpscmxwcGw4YjAuY2xvdWRmcm9udC5uZXQiLCJ0bHMiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🏳[openproxylist.com] vmess-",
-      "behindCF": false
-    }
-  ]
+  "updatedAt": "2026-11-19T12:09:10.904Z",
+  "total": 6,
+  "active": 0,
+  "configs": []
 }
