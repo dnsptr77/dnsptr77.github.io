@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-11-19T06:41:40.026Z",
+  "updatedAt": "2026-11-19T06:51:38.820Z",
   "total": 18,
-  "active": 3,
+  "active": 5,
   "configs": [
+    {
+      "type": "vless",
+      "server": "free-config-bot-development-33s35.lucity.app",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "free-config-bot-development-33s35.lucity.app",
+      "sni": "free-config-bot-development-33s35.lucity.app",
+      "country": "🌍",
+      "raw": "vless://474c5a2e-96eb-fa3f-6639-cbd2129c8027@free-config-bot-development-33s35.lucity.app:443?&security=tls&fp=firefox&sni=free-config-bot-development-33s35.lucity.app&type=ws&headerType=none&host=free-config-bot-development-33s35.lucity.app&path=%2Fws%2F474c5a2e-96eb-fa3f-6639-cbd2129c8027#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": false
+    },
     {
       "type": "vmess",
       "server": "104.17.136.198",
@@ -40,6 +53,19 @@
       "country": "DK",
       "raw": "vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@193.180.208.167:443?&security=tls&fp=chrome&sni=v2n5.11676767.xyz&type=ws&headerType=none&host=v2n5.11676767.xyz&path=%2Fdoujin%2Fchannels%2Fcb#🇩🇰[openproxylist.com] vless-DK",
       "ps": "🇩🇰[openproxylist.com] vless-DK",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "168.138.43.75",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "None",
+      "sni": "None",
+      "country": "JP",
+      "raw": "vmess://eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJOb25lIiwiaWQiOiIxMWMzNjI3Zi0zMWU4LTQ2OTUtZGZiZC0zNDA3NmUyZjFmNWQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2NjdHYxMy5tM3U4IiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkZWZcdWQ4M2NcdWRkZjVbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUpQIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇯🇵[openproxylist.com] vmess-JP",
       "behindCF": false
     }
   ]
