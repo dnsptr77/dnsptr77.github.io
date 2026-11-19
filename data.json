@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-19T08:44:19.018Z",
+  "updatedAt": "2026-11-19T08:54:43.223Z",
   "total": 17,
-  "active": 5,
+  "active": 4,
   "configs": [
     {
       "type": "vless",
@@ -53,19 +53,6 @@
       "country": "DK",
       "raw": "vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@193.180.208.167:443?&security=tls&fp=chrome&sni=v2n5.11676767.xyz&type=ws&headerType=none&host=v2n5.11676767.xyz&path=%2Fdoujin%2Fchannels%2Fcb#🇩🇰[openproxylist.com] vless-DK",
       "ps": "🇩🇰[openproxylist.com] vless-DK",
-      "behindCF": false
-    },
-    {
-      "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
-      "tls": false,
-      "net": "ws",
-      "host": "None",
-      "sni": "None",
-      "country": "JP",
-      "raw": "vmess://eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJOb25lIiwiaWQiOiIxMWMzNjI3Zi0zMWU4LTQ2OTUtZGZiZC0zNDA3NmUyZjFmNWQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2NjdHYxMy5tM3U4IiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkZWZcdWQ4M2NcdWRkZjVbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUpQIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
-      "ps": "🇯🇵[openproxylist.com] vmess-JP",
       "behindCF": false
     }
   ]
