@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-20T06:48:07.953Z",
+  "updatedAt": "2026-11-20T06:57:56.259Z",
   "total": 14,
-  "active": 4,
+  "active": 5,
   "configs": [
     {
       "type": "vmess",
@@ -41,6 +41,19 @@
       "raw": "vless://25ac78e7-6d1d-4c9a-a450-c01a4871769f@72.56.238.90:443?&security=tls&fp=android&alpn=http%2F1.1&sni=sequoia.merlano.monster&type=ws&headerType=none&host=vellum.merlano.monster&path=%2Fapi%2Fde1%2Fstream#🇩🇪[openproxylist.com] vless-DE",
       "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "104.16.0.1",
+      "port": 2083,
+      "tls": true,
+      "net": "ws",
+      "host": "or3.sfacg.uk",
+      "sni": "or3.sfacg.uk",
+      "country": "🌍",
+      "raw": "vmess://eyJhZGQiOiIxMDQuMTYuMC4xIiwiYWlkIjoiMCIsImFscG4iOiJodHRwXC8xLjEiLCJlY2giOiJjbG91ZGZsYXJlLWVjaC5jb20rdWRwOlwvXC8xLjEuMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoib3IzLnNmYWNnLnVrIiwiaWQiOiJhYzI1MTIzNy01NzZmLTQwYzgtYTU0My01NTQ5NjBjOTU4YjEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL29yMyIsInBvcnQiOiIyMDgzIiwicHMiOiJcdWQ4M2NcdWRmZjNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJvcjMuc2ZhY2cudWsiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": true
     },
     {
       "type": "vmess",
