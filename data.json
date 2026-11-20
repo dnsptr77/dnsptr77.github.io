@@ -1,46 +1,33 @@
 {
-  "updatedAt": "2026-11-20T05:56:30.519Z",
-  "total": 5,
+  "updatedAt": "2026-11-20T06:06:54.289Z",
+  "total": 14,
   "active": 4,
   "configs": [
     {
-      "type": "vmess",
-      "server": "192.74.236.148",
-      "port": 30004,
+      "type": "vless",
+      "server": "104.18.109.147",
+      "port": 2052,
+      "tls": false,
+      "net": "ws",
+      "host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com",
+      "sni": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com",
+      "country": "CA",
+      "raw": "vless://c29d39bd-92a4-45db-bb61-56013998617c@104.18.109.147:2052?type=ws&host=www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com&path=/Telegram-XV2ry2?ed=2048#🇨🇦[openproxylist.com] vless-CA",
+      "ps": "🇨🇦[openproxylist.com] vless-CA",
+      "behindCF": true
+    },
+    {
+      "type": "vless",
+      "server": "72.56.238.90",
+      "port": 443,
       "tls": true,
       "net": "ws",
-      "host": "www.91334565.xyz",
-      "sni": "www.91334565.xyz",
-      "country": "US",
-      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IjE5Mi43NC4yMzYuMTQ4IiwicG9ydCI6IjMwMDA0IiwidHlwZSI6Im5vbmUiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9wYXRoXC8xNzMzNDc3NzgzNzA1IiwiaG9zdCI6Ind3dy45MTMzNDU2NS54eXoiLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
-      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "host": "vellum.merlano.monster",
+      "sni": "sequoia.merlano.monster",
+      "country": "DE",
+      "raw": "vless://25ac78e7-6d1d-4c9a-a450-c01a4871769f@72.56.238.90:443?&security=tls&fp=android&alpn=http%2F1.1&sni=sequoia.merlano.monster&type=ws&headerType=none&host=vellum.merlano.monster&path=%2Fapi%2Fde1%2Fstream#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
       "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "104.18.109.147",
-      "port": 2052,
-      "tls": false,
-      "net": "ws",
-      "host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com",
-      "sni": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com",
-      "country": "CA",
-      "raw": "vless://c29d39bd-92a4-45db-bb61-56013998617c@104.18.109.147:2052?type=ws&host=www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com&path=/Telegram-XV2ry2?ed=2048#🇨🇦[openproxylist.com] vless-CA",
-      "ps": "🇨🇦[openproxylist.com] vless-CA",
-      "behindCF": true
-    },
-    {
-      "type": "vless",
-      "server": "104.18.109.147",
-      "port": 2052,
-      "tls": false,
-      "net": "ws",
-      "host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com",
-      "sni": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com",
-      "country": "CA",
-      "raw": "vless://c29d39bd-92a4-45db-bb61-56013998617c@104.18.109.147:2052?type=ws&host=www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com&path=/Telegram-XV2ry2?ed=2048#🇨🇦[openproxylist.com] vless-CA",
-      "ps": "🇨🇦[openproxylist.com] vless-CA",
-      "behindCF": true
     },
     {
       "type": "vmess",
@@ -54,6 +41,19 @@
       "raw": "vmess://eyJhZGQiOiIxMDQuMTYuMC4xIiwiYWlkIjoiMCIsImFscG4iOiJodHRwXC8xLjEiLCJlY2giOiJjbG91ZGZsYXJlLWVjaC5jb20rdWRwOlwvXC8xLjEuMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoib3IzLnNmYWNnLnVrIiwiaWQiOiJhYzI1MTIzNy01NzZmLTQwYzgtYTU0My01NTQ5NjBjOTU4YjEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL29yMyIsInBvcnQiOiIyMDgzIiwicHMiOiJcdWQ4M2NcdWRmZjNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJvcjMuc2ZhY2cudWsiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=",
       "ps": "🏳[openproxylist.com] vmess-",
       "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "168.138.43.75",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "None",
+      "sni": "None",
+      "country": "JP",
+      "raw": "vmess://eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJOb25lIiwiaWQiOiIxMWMzNjI3Zi0zMWU4LTQ2OTUtZGZiZC0zNDA3NmUyZjFmNWQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2NjdHYxMy5tM3U4IiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkZWZcdWQ4M2NcdWRkZjVbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUpQIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9",
+      "ps": "🇯🇵[openproxylist.com] vmess-JP",
+      "behindCF": false
     }
   ]
 }
