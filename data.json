@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-21T19:35:10.417Z",
+  "updatedAt": "2026-11-21T19:45:29.387Z",
   "total": 13,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "43.170.8.95",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "jp3.yohototo.top",
+      "sni": "jp3.yohototo.top",
+      "country": "JP",
+      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@43.170.8.95:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&fm=%7B%22tcp%22%3A%5B%7B%22type%22%3A%22fragment%22%2C%22settings%22%3A%7B%22packets%22%3A%22tlshello%22%2C%22lengths%22%3A%5B%220%22%2C%22104%22%2C%221%22%5D%2C%22delays%22%3A%5B%220%22%5D%2C%22maxSplit%22%3A%220%22%7D%7D%2C%7B%22type%22%3A%22fragment%22%2C%22settings%22%3A%7B%22packets%22%3A%221-1%22%2C%22lengths%22%3A%5B%22114%22%2C%221%22%5D%2C%22delays%22%3A%5B%221%22%5D%2C%22maxSplit%22%3A%2211%22%7D%7D%5D%7D&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵[openproxylist.com] vless-JP",
+      "ps": "🇯🇵[openproxylist.com] vless-JP",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "d1eyz.xiaoyan.io",
+      "port": 16648,
+      "tls": false,
+      "net": "ws",
+      "host": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "sni": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6ImQxZXl6LnhpYW95YW4uaW8iLCJwb3J0IjoiMTY2NDgiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTA0ZjA1NjktODY5NS00NjZmLTk3Y2YtMGRlMmZhY2UxYjQ2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwiaG9zdCI6ImY5MzA5Y2M4ODYzN2MyNmY1NTJhMWE2NGZiMzExY2FlLm1vYmdzbGIudGJjYWNoZS5jb20iLCJ0bHMiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    }
+  ]
 }
