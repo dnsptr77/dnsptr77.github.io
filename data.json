@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-22T00:11:48.722Z",
+  "updatedAt": "2026-11-22T00:22:02.416Z",
   "total": 10,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "172.67.197.170",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "o685y.save-node.com",
-      "sni": "o685y.save-node.com",
-      "country": "DE",
-      "raw": "vless://88e79aa6-f431-4453-8dcc-652a0c747198@172.67.197.170:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=o685y.save-node.com&type=ws&headerType=none&host=o685y.save-node.com&path=%2Fapi%2Fse1k2rfxlsuer3ry4u6e84kl8rqp721p#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": true
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
