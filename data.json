@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-11-22T12:20:12.698Z",
+  "updatedAt": "2026-11-22T12:30:18.073Z",
   "total": 9,
-  "active": 0,
-  "configs": []
+  "active": 1,
+  "configs": [
+    {
+      "type": "vmess",
+      "server": "afzuv.xiaoyan.io",
+      "port": 16617,
+      "tls": false,
+      "net": "ws",
+      "host": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "sni": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "country": "JP",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1KUCIsImFkZCI6ImFmenV2LnhpYW95YW4uaW8iLCJwb3J0IjoxNjYxNywiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsImlkIjoiOTA0ZjA1NjktODY5NS00NjZmLTk3Y2YtMGRlMmZhY2UxYjQ2Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwiaG9zdCI6ImY5MzA5Y2M4ODYzN2MyNmY1NTJhMWE2NGZiMzExY2FlLm1vYmdzbGIudGJjYWNoZS5jb20iLCJwYXRoIjoiXC8ifQ==",
+      "ps": "🇯🇵[openproxylist.com] vmess-JP",
+      "behindCF": false
+    }
+  ]
 }
