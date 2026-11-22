@@ -1,59 +1,6 @@
 {
-  "updatedAt": "2026-11-22T13:03:57.042Z",
+  "updatedAt": "2026-11-22T13:14:41.257Z",
   "total": 10,
-  "active": 4,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "insightfailover.ratethatrestaurant.org",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "insightfailover.ratethatrestaurant.org",
-      "sni": "insightfailover.ratethatrestaurant.org",
-      "country": "KZ",
-      "raw": "vless://4cadde0d-41c1-0002-98f9-3231b252d4bd@insightfailover.ratethatrestaurant.org:443?&security=tls&fp=chrome&sni=insightfailover.ratethatrestaurant.org&type=ws&headerType=none&host=insightfailover.ratethatrestaurant.org&path=%2Fmedia%2Fws%2F#🇰🇿[openproxylist.com] vless-KZ",
-      "ps": "🇰🇿[openproxylist.com] vless-KZ",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "cabinet.filnex.baby",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "cabinet.filnex.baby",
-      "sni": "claywick.elvano.website",
-      "country": "DE",
-      "raw": "vless://0b6a7fe0-206b-4071-9f96-cd397d1ec01a@cabinet.filnex.baby:443?&security=tls&fp=edge&alpn=http%2F1.1&sni=claywick.elvano.website&type=ws&headerType=none&host=cabinet.filnex.baby&path=%2Fapi%2Fde7%2Fstream#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "138.2.86.205",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "www.microsoft.com",
-      "sni": "www.microsoft.com",
-      "country": "🌍",
-      "raw": "vless://b2d4f6a8-1c3e-4a5b-9d7f-2e4a6c8b0d1f@138.2.86.205:443?&security=tls&fp=chrome&packet-encoding=xudp&sni=www.microsoft.com&type=ws&headerType=none&path=%2F7b9977b2af9da85fa86adc065c362efe#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": false
-    },
-    {
-      "type": "vless",
-      "server": "172.67.197.170",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "o685y.save-node.com",
-      "sni": "o685y.save-node.com",
-      "country": "🌍",
-      "raw": "vless://88e79aa6-f431-4453-8dcc-652a0c747198@172.67.197.170:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=o685y.save-node.com&type=ws&headerType=none&host=o685y.save-node.com&path=%2Fapi%2Fse1k2rfxlsuer3ry4u6e84kl8rqp721p#🏳[openproxylist.com] vless-",
-      "ps": "🏳[openproxylist.com] vless-",
-      "behindCF": true
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
