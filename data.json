@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-23T02:54:35.163Z",
-  "total": 8,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-11-23T03:04:59.503Z",
+  "total": 11,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "185.16.110.62",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "shazam.wbciran.com",
+      "sni": "shazam.wbciran.com",
+      "country": "US",
+      "raw": "vless://b538377e-c372-414d-bd02-becfed21852f@185.16.110.62:443?&security=tls&fp=chrome&sni=shazam.wbciran.com&type=ws&headerType=none&host=shazam.wbciran.com&path=%2FusiHjIz#🇺🇸[openproxylist.com] vless-US",
+      "ps": "🇺🇸[openproxylist.com] vless-US",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "31.77.142.19",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "calendarbaseline.lucheeebezlimitnoekino.stream",
+      "sni": "calendarbaseline.lucheeebezlimitnoekino.stream",
+      "country": "DE",
+      "raw": "vless://58e22afd-bf74-4736-984d-63a8ca03d7f0@31.77.142.19:443?&security=tls&fp=firefox&sni=calendarbaseline.lucheeebezlimitnoekino.stream&type=ws&headerType=none&path=%2Fmedia%2Fws%2F#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "pdmv4.xiaoyan.io",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "sni": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "country": "HK",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6InBkbXY0LnhpYW95YW4uaW8iLCJwb3J0IjoxNjYzMiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsImlkIjoiOTA0ZjA1NjktODY5NS00NjZmLTk3Y2YtMGRlMmZhY2UxYjQ2Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwiaG9zdCI6ImY5MzA5Y2M4ODYzN2MyNmY1NTJhMWE2NGZiMzExY2FlLm1vYmdzbGIudGJjYWNoZS5jb20iLCJwYXRoIjoiXC8ifQ==",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "cedar.filnex.baby",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "cedar.filnex.baby",
+      "sni": "fieldstone.moltex.click",
+      "country": "DE",
+      "raw": "vless://0b6a7fe0-206b-4071-9f96-cd397d1ec01a@cedar.filnex.baby:443?&security=tls&fp=edge&alpn=http%2F1.1&sni=fieldstone.moltex.click&type=ws&headerType=none&host=cedar.filnex.baby&path=%2Fapi%2Fde7%2Fstream#🇩🇪[openproxylist.com] vless-DE",
+      "ps": "🇩🇪[openproxylist.com] vless-DE",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "pdmv4.xiaoyan.io",
+      "port": 16632,
+      "tls": false,
+      "net": "ws",
+      "host": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "sni": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com",
+      "country": "HK",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6InBkbXY0LnhpYW95YW4uaW8iLCJwb3J0IjoiMTY2MzIiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTA0ZjA1NjktODY5NS00NjZmLTk3Y2YtMGRlMmZhY2UxYjQ2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwiaG9zdCI6ImY5MzA5Y2M4ODYzN2MyNmY1NTJhMWE2NGZiMzExY2FlLm1vYmdzbGIudGJjYWNoZS5jb20iLCJ0bHMiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==",
+      "ps": "🇭🇰[openproxylist.com] vmess-HK",
+      "behindCF": false
+    }
+  ]
 }
