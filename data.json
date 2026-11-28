@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-28T13:54:50.484Z",
-  "total": 9,
+  "updatedAt": "2026-11-28T14:05:10.506Z",
+  "total": 7,
   "active": 5,
   "configs": [
     {
       "type": "vless",
-      "server": "188.114.99.137",
-      "port": 80,
-      "tls": false,
+      "server": "sienna.merlano.monster",
+      "port": 443,
+      "tls": true,
       "net": "ws",
-      "host": "suh.cryptofront.uk",
-      "sni": "suh.cryptofront.uk",
-      "country": "FR",
-      "raw": "vless://c762af05-2e92-4133-bc30-8cf45dd40a28@188.114.99.137:80?type=ws&host=suh.cryptofront.uk&path=/#🇫🇷[openproxylist.com] vless-FR",
-      "ps": "🇫🇷[openproxylist.com] vless-FR",
+      "host": "sienna.merlano.monster",
+      "sni": "sienna.merlano.monster",
+      "country": "🌍",
+      "raw": "vless://749b1c56-e658-4bf5-94bd-5c3286a4aed1@sienna.merlano.monster:443?&security=tls&fp=firefox&alpn=http%2F1.1&sni=sienna.merlano.monster&type=ws&headerType=none&host=sienna.merlano.monster&path=%2Fapi%2Fde4%2Fstream#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
       "behindCF": false
     },
     {
