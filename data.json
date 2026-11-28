@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-28T08:37:29.043Z",
+  "updatedAt": "2026-11-28T08:47:47.946Z",
   "total": 15,
-  "active": 0,
-  "configs": []
+  "active": 2,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "jllp.cf.877774.xyz",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "jp.bbusxxxh.top",
+      "sni": "jp.bbusxxxh.top",
+      "country": "JP",
+      "raw": "vless://531d9e93-53be-4f05-a9c1-33490d4da2f3@jllp.cf.877774.xyz:443?&security=tls&sni=jp.bbusxxxh.top&type=ws&headerType=none&host=jp.bbusxxxh.top&path=%2Fimages#🇯🇵[openproxylist.com] vless-JP",
+      "ps": "🇯🇵[openproxylist.com] vless-JP",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "188.114.99.137",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "suh.cryptofront.uk",
+      "sni": "suh.cryptofront.uk",
+      "country": "FR",
+      "raw": "vless://c762af05-2e92-4133-bc30-8cf45dd40a28@188.114.99.137:80?type=ws&host=suh.cryptofront.uk&path=/#🇫🇷[openproxylist.com] vless-FR",
+      "ps": "🇫🇷[openproxylist.com] vless-FR",
+      "behindCF": false
+    }
+  ]
 }
