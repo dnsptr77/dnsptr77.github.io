@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-28T12:53:20.439Z",
-  "total": 11,
-  "active": 0,
-  "configs": []
+  "updatedAt": "2026-11-28T13:03:41.838Z",
+  "total": 9,
+  "active": 5,
+  "configs": [
+    {
+      "type": "vless",
+      "server": "188.114.99.137",
+      "port": 80,
+      "tls": false,
+      "net": "ws",
+      "host": "suh.cryptofront.uk",
+      "sni": "suh.cryptofront.uk",
+      "country": "FR",
+      "raw": "vless://c762af05-2e92-4133-bc30-8cf45dd40a28@188.114.99.137:80?type=ws&host=suh.cryptofront.uk&path=/#🇫🇷[openproxylist.com] vless-FR",
+      "ps": "🇫🇷[openproxylist.com] vless-FR",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "bookend.filnex.baby",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "bookend.filnex.baby",
+      "sni": "ferncrest.gerqix.online",
+      "country": "🌍",
+      "raw": "vless://749b1c56-e658-4bf5-94bd-5c3286a4aed1@bookend.filnex.baby:443?&security=tls&fp=firefox&alpn=http%2F1.1&sni=ferncrest.gerqix.online&type=ws&headerType=none&host=bookend.filnex.baby&path=%2Fapi%2Fde1%2Fstream#🏳[openproxylist.com] vless-",
+      "ps": "🏳[openproxylist.com] vless-",
+      "behindCF": false
+    },
+    {
+      "type": "vmess",
+      "server": "47.86.90.31",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "bywxdhirqkjj8xaz.v.3dns.vip",
+      "sni": "bywxdhirqkjj8xaz.v.3dns.vip",
+      "country": "🌍",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZmYzW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy0iLCJhZGQiOiI0Ny44Ni45MC4zMSIsInBvcnQiOjQ0MywiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsImlkIjoiMjM0YTgwNDEtMmI0ZC00NGEzLWE4ZDgtNTIzY2JmZDU4ZGM0Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiYnl3eGRoaXJxa2pqOHhhei52LjNkbnMudmlwIiwiaG9zdCI6ImJ5d3hkaGlycWtqajh4YXoudi4zZG5zLnZpcCIsInBhdGgiOiJcL3dzLXZtZXNzIn0=",
+      "ps": "🏳[openproxylist.com] vmess-",
+      "behindCF": false
+    },
+    {
+      "type": "vless",
+      "server": "104.18.153.10",
+      "port": 443,
+      "tls": true,
+      "net": "ws",
+      "host": "jp3.yohototo.top",
+      "sni": "jp3.yohototo.top",
+      "country": "JP",
+      "raw": "vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.18.153.10:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&fm=%7B%22tcp%22%3A%5B%7B%22type%22%3A%22fragment%22%2C%22settings%22%3A%7B%22packets%22%3A%22tlshello%22%2C%22lengths%22%3A%5B%220%22%2C%22104%22%2C%221%22%5D%2C%22delays%22%3A%5B%220%22%5D%2C%22maxSplit%22%3A%220%22%7D%7D%2C%7B%22type%22%3A%22fragment%22%2C%22settings%22%3A%7B%22packets%22%3A%221-1%22%2C%22lengths%22%3A%5B%22114%22%2C%221%22%5D%2C%22delays%22%3A%5B%221%22%5D%2C%22maxSplit%22%3A%2211%22%7D%7D%5D%7D&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵[openproxylist.com] vless-JP",
+      "ps": "🇯🇵[openproxylist.com] vless-JP",
+      "behindCF": true
+    },
+    {
+      "type": "vmess",
+      "server": "fctwi.xiaoyan.io",
+      "port": 16648,
+      "tls": false,
+      "net": "ws",
+      "host": "86714acc4cc5924e812db1c117db832f.mobgslb.tbcache.com",
+      "sni": "86714acc4cc5924e812db1c117db832f.mobgslb.tbcache.com",
+      "country": "US",
+      "raw": "vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6ImZjdHdpLnhpYW95YW4uaW8iLCJwb3J0IjoxNjY0OCwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsImlkIjoiOTY3ZmJjOTQtZmNjZC00NmMyLTkyNDEtYmU5MmQ0OTA2MTg2Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwiaG9zdCI6Ijg2NzE0YWNjNGNjNTkyNGU4MTJkYjFjMTE3ZGI4MzJmLm1vYmdzbGIudGJjYWNoZS5jb20iLCJwYXRoIjoiXC8ifQ==",
+      "ps": "🇺🇸[openproxylist.com] vmess-US",
+      "behindCF": false
+    }
+  ]
 }
