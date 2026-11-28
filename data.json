@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-28T06:24:20.989Z",
+  "updatedAt": "2026-11-28T06:34:41.393Z",
   "total": 12,
-  "active": 1,
-  "configs": [
-    {
-      "type": "vless",
-      "server": "bookend.filnex.baby",
-      "port": 443,
-      "tls": true,
-      "net": "ws",
-      "host": "bookend.filnex.baby",
-      "sni": "ferncrest.gerqix.online",
-      "country": "DE",
-      "raw": "vless://749b1c56-e658-4bf5-94bd-5c3286a4aed1@bookend.filnex.baby:443?&security=tls&fp=firefox&alpn=http%2F1.1&sni=ferncrest.gerqix.online&type=ws&headerType=none&host=bookend.filnex.baby&path=%2Fapi%2Fde1%2Fstream#🇩🇪[openproxylist.com] vless-DE",
-      "ps": "🇩🇪[openproxylist.com] vless-DE",
-      "behindCF": false
-    }
-  ]
+  "active": 0,
+  "configs": []
 }
